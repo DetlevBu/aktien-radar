@@ -315,8 +315,9 @@ def render(ctx):
                                f"{pct(dd_only['hit_rate'], 1)}). Der Vorsprung gegenüber dem Zufall kommt im Kern "
                                f"aus der Auswahl schwankungsstarker Aktien.")
             else:
-                insight.append(f"Der kombinierte Score liegt {pct(diff_v, 1)} über „nur hohe Volatilität“ und "
-                               f"{pct(diff_d, 1)} über „nur großer Abstand zum Hoch“.")
+                pp = lambda x: f"{de(abs(x) * 100, 1)} Prozentpunkte {'über' if x >= 0 else 'unter'}"
+                insight.append(f"Der kombinierte Score liegt {pp(diff_v)} der Regel „nur hohe Volatilität“ und "
+                               f"{pp(diff_d)} der Regel „nur großer Abstand zum Hoch“.")
             insight.append(f"Die Kehrseite: Bei der Radar-Regel lag der Kurs in {pct(main['share_worse_20'], 0)} der Fälle "
                            f"zwischenzeitlich mind. 20 % im Minus (alle Aktien: {pct(base.get('share_worse_20'), 0)}). "
                            f"Der Median-Ertrag nach 40 Tagen beträgt {pct(main['median_ret'], 1, True)}, "
