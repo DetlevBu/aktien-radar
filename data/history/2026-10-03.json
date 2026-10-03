@@ -10,12 +10,20 @@
    "currency": "USD"
   },
   {
-   "symbol": "CWR.L",
-   "name": "Ceres Power Holdings plc",
-   "price": 430.0,
+   "symbol": "STRL",
+   "name": "Sterling Infrastructure, Inc.",
+   "price": 533.4199829101562,
    "price_date": "2026-10-02",
-   "score": 0.580226450351241,
-   "currency": "GBp"
+   "score": 0.6390012699131604,
+   "currency": "USD"
+  },
+  {
+   "symbol": "FN",
+   "name": "Fabrinet",
+   "price": 463.69000244140625,
+   "price_date": "2026-10-02",
+   "score": 0.6156677601952353,
+   "currency": "USD"
   },
   {
    "symbol": "COHR",
@@ -34,74 +42,66 @@
    "currency": "USD"
   },
   {
+   "symbol": "RMBS",
+   "name": "Rambus Inc.",
+   "price": 111.97000122070312,
+   "price_date": "2026-10-02",
+   "score": 0.5162822434983518,
+   "currency": "USD"
+  },
+  {
+   "symbol": "NXT",
+   "name": "Nextpower Inc.",
+   "price": 84.30000305175781,
+   "price_date": "2026-10-02",
+   "score": 0.5162770346960998,
+   "currency": "USD"
+  },
+  {
+   "symbol": "TLN",
+   "name": "Talen Energy Corporation",
+   "price": 320.7699890136719,
+   "price_date": "2026-10-02",
+   "score": 0.5036010313803715,
+   "currency": "USD"
+  },
+  {
    "symbol": "VRT",
    "name": "Vertiv Holdings Co",
    "price": 252.17999267578125,
    "price_date": "2026-10-02",
-   "score": 0.49212626981543656,
+   "score": 0.49212626981543667,
    "currency": "USD"
   },
   {
-   "symbol": "RDDT",
-   "name": "Reddit, Inc.",
-   "price": 147.86000061035156,
+   "symbol": "MTSI",
+   "name": "MACOM Technology Solutions Holdings, Inc.",
+   "price": 321.6000061035156,
    "price_date": "2026-10-02",
-   "score": 0.4656078743081092,
+   "score": 0.4873662312409148,
    "currency": "USD"
-  },
-  {
-   "symbol": "CIEN",
-   "name": "Ciena Corporation",
-   "price": 391.3399963378906,
-   "price_date": "2026-10-02",
-   "score": 0.4571886663327488,
-   "currency": "USD"
-  },
-  {
-   "symbol": "IFX.DE",
-   "name": "Infineon Technologies AG",
-   "price": 64.63999938964844,
-   "price_date": "2026-10-02",
-   "score": 0.4546732914361809,
-   "currency": "EUR"
-  },
-  {
-   "symbol": "GNRC",
-   "name": "Generac Holdings Inc.",
-   "price": 216.8000030517578,
-   "price_date": "2026-10-02",
-   "score": 0.4402787951751611,
-   "currency": "USD"
-  },
-  {
-   "symbol": "RDC.DE",
-   "name": "Redcare Pharmacy NV",
-   "price": 70.25,
-   "price_date": "2026-10-02",
-   "score": 0.43638799939804435,
-   "currency": "EUR"
   }
  ],
  "watch": [
-  "STMPA.PA",
+  "AEIS",
+  "RDDT",
+  "MTZ",
+  "CIEN",
+  "IFX.DE",
+  "ALGM",
+  "GWRE",
+  "RRX",
+  "CAVA",
+  "GNRC",
   "MCHP",
   "BESI.AS",
   "AIXA.DE",
   "STX",
+  "CELH",
+  "WING",
   "APP",
   "JBL",
-  "AXON",
-  "ON",
-  "NEM.DE",
-  "CVNA",
-  "HUBN.SW",
-  "HOC.L",
-  "CCL",
-  "CHRW",
-  "FICO",
-  "ORCL",
-  "NCLH",
-  "ENR.DE",
-  "AVGO"
+  "MP",
+  "AXON"
  ]
 }
