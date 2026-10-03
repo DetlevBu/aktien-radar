@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-03T11:04:16.854703+00:00",
+ "generated": "2026-10-03T11:12:03.427786+00:00",
  "today": "2026-10-03",
  "data_date": "2026-10-02",
  "synthetic": false,
@@ -310,21 +310,25 @@
     "av_articles": 50
    },
    "assessment": {
-    "combined": 0.649872989067468,
-    "inputs": 4,
+    "combined": 0.4634146341463415,
+    "context": 0.7296084298677351,
+    "inputs": 3,
     "calib": {
-     "lo": 0.5,
+     "lo": 0.6,
      "hi": 1.0,
-     "n": 3375,
-     "hit_rate": 0.4106666666666667,
-     "avg_ret": 0.05822797129071086
+     "n": 492,
+     "hit_rate": 0.4634146341463415,
+     "avg_ret": 0.07342544468680141,
+     "worse_20": 0.3313008130081301
     },
     "verdict": "Realistisch",
     "cls": "good",
     "reasons": [
+     "Die eigene Kursgeschichte der Aktie spricht für 73 %, das ist aber vermutlich durch eine frühere Rally überzeichnet",
      "Konsens-Kursziel +24 % über Kurs stützt das Ziel",
      "Quartalszahlen am 2026-10-29 liegen im Zeitfenster: möglicher Auslöser, aber auch Risiko",
-     "Mehrere Wende-Signale aktiv (Kurs dreht nach oben)"
+     "Mehrere Wende-Signale aktiv (Kurs dreht nach oben)",
+     "Kehrseite: In 33 % der vergleichbaren Fälle lag der Kurs zwischenzeitlich mind. 20 % im Minus"
     ],
     "horizon": 40
    },
@@ -781,21 +785,24 @@
     "av_articles": 50
    },
    "assessment": {
-    "combined": 0.5063505571950405,
-    "inputs": 4,
+    "combined": 0.4634146341463415,
+    "context": 0.5382451873711651,
+    "inputs": 3,
     "calib": {
-     "lo": 0.5,
+     "lo": 0.6,
      "hi": 1.0,
-     "n": 3375,
-     "hit_rate": 0.4106666666666667,
-     "avg_ret": 0.05822797129071086
+     "n": 492,
+     "hit_rate": 0.4634146341463415,
+     "avg_ret": 0.07342544468680141,
+     "worse_20": 0.3313008130081301
     },
     "verdict": "Realistisch",
     "cls": "good",
     "reasons": [
      "Konsens-Kursziel +58 % über Kurs stützt das Ziel",
      "Quartalszahlen am 2026-11-02 liegen im Zeitfenster: möglicher Auslöser, aber auch Risiko",
-     "Mehrere Wende-Signale aktiv (Kurs dreht nach oben)"
+     "Mehrere Wende-Signale aktiv (Kurs dreht nach oben)",
+     "Kehrseite: In 33 % der vergleichbaren Fälle lag der Kurs zwischenzeitlich mind. 20 % im Minus"
     ],
     "horizon": 40
    },
@@ -1260,21 +1267,24 @@
     "av_articles": 50
    },
    "assessment": {
-    "combined": 0.4962427358074209,
-    "inputs": 4,
+    "combined": 0.4634146341463415,
+    "context": 0.5247680921876723,
+    "inputs": 3,
     "calib": {
-     "lo": 0.5,
+     "lo": 0.6,
      "hi": 1.0,
-     "n": 3375,
-     "hit_rate": 0.4106666666666667,
-     "avg_ret": 0.05822797129071086
+     "n": 492,
+     "hit_rate": 0.4634146341463415,
+     "avg_ret": 0.07342544468680141,
+     "worse_20": 0.3313008130081301
     },
     "verdict": "Realistisch",
     "cls": "good",
     "reasons": [
      "Konsens-Kursziel +58 % über Kurs stützt das Ziel",
      "Quartalszahlen am 2026-11-02 liegen im Zeitfenster: möglicher Auslöser, aber auch Risiko",
-     "Mehrere Wende-Signale aktiv (Kurs dreht nach oben)"
+     "Mehrere Wende-Signale aktiv (Kurs dreht nach oben)",
+     "Kehrseite: In 33 % der vergleichbaren Fälle lag der Kurs zwischenzeitlich mind. 20 % im Minus"
     ],
     "horizon": 40
    },
@@ -1739,21 +1749,24 @@
     "av_articles": 50
    },
    "assessment": {
-    "combined": 0.4894739725238687,
-    "inputs": 4,
+    "combined": 0.4634146341463415,
+    "context": 0.5157430744762693,
+    "inputs": 3,
     "calib": {
-     "lo": 0.5,
+     "lo": 0.6,
      "hi": 1.0,
-     "n": 3375,
-     "hit_rate": 0.4106666666666667,
-     "avg_ret": 0.05822797129071086
+     "n": 492,
+     "hit_rate": 0.4634146341463415,
+     "avg_ret": 0.07342544468680141,
+     "worse_20": 0.3313008130081301
     },
     "verdict": "Realistisch",
     "cls": "good",
     "reasons": [
      "Konsens-Kursziel +22 % über Kurs stützt das Ziel",
      "Quartalszahlen am 2026-11-04 liegen im Zeitfenster: möglicher Auslöser, aber auch Risiko",
-     "Mehrere Wende-Signale aktiv (Kurs dreht nach oben)"
+     "Mehrere Wende-Signale aktiv (Kurs dreht nach oben)",
+     "Kehrseite: In 33 % der vergleichbaren Fälle lag der Kurs zwischenzeitlich mind. 20 % im Minus"
     ],
     "horizon": 40
    },
@@ -2210,21 +2223,24 @@
     "av_articles": 50
    },
    "assessment": {
-    "combined": 0.44416831143999724,
-    "inputs": 4,
+    "combined": 0.4158730158730159,
+    "context": 0.45533552636444075,
+    "inputs": 3,
     "calib": {
-     "lo": 0.5,
-     "hi": 1.0,
-     "n": 3375,
-     "hit_rate": 0.4106666666666667,
-     "avg_ret": 0.05822797129071086
+     "lo": 0.55,
+     "hi": 0.6,
+     "n": 945,
+     "hit_rate": 0.4158730158730159,
+     "avg_ret": 0.05739259804705129,
+     "worse_20": 0.28465608465608466
     },
     "verdict": "Realistisch",
     "cls": "good",
     "reasons": [
      "Konsens-Kursziel +38 % über Kurs stützt das Ziel",
      "Quartalszahlen am 2026-10-28 liegen im Zeitfenster: möglicher Auslöser, aber auch Risiko",
-     "Mehrere Wende-Signale aktiv (Kurs dreht nach oben)"
+     "Mehrere Wende-Signale aktiv (Kurs dreht nach oben)",
+     "Kehrseite: In 28 % der vergleichbaren Fälle lag der Kurs zwischenzeitlich mind. 20 % im Minus"
     ],
     "horizon": 40
    },
@@ -2648,21 +2664,24 @@
     "av_articles": 50
    },
    "assessment": {
-    "combined": 0.4416778635553278,
-    "inputs": 4,
+    "combined": 0.4158730158730159,
+    "context": 0.45201492918488145,
+    "inputs": 3,
     "calib": {
-     "lo": 0.5,
-     "hi": 1.0,
-     "n": 3375,
-     "hit_rate": 0.4106666666666667,
-     "avg_ret": 0.05822797129071086
+     "lo": 0.55,
+     "hi": 0.6,
+     "n": 945,
+     "hit_rate": 0.4158730158730159,
+     "avg_ret": 0.05739259804705129,
+     "worse_20": 0.28465608465608466
     },
     "verdict": "Realistisch",
     "cls": "good",
     "reasons": [
      "Konsens-Kursziel +32 % über Kurs stützt das Ziel",
      "Quartalszahlen am 2026-10-26 liegen im Zeitfenster: möglicher Auslöser, aber auch Risiko",
-     "Mehrere Wende-Signale aktiv (Kurs dreht nach oben)"
+     "Mehrere Wende-Signale aktiv (Kurs dreht nach oben)",
+     "Kehrseite: In 28 % der vergleichbaren Fälle lag der Kurs zwischenzeitlich mind. 20 % im Minus"
     ],
     "horizon": 40
    },
@@ -3127,21 +3146,24 @@
     "av_articles": 50
    },
    "assessment": {
-    "combined": 0.4553180053118284,
-    "inputs": 4,
+    "combined": 0.39473684210526316,
+    "context": 0.47020178486021563,
+    "inputs": 3,
     "calib": {
      "lo": 0.5,
-     "hi": 1.0,
-     "n": 3375,
-     "hit_rate": 0.4106666666666667,
-     "avg_ret": 0.05822797129071086
+     "hi": 0.55,
+     "n": 1938,
+     "hit_rate": 0.39473684210526316,
+     "avg_ret": 0.054777130632497104,
+     "worse_20": 0.25386996904024767
     },
     "verdict": "Realistisch",
     "cls": "good",
     "reasons": [
      "Konsens-Kursziel +65 % über Kurs stützt das Ziel",
      "Quartalszahlen am 2026-10-28 liegen im Zeitfenster: möglicher Auslöser, aber auch Risiko",
-     "Mehrere Wende-Signale aktiv (Kurs dreht nach oben)"
+     "Mehrere Wende-Signale aktiv (Kurs dreht nach oben)",
+     "Kehrseite: In 25 % der vergleichbaren Fälle lag der Kurs zwischenzeitlich mind. 20 % im Minus"
     ],
     "horizon": 40
    },
@@ -3606,21 +3628,24 @@
     "av_articles": 40
    },
    "assessment": {
-    "combined": 0.45222972442528947,
-    "inputs": 4,
+    "combined": 0.4158730158730159,
+    "context": 0.46608407701149707,
+    "inputs": 3,
     "calib": {
-     "lo": 0.5,
-     "hi": 1.0,
-     "n": 3375,
-     "hit_rate": 0.4106666666666667,
-     "avg_ret": 0.05822797129071086
+     "lo": 0.55,
+     "hi": 0.6,
+     "n": 945,
+     "hit_rate": 0.4158730158730159,
+     "avg_ret": 0.05739259804705129,
+     "worse_20": 0.28465608465608466
     },
     "verdict": "Realistisch",
     "cls": "good",
     "reasons": [
      "Konsens-Kursziel +42 % über Kurs stützt das Ziel",
      "Quartalszahlen am 2026-11-04 liegen im Zeitfenster: möglicher Auslöser, aber auch Risiko",
-     "Mehrere Wende-Signale aktiv (Kurs dreht nach oben)"
+     "Mehrere Wende-Signale aktiv (Kurs dreht nach oben)",
+     "Kehrseite: In 28 % der vergleichbaren Fälle lag der Kurs zwischenzeitlich mind. 20 % im Minus"
     ],
     "horizon": 40
    },
@@ -4085,21 +4110,24 @@
     "av_articles": 50
    },
    "assessment": {
-    "combined": 0.461817491071172,
-    "inputs": 4,
+    "combined": 0.39473684210526316,
+    "context": 0.4788677658726737,
+    "inputs": 3,
     "calib": {
      "lo": 0.5,
-     "hi": 1.0,
-     "n": 3375,
-     "hit_rate": 0.4106666666666667,
-     "avg_ret": 0.05822797129071086
+     "hi": 0.55,
+     "n": 1938,
+     "hit_rate": 0.39473684210526316,
+     "avg_ret": 0.054777130632497104,
+     "worse_20": 0.25386996904024767
     },
     "verdict": "Realistisch",
     "cls": "good",
     "reasons": [
      "Konsens-Kursziel +34 % über Kurs stützt das Ziel",
      "Quartalszahlen am 2026-10-21 liegen im Zeitfenster: möglicher Auslöser, aber auch Risiko",
-     "Mehrere Wende-Signale aktiv (Kurs dreht nach oben)"
+     "Mehrere Wende-Signale aktiv (Kurs dreht nach oben)",
+     "Kehrseite: In 25 % der vergleichbaren Fälle lag der Kurs zwischenzeitlich mind. 20 % im Minus"
     ],
     "horizon": 40
    },
@@ -4564,21 +4592,24 @@
     "av_articles": 50
    },
    "assessment": {
-    "combined": 0.39798997656799684,
-    "inputs": 4,
+    "combined": 0.4158730158730159,
+    "context": 0.3937644132017735,
+    "inputs": 3,
     "calib": {
-     "lo": 0.5,
-     "hi": 1.0,
-     "n": 3375,
-     "hit_rate": 0.4106666666666667,
-     "avg_ret": 0.05822797129071086
+     "lo": 0.55,
+     "hi": 0.6,
+     "n": 945,
+     "hit_rate": 0.4158730158730159,
+     "avg_ret": 0.05739259804705129,
+     "worse_20": 0.28465608465608466
     },
     "verdict": "Realistisch",
     "cls": "good",
     "reasons": [
      "Konsens-Kursziel +23 % über Kurs stützt das Ziel",
      "Quartalszahlen am 2026-11-05 liegen im Zeitfenster: möglicher Auslöser, aber auch Risiko",
-     "Mehrere Wende-Signale aktiv (Kurs dreht nach oben)"
+     "Mehrere Wende-Signale aktiv (Kurs dreht nach oben)",
+     "Kehrseite: In 28 % der vergleichbaren Fälle lag der Kurs zwischenzeitlich mind. 20 % im Minus"
     ],
     "horizon": 40
    },
@@ -5043,21 +5074,24 @@
     }
    },
    "assessment": {
-    "combined": 0.35529481507234034,
-    "inputs": 4,
+    "combined": 0.39473684210526316,
+    "context": 0.3368375312075649,
+    "inputs": 3,
     "calib": {
      "lo": 0.5,
-     "hi": 1.0,
-     "n": 3375,
-     "hit_rate": 0.4106666666666667,
-     "avg_ret": 0.05822797129071086
+     "hi": 0.55,
+     "n": 1938,
+     "hit_rate": 0.39473684210526316,
+     "avg_ret": 0.054777130632497104,
+     "worse_20": 0.25386996904024767
     },
     "verdict": "Realistisch",
     "cls": "good",
     "reasons": [
      "Konsens-Kursziel +41 % über Kurs stützt das Ziel",
      "Quartalszahlen am 2026-11-03 liegen im Zeitfenster: möglicher Auslöser, aber auch Risiko",
-     "Mehrere Wende-Signale aktiv (Kurs dreht nach oben)"
+     "Mehrere Wende-Signale aktiv (Kurs dreht nach oben)",
+     "Kehrseite: In 25 % der vergleichbaren Fälle lag der Kurs zwischenzeitlich mind. 20 % im Minus"
     ],
     "horizon": 40
    },
@@ -5384,7 +5418,7 @@
     "fiftyTwoWeekLow": 119.27
    },
    "price_score": 0.5227153711539378,
-   "vol_prob": 0.5653605976293832,
+   "vol_prob": 0.5653605976293834,
    "base_all": 0.5781512605042017,
    "base_all_n": 595.0,
    "base_cond": 0.5296167247386759,
@@ -5392,7 +5426,7 @@
    "drawdown": 0.4289576148272085,
    "high52": 258.92999267578125,
    "low52": 121.83999633789062,
-   "vol60": 0.796008763928905,
+   "vol60": 0.7960087639289052,
    "rsi14": 45.61329131804755,
    "turn_score": 0.4,
    "ret5": -0.013214066844169925,
@@ -5520,21 +5554,25 @@
     }
    },
    "assessment": {
-    "combined": 0.5209488123847319,
-    "inputs": 4,
+    "combined": 0.39473684210526316,
+    "context": 0.557709527624087,
+    "inputs": 3,
     "calib": {
      "lo": 0.5,
-     "hi": 1.0,
-     "n": 3375,
-     "hit_rate": 0.4106666666666667,
-     "avg_ret": 0.05822797129071086
+     "hi": 0.55,
+     "n": 1938,
+     "hit_rate": 0.39473684210526316,
+     "avg_ret": 0.054777130632497104,
+     "worse_20": 0.25386996904024767
     },
     "verdict": "Realistisch",
     "cls": "good",
     "reasons": [
+     "Die eigene Kursgeschichte der Aktie spricht für 56 %, das ist aber vermutlich durch eine frühere Rally überzeichnet",
      "Konsens-Kursziel +45 % über Kurs stützt das Ziel",
      "Quartalszahlen am 2026-10-29 liegen im Zeitfenster: möglicher Auslöser, aber auch Risiko",
-     "Kaum Wende-Signale: Abwärtstrend noch nicht gebrochen"
+     "Kaum Wende-Signale: Abwärtstrend noch nicht gebrochen",
+     "Kehrseite: In 25 % der vergleichbaren Fälle lag der Kurs zwischenzeitlich mind. 20 % im Minus"
     ],
     "horizon": 40
    },
@@ -5954,6 +5992,13 @@
     },
     "news_fh": [
      {
+      "title": "MasTec: A Better Business Still Has To Collect The Cash",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=7c18dd0d574df97cffefbe360eb272baacd774659a1437edaae19c5e4c93e130",
+      "via": "Finnhub",
+      "date": "2026-10-03"
+     },
+     {
       "title": "Is EMCOR's Diversified End-Market Exposure Its Competitive Moat?",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=2033676a61a81c1a4674a2ce816fe9859689157ed95b0c5793bc18e329605ae0",
@@ -5980,13 +6025,6 @@
       "url": "https://finnhub.io/api/news?id=516724cdc9eb4d2fd020147eda427c46c5426111046c5c9dedf1e71798d9074f",
       "via": "Finnhub",
       "date": "2026-09-30"
-     },
-     {
-      "title": "Comfort Systems vs. EMCOR: Which Stock Is the Better Buy?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=f0c1d8a5ad347575d5a436c458e56b94a95472e721e65fc10533dd3e2ce6ed24",
-      "via": "Finnhub",
-      "date": "2026-09-29"
      }
     ],
     "insider_90d": {
@@ -5997,20 +6035,23 @@
     }
    },
    "assessment": {
-    "combined": 0.3652163304850422,
-    "inputs": 4,
+    "combined": 0.3422982885085575,
+    "context": 0.3817615082278059,
+    "inputs": 3,
     "calib": {
-     "lo": 0.4,
+     "lo": 0.45,
      "hi": 0.5,
-     "n": 9332,
-     "hit_rate": 0.315580797256751,
-     "avg_ret": 0.04603295390589642
+     "n": 3681,
+     "hit_rate": 0.3422982885085575,
+     "avg_ret": 0.0565122074046091,
+     "worse_20": 0.21488725889703886
     },
-    "verdict": "Realistisch",
-    "cls": "good",
+    "verdict": "Möglich",
+    "cls": "mid",
     "reasons": [
      "Konsens-Kursziel +91 % über Kurs stützt das Ziel",
-     "Quartalszahlen am 2026-10-29 liegen im Zeitfenster: möglicher Auslöser, aber auch Risiko"
+     "Quartalszahlen am 2026-10-29 liegen im Zeitfenster: möglicher Auslöser, aber auch Risiko",
+     "Kehrseite: In 21 % der vergleichbaren Fälle lag der Kurs zwischenzeitlich mind. 20 % im Minus"
     ],
     "horizon": 40
    },
@@ -6472,20 +6513,23 @@
     }
    },
    "assessment": {
-    "combined": 0.38319365903402713,
-    "inputs": 4,
+    "combined": 0.39473684210526316,
+    "context": 0.3740359898231473,
+    "inputs": 3,
     "calib": {
      "lo": 0.5,
-     "hi": 1.0,
-     "n": 3375,
-     "hit_rate": 0.4106666666666667,
-     "avg_ret": 0.05822797129071086
+     "hi": 0.55,
+     "n": 1938,
+     "hit_rate": 0.39473684210526316,
+     "avg_ret": 0.054777130632497104,
+     "worse_20": 0.25386996904024767
     },
     "verdict": "Realistisch",
     "cls": "good",
     "reasons": [
      "Konsens-Kursziel +31 % über Kurs stützt das Ziel",
-     "Mehrere Wende-Signale aktiv (Kurs dreht nach oben)"
+     "Mehrere Wende-Signale aktiv (Kurs dreht nach oben)",
+     "Kehrseite: In 25 % der vergleichbaren Fälle lag der Kurs zwischenzeitlich mind. 20 % im Minus"
     ],
     "horizon": 40
    },
@@ -6891,21 +6935,24 @@
     ]
    },
    "assessment": {
-    "combined": 0.3436213465032945,
-    "inputs": 4,
+    "combined": 0.39473684210526316,
+    "context": 0.32127290644883716,
+    "inputs": 3,
     "calib": {
      "lo": 0.5,
-     "hi": 1.0,
-     "n": 3375,
-     "hit_rate": 0.4106666666666667,
-     "avg_ret": 0.05822797129071086
+     "hi": 0.55,
+     "n": 1938,
+     "hit_rate": 0.39473684210526316,
+     "avg_ret": 0.054777130632497104,
+     "worse_20": 0.25386996904024767
     },
     "verdict": "Realistisch",
     "cls": "good",
     "reasons": [
      "Konsens-Kursziel +34 % über Kurs stützt das Ziel",
      "Quartalszahlen am 2026-11-10 liegen im Zeitfenster: möglicher Auslöser, aber auch Risiko",
-     "Mehrere Wende-Signale aktiv (Kurs dreht nach oben)"
+     "Mehrere Wende-Signale aktiv (Kurs dreht nach oben)",
+     "Kehrseite: In 25 % der vergleichbaren Fälle lag der Kurs zwischenzeitlich mind. 20 % im Minus"
     ],
     "horizon": 40
    },
@@ -7368,21 +7415,24 @@
     }
    },
    "assessment": {
-    "combined": 0.3405415583599328,
-    "inputs": 4,
+    "combined": 0.3422982885085575,
+    "context": 0.3488618120609935,
+    "inputs": 3,
     "calib": {
-     "lo": 0.4,
+     "lo": 0.45,
      "hi": 0.5,
-     "n": 9332,
-     "hit_rate": 0.315580797256751,
-     "avg_ret": 0.04603295390589642
+     "n": 3681,
+     "hit_rate": 0.3422982885085575,
+     "avg_ret": 0.0565122074046091,
+     "worse_20": 0.21488725889703886
     },
-    "verdict": "Realistisch",
-    "cls": "good",
+    "verdict": "Möglich",
+    "cls": "mid",
     "reasons": [
      "Konsens-Kursziel +38 % über Kurs stützt das Ziel",
      "Quartalszahlen am 2026-10-29 liegen im Zeitfenster: möglicher Auslöser, aber auch Risiko",
-     "Mehrere Wende-Signale aktiv (Kurs dreht nach oben)"
+     "Mehrere Wende-Signale aktiv (Kurs dreht nach oben)",
+     "Kehrseite: In 21 % der vergleichbaren Fälle lag der Kurs zwischenzeitlich mind. 20 % im Minus"
     ],
     "horizon": 40
    },
@@ -7845,20 +7895,23 @@
     }
    },
    "assessment": {
-    "combined": 0.3691070350013797,
-    "inputs": 4,
+    "combined": 0.39473684210526316,
+    "context": 0.355253824446284,
+    "inputs": 3,
     "calib": {
      "lo": 0.5,
-     "hi": 1.0,
-     "n": 3375,
-     "hit_rate": 0.4106666666666667,
-     "avg_ret": 0.05822797129071086
+     "hi": 0.55,
+     "n": 1938,
+     "hit_rate": 0.39473684210526316,
+     "avg_ret": 0.054777130632497104,
+     "worse_20": 0.25386996904024767
     },
     "verdict": "Realistisch",
     "cls": "good",
     "reasons": [
      "Konsens-Kursziel +40 % über Kurs stützt das Ziel",
-     "Mehrere Wende-Signale aktiv (Kurs dreht nach oben)"
+     "Mehrere Wende-Signale aktiv (Kurs dreht nach oben)",
+     "Kehrseite: In 25 % der vergleichbaren Fälle lag der Kurs zwischenzeitlich mind. 20 % im Minus"
     ],
     "horizon": 40
    },
@@ -8193,7 +8246,7 @@
    "drawdown": 0.327302846688723,
    "high52": 237.6552276611328,
    "low52": 127.68987274169922,
-   "vol60": 0.5373461870991728,
+   "vol60": 0.5373461870991729,
    "rsi14": 51.275261976957665,
    "turn_score": 0.8,
    "ret5": 0.025929964576508313,
@@ -8291,21 +8344,24 @@
     }
    },
    "assessment": {
-    "combined": 0.3274281571905652,
-    "inputs": 4,
+    "combined": 0.3422982885085575,
+    "context": 0.33137727716850335,
+    "inputs": 3,
     "calib": {
-     "lo": 0.4,
+     "lo": 0.45,
      "hi": 0.5,
-     "n": 9332,
-     "hit_rate": 0.315580797256751,
-     "avg_ret": 0.04603295390589642
+     "n": 3681,
+     "hit_rate": 0.3422982885085575,
+     "avg_ret": 0.0565122074046091,
+     "worse_20": 0.21488725889703886
     },
-    "verdict": "Realistisch",
-    "cls": "good",
+    "verdict": "Möglich",
+    "cls": "mid",
     "reasons": [
      "Konsens-Kursziel +51 % über Kurs stützt das Ziel",
      "Quartalszahlen am 2026-10-28 liegen im Zeitfenster: möglicher Auslöser, aber auch Risiko",
-     "Mehrere Wende-Signale aktiv (Kurs dreht nach oben)"
+     "Mehrere Wende-Signale aktiv (Kurs dreht nach oben)",
+     "Kehrseite: In 21 % der vergleichbaren Fälle lag der Kurs zwischenzeitlich mind. 20 % im Minus"
     ],
     "horizon": 40
    },
@@ -8768,21 +8824,24 @@
     }
    },
    "assessment": {
-    "combined": 0.3850515360643292,
-    "inputs": 4,
+    "combined": 0.3422982885085575,
+    "context": 0.40820844900018854,
+    "inputs": 3,
     "calib": {
-     "lo": 0.4,
+     "lo": 0.45,
      "hi": 0.5,
-     "n": 9332,
-     "hit_rate": 0.315580797256751,
-     "avg_ret": 0.04603295390589642
+     "n": 3681,
+     "hit_rate": 0.3422982885085575,
+     "avg_ret": 0.0565122074046091,
+     "worse_20": 0.21488725889703886
     },
-    "verdict": "Realistisch",
-    "cls": "good",
+    "verdict": "Möglich",
+    "cls": "mid",
     "reasons": [
      "Konsens-Kursziel +52 % über Kurs stützt das Ziel",
      "Quartalszahlen am 2026-11-10 liegen im Zeitfenster: möglicher Auslöser, aber auch Risiko",
-     "Mehrere Wende-Signale aktiv (Kurs dreht nach oben)"
+     "Mehrere Wende-Signale aktiv (Kurs dreht nach oben)",
+     "Kehrseite: In 21 % der vergleichbaren Fälle lag der Kurs zwischenzeitlich mind. 20 % im Minus"
     ],
     "horizon": 40
    },
@@ -9245,21 +9304,24 @@
     }
    },
    "assessment": {
-    "combined": 0.3627347458914643,
-    "inputs": 4,
+    "combined": 0.39473684210526316,
+    "context": 0.3467574389663968,
+    "inputs": 3,
     "calib": {
      "lo": 0.5,
-     "hi": 1.0,
-     "n": 3375,
-     "hit_rate": 0.4106666666666667,
-     "avg_ret": 0.05822797129071086
+     "hi": 0.55,
+     "n": 1938,
+     "hit_rate": 0.39473684210526316,
+     "avg_ret": 0.054777130632497104,
+     "worse_20": 0.25386996904024767
     },
     "verdict": "Realistisch",
     "cls": "good",
     "reasons": [
      "Konsens-Kursziel +33 % über Kurs stützt das Ziel",
      "Quartalszahlen am 2026-10-28 liegen im Zeitfenster: möglicher Auslöser, aber auch Risiko",
-     "Mehrere Wende-Signale aktiv (Kurs dreht nach oben)"
+     "Mehrere Wende-Signale aktiv (Kurs dreht nach oben)",
+     "Kehrseite: In 25 % der vergleichbaren Fälle lag der Kurs zwischenzeitlich mind. 20 % im Minus"
     ],
     "horizon": 40
    },
@@ -9722,21 +9784,24 @@
     }
    },
    "assessment": {
-    "combined": 0.30593113421686985,
-    "inputs": 4,
+    "combined": 0.3422982885085575,
+    "context": 0.3027145798702428,
+    "inputs": 3,
     "calib": {
-     "lo": 0.4,
+     "lo": 0.45,
      "hi": 0.5,
-     "n": 9332,
-     "hit_rate": 0.315580797256751,
-     "avg_ret": 0.04603295390589642
+     "n": 3681,
+     "hit_rate": 0.3422982885085575,
+     "avg_ret": 0.0565122074046091,
+     "worse_20": 0.21488725889703886
     },
-    "verdict": "Realistisch",
-    "cls": "good",
+    "verdict": "Möglich",
+    "cls": "mid",
     "reasons": [
      "Konsens-Kursziel +33 % über Kurs stützt das Ziel",
      "Quartalszahlen am 2026-11-05 liegen im Zeitfenster: möglicher Auslöser, aber auch Risiko",
-     "Mehrere Wende-Signale aktiv (Kurs dreht nach oben)"
+     "Mehrere Wende-Signale aktiv (Kurs dreht nach oben)",
+     "Kehrseite: In 21 % der vergleichbaren Fälle lag der Kurs zwischenzeitlich mind. 20 % im Minus"
     ],
     "horizon": 40
    },
@@ -10097,21 +10162,24 @@
     "news_g": []
    },
    "assessment": {
-    "combined": 0.3715190178073937,
-    "inputs": 4,
+    "combined": 0.3422982885085575,
+    "context": 0.3901650913242746,
+    "inputs": 3,
     "calib": {
-     "lo": 0.4,
+     "lo": 0.45,
      "hi": 0.5,
-     "n": 9332,
-     "hit_rate": 0.315580797256751,
-     "avg_ret": 0.04603295390589642
+     "n": 3681,
+     "hit_rate": 0.3422982885085575,
+     "avg_ret": 0.0565122074046091,
+     "worse_20": 0.21488725889703886
     },
-    "verdict": "Realistisch",
-    "cls": "good",
+    "verdict": "Möglich",
+    "cls": "mid",
     "reasons": [
      "Konsens-Kursziel +42 % über Kurs stützt das Ziel",
      "Quartalszahlen am 2026-10-22 liegen im Zeitfenster: möglicher Auslöser, aber auch Risiko",
-     "Mehrere Wende-Signale aktiv (Kurs dreht nach oben)"
+     "Mehrere Wende-Signale aktiv (Kurs dreht nach oben)",
+     "Kehrseite: In 21 % der vergleichbaren Fälle lag der Kurs zwischenzeitlich mind. 20 % im Minus"
     ],
     "horizon": 40
    },
@@ -10438,7 +10506,7 @@
     "fiftyTwoWeekLow": 11.675
    },
    "price_score": 0.5103860378993259,
-   "vol_prob": 0.4515654801857949,
+   "vol_prob": 0.4515654801857951,
    "base_all": 0.32222222222222224,
    "base_all_n": 1260.0,
    "base_cond": 0.3045045045045045,
@@ -10446,7 +10514,7 @@
    "drawdown": 0.343429338444851,
    "high52": 60.41999816894531,
    "low52": 12.73284912109375,
-   "vol60": 0.6078889426971938,
+   "vol60": 0.6078889426971941,
    "rsi14": 60.48193567258027,
    "turn_score": 1.0,
    "ret5": 0.13994250111070183,
@@ -10515,21 +10583,24 @@
     ]
    },
    "assessment": {
-    "combined": 0.3722397183947971,
-    "inputs": 4,
+    "combined": 0.39473684210526316,
+    "context": 0.35943073563750727,
+    "inputs": 3,
     "calib": {
      "lo": 0.5,
-     "hi": 1.0,
-     "n": 3375,
-     "hit_rate": 0.4106666666666667,
-     "avg_ret": 0.05822797129071086
+     "hi": 0.55,
+     "n": 1938,
+     "hit_rate": 0.39473684210526316,
+     "avg_ret": 0.054777130632497104,
+     "worse_20": 0.25386996904024767
     },
     "verdict": "Realistisch",
     "cls": "good",
     "reasons": [
      "Konsens-Kursziel +22 % über Kurs stützt das Ziel",
      "Quartalszahlen am 2026-10-29 liegen im Zeitfenster: möglicher Auslöser, aber auch Risiko",
-     "Mehrere Wende-Signale aktiv (Kurs dreht nach oben)"
+     "Mehrere Wende-Signale aktiv (Kurs dreht nach oben)",
+     "Kehrseite: In 25 % der vergleichbaren Fälle lag der Kurs zwischenzeitlich mind. 20 % im Minus"
     ],
     "horizon": 40
    },
@@ -10992,20 +11063,23 @@
     }
    },
    "assessment": {
-    "combined": 0.36850030774403786,
-    "inputs": 4,
+    "combined": 0.3422982885085575,
+    "context": 0.38614014457313356,
+    "inputs": 3,
     "calib": {
-     "lo": 0.4,
+     "lo": 0.45,
      "hi": 0.5,
-     "n": 9332,
-     "hit_rate": 0.315580797256751,
-     "avg_ret": 0.04603295390589642
+     "n": 3681,
+     "hit_rate": 0.3422982885085575,
+     "avg_ret": 0.0565122074046091,
+     "worse_20": 0.21488725889703886
     },
-    "verdict": "Realistisch",
-    "cls": "good",
+    "verdict": "Möglich",
+    "cls": "mid",
     "reasons": [
      "Konsens-Kursziel +33 % über Kurs stützt das Ziel",
-     "Quartalszahlen am 2026-10-27 liegen im Zeitfenster: möglicher Auslöser, aber auch Risiko"
+     "Quartalszahlen am 2026-10-27 liegen im Zeitfenster: möglicher Auslöser, aber auch Risiko",
+     "Kehrseite: In 21 % der vergleichbaren Fälle lag der Kurs zwischenzeitlich mind. 20 % im Minus"
     ],
     "horizon": 40
    },
@@ -11468,21 +11542,25 @@
     }
    },
    "assessment": {
-    "combined": 0.4309794442087773,
-    "inputs": 4,
+    "combined": 0.2981773137497788,
+    "context": 0.46944565985945275,
+    "inputs": 3,
     "calib": {
      "lo": 0.4,
-     "hi": 0.5,
-     "n": 9332,
-     "hit_rate": 0.315580797256751,
-     "avg_ret": 0.04603295390589642
+     "hi": 0.45,
+     "n": 5651,
+     "hit_rate": 0.2981773137497788,
+     "avg_ret": 0.0392068820374198,
+     "worse_20": 0.1989028490532649
     },
-    "verdict": "Realistisch",
-    "cls": "good",
+    "verdict": "Möglich",
+    "cls": "mid",
     "reasons": [
+     "Die eigene Kursgeschichte der Aktie spricht für 47 %, das ist aber vermutlich durch eine frühere Rally überzeichnet",
      "Konsens-Kursziel +58 % über Kurs stützt das Ziel",
      "Quartalszahlen am 2026-11-09 liegen im Zeitfenster: möglicher Auslöser, aber auch Risiko",
-     "Kaum Wende-Signale: Abwärtstrend noch nicht gebrochen"
+     "Kaum Wende-Signale: Abwärtstrend noch nicht gebrochen",
+     "Kehrseite: In 20 % der vergleichbaren Fälle lag der Kurs zwischenzeitlich mind. 20 % im Minus"
     ],
     "horizon": 40
    },
@@ -11904,20 +11982,23 @@
     }
    },
    "assessment": {
-    "combined": 0.33045239245208746,
-    "inputs": 4,
+    "combined": 0.2981773137497788,
+    "context": 0.33540959085053296,
+    "inputs": 3,
     "calib": {
      "lo": 0.4,
-     "hi": 0.5,
-     "n": 9332,
-     "hit_rate": 0.315580797256751,
-     "avg_ret": 0.04603295390589642
+     "hi": 0.45,
+     "n": 5651,
+     "hit_rate": 0.2981773137497788,
+     "avg_ret": 0.0392068820374198,
+     "worse_20": 0.1989028490532649
     },
-    "verdict": "Realistisch",
-    "cls": "good",
+    "verdict": "Möglich",
+    "cls": "mid",
     "reasons": [
      "Konsens-Kursziel +85 % über Kurs stützt das Ziel",
-     "Quartalszahlen am 2026-10-28 liegen im Zeitfenster: möglicher Auslöser, aber auch Risiko"
+     "Quartalszahlen am 2026-10-28 liegen im Zeitfenster: möglicher Auslöser, aber auch Risiko",
+     "Kehrseite: In 20 % der vergleichbaren Fälle lag der Kurs zwischenzeitlich mind. 20 % im Minus"
     ],
     "horizon": 40
    },
@@ -12380,21 +12461,25 @@
     }
    },
    "assessment": {
-    "combined": 0.4780838116558908,
-    "inputs": 4,
+    "combined": 0.2981773137497788,
+    "context": 0.5322514831222708,
+    "inputs": 3,
     "calib": {
      "lo": 0.4,
-     "hi": 0.5,
-     "n": 9332,
-     "hit_rate": 0.315580797256751,
-     "avg_ret": 0.04603295390589642
+     "hi": 0.45,
+     "n": 5651,
+     "hit_rate": 0.2981773137497788,
+     "avg_ret": 0.0392068820374198,
+     "worse_20": 0.1989028490532649
     },
-    "verdict": "Realistisch",
-    "cls": "good",
+    "verdict": "Möglich",
+    "cls": "mid",
     "reasons": [
+     "Die eigene Kursgeschichte der Aktie spricht für 53 %, das ist aber vermutlich durch eine frühere Rally überzeichnet",
      "Konsens-Kursziel +85 % über Kurs stützt das Ziel",
      "Quartalszahlen am 2026-11-04 liegen im Zeitfenster: möglicher Auslöser, aber auch Risiko",
-     "Kaum Wende-Signale: Abwärtstrend noch nicht gebrochen"
+     "Kaum Wende-Signale: Abwärtstrend noch nicht gebrochen",
+     "Kehrseite: In 20 % der vergleichbaren Fälle lag der Kurs zwischenzeitlich mind. 20 % im Minus"
     ],
     "horizon": 40
    },
@@ -12685,7 +12770,7 @@
    "passes_stage2": true,
    "fails": 0,
    "analyst_strength": 0.7301194520744236,
-   "score": 0.4045600267737812,
+   "score": 0.40456002677378117,
    "info": {
     "longName": "Jabil Inc.",
     "shortName": "Jabil Inc.",
@@ -12720,8 +12805,8 @@
     "fiftyTwoWeekHigh": 428.93,
     "fiftyTwoWeekLow": 189.6
    },
-   "price_score": 0.44020049174669296,
-   "vol_prob": 0.3708159075852435,
+   "price_score": 0.44020049174669285,
+   "vol_prob": 0.3708159075852433,
    "base_all": 0.25317460317460316,
    "base_all_n": 1260.0,
    "base_cond": 0.345,
@@ -12729,7 +12814,7 @@
    "drawdown": 0.21044581613118163,
    "high52": 385.54669189453125,
    "low52": 192.3445281982422,
-   "vol60": 0.5113419470653705,
+   "vol60": 0.5113419470653704,
    "rsi14": 47.3981943165008,
    "turn_score": 0.8,
    "ret5": -0.03892778604666225,
@@ -12857,20 +12942,23 @@
     }
    },
    "assessment": {
-    "combined": 0.3211428270041494,
-    "inputs": 4,
+    "combined": 0.2981773137497788,
+    "context": 0.3229968369199488,
+    "inputs": 3,
     "calib": {
      "lo": 0.4,
-     "hi": 0.5,
-     "n": 9332,
-     "hit_rate": 0.315580797256751,
-     "avg_ret": 0.04603295390589642
+     "hi": 0.45,
+     "n": 5651,
+     "hit_rate": 0.2981773137497788,
+     "avg_ret": 0.0392068820374198,
+     "worse_20": 0.1989028490532649
     },
-    "verdict": "Realistisch",
-    "cls": "good",
+    "verdict": "Möglich",
+    "cls": "mid",
     "reasons": [
      "Konsens-Kursziel +40 % über Kurs stützt das Ziel",
-     "Mehrere Wende-Signale aktiv (Kurs dreht nach oben)"
+     "Mehrere Wende-Signale aktiv (Kurs dreht nach oben)",
+     "Kehrseite: In 20 % der vergleichbaren Fälle lag der Kurs zwischenzeitlich mind. 20 % im Minus"
     ],
     "horizon": 40
    },
@@ -13333,21 +13421,24 @@
     }
    },
    "assessment": {
-    "combined": 0.3828359612938054,
-    "inputs": 4,
+    "combined": 0.2981773137497788,
+    "context": 0.4052543493061569,
+    "inputs": 3,
     "calib": {
      "lo": 0.4,
-     "hi": 0.5,
-     "n": 9332,
-     "hit_rate": 0.315580797256751,
-     "avg_ret": 0.04603295390589642
+     "hi": 0.45,
+     "n": 5651,
+     "hit_rate": 0.2981773137497788,
+     "avg_ret": 0.0392068820374198,
+     "worse_20": 0.1989028490532649
     },
-    "verdict": "Realistisch",
-    "cls": "good",
+    "verdict": "Möglich",
+    "cls": "mid",
     "reasons": [
      "Konsens-Kursziel +56 % über Kurs stützt das Ziel",
      "Quartalszahlen am 2026-11-05 liegen im Zeitfenster: möglicher Auslöser, aber auch Risiko",
-     "Kaum Wende-Signale: Abwärtstrend noch nicht gebrochen"
+     "Kaum Wende-Signale: Abwärtstrend noch nicht gebrochen",
+     "Kehrseite: In 20 % der vergleichbaren Fälle lag der Kurs zwischenzeitlich mind. 20 % im Minus"
     ],
     "horizon": 40
    },
@@ -13810,21 +13901,24 @@
     }
    },
    "assessment": {
-    "combined": 0.3920787626722868,
-    "inputs": 4,
+    "combined": 0.2981773137497788,
+    "context": 0.4175780844774654,
+    "inputs": 3,
     "calib": {
      "lo": 0.4,
-     "hi": 0.5,
-     "n": 9332,
-     "hit_rate": 0.315580797256751,
-     "avg_ret": 0.04603295390589642
+     "hi": 0.45,
+     "n": 5651,
+     "hit_rate": 0.2981773137497788,
+     "avg_ret": 0.0392068820374198,
+     "worse_20": 0.1989028490532649
     },
-    "verdict": "Realistisch",
-    "cls": "good",
+    "verdict": "Möglich",
+    "cls": "mid",
     "reasons": [
      "Konsens-Kursziel +70 % über Kurs stützt das Ziel",
      "Quartalszahlen am 2026-11-03 liegen im Zeitfenster: möglicher Auslöser, aber auch Risiko",
-     "Kaum Wende-Signale: Abwärtstrend noch nicht gebrochen"
+     "Kaum Wende-Signale: Abwärtstrend noch nicht gebrochen",
+     "Kehrseite: In 20 % der vergleichbaren Fälle lag der Kurs zwischenzeitlich mind. 20 % im Minus"
     ],
     "horizon": 40
    },
@@ -15256,56 +15350,88 @@
     "hi": 0.15,
     "n": 6478,
     "hit_rate": 0.15483173819079962,
-    "avg_ret": 0.03178044821951511
+    "avg_ret": 0.03178044821951511,
+    "worse_20": 0.07440568076566842
    },
    {
     "lo": 0.15,
     "hi": 0.2,
     "n": 7464,
     "hit_rate": 0.18448553054662378,
-    "avg_ret": 0.03359781841136762
+    "avg_ret": 0.03359781841136762,
+    "worse_20": 0.08078778135048231
    },
    {
     "lo": 0.2,
     "hi": 0.25,
     "n": 9442,
     "hit_rate": 0.18777801313281084,
-    "avg_ret": 0.03026028654566211
+    "avg_ret": 0.03026028654566211,
+    "worse_20": 0.09891972039822071
    },
    {
     "lo": 0.25,
     "hi": 0.3,
     "n": 11471,
     "hit_rate": 0.19675703949089007,
-    "avg_ret": 0.025738657679165684
+    "avg_ret": 0.025738657679165684,
+    "worse_20": 0.11420102868102171
    },
    {
     "lo": 0.3,
     "hi": 0.35,
     "n": 10778,
     "hit_rate": 0.21766561514195584,
-    "avg_ret": 0.027922157039850435
+    "avg_ret": 0.027922157039850435,
+    "worse_20": 0.13397661903878272
    },
    {
     "lo": 0.35,
     "hi": 0.4,
     "n": 8342,
     "hit_rate": 0.2499400623351714,
-    "avg_ret": 0.030658791559186598
+    "avg_ret": 0.030658791559186598,
+    "worse_20": 0.15439942459841766
    },
    {
     "lo": 0.4,
+    "hi": 0.45,
+    "n": 5651,
+    "hit_rate": 0.2981773137497788,
+    "avg_ret": 0.0392068820374198,
+    "worse_20": 0.1989028490532649
+   },
+   {
+    "lo": 0.45,
     "hi": 0.5,
-    "n": 9332,
-    "hit_rate": 0.315580797256751,
-    "avg_ret": 0.04603295390589642
+    "n": 3681,
+    "hit_rate": 0.3422982885085575,
+    "avg_ret": 0.0565122074046091,
+    "worse_20": 0.21488725889703886
    },
    {
     "lo": 0.5,
+    "hi": 0.55,
+    "n": 1938,
+    "hit_rate": 0.39473684210526316,
+    "avg_ret": 0.054777130632497104,
+    "worse_20": 0.25386996904024767
+   },
+   {
+    "lo": 0.55,
+    "hi": 0.6,
+    "n": 945,
+    "hit_rate": 0.4158730158730159,
+    "avg_ret": 0.05739259804705129,
+    "worse_20": 0.28465608465608466
+   },
+   {
+    "lo": 0.6,
     "hi": 1.0,
-    "n": 3375,
-    "hit_rate": 0.4106666666666667,
-    "avg_ret": 0.05822797129071086
+    "n": 492,
+    "hit_rate": 0.4634146341463415,
+    "avg_ret": 0.07342544468680141,
+    "worse_20": 0.3313008130081301
    }
   ]
  },
@@ -15322,7 +15448,7 @@
   "MIN_ANALYSTS": 5,
   "MIN_TARGET_UPSIDE": 0.2
  },
- "runtime_s": 289,
+ "runtime_s": 253,
  "sources": {
   "Wikipedia": {
    "ok": 5,
