@@ -8,6 +8,7 @@
 """
 from __future__ import annotations
 
+import re
 import time
 from concurrent.futures import ThreadPoolExecutor
 from datetime import date, timedelta
@@ -105,9 +106,13 @@ def yahoo_details(symbol):
         cal = t.get_calendar() or {}
         ed = cal.get("Earnings Date")
         if ed:
-            ed = ed[0] if isinstance(ed, (list, tuple)) else ed
-            out["earnings_date"] = str(ed)[:10]
-            out["earnings_src"] = "Yahoo"
+            eds = sorted(str(x)[:10] for x in (ed if isinstance(ed, (list, tuple)) else [ed]))
+            fut = [x for x in eds if x >= date.today().isoformat()]
+            if fut:
+                out["earnings_date"] = fut[0]
+                out["earnings_src"] = "Yahoo"
+            else:
+                out["earnings_last"] = eds[-1]
     except Exception as ex:
         LOG.fail("Yahoo Finance", f"calendar {symbol}: {ex}")
     return out
@@ -187,8 +192,15 @@ class Finnhub:
 
 
 # ------------------------------------------------------------------- FMP ---
+_FMP_FAILS = {"n": 0, "ok": 0}
+
+
 def fmp_details(symbol):
-    if not C.FMP_KEY:
+    """FMP: Im Gratis-Tarif sind viele Endpunkte gesperrt (HTTP 402). Nach drei
+    Fehlschlägen ohne Erfolg wird FMP für den Rest des Laufs ausgelassen."""
+    if not C.FMP_KEY or not is_us(symbol):
+        return {}
+    if _FMP_FAILS["n"] >= 3 and _FMP_FAILS["ok"] == 0:
         return {}
     LOG.describe("Financial Modeling Prep", "Kursziel-Konsens, Analysten-Rating-Konsens")
     sym = symbol.replace("-", ".") if is_us(symbol) else symbol
@@ -198,13 +210,17 @@ def fmp_details(symbol):
                   retries=1)
     if isinstance(pt, list) and pt:
         p = pt[0]
+        _FMP_FAILS["ok"] += 1
         out["fmp_target"] = {"consensus": num(p.get("targetConsensus")),
                              "median": num(p.get("targetMedian")),
                              "high": num(p.get("targetHigh")), "low": num(p.get("targetLow"))}
     gc = http_get("https://financialmodelingprep.com/stable/grades-consensus",
                   "Financial Modeling Prep", params={"symbol": sym, "apikey": C.FMP_KEY},
                   retries=1)
+    if not out.get("fmp_target"):
+        _FMP_FAILS["n"] += 1
     if isinstance(gc, list) and gc:
+        _FMP_FAILS["ok"] += 1
         g = gc[0]
         out["fmp_grades"] = {k: g.get(k) for k in
                              ("strongBuy", "buy", "hold", "sell", "strongSell", "consensus")}
@@ -216,6 +232,7 @@ def alphavantage_sentiment(symbol):
     if not C.ALPHAVANTAGE_KEY or not is_us(symbol):
         return {}
     LOG.describe("Alpha Vantage", "News-Stimmung (Sentiment) der letzten Artikel, US-Werte")
+    time.sleep(2.0)  # Gratis-Tarif: max. 1 Abruf pro Sekunde
     res = http_get("https://www.alphavantage.co/query", "Alpha Vantage",
                    params={"function": "NEWS_SENTIMENT", "tickers": symbol,
                            "limit": 50, "apikey": C.ALPHAVANTAGE_KEY}, retries=0)
@@ -262,3 +279,44 @@ def sec_form4_count(symbol):
             if f == "4" and d >= cutoff)
     return {"sec_form4_90d": n,
             "sec_url": f"https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK={cik}&type=4"}
+
+
+# ----------------------------------------------------------- Google News ---
+_SUFFIXES = re.compile(r"\b(AG|SE|N\.?V\.?|S\.?A\.?|plc|PLC|Inc\.?|Corporation|Corp\.?|Holdings?|"
+                       r"Co\.?|Ltd\.?|Group|KGaA|GmbH|& Co\.?|S\.p\.A\.?|ASA|A/S|AB|Oyj)\b", re.I)
+
+
+def google_news(name, region):
+    """Schlagzeilen über den öffentlichen Google-News-RSS-Feed (ohne Schlüssel)."""
+    import xml.etree.ElementTree as ET
+    LOG.describe("Google News (RSS)", "Schlagzeilen, v. a. für deutsche/europäische Werte")
+    q = _SUFFIXES.sub("", name or "").replace(",", " ").strip()
+    q = re.sub(r"\s+", " ", q)
+    if not q:
+        return []
+    de = region in ("DE", "EU")
+    params = {"q": f'"{q}" Aktie' if de else f'"{q}" stock', "hl": "de" if de else "en-US",
+              "gl": "DE" if de else "US", "ceid": "DE:de" if de else "US:en"}
+    txt = http_get("https://news.google.com/rss/search", "Google News (RSS)", params=params,
+                   as_json=False, retries=1)
+    if not txt:
+        return []
+    items = []
+    try:
+        root = ET.fromstring(txt)
+        for it in root.iter("item"):
+            pd_ = it.findtext("pubDate") or ""
+            try:
+                d = pd.to_datetime(pd_).date().isoformat()
+            except Exception:
+                d = ""
+            if d and d < (date.today() - timedelta(days=21)).isoformat():
+                continue
+            src = it.find("source")
+            items.append({"title": it.findtext("title"), "url": it.findtext("link"), "date": d,
+                          "source": src.text if src is not None else None, "via": "Google News"})
+            if len(items) >= 6:
+                break
+    except Exception as ex:
+        LOG.fail("Google News (RSS)", str(ex)[:100])
+    return items

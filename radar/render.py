@@ -125,7 +125,7 @@ def verdict_badge(a):
 
 def news_list(d):
     items, seen = [], set()
-    for it in (d.get("news") or []) + (d.get("news_fh") or []):
+    for it in (d.get("news") or []) + (d.get("news_fh") or []) + (d.get("news_g") or []):
         t = (it.get("title") or "").strip()
         key = t.lower()[:60]
         if not t or key in seen:
@@ -205,7 +205,8 @@ def detail(c):
           ("RSI(14)", n(c.get("rsi14"), 0)),
           ("Wende-Signale", f"{round((c.get('turn_score') or 0)*5)} von 5"),
           ("Ø Tagesumsatz (20 T., EUR)", big(c.get("turnover_eur"))),
-          ("Nächste Quartalszahlen", E(d.get("earnings_date") or "") + (f" <span class='small'>({d['earnings_src']})</span>" if d.get("earnings_date") else NA))]
+          ("Nächste Quartalszahlen", E(d.get("earnings_date") or "") + (f" <span class='small'>({d['earnings_src']})</span>" if d.get("earnings_date") else
+           NA + (f" <span class='small'>(zuletzt {E(d['earnings_last'])})</span>" if d.get("earnings_last") else "")))]
     ins = d.get("insider_90d")
     if ins:
         kz.append(("Insider 90 T. (Finnhub)", f"{ins['buys']} Käufe ({big(ins['buy_value'])}) / "

@@ -140,6 +140,8 @@ def main():
             if i < min(C.TOP_N, C.ALPHAVANTAGE_MAX_CALLS):
                 d.update(F.alphavantage_sentiment(s))
             d.update(F.sec_form4_count(s))
+            if len(d.get("news") or []) + len(d.get("news_fh") or []) < 3:
+                d["news_g"] = F.google_news(c["name"], c["region"])
         if s in ecal and not d.get("earnings_date"):
             d["earnings_date"], d["earnings_src"] = ecal[s], "Finnhub"
         c["details"] = d

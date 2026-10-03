@@ -39,9 +39,13 @@ jobs:
           ALPHAVANTAGE_KEY: ${{ secrets.ALPHAVANTAGE_KEY }}
           FRED_KEY: ${{ secrets.FRED_KEY }}
           SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
-        run: python -m radar.run
+        run: |
+          mkdir -p data
+          set -o pipefail
+          python -m radar.run 2>&1 | tee data/run.log
 
       - name: Ergebnis speichern und veroeffentlichen
+        if: always()
         run: |
           git config user.name "aktien-radar-bot"
           git config user.email "actions@users.noreply.github.com"

@@ -11,6 +11,7 @@ verwendet und das auf der Seite vermerkt.
 """
 from __future__ import annotations
 
+import re
 from io import StringIO
 
 import pandas as pd
@@ -35,29 +36,36 @@ NAME_COLS = ["Security", "Company", "Name"]
 SECTOR_COLS = ["GICS Sector", "Sector", "Prime Standard Sector", "ICB Industry[14]"]
 
 # Yahoo-Screener: (Region, Börsen, Mindest-Börsenwert in Landeswährung, Label)
+# Zusätzlich: nur Heimatbörse (Endung) und Bilanzwährung des Landes, damit
+# ausländische Zweitlistings (z. B. US-Aktien in Frankfurt) herausfallen; danach
+# die größten N Werte nach Börsenwert.
 SCREENS = [
-    ("de", ["GER"], 1.0e9, "DE"),
-    ("fr", ["PAR"], 3.0e9, "EU"),
-    ("nl", ["AMS"], 3.0e9, "EU"),
-    ("it", ["MIL"], 3.0e9, "EU"),
-    ("es", ["MCE"], 3.0e9, "EU"),
-    ("be", ["BRU"], 3.0e9, "EU"),
-    ("fi", ["HEL"], 3.0e9, "EU"),
-    ("at", ["VIE"], 3.0e9, "EU"),
-    ("pt", ["LIS"], 3.0e9, "EU"),
-    ("ie", ["ISE"], 3.0e9, "EU"),
-    ("ch", ["EBS"], 3.0e9, "EU"),
-    ("gb", ["LSE"], 2.5e9, "EU"),
-    ("se", ["STO"], 35e9, "EU"),
-    ("dk", ["CPH"], 25e9, "EU"),
-    ("no", ["OSL"], 35e9, "EU"),
+    ("de", ["GER"], 1.0e9, "DE", ".DE", {"EUR"}, 160),
+    ("fr", ["PAR"], 3.0e9, "EU", ".PA", {"EUR"}, 110),
+    ("nl", ["AMS"], 3.0e9, "EU", ".AS", {"EUR", "USD"}, 40),
+    ("it", ["MIL"], 3.0e9, "EU", ".MI", {"EUR"}, 60),
+    ("es", ["MCE"], 3.0e9, "EU", ".MC", {"EUR"}, 40),
+    ("be", ["BRU"], 3.0e9, "EU", ".BR", {"EUR"}, 20),
+    ("fi", ["HEL"], 3.0e9, "EU", ".HE", {"EUR"}, 20),
+    ("at", ["VIE"], 3.0e9, "EU", ".VI", {"EUR"}, 12),
+    ("pt", ["LIS"], 3.0e9, "EU", ".LS", {"EUR"}, 8),
+    ("ie", ["ISE"], 3.0e9, "EU", ".IR", {"EUR"}, 8),
+    ("ch", ["EBS"], 3.0e9, "EU", ".SW", {"CHF", "EUR", "USD"}, 60),
+    ("gb", ["LSE"], 2.5e9, "EU", ".L", {"GBP", "GBp", "USD", "EUR"}, 140),
+    ("se", ["STO"], 35e9, "EU", ".ST", {"SEK"}, 60),
+    ("dk", ["CPH"], 25e9, "EU", ".CO", {"DKK"}, 25),
+    ("no", ["OSL"], 35e9, "EU", ".OL", {"NOK"}, 25),
 ]
+
+
+def _norm(c):
+    return re.sub(r"\[.*?\]", "", str(c)).strip().lower()
 
 
 def _pick(cols, options):
     for o in options:
         for c in cols:
-            if str(c).strip().lower() == o.lower():
+            if _norm(c) == o.lower():
                 return c
     return None
 
@@ -106,7 +114,7 @@ def _sp500_github():
             for s, n, sec in zip(df["Symbol"], df["Security"], df["GICS Sector"])]
 
 
-def _yahoo_screen(region, exchanges, min_cap, label):
+def _yahoo_screen(region, exchanges, min_cap, label, suffix, ccys, max_n):
     import yfinance as yf
     from yfinance import EquityQuery as Q
     q = Q("and", [Q("eq", ["region", region]),
@@ -121,6 +129,11 @@ def _yahoo_screen(region, exchanges, min_cap, label):
             for x in quotes:
                 if x.get("quoteType", "EQUITY") != "EQUITY":
                     continue
+                if not x["symbol"].endswith(suffix):
+                    continue
+                fc = x.get("financialCurrency")
+                if fc and fc not in ccys:
+                    continue
                 out.append({"symbol": x["symbol"],
                             "name": x.get("longName") or x.get("shortName") or x["symbol"],
                             "sector": x.get("sector"), "region": label,
@@ -129,6 +142,7 @@ def _yahoo_screen(region, exchanges, min_cap, label):
                 break
             offset += 250
         LOG.ok("Yahoo Screener")
+        out = out[:max_n]
     except Exception as ex:
         LOG.fail("Yahoo Screener", f"{region}: {ex}")
     return out
@@ -163,9 +177,9 @@ def load_universe():
             continue
         take(name, rows, "Wikipedia")
 
-    for region, ex, cap, label in SCREENS:
-        take(f"Screener {region.upper()}", _yahoo_screen(region, ex, cap, label),
-             "Yahoo Screener")
+    for region, ex, cap, label, suf, ccys, max_n in SCREENS:
+        take(f"Screener {region.upper()}",
+             _yahoo_screen(region, ex, cap, label, suf, ccys, max_n), "Yahoo Screener")
 
     write_json(CACHE, cache)
 

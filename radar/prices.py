@@ -52,6 +52,26 @@ def download(symbols, period="6y", chunk=150):
         except Exception as ex:
             LOG.fail("Yahoo Finance", f"Kursblock {i}: {ex}")
         time.sleep(1.5)  # Yahoo nicht überlasten
+    # Leere Blöcke (meist Yahoo-Drosselung) nach Pause einmal wiederholen
+    got = set().union(*[set(f.columns) for f in frames["Close"]]) if frames["Close"] else set()
+    retry = [s for s in symbols if s not in got]
+    if retry:
+        time.sleep(30)
+        for i in range(0, len(retry), 100):
+            part = retry[i:i + 100]
+            try:
+                df = yf.download(part, period=period, interval="1d", auto_adjust=True,
+                                 group_by="column", threads=True, progress=False)
+                if df is not None and not df.empty:
+                    for k in frames:
+                        sub = df[k]
+                        if isinstance(sub, pd.Series):
+                            sub = sub.to_frame(part[0])
+                        frames[k].append(sub)
+                    LOG.ok("Yahoo Finance")
+            except Exception as ex:
+                LOG.fail("Yahoo Finance", f"Wiederholung {i}: {ex}")
+            time.sleep(3)
     out = {}
     for k, lst in frames.items():
         out[k.lower()] = (pd.concat(lst, axis=1) if lst else pd.DataFrame())
@@ -66,8 +86,9 @@ def download(symbols, period="6y", chunk=150):
 def _stooq_fill(out, symbols):
     """Fehlende US-Werte über Stooq nachladen (max. 40, um Zeit zu sparen)."""
     close = out.get("close", pd.DataFrame())
-    missing = [s for s in symbols if currency_of(s) == "USD" and not s.startswith("^")
-               and "=" not in s and (s not in close.columns or close[s].dropna().empty)]
+    import re
+    missing = [s for s in symbols if re.fullmatch(r"[A-Z]{1,5}(-[A-Z])?", s)
+               and (s not in close.columns or close[s].dropna().empty)]
     for s in missing[:40]:
         txt = http_get(f"https://stooq.com/q/d/l/?s={s.lower().replace('-', '.')}.us&i=d",
                        "Stooq", as_json=False, retries=1)
