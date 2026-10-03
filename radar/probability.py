@@ -15,29 +15,31 @@ from .config import HORIZON_DAYS, TARGET_GAIN
 
 
 def assess(row, calib, earnings_in_horizon):
-    est = []
-    vp = row.get("vol_prob")
-    if vp is not None:
-        est.append(vp)
-    if row.get("base_all") is not None and (row.get("base_all_n") or 0) >= 100:
-        est.append(row["base_all"])
-    if row.get("base_cond") is not None and (row.get("base_cond_n") or 0) >= 40:
-        est.append(row["base_cond"])
+    """Hauptzahl = Trefferquote vergleichbarer Fälle im Backtest (viele Aktien,
+    nur damals bekannte Daten). Die aktienspezifischen Quoten sind Kontext: Sie
+    beruhen auf der eigenen Vergangenheit der Aktie und überschätzen nach
+    starken Rallys die Chancen."""
     cal = calibrated_rate(calib, row.get("price_score"))
-    if cal:
-        est.append(cal["hit_rate"])
-    combined = sum(est) / len(est) if est else None
+    main = cal["hit_rate"] if cal else None
+    est = [x for x in (row.get("vol_prob"),
+                       row.get("base_all") if (row.get("base_all_n") or 0) >= 100 else None,
+                       row.get("base_cond") if (row.get("base_cond_n") or 0) >= 40 else None)
+           if x is not None]
+    context = sum(est) / len(est) if est else None
 
     upside = row.get("target_upside")
     reasons = []
-    if combined is None:
+    if main is None:
         verdict, cls = "Keine Einschätzung (Daten fehlen)", "na"
-    elif combined >= 0.30 and (upside or 0) >= TARGET_GAIN:
+    elif main >= 0.35 and (upside or 0) >= TARGET_GAIN:
         verdict, cls = "Realistisch", "good"
-    elif combined >= 0.15:
+    elif main >= 0.20:
         verdict, cls = "Möglich", "mid"
     else:
         verdict, cls = "Eher unwahrscheinlich", "low"
+    if context is not None and main is not None and context > main + 0.15:
+        reasons.append(f"Die eigene Kursgeschichte der Aktie spricht für {context*100:.0f} %, "
+                       "das ist aber vermutlich durch eine frühere Rally überzeichnet")
     if upside is not None:
         if upside >= TARGET_GAIN:
             reasons.append(f"Konsens-Kursziel {upside*100:+.0f} % über Kurs stützt das Ziel")
@@ -52,5 +54,8 @@ def assess(row, calib, earnings_in_horizon):
         reasons.append("Mehrere Wende-Signale aktiv (Kurs dreht nach oben)")
     elif (row.get("turn_score") or 0) <= 0.4:
         reasons.append("Kaum Wende-Signale: Abwärtstrend noch nicht gebrochen")
-    return {"combined": combined, "inputs": len(est), "calib": cal, "verdict": verdict,
-            "cls": cls, "reasons": reasons, "horizon": HORIZON_DAYS}
+    if cal and cal.get("worse_20") is not None:
+        reasons.append(f"Kehrseite: In {cal['worse_20']*100:.0f} % der vergleichbaren Fälle lag der Kurs "
+                       "zwischenzeitlich mind. 20 % im Minus")
+    return {"combined": main, "context": context, "inputs": len(est), "calib": cal,
+            "verdict": verdict, "cls": cls, "reasons": reasons, "horizon": HORIZON_DAYS}

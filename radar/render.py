@@ -178,13 +178,15 @@ def detail(c):
     cal = a.get("calib")
     prob = ["<h4>Wie realistisch sind +20 % in 40 Handelstagen?</h4>", verdict_badge(a),
             "<table class='mini'><tr><th>Messgröße</th><th>Wert</th></tr>",
+            (f"<tr class='sum'><td>Hauptzahl: Trefferquote vergleichbarer Fälle im Backtest "
+             f"(Kurs-Score {de(cal['lo'],2)}–{de(cal['hi'],2)}, n = {cal['n']:,})".replace(",", ".") +
+             f"</td><td>{pct(cal['hit_rate'], 0)}</td></tr>"
+             f"<tr><td>… davon zwischenzeitlich ≥ 20 % im Minus</td><td>{pct(cal.get('worse_20'), 0)}</td></tr>"
+             if cal else "<tr class='sum'><td>Trefferquote vergleichbarer Fälle</td><td>" + NA + "</td></tr>"),
+            "<tr><th colspan='2'>Kontext: eigene Kursgeschichte dieser Aktie</th></tr>",
             f"<tr><td>Modell aus Volatilität ({pct(c.get('vol60'), 0)} p. a.)</td><td>{pct(c.get('vol_prob'), 0)}</td></tr>",
             f"<tr><td>Trefferquote dieser Aktie, alle Tage (n = {n(c.get('base_all_n'), 0)})</td><td>{pct(c.get('base_all'), 0)}</td></tr>",
             f"<tr><td>… nur in ähnlicher Lage, 20–65 % unter Hoch (n = {n(c.get('base_cond_n'), 0)})</td><td>{pct(c.get('base_cond'), 0)}</td></tr>",
-            (f"<tr><td>Backtest-Fälle mit ähnlichem Score {de(cal['lo'],2)}–{de(cal['hi'],2)} (n = {cal['n']})</td>"
-             f"<td>{pct(cal['hit_rate'], 0)}</td></tr>" if cal else
-             "<tr><td>Backtest-Fälle mit ähnlichem Score</td><td>" + NA + "</td></tr>"),
-            f"<tr class='sum'><td>Mittelwert der verfügbaren Werte ({a['inputs']})</td><td>{pct(a.get('combined'), 0)}</td></tr>",
             "</table>"]
     if a["reasons"]:
         prob.append("<ul class='small'>" + "".join(f"<li>{E(r)}</li>" for r in a["reasons"]) + "</ul>")
@@ -301,7 +303,27 @@ def render(ctx):
         main = bt["strategies"].get("Top 10 nach Kurs-Score (Radar-Regel)") or {}
         base = bt["strategies"].get("Alle Aktien im Universum (Basisrate)") or {}
         lift = (main.get("hit_rate") or 0) / base["hit_rate"] if base.get("hit_rate") else None
+        vol_only = bt["strategies"].get("Top 10 mit höchster Volatilität") or {}
+        dd_only = bt["strategies"].get("Top 10 mit größtem Abstand zum Hoch") or {}
+        insight = []
+        if main and vol_only and dd_only:
+            diff_v = main["hit_rate"] - vol_only["hit_rate"]
+            diff_d = main["hit_rate"] - dd_only["hit_rate"]
+            if max(diff_v, diff_d) < 0.03:
+                insight.append(f"Der kombinierte Score ist kaum besser als einfache Einzelregeln "
+                               f"(nur hohe Volatilität: {pct(vol_only['hit_rate'], 1)}, nur großer Abstand zum Hoch: "
+                               f"{pct(dd_only['hit_rate'], 1)}). Der Vorsprung gegenüber dem Zufall kommt im Kern "
+                               f"aus der Auswahl schwankungsstarker Aktien.")
+            else:
+                insight.append(f"Der kombinierte Score liegt {pct(diff_v, 1)} über „nur hohe Volatilität“ und "
+                               f"{pct(diff_d, 1)} über „nur großer Abstand zum Hoch“.")
+            insight.append(f"Die Kehrseite: Bei der Radar-Regel lag der Kurs in {pct(main['share_worse_20'], 0)} der Fälle "
+                           f"zwischenzeitlich mind. 20 % im Minus (alle Aktien: {pct(base.get('share_worse_20'), 0)}). "
+                           f"Der Median-Ertrag nach 40 Tagen beträgt {pct(main['median_ret'], 1, True)}, "
+                           f"der Durchschnitt {pct(main['avg_ret'], 1, True)}: Wenige große Gewinner ziehen den Schnitt hoch.")
         bt_html = (
+            "<div class='warn'><b>Einordnung:</b> " + " ".join(E(x) for x in insight) + "</div>" if insight else "")
+        bt_html += (
             f"<p>Zeitraum {E(bt['period'][0])} bis {E(bt['period'][1])}, {bt['rebalance_dates']} wöchentliche Stichtage, "
             f"{bt['universe_size']} Aktien. Treffer = Schlusskurs innerhalb von 40 Handelstagen ≥ +20 %.</p>"
             f"<div class='tiles'><div><b>{pct(main.get('hit_rate'), 1)}</b><span>Trefferquote Radar-Regel</span></div>"
@@ -472,8 +494,9 @@ Median-Tagesumsatz ≥ {turnover} Mio. €.</li>
 Lage + 20 % Wende-Signale (Kurs über 20-Tage-Schnitt, 20-Tage-Schnitt steigt, 10-Tage-Rendite positiv, RSI 40–70, kein neues Jahrestief in 10 Tagen).</li>
 <li><b>Stufe 2, Analystenfilter:</b> Konsens ≤ {rec_max} (Kaufen-Bereich), mind. {n_an} Analysten, Ø-Kursziel ≥ {up_min} % über Kurs.</li>
 <li><b>Rangfolge:</b> Kurs-Score × (0,7 + 0,3 × Analystenstärke). Analystenstärke = je zur Hälfte Kursziel-Abstand (bis 60 %) und Konsensnote.</li>
-<li><b>+20 %-Einschätzung:</b> Mittelwert aus bis zu vier gemessenen Quoten (siehe je Aktie). „Realistisch“ ab 30 % und Kursziel ≥ +20 %,
-„Möglich“ ab 15 %, darunter „Eher unwahrscheinlich“. Zum Vergleich: Für eine durchschnittliche Aktie liegt die Basisrate meist im
+<li><b>+20 %-Einschätzung:</b> Hauptzahl ist die Trefferquote aller Backtest-Fälle mit ähnlichem Kurs-Score. Die eigene
+Kursgeschichte der Aktie wird als Kontext gezeigt, fließt aber nicht ein (nach starken Rallys überzeichnet). „Realistisch“ ab 35 % und
+Kursziel ≥ +20 %, „Möglich“ ab 20 %, darunter „Eher unwahrscheinlich“. Zum Vergleich: Für eine durchschnittliche Aktie liegt die Basisrate meist im
 einstelligen Prozentbereich (siehe Backtest).</li></ol>
 <details class="gl"><summary>Fachbegriffe</summary><dl class="kv" style="grid-template-columns:auto 1fr">
 <dt>Drawdown</dt><dd style="text-align:left">Abstand zum 52-Wochen-Hoch in Prozent.</dd>

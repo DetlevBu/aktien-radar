@@ -90,7 +90,7 @@ def run(panel: pd.DataFrame):
     weekly = main.groupby("date")["fwd_hit"].agg(["sum", "count"])
 
     # Kalibrierung: tatsächliche Trefferquote je Score-Bereich (Stufe-1-Aktien)
-    bins = [0, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.5, 1.0]
+    bins = [0, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 0.5, 0.55, 0.6, 1.0]
     s1 = stage1.copy()
     s1["bucket"] = pd.cut(s1["price_score"], bins)
     calib = []
@@ -98,7 +98,8 @@ def run(panel: pd.DataFrame):
         if len(g) >= 30:
             calib.append({"lo": float(b.left), "hi": float(b.right), "n": int(len(g)),
                           "hit_rate": float(g["fwd_hit"].mean()),
-                          "avg_ret": float(g["fwd_ret"].mean())})
+                          "avg_ret": float(g["fwd_ret"].mean()),
+                          "worse_20": float((g["fwd_min"] <= -0.2).mean())})
     return {
         "period": [pd.Timestamp(dates[0]).date().isoformat(),
                    pd.Timestamp(dates[-1]).date().isoformat()],
