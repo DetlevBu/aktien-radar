@@ -32,6 +32,13 @@ jobs:
       - name: Abhaengigkeiten installieren
         run: pip install -r requirements.txt
 
+      - name: Kurs-Cache laden
+        uses: actions/cache/restore@v4
+        with:
+          path: .cache
+          key: prices-${{ github.run_id }}
+          restore-keys: prices-
+
       - name: Radar ausfuehren
         env:
           FINNHUB_KEY: ${{ secrets.FINNHUB_KEY }}
@@ -43,6 +50,13 @@ jobs:
           mkdir -p data
           set -o pipefail
           python -m radar.run 2>&1 | tee data/run.log
+
+      - name: Kurs-Cache sichern
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: .cache
+          key: prices-${{ github.run_id }}
 
       - name: Ergebnis speichern und veroeffentlichen
         if: always()

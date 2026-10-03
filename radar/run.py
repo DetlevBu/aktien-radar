@@ -64,6 +64,10 @@ def main():
     stale_cut = close.index.max() - pd.Timedelta(days=5)
     last = last[pd.to_datetime(last["price_date"]) >= stale_cut]
     log(f"Kennzahlen: {len(last)} Aktien mit aktuellen Daten")
+    cover = last.index.isin(list(meta)).sum() / max(len(meta), 1)
+    if cover < 0.6 and not C.SYNTHETIC:
+        raise SystemExit(f"ABBRUCH: nur {cover:.0%} des Universums mit Kursen. "
+                         "Seite vom Vortag bleibt stehen.")
 
     # 4) Backtest (nutzt dieselben Kennzahlen) -----------------------------
     panel = backtest.build_panel({s: feats[s] for s in feats if s in meta}, regions)
@@ -84,6 +88,11 @@ def main():
         infos = {s: fake_info(s, last.loc[s, "close"]) for s in shortlist}
     else:
         infos = F.yahoo_info(shortlist)
+    got = sum(1 for s in shortlist if (infos.get(s) or {}).get("recommendationMean") is not None
+              or (infos.get(s) or {}).get("longName"))
+    if shortlist and got < 0.5 * len(shortlist) and not C.SYNTHETIC:
+        raise SystemExit(f"ABBRUCH: Unternehmensdaten nur für {got}/{len(shortlist)} Aktien. "
+                         "Seite vom Vortag bleibt stehen.")
     cands = []
     for s in shortlist:
         r = last.loc[s].to_dict()

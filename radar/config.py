@@ -23,7 +23,7 @@ DRAWDOWN_MAX = 0.65               # max. 65 % (sonst oft fundamentale Krise)
 MIN_VOL_ANN = 0.28                # mind. 28 % annualisierte Volatilität
 MIN_PRICE = 3.0                   # keine Pennystocks (Lokalwährung)
 MIN_DOLLAR_VOLUME = 5_000_000     # Median-Tagesumsatz 20 Tage, Lokalwährung
-SHORTLIST_N = 150                 # so viele gehen in die teure Stufe 2
+SHORTLIST_N = 100                 # so viele gehen in die teure Stufe 2
 
 # --- Stufe 2: Analystenfilter -------------------------------------------
 MAX_RECOMMENDATION_MEAN = 2.3     # Yahoo-Skala 1 = Strong Buy … 5 = Sell

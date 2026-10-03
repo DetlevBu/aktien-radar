@@ -34,18 +34,20 @@ def is_us(sym):
 
 
 # ---------------------------------------------------------------- Yahoo ----
-def yahoo_info(symbols, workers=4):
+def yahoo_info(symbols, workers=2):
     import yfinance as yf
 
     def one(s):
-        for attempt in range(2):
+        err = None
+        for attempt in range(3):
             try:
                 inf = yf.Ticker(s).get_info() or {}
                 LOG.ok("Yahoo Finance")
+                time.sleep(0.5)
                 return s, {k: inf.get(k) for k in INFO_KEYS}
             except Exception as ex:
                 err = ex
-                time.sleep(2)
+                time.sleep(30 if "Rate" in str(ex) or "Too Many" in str(ex) else 3)
         LOG.fail("Yahoo Finance", f"info {s}: {err}")
         return s, {}
 

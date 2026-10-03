@@ -21,13 +21,14 @@ from .util import LOG, http_get, read_json, write_json, now_utc
 
 CACHE = DATA_DIR / "universe_cache.json"
 
-WIKI = {
-    "S&P 500": ("https://en.wikipedia.org/wiki/List_of_S%26P_500_companies", "US"),
-    "S&P 400": ("https://en.wikipedia.org/wiki/List_of_S%26P_400_companies", "US"),
-    "Nasdaq 100": ("https://en.wikipedia.org/wiki/Nasdaq-100", "US"),
-    "DAX": ("https://en.wikipedia.org/wiki/DAX", "DE"),
-    "Euro Stoxx 50": ("https://en.wikipedia.org/wiki/EURO_STOXX_50", "EU"),
+WIKI = {  # Name: (URL, Region, erwartete Anzahl)
+    "S&P 500": ("https://en.wikipedia.org/wiki/List_of_S%26P_500_companies", "US", 503),
+    "S&P 400": ("https://en.wikipedia.org/wiki/List_of_S%26P_400_companies", "US", 400),
+    "Nasdaq 100": ("https://en.wikipedia.org/wiki/Nasdaq-100", "US", 101),
+    "DAX": ("https://en.wikipedia.org/wiki/DAX", "DE", 40),
+    "Euro Stoxx 50": ("https://en.wikipedia.org/wiki/EURO_STOXX_50", "EU", 50),
 }
+SYM_RE = re.compile(r"^[A-Z0-9]{1,6}([.-][A-Z0-9]{1,4})?$")
 SP500_GITHUB = ("https://raw.githubusercontent.com/datasets/"
                 "s-and-p-500-companies/main/data/constituents.csv")
 
@@ -70,7 +71,7 @@ def _pick(cols, options):
     return None
 
 
-def _wiki_table(name, url, region):
+def _wiki_table(name, url, region, expected):
     html = http_get(url, "Wikipedia", as_json=False)
     if not html:
         return []
@@ -79,10 +80,11 @@ def _wiki_table(name, url, region):
     except Exception as ex:
         LOG.fail("Wikipedia", f"{name}: {ex}")
         return []
-    best = []
+    best, best_err = [], 1e9
     for t in tables:
         if isinstance(t.columns, pd.MultiIndex):
-            t.columns = [c[-1] for c in t.columns]
+            continue  # z. B. Tabellen mit Indexänderungen (Added/Removed)
+        t = t.loc[:, ~pd.Index([_norm(c) for c in t.columns]).duplicated()]
         sc = _pick(t.columns, SYM_COLS)
         if sc is None or len(t) < 20:
             continue
@@ -90,17 +92,18 @@ def _wiki_table(name, url, region):
         sec = _pick(t.columns, SECTOR_COLS)
         rows = []
         for _, r in t.iterrows():
-            sym = str(r[sc]).strip()
-            if not sym or sym == "nan":
-                continue
+            sym = str(r[sc]).strip().upper()
             if region == "US":
                 sym = sym.replace(".", "-")      # BRK.B -> BRK-B (Yahoo)
+            if not SYM_RE.match(sym):
+                continue
             rows.append({"symbol": sym,
                          "name": str(r[nc]) if nc is not None else sym,
                          "sector": str(r[sec]) if sec is not None else None,
                          "region": region, "index": [name]})
-        if len(rows) > len(best):
-            best = rows
+        err = abs(len(rows) - expected)
+        if len(rows) >= 0.6 * expected and err < best_err:
+            best, best_err = rows, err
     return best
 
 
@@ -169,8 +172,8 @@ def load_universe():
         else:
             info[name] = {"count": 0, "source": "nicht verfügbar", "as_of": None}
 
-    for name, (url, region) in WIKI.items():
-        rows = _wiki_table(name, url, region)
+    for name, (url, region, expected) in WIKI.items():
+        rows = _wiki_table(name, url, region, expected)
         if name == "S&P 500" and len(rows) < 400:
             rows = _sp500_github()
             take(name, rows, "GitHub datasets")
