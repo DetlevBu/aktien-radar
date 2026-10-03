@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-03T11:23:59.660554+00:00",
+ "generated": "2026-10-03T11:46:27.149126+00:00",
  "today": "2026-10-03",
  "data_date": "2026-10-02",
  "synthetic": false,
@@ -35,7 +35,7 @@
    "as_of": "2026-10-03"
   },
   "Screener FR": {
-   "count": 81,
+   "count": 85,
    "source": "Yahoo Screener",
    "as_of": "2026-10-03"
   },
@@ -50,12 +50,12 @@
    "as_of": "2026-10-03"
   },
   "Screener ES": {
-   "count": 37,
+   "count": 38,
    "source": "Yahoo Screener",
    "as_of": "2026-10-03"
   },
   "Screener BE": {
-   "count": 18,
+   "count": 20,
    "source": "Yahoo Screener",
    "as_of": "2026-10-03"
   },
@@ -95,18 +95,18 @@
    "as_of": "2026-10-03"
   },
   "Screener DK": {
-   "count": 18,
+   "count": 19,
    "source": "Yahoo Screener",
    "as_of": "2026-10-03"
   },
   "Screener NO": {
-   "count": 11,
+   "count": 12,
    "source": "Yahoo Screener",
    "as_of": "2026-10-03"
   }
  },
- "universe_n": 1640,
- "n_with_data": 1594,
+ "universe_n": 1645,
+ "n_with_data": 1598,
  "n_stage1": 364,
  "n_stage2": 58,
  "top": [
@@ -306,8 +306,10 @@
      "buy_value": 0,
      "sell_value": 120118066.16770001
     },
-    "av_sentiment": 0.11716008,
-    "av_articles": 50
+    "av_sentiment": 0.11804529999999999,
+    "av_articles": 50,
+    "sec_form4_90d": 23,
+    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2023554&type=4"
    },
    "assessment": {
     "combined": 0.4634146341463415,
@@ -631,9 +633,9 @@
     "fullTimeEmployees": 6200,
     "longBusinessSummary": "Sterling Infrastructure, Inc. engages in the provision of e-infrastructure, transportation, and building solutions in the United States. It operates through three segments: E-Infrastructure, Transportation, and Building Solutions. The E-Infrastructure Solutions segment provides site development services for the blue-chip end users in the e-commerce distribution center, data center, manufacturing, warehousing, and power generation sectors. Its Transportation Solutions segment is involved in the development of infrastructure and rehabilitation projects for highways, roads, bridges, airports, ports, rail, and storm drainage systems for the departments of transportation, regional transit, airport, port, water, and railroads authorities. The Building Solutions segment offers residential and commercial concrete foundations for single-family and multi-family homes, parking structures, elevated slabs, and other concrete work for developers and general contractors, as well as plumbing and surveys services for residential builds. It operates in the United States, primarily across the Southern, Northeastern, Mid-Atlantic and Rocky Mountain regions, and the Pacific Islands. The company was formerly known as Sterling Construction Company, Inc. and changed its name to Sterling Infrastructure, Inc. in June 2022. Sterling Infrastructure, Inc. was founded in 1955 and is headquartered in The Woodlands, Texas.",
     "marketCap": 16316526592,
-    "trailingPE": 36.36128,
+    "trailingPE": 39.45414,
     "forwardPE": 21.003887,
-    "priceToBook": 12.061776,
+    "priceToBook": 12.02561,
     "enterpriseToEbitda": 22.72,
     "revenueGrowth": 0.901,
     "earningsGrowth": 1.165,
@@ -781,8 +783,10 @@
      "buy_value": 0,
      "sell_value": 0
     },
-    "av_sentiment": 0.3053445,
-    "av_articles": 50
+    "av_sentiment": 0.31039036,
+    "av_articles": 50,
+    "sec_form4_90d": 3,
+    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=874238&type=4"
    },
    "assessment": {
     "combined": 0.4634146341463415,
@@ -1263,8 +1267,10 @@
      "buy_value": 0,
      "sell_value": 964765.06
     },
-    "av_sentiment": 0.1817075,
-    "av_articles": 50
+    "av_sentiment": 0.18420573999999998,
+    "av_articles": 50,
+    "sec_form4_90d": 17,
+    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1408710&type=4"
    },
    "assessment": {
     "combined": 0.4634146341463415,
@@ -1745,8 +1751,10 @@
      "buy_value": 0,
      "sell_value": 8491315.4487
     },
-    "av_sentiment": 0.27872242,
-    "av_articles": 50
+    "av_sentiment": 0.28090482,
+    "av_articles": 50,
+    "sec_form4_90d": 14,
+    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=820318&type=4"
    },
    "assessment": {
     "combined": 0.4634146341463415,
@@ -2069,8 +2077,8 @@
     "fullTimeEmployees": 149686,
     "longBusinessSummary": "Flex Ltd. provides technology innovation, supply chain, and manufacturing solutions to data center, communications, enterprise, consumer, automotive, healthcare, industrial, and power industries in the Americas, Asia, and Europe. The company operates through three segments: Integrated Technology Solutions (ITS), Regulated Manufacturing Solutions (RMS), and Cloud and Power Infrastructure (CPI). The ITS segment offers flexible supply and manufacturing solutions for communications, including high speed networking, enterprise, and satellite communications systems, as well as lifestyle solutions comprising products across commercial, home, and personal product categories. Its RMS segment includes industrial products, such as mission critical automation, energy, and industrial infrastructure; automotive products, including compute and power electronics platforms and integrated systems; and healthcare products comprising regulated manufacturing for medical devices, drug delivery, and equipment. The CPI segment provides cloud and cooling products, such as integrated compute systems supporting power dense digital infrastructure deployments and advanced liquid cooling solutions supporting higher density, power intensive rack architectures; and power products that include utility and facility level electrical infrastructure enabling power delivery and high density rack and board level power systems. The company was formerly known as Flextronics International Ltd. and changed its name to Flex Ltd. in September 2016. Flex Ltd. was founded in 1969 and is headquartered in Austin, Texas.",
     "marketCap": 43076079616,
-    "trailingPE": 43.511192,
-    "forwardPE": 16.522896,
+    "trailingPE": 45.197678,
+    "forwardPE": 16.398283,
     "priceToBook": 7.8314304,
     "enterpriseToEbitda": 21.746,
     "revenueGrowth": 0.206,
@@ -2219,8 +2227,10 @@
      "buy_value": 0,
      "sell_value": 332352.36260000005
     },
-    "av_sentiment": 0.2524826,
-    "av_articles": 50
+    "av_sentiment": 0.25071446000000003,
+    "av_articles": 50,
+    "sec_form4_90d": 15,
+    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=866374&type=4"
    },
    "assessment": {
     "combined": 0.4158730158730159,
@@ -2542,7 +2552,7 @@
     "website": "https://www.rambus.com",
     "fullTimeEmployees": 791,
     "longBusinessSummary": "Rambus Inc. manufactures and sells semiconductor products in the United States, South Korea, Singapore, and internationally. It offers memory interface chips comprising DDR5 memory interface chips which include registering clock driver, multiplexed registering clock driver, multiplexed data buffer, power management integrated circuits, serial presence detect hubs, temperature sensors, and client clock driver products; and DDR4 memory interface chips. The company also provides silicon IP, such as interface and security IP solutions that move and protect data in advanced artificial intelligence, data center, government, and automotive applications; interface IP solutions for high-speed memory and chip-to-chip digital controller IP; security IP solutions, including crypto cores, hardware roots of trust, high-speed protocol engines, and chip provisioning technologies. In addition, it offers portfolio of patents that covers memory architecture, high-speed serial links, and security products. The company sells its products to memory module manufacturers, OEMs and hyperscalers, as well as to chip makers. It markets its products and services through its direct sales force and distributors. Rambus Inc. was incorporated in 1990 and is headquartered in San Jose, California.",
-    "marketCap": 12144445440,
+    "marketCap": 12108096512,
     "trailingPE": 51.362385,
     "forwardPE": 30.089352,
     "priceToBook": 8.28058,
@@ -2660,8 +2670,10 @@
      "buy_value": 0,
      "sell_value": 1029600.0
     },
-    "av_sentiment": 0.24564968,
-    "av_articles": 50
+    "av_sentiment": 0.23763966,
+    "av_articles": 50,
+    "sec_form4_90d": 2,
+    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=917273&type=4"
    },
    "assessment": {
     "combined": 0.4158730158730159,
@@ -3005,7 +3017,7 @@
     "recommendationMean": 1.44828,
     "recommendationKey": "strong_buy",
     "fiftyTwoWeekHigh": 163.13,
-    "fiftyTwoWeekLow": 74.91
+    "fiftyTwoWeekLow": 76.19
    },
    "price_score": 0.5342386731252436,
    "vol_prob": 0.4415912042981083,
@@ -3142,20 +3154,22 @@
      "buy_value": 0,
      "sell_value": 10039534.732
     },
-    "av_sentiment": -0.002117780000000004,
-    "av_articles": 50
+    "av_sentiment": -0.004833059999999997,
+    "av_articles": 50,
+    "sec_form4_90d": 14,
+    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1852131&type=4"
    },
    "assessment": {
-    "combined": 0.39473684210526316,
+    "combined": 0.3943298969072165,
     "context": 0.47020178486021563,
     "inputs": 3,
     "calib": {
      "lo": 0.5,
      "hi": 0.55,
-     "n": 1938,
-     "hit_rate": 0.39473684210526316,
-     "avg_ret": 0.054777130632497104,
-     "worse_20": 0.25386996904024767
+     "n": 1940,
+     "hit_rate": 0.3943298969072165,
+     "avg_ret": 0.05465406928665653,
+     "worse_20": 0.2536082474226804
     },
     "verdict": "Realistisch",
     "cls": "good",
@@ -3624,8 +3638,10 @@
      "buy_value": 0,
      "sell_value": 0
     },
-    "av_sentiment": 0.15061212499999999,
-    "av_articles": 40
+    "av_sentiment": 0.15010774999999998,
+    "av_articles": 40,
+    "sec_form4_90d": 1,
+    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1622536&type=4"
    },
    "assessment": {
     "combined": 0.4158730158730159,
@@ -3948,8 +3964,8 @@
     "fullTimeEmployees": 34000,
     "longBusinessSummary": "Vertiv Holdings Co designs, manufactures, and services critical digital infrastructure technologies and life cycle services for data centers, communication networks, and commercial and industrial environments in the Americas, the Asia Pacific, Europe, the Middle East, and Africa. The company offers AC and DC power management products, low/medium voltage switchgear, busbar, thermal management products, air cooled and liquid cooled thermal management products, integrated modular solutions, racks, single phase UPS, rack power distribution, rack thermal systems, configurable integrated solutions, energy storage solutions, hardware, and software infrastructure that are integral to the technologies used for various services, including artificial intelligence, e-commerce, online banking, file sharing, video on-demand, energy storage, wireless communications, Internet of Things, and online gaming. It also provides lifecycle management services, predictive analytics, and professional services for deploying, maintaining, and optimizing its products and their related systems; and preventative maintenance, acceptance testing, engineering and consulting, fluid management, performance assessments, remote monitoring, training, spare parts, and critical digital infrastructure software services. The company offers its products primarily under the Vertiv, Liebert, NetSure, Geist, Energy Labs, ERS, Albér, and Avocent brands. It serves through a network of direct sales professionals, independent sales representatives, channel partners, and original equipment manufacturers. The company is headquartered in Westerville, Ohio.",
     "marketCap": 97086308352,
-    "trailingPE": 55.546253,
-    "forwardPE": 27.52618,
+    "trailingPE": 56.925507,
+    "forwardPE": 27.487595,
     "priceToBook": 20.404562,
     "enterpriseToEbitda": 36.327,
     "revenueGrowth": 0.241,
@@ -4106,20 +4122,22 @@
      "buy_value": 0,
      "sell_value": 3880208.5409
     },
-    "av_sentiment": 0.12183538000000001,
-    "av_articles": 50
+    "av_sentiment": 0.11755222,
+    "av_articles": 50,
+    "sec_form4_90d": 13,
+    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1674101&type=4"
    },
    "assessment": {
-    "combined": 0.39473684210526316,
+    "combined": 0.3943298969072165,
     "context": 0.4788677658726737,
     "inputs": 3,
     "calib": {
      "lo": 0.5,
      "hi": 0.55,
-     "n": 1938,
-     "hit_rate": 0.39473684210526316,
-     "avg_ret": 0.054777130632497104,
-     "worse_20": 0.25386996904024767
+     "n": 1940,
+     "hit_rate": 0.3943298969072165,
+     "avg_ret": 0.05465406928665653,
+     "worse_20": 0.2536082474226804
     },
     "verdict": "Realistisch",
     "cls": "good",
@@ -4588,8 +4606,10 @@
      "buy_value": 0,
      "sell_value": 2478772.92
     },
-    "av_sentiment": 0.27500718,
-    "av_articles": 50
+    "av_sentiment": 0.27085662,
+    "av_articles": 50,
+    "sec_form4_90d": 2,
+    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1493594&type=4"
    },
    "assessment": {
     "combined": 0.4158730158730159,
@@ -4914,7 +4934,7 @@
     "fullTimeEmployees": 13000,
     "longBusinessSummary": "Advanced Energy Industries, Inc. provides precision power conversion, measurement, and control solutions in the United States, Asia, Europe, and internationally. The company's plasma power products offer solutions to enable innovation for semiconductor and thin film plasma processes, such as dry etch and deposition. It also provides high and low voltage power products used in a range of applications, such as semiconductor equipment, industrial production, medical and life science equipment, data centers computing, networking, and telecommunications. In addition, the company supplies sensing, controls, and instrumentation products for advanced measurement and calibration of power and temperature. Further, it provides calibration, conversions, upgrades, and refurbishments and used equipment to companies, as well as repair and maintenance services. The company offers its products through direct sales force, direct and indirect sales channels, and distributors, as well as provides warranty and non-warranty repair services. Advanced Energy Industries, Inc. was incorporated in 1981 and is headquartered in Denver, Colorado.",
     "marketCap": 12186548224,
-    "trailingPE": 56.14022,
+    "trailingPE": 54.335716,
     "forwardPE": 19.836073,
     "priceToBook": 8.358652,
     "enterpriseToEbitda": 34.467,
@@ -5071,19 +5091,21 @@
      "sells": 23,
      "buy_value": 0,
      "sell_value": 8731453.54
-    }
+    },
+    "sec_form4_90d": 7,
+    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=927003&type=4"
    },
    "assessment": {
-    "combined": 0.39473684210526316,
+    "combined": 0.3943298969072165,
     "context": 0.3368375312075649,
     "inputs": 3,
     "calib": {
      "lo": 0.5,
      "hi": 0.55,
-     "n": 1938,
-     "hit_rate": 0.39473684210526316,
-     "avg_ret": 0.054777130632497104,
-     "worse_20": 0.25386996904024767
+     "n": 1940,
+     "hit_rate": 0.3943298969072165,
+     "avg_ret": 0.05465406928665653,
+     "worse_20": 0.2536082474226804
     },
     "verdict": "Realistisch",
     "cls": "good",
@@ -5394,7 +5416,7 @@
     "fullTimeEmployees": 2555,
     "longBusinessSummary": "Reddit, Inc. operates a digital community in the United States and internationally. The company's platform enables user to engage in conversations, explore passions, research new hobbies, exchange goods and services, create new communities and experiences, share laughs, and find belonging. It also organizes communities based on specific interests that enable users to engage in conversations by sharing experiences, submitting links, uploading images and videos, and replying to one another. Reddit, Inc. was founded in 2005 and is headquartered in San Francisco, California.",
     "marketCap": 28447748096,
-    "trailingPE": 34.386044,
+    "trailingPE": 34.306267,
     "forwardPE": 15.262982,
     "priceToBook": 8.654882,
     "enterpriseToEbitda": 32.042,
@@ -5551,19 +5573,21 @@
      "sells": 80,
      "buy_value": 0,
      "sell_value": 49288172.81
-    }
+    },
+    "sec_form4_90d": 22,
+    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1713445&type=4"
    },
    "assessment": {
-    "combined": 0.39473684210526316,
+    "combined": 0.3943298969072165,
     "context": 0.557709527624087,
     "inputs": 3,
     "calib": {
      "lo": 0.5,
      "hi": 0.55,
-     "n": 1938,
-     "hit_rate": 0.39473684210526316,
-     "avg_ret": 0.054777130632497104,
-     "worse_20": 0.25386996904024767
+     "n": 1940,
+     "hit_rate": 0.3943298969072165,
+     "avg_ret": 0.05465406928665653,
+     "worse_20": 0.2536082474226804
     },
     "verdict": "Realistisch",
     "cls": "good",
@@ -5875,8 +5899,8 @@
     "fullTimeEmployees": 37000,
     "longBusinessSummary": "MasTec, Inc., an infrastructure engineering and construction company, provides engineering, building, installation, maintenance, and upgrade services for communications, energy, utility, and other infrastructure primarily in the United States and Canada. It operates through five segments: Communications, Clean Energy and Infrastructure, Power Delivery, Pipeline Infrastructure, and Other. The company builds infrastructure for wireless and wireline/fiber communications; clean energy infrastructure comprising renewable energy power generation; pipeline infrastructure, including natural gas, water, carbon capture sequestration, and other product transport; power delivery services, such as electrical and gas transmission, and distribution systems; industrial and heavy civil infrastructure, including roads, bridges, and rail; and water infrastructure. It also installs electrical and other gas distribution and transmission systems, power generation, civil and industrial facilities, pipelines, and fiber optic and other cables, as well as install-to-the-home services. In addition, the company offers maintenance and upgrade support services comprising maintenance of customers' distribution facilities, networks, and infrastructure, including communications, power generation, pipeline, electrical distribution and transmission, and civil and industrial infrastructure; emergency restoration services for natural disasters and accidents; and routine replacements and upgrades to overhauls. Its customers include wireless and wireline/fiber service providers, broadband operators, install-to-the-home service providers, public and private energy providers, including renewable and other energy providers, pipeline operators, civil, transportation, and water and wastewater pipeline installation services, industrial infrastructure providers, as well as government entities. MasTec, Inc. was founded in 1929 and is headquartered in Coral Gables, Florida.",
     "marketCap": 17340246016,
-    "trailingPE": 34.004723,
-    "forwardPE": 17.222525,
+    "trailingPE": 34.438595,
+    "forwardPE": 17.202301,
     "priceToBook": 4.8478928,
     "enterpriseToEbitda": 15.409,
     "revenueGrowth": 0.234,
@@ -6032,19 +6056,21 @@
      "sells": 0,
      "buy_value": 0,
      "sell_value": 0
-    }
+    },
+    "sec_form4_90d": 10,
+    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=15615&type=4"
    },
    "assessment": {
-    "combined": 0.3422982885085575,
+    "combined": 0.341884958142047,
     "context": 0.3817615082278059,
     "inputs": 3,
     "calib": {
      "lo": 0.45,
      "hi": 0.5,
-     "n": 3681,
-     "hit_rate": 0.3422982885085575,
-     "avg_ret": 0.0565122074046091,
-     "worse_20": 0.21488725889703886
+     "n": 3703,
+     "hit_rate": 0.341884958142047,
+     "avg_ret": 0.056472278182046726,
+     "worse_20": 0.213880637321091
     },
     "verdict": "Möglich",
     "cls": "mid",
@@ -6354,8 +6380,8 @@
     "fullTimeEmployees": 8898,
     "longBusinessSummary": "Ciena Corporation, a network technology company, provides hardware, software, and services for various network operators in the Americas, Europe, the Middle East, Africa, the Asia Pacific, Japan, and India. It operates through Networking Platforms, Platform Software and Services, Blue Planet Automation Software and Services, and Global Services segments. The Networking Platforms segment consists optical networking, routing, and switching products and services. This segment products include the 6500 Packet-Optical Platform, Waveserver modular interconnect system, the 6500 Reconfigurable Line System, and coherent pluggable transceivers; and the 3000 family of service delivery platforms and the 5000 family of service aggregation, as well as the 8100 Coherent Routing platforms and virtualization software. The Platform Software and Services segment offers navigator network control suite; and software subscription services, consulting, network migration and integration, installation and upgrade support services, and technical support solutions. The Blue Planet Automation Software and Services segment inventory management, orchestration, route optimization and analysis, and unified assurance and analytics software; and sells subscription, installation, support, consulting, and design services related to the Blue Planet automation platform. The Global Services segment provides services for advisory and enablement, implementation, and maintenance, support, and learning activities. Ciena Corporation was incorporated in 1992 and is headquartered in Fulton, Maryland.",
     "marketCap": 55495348224,
-    "trailingPE": 81.190865,
-    "forwardPE": 33.084976,
+    "trailingPE": 88.3386,
+    "forwardPE": 33.17821,
     "priceToBook": 18.166372,
     "enterpriseToEbitda": 54.753,
     "revenueGrowth": 0.37,
@@ -6510,19 +6536,21 @@
      "sells": 19,
      "buy_value": 0,
      "sell_value": 15760000.9472
-    }
+    },
+    "sec_form4_90d": 31,
+    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=936395&type=4"
    },
    "assessment": {
-    "combined": 0.39473684210526316,
+    "combined": 0.3943298969072165,
     "context": 0.3740359898231473,
     "inputs": 3,
     "calib": {
      "lo": 0.5,
      "hi": 0.55,
-     "n": 1938,
-     "hit_rate": 0.39473684210526316,
-     "avg_ret": 0.054777130632497104,
-     "worse_20": 0.25386996904024767
+     "n": 1940,
+     "hit_rate": 0.3943298969072165,
+     "avg_ret": 0.05465406928665653,
+     "worse_20": 0.2536082474226804
     },
     "verdict": "Realistisch",
     "cls": "good",
@@ -6935,16 +6963,16 @@
     ]
    },
    "assessment": {
-    "combined": 0.39473684210526316,
+    "combined": 0.3943298969072165,
     "context": 0.32127290644883716,
     "inputs": 3,
     "calib": {
      "lo": 0.5,
      "hi": 0.55,
-     "n": 1938,
-     "hit_rate": 0.39473684210526316,
-     "avg_ret": 0.054777130632497104,
-     "worse_20": 0.25386996904024767
+     "n": 1940,
+     "hit_rate": 0.3943298969072165,
+     "avg_ret": 0.05465406928665653,
+     "worse_20": 0.2536082474226804
     },
     "verdict": "Realistisch",
     "cls": "good",
@@ -7255,8 +7283,8 @@
     "fullTimeEmployees": 4250,
     "longBusinessSummary": "Allegro MicroSystems, Inc., together with its subsidiaries, designs, develops, manufactures, and markets sensor integrated circuits (ICs) and application-specific power ICs for sensing, motion control, and power management functions of complex electromechanical or power conversion systems. Its products include magnetic sensor ICs, such as position, speed, and electric current sensor ICs; and power ICs comprising motor driver ICs, such as regulator, power management ICs, and LED driver ICs, and isolated gate drivers. The company sells its products to original equipment manufacturers and distributors primarily in the automotive and industrial markets through its direct sales force, third party distributors, independent sales representatives, and consignment. The company serves automotive and industrial markets, including advanced industrial markets such as AI data centers, robotics, and energy infrastructure sectors. It operates in the United States, rest of the Americas, Europe, Japan, Greater China, South Korea, and other Asian markets. The company was founded in 1990 and is headquartered in Manchester, New Hampshire.",
     "marketCap": 7368472576,
-    "trailingPE": 494.125,
-    "forwardPE": 26.727518,
+    "trailingPE": 564.7143,
+    "forwardPE": 26.778578,
     "priceToBook": 7.6386466,
     "enterpriseToEbitda": 55.696,
     "revenueGrowth": 0.275,
@@ -7412,19 +7440,21 @@
      "sells": 2,
      "buy_value": 0,
      "sell_value": 146751.15
-    }
+    },
+    "sec_form4_90d": 10,
+    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=866291&type=4"
    },
    "assessment": {
-    "combined": 0.3422982885085575,
+    "combined": 0.341884958142047,
     "context": 0.3488618120609935,
     "inputs": 3,
     "calib": {
      "lo": 0.45,
      "hi": 0.5,
-     "n": 3681,
-     "hit_rate": 0.3422982885085575,
-     "avg_ret": 0.0565122074046091,
-     "worse_20": 0.21488725889703886
+     "n": 3703,
+     "hit_rate": 0.341884958142047,
+     "avg_ret": 0.056472278182046726,
+     "worse_20": 0.213880637321091
     },
     "verdict": "Möglich",
     "cls": "mid",
@@ -7892,19 +7922,21 @@
      "sells": 28,
      "buy_value": 0,
      "sell_value": 32137016.313100003
-    }
+    },
+    "sec_form4_90d": 29,
+    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1528396&type=4"
    },
    "assessment": {
-    "combined": 0.39473684210526316,
+    "combined": 0.3943298969072165,
     "context": 0.355253824446284,
     "inputs": 3,
     "calib": {
      "lo": 0.5,
      "hi": 0.55,
-     "n": 1938,
-     "hit_rate": 0.39473684210526316,
-     "avg_ret": 0.054777130632497104,
-     "worse_20": 0.25386996904024767
+     "n": 1940,
+     "hit_rate": 0.3943298969072165,
+     "avg_ret": 0.05465406928665653,
+     "worse_20": 0.2536082474226804
     },
     "verdict": "Realistisch",
     "cls": "good",
@@ -8213,7 +8245,7 @@
     "website": "https://www.regalrexnord.com",
     "fullTimeEmployees": 28700,
     "longBusinessSummary": "Regal Rexnord Corporation provides sustainable solutions for power, transmit, and control motion products in the North America, Asia, Europe, and internationally. The company operates through Automation & Motion Control, Industrial Powertrain Solutions, and Power Efficiency Solutions. The Automation & Motion Control segment provides conveyor products, conveying automation subsystems, aerospace components, precision motion control solutions, miniature servo motors, controls, drives, and linear actuators, as well as power management products that include automatic transfer switches, paralleling switchgear, and customized modular electric pod solutions that comprise relevant power and thermal management content. The Industrial Powertrain Solutions segment offers mounted and unmounted bearings, couplings, mechanical power transmission drives and components, gearboxes and gear motors, clutches, brakes, and industrial powertrain components and solutions, as well as industrial powertrain solutions. The Power Efficiency Solutions segment produces fractional to approximately 5 horsepower AC and DC motors, electronic variable speed controls, electronic drives, fans and blowers, as well as integrated air moving subsystems. It serves factory automation, food and beverage, aerospace, general industrial, medical, data center, general industrial, metals and mining, energy, discrete automation, commercial HVAC, and general commercial applications. The company was formerly known as Regal Beloit Corporation. Regal Rexnord Corporation was founded in 1955 and is based in Milwaukee, Wisconsin.",
-    "marketCap": 10642477056,
+    "marketCap": 10646041600,
     "trailingPE": 32.89506,
     "forwardPE": 12.292142,
     "priceToBook": 1.5396394,
@@ -8341,19 +8373,21 @@
      "sells": 1,
      "buy_value": 0,
      "sell_value": 29960.46
-    }
+    },
+    "sec_form4_90d": 24,
+    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=82811&type=4"
    },
    "assessment": {
-    "combined": 0.3422982885085575,
+    "combined": 0.341884958142047,
     "context": 0.33137727716850335,
     "inputs": 3,
     "calib": {
      "lo": 0.45,
      "hi": 0.5,
-     "n": 3681,
-     "hit_rate": 0.3422982885085575,
-     "avg_ret": 0.0565122074046091,
-     "worse_20": 0.21488725889703886
+     "n": 3703,
+     "hit_rate": 0.341884958142047,
+     "avg_ret": 0.056472278182046726,
+     "worse_20": 0.213880637321091
     },
     "verdict": "Möglich",
     "cls": "mid",
@@ -8665,7 +8699,7 @@
     "longBusinessSummary": "CAVA Group, Inc. owns and operates a chain of restaurants under the CAVA brand in the United States. It also offers dips, spreads, and dressings through grocery stores. In addition, the company provides walk-the-line, online, and mobile ordering platforms. CAVA Group, Inc. was founded in 2006 and is headquartered in Washington, District Of Columbia.",
     "marketCap": 6355425280,
     "trailingPE": 97.16071,
-    "forwardPE": 73.04826,
+    "forwardPE": 73.14253,
     "priceToBook": 7.554846,
     "enterpriseToEbitda": 40.095,
     "revenueGrowth": 0.313,
@@ -8821,19 +8855,21 @@
      "sells": 0,
      "buy_value": 482340.0,
      "sell_value": 0
-    }
+    },
+    "sec_form4_90d": 4,
+    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1639438&type=4"
    },
    "assessment": {
-    "combined": 0.3422982885085575,
+    "combined": 0.341884958142047,
     "context": 0.40820844900018854,
     "inputs": 3,
     "calib": {
      "lo": 0.45,
      "hi": 0.5,
-     "n": 3681,
-     "hit_rate": 0.3422982885085575,
-     "avg_ret": 0.0565122074046091,
-     "worse_20": 0.21488725889703886
+     "n": 3703,
+     "hit_rate": 0.341884958142047,
+     "avg_ret": 0.056472278182046726,
+     "worse_20": 0.213880637321091
     },
     "verdict": "Möglich",
     "cls": "mid",
@@ -9144,8 +9180,8 @@
     "fullTimeEmployees": 9400,
     "longBusinessSummary": "Generac Holdings Inc. designs, manufactures, and distributes energy technology products and solutions worldwide. The company offers residential automatic standby generators, automatic transfer switch, air-cooled engine home standby generators, and liquid-cooled engine generators; Mobile Link, a remote monitoring system for home standby generators; propane tank monitoring solution; and smart home solutions, such as smart thermostats and a suite of home monitoring products. It also provides smart home energy management devices and sensors for heating and cooling system; smart doorbell cameras; and portable and inverter generators; multiple portable battery solutions; manual transfer switches; outdoor power equipment, including trimmers, field and brush mowers, log splitters, stump grinders, chipper shredders, lawn and leaf vacuums, and pressure washers and water pumps; and home energy storage systems. In addition, the company offers commercial and industrial products comprising cleaner-burning natural gas fueled generators; mega-watt diesel generators; light-commercial standby generators and related transfer switches; stationary generators; single-engine industrial generators; industrial standby generators; industrial transfer switches; light towers, mobile generators, commercial mobile pumps, heaters, and dust-suppression equipment; mobile energy storage systems; battery energy storage system and related inverter products; and aftermarket service parts and product accessories. Further, it provides microgrid; and software-as-a-service contracts. The company distributes its products through independent residential dealers and contractors, industrial distributors and dealers, national and regional retailers, e-commerce partners, electrical/HVAC/solar wholesalers, solar installers, catalogs, equipment rental companies, and other equipment distributors; and directly to end users. Generac Holdings Inc. was founded in 1959 and is based in Waukesha, Wisconsin.",
     "marketCap": 12805061632,
-    "trailingPE": 47.85872,
-    "forwardPE": 17.113934,
+    "trailingPE": 49.83908,
+    "forwardPE": 17.425146,
     "priceToBook": 4.445447,
     "enterpriseToEbitda": 21.897,
     "revenueGrowth": 0.106,
@@ -9301,19 +9337,21 @@
      "sells": 18,
      "buy_value": 0,
      "sell_value": 2519973.6
-    }
+    },
+    "sec_form4_90d": 13,
+    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1474735&type=4"
    },
    "assessment": {
-    "combined": 0.39473684210526316,
+    "combined": 0.3943298969072165,
     "context": 0.3467574389663968,
     "inputs": 3,
     "calib": {
      "lo": 0.5,
      "hi": 0.55,
-     "n": 1938,
-     "hit_rate": 0.39473684210526316,
-     "avg_ret": 0.054777130632497104,
-     "worse_20": 0.25386996904024767
+     "n": 1940,
+     "hit_rate": 0.3943298969072165,
+     "avg_ret": 0.05465406928665653,
+     "worse_20": 0.2536082474226804
     },
     "verdict": "Realistisch",
     "cls": "good",
@@ -9781,19 +9819,21 @@
      "sells": 2,
      "buy_value": 0,
      "sell_value": 376893.45999999996
-    }
+    },
+    "sec_form4_90d": 27,
+    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=827054&type=4"
    },
    "assessment": {
-    "combined": 0.3422982885085575,
+    "combined": 0.341884958142047,
     "context": 0.3027145798702428,
     "inputs": 3,
     "calib": {
      "lo": 0.45,
      "hi": 0.5,
-     "n": 3681,
-     "hit_rate": 0.3422982885085575,
-     "avg_ret": 0.0565122074046091,
-     "worse_20": 0.21488725889703886
+     "n": 3703,
+     "hit_rate": 0.341884958142047,
+     "avg_ret": 0.056472278182046726,
+     "worse_20": 0.213880637321091
     },
     "verdict": "Möglich",
     "cls": "mid",
@@ -10162,16 +10202,16 @@
     "news_g": []
    },
    "assessment": {
-    "combined": 0.3422982885085575,
+    "combined": 0.341884958142047,
     "context": 0.3901650913242746,
     "inputs": 3,
     "calib": {
      "lo": 0.45,
      "hi": 0.5,
-     "n": 3681,
-     "hit_rate": 0.3422982885085575,
-     "avg_ret": 0.0565122074046091,
-     "worse_20": 0.21488725889703886
+     "n": 3703,
+     "hit_rate": 0.341884958142047,
+     "avg_ret": 0.056472278182046726,
+     "worse_20": 0.213880637321091
     },
     "verdict": "Möglich",
     "cls": "mid",
@@ -10574,25 +10614,25 @@
       "via": "Google News"
      },
      {
-      "title": "Aixtron-Aktie: Chipwerte ziehen an – Jefferies bleibt bei 44 Euro - Investing.com Deutsch",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQkdIWWRUTlRIcjY2SXVKcVFWWXgtMVdQbWNGaUZGSVpQclp2dGJCMlJsVWlqOWdKNGRVQVd0M1RHbnZGck01QWQyR2VBMWpwdXhyTXI4OEhlVFB1VWVrOVFwM0xSTkdfalBKRjJDOENVX25jTkRoNmJXa3VJRWs1QWJiSFJORUNmT3I3TUNibXdjeGxMV0VaQVA1MGhoTWFhSEU5VnBkM3hCNHRJZFJ3Tm1LMkV4akEzMVE?oc=5",
-      "date": "2026-09-30",
-      "source": "Investing.com Deutsch",
+      "title": "Aixtron Aktie stürzt ab: JPMorgan sieht 54 Euro als Ziel - 4investors.de",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE80X3BvVjZCYWhMU0dlUFZnZmNxNGltbjJKTUN1VTJhcGoxekNUVGE5cFJXWktqN2tyNGZVb2l5My1pTDNHaERlUC0wSFRnZFJ6Y2JURmZFT2ktNEF5NmQ4bzc0cDYyakI0Zm5seTAxRzRoMDZxM3ppRkttSkfSAYIBQVVfeXFMTmQ1YTdBUkdFTFNyRm44TkFsVGVlcG0yU09lanR5ZndUYnN2UVZWT3dqNjh3WHJKSG9hYnpfQTJHa0FqblhZa2hXOHZkMHpoNTluZV9QdnhySUpNbUFMby1CSi1NLTlyUGJLR0djODhET213UlBKb1ZaSHdON2RUbDdjQQ?oc=5",
+      "date": "2026-10-01",
+      "source": "4investors.de",
       "via": "Google News"
      }
     ]
    },
    "assessment": {
-    "combined": 0.39473684210526316,
+    "combined": 0.3943298969072165,
     "context": 0.3594307356375072,
     "inputs": 3,
     "calib": {
      "lo": 0.5,
      "hi": 0.55,
-     "n": 1938,
-     "hit_rate": 0.39473684210526316,
-     "avg_ret": 0.054777130632497104,
-     "worse_20": 0.25386996904024767
+     "n": 1940,
+     "hit_rate": 0.3943298969072165,
+     "avg_ret": 0.05465406928665653,
+     "worse_20": 0.2536082474226804
     },
     "verdict": "Realistisch",
     "cls": "good",
@@ -11060,19 +11100,21 @@
      "sells": 335,
      "buy_value": 0,
      "sell_value": 351662170.6174
-    }
+    },
+    "sec_form4_90d": 38,
+    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1137789&type=4"
    },
    "assessment": {
-    "combined": 0.3422982885085575,
+    "combined": 0.341884958142047,
     "context": 0.38614014457313356,
     "inputs": 3,
     "calib": {
      "lo": 0.45,
      "hi": 0.5,
-     "n": 3681,
-     "hit_rate": 0.3422982885085575,
-     "avg_ret": 0.0565122074046091,
-     "worse_20": 0.21488725889703886
+     "n": 3703,
+     "hit_rate": 0.341884958142047,
+     "avg_ret": 0.056472278182046726,
+     "worse_20": 0.213880637321091
     },
     "verdict": "Möglich",
     "cls": "mid",
@@ -11539,19 +11581,21 @@
      "sells": 0,
      "buy_value": 1830042.6,
      "sell_value": 0
-    }
+    },
+    "sec_form4_90d": 25,
+    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1341766&type=4"
    },
    "assessment": {
-    "combined": 0.2981773137497788,
+    "combined": 0.29737352370879605,
     "context": 0.46944565985945275,
     "inputs": 3,
     "calib": {
      "lo": 0.4,
      "hi": 0.45,
-     "n": 5651,
-     "hit_rate": 0.2981773137497788,
-     "avg_ret": 0.0392068820374198,
-     "worse_20": 0.1989028490532649
+     "n": 5673,
+     "hit_rate": 0.29737352370879605,
+     "avg_ret": 0.03918129638730022,
+     "worse_20": 0.19830777366472765
     },
     "verdict": "Möglich",
     "cls": "mid",
@@ -11979,19 +12023,21 @@
      "sells": 0,
      "buy_value": 0,
      "sell_value": 0
-    }
+    },
+    "sec_form4_90d": 2,
+    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1636222&type=4"
    },
    "assessment": {
-    "combined": 0.2981773137497788,
+    "combined": 0.29737352370879605,
     "context": 0.33540959085053296,
     "inputs": 3,
     "calib": {
      "lo": 0.4,
      "hi": 0.45,
-     "n": 5651,
-     "hit_rate": 0.2981773137497788,
-     "avg_ret": 0.0392068820374198,
-     "worse_20": 0.1989028490532649
+     "n": 5673,
+     "hit_rate": 0.29737352370879605,
+     "avg_ret": 0.03918129638730022,
+     "worse_20": 0.19830777366472765
     },
     "verdict": "Möglich",
     "cls": "mid",
@@ -12300,7 +12346,7 @@
     "website": "https://www.applovin.com",
     "fullTimeEmployees": 876,
     "longBusinessSummary": "AppLovin Corporation provides end-to-end artificial intelligence-powered advertising solutions for businesses in the United States and internationally. It operates through two segments, Advertising and Apps. The company offers Axon Ads Manager, a suite of marketing solutions that enables developers to automate, optimize, and manage marketing efforts; MAX, an in-app bidding technology that optimizes the value of a publisher's advertising inventory by running a real-time competitive auction; Adjust, a measurement and analytics marketing platform; and Wurl, a connected TV platform, which distributes streaming video for content companies, provides advertising and publishing solutions. It serves individuals, small and independent businesses, enterprises, advertisers and advertising networks, mobile app publishers, and indie studio developers. The company was incorporated in 2011 and is headquartered in Palo Alto, California.",
-    "marketCap": 90105700352,
+    "marketCap": 89759965184,
     "trailingPE": 20.61645,
     "forwardPE": 12.784076,
     "priceToBook": 28.431206,
@@ -12458,19 +12504,21 @@
      "sells": 9,
      "buy_value": 0,
      "sell_value": 1603489.1199999999
-    }
+    },
+    "sec_form4_90d": 10,
+    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1751008&type=4"
    },
    "assessment": {
-    "combined": 0.2981773137497788,
+    "combined": 0.29737352370879605,
     "context": 0.5322514831222708,
     "inputs": 3,
     "calib": {
      "lo": 0.4,
      "hi": 0.45,
-     "n": 5651,
-     "hit_rate": 0.2981773137497788,
-     "avg_ret": 0.0392068820374198,
-     "worse_20": 0.1989028490532649
+     "n": 5673,
+     "hit_rate": 0.29737352370879605,
+     "avg_ret": 0.03918129638730022,
+     "worse_20": 0.19830777366472765
     },
     "verdict": "Möglich",
     "cls": "mid",
@@ -12939,19 +12987,21 @@
      "sells": 10,
      "buy_value": 149814.95,
      "sell_value": 352286.73
-    }
+    },
+    "sec_form4_90d": 4,
+    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=898293&type=4"
    },
    "assessment": {
-    "combined": 0.2981773137497788,
+    "combined": 0.29737352370879605,
     "context": 0.3229968369199489,
     "inputs": 3,
     "calib": {
      "lo": 0.4,
      "hi": 0.45,
-     "n": 5651,
-     "hit_rate": 0.2981773137497788,
-     "avg_ret": 0.0392068820374198,
-     "worse_20": 0.1989028490532649
+     "n": 5673,
+     "hit_rate": 0.29737352370879605,
+     "avg_ret": 0.03918129638730022,
+     "worse_20": 0.19830777366472765
     },
     "verdict": "Möglich",
     "cls": "mid",
@@ -13262,7 +13312,7 @@
     "longBusinessSummary": "MP Materials Corp., together with its subsidiaries, produces rare earth materials in the Western Hemisphere. It operates in two segments, Materials and Magnetics. The Materials segment owns and operates the Mountain Pass Rare Earth Mine and Processing facility located near Mountain Pass, San Bernardino County, California. The Magnetics segment produces magnetic precursor products, including NdPr metal; and manufactures NdFeB permanent magnets. MP Materials Corp. was founded in 2017 and is headquartered in Las Vegas, Nevada.",
     "marketCap": 8365431808,
     "trailingPE": null,
-    "forwardPE": 57.068916,
+    "forwardPE": 53.746956,
     "priceToBook": 4.272719,
     "enterpriseToEbitda": 204.249,
     "revenueGrowth": 1.197,
@@ -13418,19 +13468,21 @@
      "sells": 0,
      "buy_value": 0,
      "sell_value": 0
-    }
+    },
+    "sec_form4_90d": 1,
+    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1801368&type=4"
    },
    "assessment": {
-    "combined": 0.2981773137497788,
+    "combined": 0.29737352370879605,
     "context": 0.4052543493061569,
     "inputs": 3,
     "calib": {
      "lo": 0.4,
      "hi": 0.45,
-     "n": 5651,
-     "hit_rate": 0.2981773137497788,
-     "avg_ret": 0.0392068820374198,
-     "worse_20": 0.1989028490532649
+     "n": 5673,
+     "hit_rate": 0.29737352370879605,
+     "avg_ret": 0.03918129638730022,
+     "worse_20": 0.19830777366472765
     },
     "verdict": "Möglich",
     "cls": "mid",
@@ -13741,7 +13793,7 @@
     "fullTimeEmployees": 5100,
     "longBusinessSummary": "Axon Enterprise, Inc. provides public safety technology solutions in the United States and internationally. The company operates in two segments, Software and Services, and Connected Devices. The Software and Services segment develops, manufactures, and sells cloud-based software-as-a-service solutions to capture, store, manage, share, and analyze video and other digital evidence. This segment also offers Axon Evidence, Draft One, Axon Records, Axon Standards, Axon Fusus, Axon Assistant, and others. The Connected Devices segment engages in the development, manufacture, and sale of integrated hardware solutions, such as conducted energy devices under the TASER brand, body cameras, fixed and in-car cameras, drone and counter-drone technologies, accessories, extended warranties, and related hardware products, as well as virtual reality training hardware. The company serves first responders across international, federal, state, and local governments, international governmental entities, commercial enterprises, and consumers through direct sales, distribution partners, and third-party resellers. The company was formerly known as TASER International, Inc. and changed its name to Axon Enterprise, Inc. in April 2017. Axon Enterprise, Inc. was incorporated in 1993 and is headquartered in Scottsdale, Arizona.",
     "marketCap": 33579487232,
-    "trailingPE": 175.14832,
+    "trailingPE": 172.22916,
     "forwardPE": 39.202873,
     "priceToBook": 9.13824,
     "enterpriseToEbitda": 210.395,
@@ -13898,19 +13950,21 @@
      "sells": 121,
      "buy_value": 0,
      "sell_value": 33160845.8234
-    }
+    },
+    "sec_form4_90d": 26,
+    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1069183&type=4"
    },
    "assessment": {
-    "combined": 0.2981773137497788,
+    "combined": 0.29737352370879605,
     "context": 0.4175780844774654,
     "inputs": 3,
     "calib": {
      "lo": 0.4,
      "hi": 0.45,
-     "n": 5651,
-     "hit_rate": 0.2981773137497788,
-     "avg_ret": 0.0392068820374198,
-     "worse_20": 0.1989028490532649
+     "n": 5673,
+     "hit_rate": 0.29737352370879605,
+     "avg_ret": 0.03918129638730022,
+     "worse_20": 0.19830777366472765
     },
     "verdict": "Möglich",
     "cls": "mid",
@@ -15198,14 +15252,14 @@
     "n": 899
    },
    "DE": {
-    "above_sma200": 0.5759493670886076,
-    "dd_over_20": 0.34810126582278483,
-    "n": 158
+    "above_sma200": 0.5714285714285714,
+    "dd_over_20": 0.35714285714285715,
+    "n": 154
    },
    "EU": {
-    "above_sma200": 0.5791433891992551,
-    "dd_over_20": 0.26629422718808193,
-    "n": 537
+    "above_sma200": 0.5798165137614679,
+    "dd_over_20": 0.26238532110091745,
+    "n": 545
    }
   },
   "assessment": {
@@ -15218,8 +15272,8 @@
     "Risikoaufschlag Hochzinsanleihen 3.24 % (30 Tage: +0.59 Pp.)",
     "10-jährige US-Rendite 5.24 % (30 Tage: +0.45 Pp.).",
     "Marktbreite USA: 44 % der Aktien über dem 200-Tage-Schnitt, 39 % mind. 20 % unter dem Jahreshoch (n = 899).",
-    "Marktbreite Deutschland: 58 % der Aktien über dem 200-Tage-Schnitt, 35 % mind. 20 % unter dem Jahreshoch (n = 158).",
-    "Marktbreite Europa: 58 % der Aktien über dem 200-Tage-Schnitt, 27 % mind. 20 % unter dem Jahreshoch (n = 537)."
+    "Marktbreite Deutschland: 57 % der Aktien über dem 200-Tage-Schnitt, 36 % mind. 20 % unter dem Jahreshoch (n = 154).",
+    "Marktbreite Europa: 58 % der Aktien über dem 200-Tage-Schnitt, 26 % mind. 20 % unter dem Jahreshoch (n = 545)."
    ]
   }
  },
@@ -15229,53 +15283,53 @@
    "2026-08-04"
   ],
   "rebalance_dates": 240,
-  "universe_size": 1594,
+  "universe_size": 1598,
   "horizon_days": 40,
   "strategies": {
    "Top 10 nach Kurs-Score (Radar-Regel)": {
     "n": 2400,
     "hit_rate": 0.37166666666666665,
-    "avg_ret": 0.03859655535422816,
-    "median_ret": 0.0033756618962661467,
-    "loss_share": 0.495,
-    "avg_worst": -0.15024361161580344,
-    "share_worse_20": 0.3095833333333333
+    "avg_ret": 0.0386391160986393,
+    "median_ret": 0.0037962094814485425,
+    "loss_share": 0.4945833333333333,
+    "avg_worst": -0.15019089112269313,
+    "share_worse_20": 0.30875
    },
    "Alle Aktien mit Kursfilter (Stufe 1)": {
-    "n": 66682,
-    "hit_rate": 0.22752766863621368,
-    "avg_ret": 0.03329853940656451,
-    "median_ret": 0.023427526291189715,
-    "loss_share": 0.4370594763204463,
-    "avg_worst": -0.09500643824397688,
-    "share_worse_20": 0.13346930206052607
+    "n": 67079,
+    "hit_rate": 0.22713516897985958,
+    "avg_ret": 0.03332649914232014,
+    "median_ret": 0.02345411911252815,
+    "loss_share": 0.4367984018843453,
+    "avg_worst": -0.09490156868286846,
+    "share_worse_20": 0.13300734954307608
    },
    "Top 10 mit größtem Abstand zum Hoch": {
     "n": 2400,
-    "hit_rate": 0.37333333333333335,
-    "avg_ret": 0.04359385086924259,
-    "median_ret": 0.02070087906474316,
-    "loss_share": 0.45708333333333334,
-    "avg_worst": -0.13158201221554336,
-    "share_worse_20": 0.25375
+    "hit_rate": 0.3745833333333333,
+    "avg_ret": 0.044877825210639544,
+    "median_ret": 0.021445584834249742,
+    "loss_share": 0.4554166666666667,
+    "avg_worst": -0.13078410158523265,
+    "share_worse_20": 0.25083333333333335
    },
    "Top 10 mit höchster Volatilität": {
     "n": 2400,
-    "hit_rate": 0.3625,
-    "avg_ret": 0.043643793982609744,
-    "median_ret": 0.01601758684881016,
-    "loss_share": 0.4658333333333333,
-    "avg_worst": -0.144615340436241,
-    "share_worse_20": 0.2941666666666667
+    "hit_rate": 0.3620833333333333,
+    "avg_ret": 0.04305052325589887,
+    "median_ret": 0.014507274238278356,
+    "loss_share": 0.46791666666666665,
+    "avg_worst": -0.14450443590525963,
+    "share_worse_20": 0.2925
    },
    "Alle Aktien im Universum (Basisrate)": {
-    "n": 357477,
-    "hit_rate": 0.11840482044998699,
-    "avg_ret": 0.02294897720279562,
-    "median_ret": 0.01524189121834807,
-    "loss_share": 0.439888440375185,
-    "avg_worst": -0.07359573933586819,
-    "share_worse_20": 0.07035977139788015
+    "n": 358773,
+    "hit_rate": 0.11818057657627525,
+    "avg_ret": 0.023017555548457663,
+    "median_ret": 0.015376921796198095,
+    "loss_share": 0.4394226990325359,
+    "avg_worst": -0.07350585321334581,
+    "share_worse_20": 0.0702505483968972
    }
   },
   "by_year": [
@@ -15283,139 +15337,139 @@
     "year": 2021,
     "n": 30,
     "hit_rate": 0.26666666666666666,
-    "avg_ret": -0.016116545962959684,
-    "base_hit_rate": 0.09437199725463281
+    "avg_ret": -0.02677886667191252,
+    "base_hit_rate": 0.09307875894988067
    },
    {
     "year": 2022,
     "n": 510,
     "hit_rate": 0.40980392156862744,
-    "avg_ret": 0.003998502848007628,
-    "base_hit_rate": 0.12966854850894904
+    "avg_ret": 0.004226348375650908,
+    "base_hit_rate": 0.12940710057553761
    },
    {
     "year": 2023,
     "n": 520,
-    "hit_rate": 0.3576923076923077,
-    "avg_ret": 0.05024541820567126,
-    "base_hit_rate": 0.09834254143646409
+    "hit_rate": 0.3557692307692308,
+    "avg_ret": 0.0494408880365481,
+    "base_hit_rate": 0.0978016206482593
    },
    {
     "year": 2024,
     "n": 520,
     "hit_rate": 0.3326923076923077,
-    "avg_ret": 0.03261857957909651,
-    "base_hit_rate": 0.10052801030264005
+    "avg_ret": 0.033306241772524364,
+    "base_hit_rate": 0.10037737786563294
    },
    {
     "year": 2025,
     "n": 510,
     "hit_rate": 0.4176470588235294,
-    "avg_ret": 0.07993453798727801,
-    "base_hit_rate": 0.12451103977959428
+    "avg_ret": 0.07996083034563006,
+    "base_hit_rate": 0.12490443301240103
    },
    {
     "year": 2026,
     "n": 310,
-    "hit_rate": 0.33225806451612905,
-    "avg_ret": 0.023290643725682084,
-    "base_hit_rate": 0.1555667781916125
+    "hit_rate": 0.33548387096774196,
+    "avg_ret": 0.024429922542970068,
+    "base_hit_rate": 0.15491331906141123
    }
   ],
   "by_region": [
    {
     "region": "DE",
-    "n": 89,
-    "hit_rate": 0.25842696629213485,
-    "avg_ret": -0.03642369529067176
+    "n": 85,
+    "hit_rate": 0.27058823529411763,
+    "avg_ret": -0.03461283939353227
    },
    {
     "region": "EU",
-    "n": 145,
-    "hit_rate": 0.2413793103448276,
-    "avg_ret": 0.04453584769261274
+    "n": 151,
+    "hit_rate": 0.23841059602649006,
+    "avg_ret": 0.043362648952997705
    },
    {
     "region": "US",
-    "n": 2166,
-    "hit_rate": 0.3850415512465374,
-    "avg_ret": 0.041281506840068566
+    "n": 2164,
+    "hit_rate": 0.38493530499075784,
+    "avg_ret": 0.04118678835179386
    }
   ],
-  "weeks_with_hit": 0.9375,
+  "weeks_with_hit": 0.9416666666666667,
   "avg_hits_per_week": 3.716666666666667,
   "calibration": [
    {
     "lo": 0.0,
     "hi": 0.15,
-    "n": 6478,
-    "hit_rate": 0.15483173819079962,
-    "avg_ret": 0.03178044821951511,
-    "worse_20": 0.07440568076566842
+    "n": 6542,
+    "hit_rate": 0.15408132069703454,
+    "avg_ret": 0.032337932225083375,
+    "worse_20": 0.07444206664628554
    },
    {
     "lo": 0.15,
     "hi": 0.2,
-    "n": 7464,
-    "hit_rate": 0.18448553054662378,
-    "avg_ret": 0.03359781841136762,
-    "worse_20": 0.08078778135048231
+    "n": 7514,
+    "hit_rate": 0.18458876763375034,
+    "avg_ret": 0.03401876582817319,
+    "worse_20": 0.08025019962736225
    },
    {
     "lo": 0.2,
     "hi": 0.25,
-    "n": 9442,
-    "hit_rate": 0.18777801313281084,
-    "avg_ret": 0.03026028654566211,
-    "worse_20": 0.09891972039822071
+    "n": 9508,
+    "hit_rate": 0.18731594446781658,
+    "avg_ret": 0.030095119984001623,
+    "worse_20": 0.09875893984013462
    },
    {
     "lo": 0.25,
     "hi": 0.3,
-    "n": 11471,
-    "hit_rate": 0.19675703949089007,
-    "avg_ret": 0.025738657679165684,
-    "worse_20": 0.11420102868102171
+    "n": 11542,
+    "hit_rate": 0.1965863801767458,
+    "avg_ret": 0.025476459008299642,
+    "worse_20": 0.11410500779760874
    },
    {
     "lo": 0.3,
     "hi": 0.35,
-    "n": 10778,
-    "hit_rate": 0.21766561514195584,
-    "avg_ret": 0.027922157039850435,
-    "worse_20": 0.13397661903878272
+    "n": 10836,
+    "hit_rate": 0.217515688445921,
+    "avg_ret": 0.027999830500934846,
+    "worse_20": 0.1330749354005168
    },
    {
     "lo": 0.35,
     "hi": 0.4,
-    "n": 8342,
-    "hit_rate": 0.2499400623351714,
-    "avg_ret": 0.030658791559186598,
-    "worse_20": 0.15439942459841766
+    "n": 8384,
+    "hit_rate": 0.2498807251908397,
+    "avg_ret": 0.030648146953570547,
+    "worse_20": 0.15422232824427481
    },
    {
     "lo": 0.4,
     "hi": 0.45,
-    "n": 5651,
-    "hit_rate": 0.2981773137497788,
-    "avg_ret": 0.0392068820374198,
-    "worse_20": 0.1989028490532649
+    "n": 5673,
+    "hit_rate": 0.29737352370879605,
+    "avg_ret": 0.03918129638730022,
+    "worse_20": 0.19830777366472765
    },
    {
     "lo": 0.45,
     "hi": 0.5,
-    "n": 3681,
-    "hit_rate": 0.3422982885085575,
-    "avg_ret": 0.0565122074046091,
-    "worse_20": 0.21488725889703886
+    "n": 3703,
+    "hit_rate": 0.341884958142047,
+    "avg_ret": 0.056472278182046726,
+    "worse_20": 0.213880637321091
    },
    {
     "lo": 0.5,
     "hi": 0.55,
-    "n": 1938,
-    "hit_rate": 0.39473684210526316,
-    "avg_ret": 0.054777130632497104,
-    "worse_20": 0.25386996904024767
+    "n": 1940,
+    "hit_rate": 0.3943298969072165,
+    "avg_ret": 0.05465406928665653,
+    "worse_20": 0.2536082474226804
    },
    {
     "lo": 0.55,
@@ -15448,7 +15502,7 @@
   "MIN_ANALYSTS": 5,
   "MIN_TARGET_UPSIDE": 0.2
  },
- "runtime_s": 256,
+ "runtime_s": 259,
  "sources": {
   "Wikipedia": {
    "ok": 5,
@@ -15501,6 +15555,12 @@
    "fail": 0,
    "notes": [],
    "used_for": "News-Stimmung (Sentiment) der letzten Artikel, US-Werte"
+  },
+  "SEC EDGAR": {
+   "ok": 28,
+   "fail": 0,
+   "notes": [],
+   "used_for": "Anzahl Insider-Meldungen (Form 4) der letzten 90 Tage, US"
   },
   "Google News (RSS)": {
    "ok": 3,
