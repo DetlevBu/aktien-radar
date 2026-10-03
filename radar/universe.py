@@ -104,6 +104,9 @@ def _wiki_table(name, url, region, expected):
         err = abs(len(rows) - expected)
         if len(rows) >= 0.6 * expected and err < best_err:
             best, best_err = rows, err
+    if not best:
+        info = [f"{len(t)}x{list(map(str, t.columns))[:5]}" for t in tables if len(t) >= 0.6 * expected]
+        LOG.fail("Wikipedia", f"{name}: keine passende Tabelle; Kandidaten: {info[:3]}")
     return best
 
 
