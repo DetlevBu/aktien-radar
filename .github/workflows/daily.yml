@@ -1,0 +1,51 @@
+name: Taeglicher Radar-Lauf
+
+on:
+  schedule:
+    # Mo-Fr 04:17 UTC = 06:17 Uhr Sommerzeit / 05:17 Uhr Winterzeit (Berlin).
+    # GitHub startet geplante Läufe oft mit einigen Minuten Verzögerung.
+    - cron: "17 4 * * 1-5"
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths: ["radar/**", "requirements.txt", ".github/workflows/daily.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: radar
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Abhaengigkeiten installieren
+        run: pip install -r requirements.txt
+
+      - name: Radar ausfuehren
+        env:
+          FINNHUB_KEY: ${{ secrets.FINNHUB_KEY }}
+          FMP_KEY: ${{ secrets.FMP_KEY }}
+          ALPHAVANTAGE_KEY: ${{ secrets.ALPHAVANTAGE_KEY }}
+          FRED_KEY: ${{ secrets.FRED_KEY }}
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+        run: python -m radar.run
+
+      - name: Ergebnis speichern und veroeffentlichen
+        run: |
+          git config user.name "aktien-radar-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data docs
+          git diff --cached --quiet || git commit -m "Radar $(date -u +%Y-%m-%d)"
+          git pull --rebase origin main
+          git push
