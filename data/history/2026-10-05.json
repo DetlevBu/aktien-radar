@@ -70,7 +70,7 @@
    "name": "Vertiv Holdings Co",
    "price": 252.17999267578125,
    "price_date": "2026-10-02",
-   "score": 0.49212626981543667,
+   "score": 0.4924729559775733,
    "currency": "USD"
   },
   {
@@ -85,6 +85,7 @@
  "watch": [
   "AEIS",
   "RDDT",
+  "BESI.AS",
   "MTZ",
   "CIEN",
   "IFX.DE",
@@ -94,14 +95,13 @@
   "GNRC",
   "CAVA",
   "MCHP",
-  "BESI.AS",
-  "AIXA.DE",
   "STX",
   "CELH",
   "WING",
   "APP",
   "JBL",
   "MP",
-  "AXON"
+  "AXON",
+  "ON"
  ]
 }

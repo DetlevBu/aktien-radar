@@ -1,12 +1,11 @@
-[05:45:08] Universum: 1639 Aktien
-Kurs-Cache: 1650 bekannt (Update 1 Monat), 1 neu (komplett)
-[05:47:25] Kurse: 1674 Reihen, letzter Tag 2026-10-05
-[05:47:40] Kennzahlen: 1593 Aktien mit aktuellen Daten
-[05:47:41] Backtest fertig
-[05:47:41] Stufe 1: 364 bestehen, 100 auf Shortlist
-[05:48:19] Stufe 2: 58 bestehen; Top 10, Beobachtung 20
-HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: IFX.DE"}}}
+[11:26:43] Universum: 1644 Aktien
+Kurs-Cache: 1654 bekannt (Update 1 Monat), 2 neu (komplett)
+[11:29:25] Kurse: 1675 Reihen, letzter Tag 2026-10-05
+[11:29:55] Kennzahlen: 1596 Aktien mit aktuellen Daten
+[11:29:57] Backtest fertig
+[11:29:57] Stufe 1: 364 bestehen, 100 auf Shortlist
+[11:30:34] Stufe 2: 58 bestehen; Top 10, Beobachtung 20
 HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: BESI.AS"}}}
-HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: AIXA.DE"}}}
-[05:49:29] Details geladen
-[05:49:31] Fertig in 266 s
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: IFX.DE"}}}
+[11:31:45] Details geladen
+[11:31:47] Fertig in 308 s
