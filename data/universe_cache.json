@@ -4529,7 +4529,7 @@
     ]
    }
   ],
-  "as_of": "2026-10-03",
+  "as_of": "2026-10-05",
   "source": "Wikipedia"
  },
  "S&P 400": {
@@ -8135,7 +8135,7 @@
     ]
    }
   ],
-  "as_of": "2026-10-03",
+  "as_of": "2026-10-05",
   "source": "Wikipedia"
  },
  "DAX": {
@@ -8501,7 +8501,7 @@
     ]
    }
   ],
-  "as_of": "2026-10-03",
+  "as_of": "2026-10-05",
   "source": "Wikipedia"
  },
  "Euro Stoxx 50": {
@@ -8948,7 +8948,7 @@
     ]
    }
   ],
-  "as_of": "2026-10-03",
+  "as_of": "2026-10-05",
   "source": "Wikipedia"
  },
  "Screener DE": {
@@ -8963,8 +8963,8 @@
     ]
    },
    {
-    "symbol": "SIE.DE",
-    "name": "Siemens Aktiengesellschaft",
+    "symbol": "SAP.DE",
+    "name": "SAP SE",
     "sector": null,
     "region": "DE",
     "index": [
@@ -8972,8 +8972,8 @@
     ]
    },
    {
-    "symbol": "SAP.DE",
-    "name": "SAP SE",
+    "symbol": "SIE.DE",
+    "name": "Siemens Aktiengesellschaft",
     "sector": null,
     "region": "DE",
     "index": [
@@ -10394,7 +10394,7 @@
     ]
    }
   ],
-  "as_of": "2026-10-03",
+  "as_of": "2026-10-05",
   "source": "Yahoo Screener"
  },
  "Screener FR": {
@@ -10886,15 +10886,6 @@
     ]
    },
    {
-    "symbol": "ALPER.PA",
-    "name": "Gérard Perrier Industrie S.A.",
-    "sector": null,
-    "region": "EU",
-    "index": [
-     "Yahoo-Screener FR"
-    ]
-   },
-   {
     "symbol": "ABVX.PA",
     "name": "ABIVAX Société Anonyme",
     "sector": null,
@@ -11129,7 +11120,7 @@
     ]
    }
   ],
-  "as_of": "2026-10-03",
+  "as_of": "2026-10-05",
   "source": "Yahoo Screener"
  },
  "Screener NL": {
@@ -11495,7 +11486,7 @@
     ]
    }
   ],
-  "as_of": "2026-10-03",
+  "as_of": "2026-10-05",
   "source": "Yahoo Screener"
  },
  "Screener IT": {
@@ -11933,6 +11924,15 @@
     ]
    },
    {
+    "symbol": "PST.MI",
+    "name": "Poste Italiane S.p.A.",
+    "sector": null,
+    "region": "EU",
+    "index": [
+     "Yahoo-Screener IT"
+    ]
+   },
+   {
     "symbol": "BMPS.MI",
     "name": "Banca Monte dei Paschi di Siena S.p.A.",
     "sector": null,
@@ -11953,15 +11953,6 @@
    {
     "symbol": "1BMW.MI",
     "name": "Bayerische Motoren Werke Aktiengesellschaft",
-    "sector": null,
-    "region": "EU",
-    "index": [
-     "Yahoo-Screener IT"
-    ]
-   },
-   {
-    "symbol": "PST.MI",
-    "name": "Poste Italiane S.p.A.",
     "sector": null,
     "region": "EU",
     "index": [
@@ -12041,7 +12032,7 @@
     ]
    }
   ],
-  "as_of": "2026-10-03",
+  "as_of": "2026-10-05",
   "source": "Yahoo Screener"
  },
  "Screener ES": {
@@ -12362,15 +12353,6 @@
     ]
    },
    {
-    "symbol": "COL.MC",
-    "name": "Colonial SFL, Socimi S. A.",
-    "sector": null,
-    "region": "EU",
-    "index": [
-     "Yahoo-Screener ES"
-    ]
-   },
-   {
     "symbol": "APAM.MC",
     "name": "Aperam S.A.",
     "sector": null,
@@ -12378,9 +12360,18 @@
     "index": [
      "Yahoo-Screener ES"
     ]
+   },
+   {
+    "symbol": "COL.MC",
+    "name": "Colonial SFL, Socimi S. A.",
+    "sector": null,
+    "region": "EU",
+    "index": [
+     "Yahoo-Screener ES"
+    ]
    }
   ],
-  "as_of": "2026-10-03",
+  "as_of": "2026-10-05",
   "source": "Yahoo Screener"
  },
  "Screener BE": {
@@ -12548,7 +12539,7 @@
     ]
    }
   ],
-  "as_of": "2026-10-03",
+  "as_of": "2026-10-05",
   "source": "Yahoo Screener"
  },
  "Screener FI": {
@@ -12734,7 +12725,7 @@
     ]
    }
   ],
-  "as_of": "2026-10-03",
+  "as_of": "2026-10-05",
   "source": "Yahoo Screener"
  },
  "Screener AT": {
@@ -12848,7 +12839,7 @@
     ]
    }
   ],
-  "as_of": "2026-10-03",
+  "as_of": "2026-10-05",
   "source": "Yahoo Screener"
  },
  "Screener PT": {
@@ -12917,7 +12908,7 @@
     ]
    }
   ],
-  "as_of": "2026-10-03",
+  "as_of": "2026-10-05",
   "source": "Yahoo Screener"
  },
  "Screener IE": {
@@ -12968,7 +12959,7 @@
     ]
    }
   ],
-  "as_of": "2026-10-03",
+  "as_of": "2026-10-05",
   "source": "Yahoo Screener"
  },
  "Screener CH": {
@@ -13174,15 +13165,6 @@
    {
     "symbol": "ABBN.SW",
     "name": "ABB Ltd",
-    "sector": null,
-    "region": "EU",
-    "index": [
-     "Yahoo-Screener CH"
-    ]
-   },
-   {
-    "symbol": "T.SW",
-    "name": "AT&T Inc.",
     "sector": null,
     "region": "EU",
     "index": [
@@ -13512,9 +13494,18 @@
     "index": [
      "Yahoo-Screener CH"
     ]
+   },
+   {
+    "symbol": "LISP.SW",
+    "name": "Chocoladefabriken Lindt & Sprüngli AG",
+    "sector": null,
+    "region": "EU",
+    "index": [
+     "Yahoo-Screener CH"
+    ]
    }
   ],
-  "as_of": "2026-10-03",
+  "as_of": "2026-10-05",
   "source": "Yahoo Screener"
  },
  "Screener GB": {
@@ -14042,15 +14033,6 @@
     ]
    },
    {
-    "symbol": "0R37.L",
-    "name": "Berkshire Hathaway Inc.",
-    "sector": null,
-    "region": "EU",
-    "index": [
-     "Yahoo-Screener GB"
-    ]
-   },
-   {
     "symbol": "ADM.L",
     "name": "Admiral Group plc",
     "sector": null,
@@ -14062,6 +14044,15 @@
    {
     "symbol": "INF.L",
     "name": "Informa plc",
+    "sector": null,
+    "region": "EU",
+    "index": [
+     "Yahoo-Screener GB"
+    ]
+   },
+   {
+    "symbol": "0R37.L",
+    "name": "Berkshire Hathaway Inc.",
     "sector": null,
     "region": "EU",
     "index": [
@@ -14258,6 +14249,15 @@
     ]
    },
    {
+    "symbol": "0M42.L",
+    "name": "ASML Holding N.V.",
+    "sector": null,
+    "region": "EU",
+    "index": [
+     "Yahoo-Screener GB"
+    ]
+   },
+   {
     "symbol": "IMI.L",
     "name": "IMI plc",
     "sector": null,
@@ -14269,15 +14269,6 @@
    {
     "symbol": "PSON.L",
     "name": "Pearson plc",
-    "sector": null,
-    "region": "EU",
-    "index": [
-     "Yahoo-Screener GB"
-    ]
-   },
-   {
-    "symbol": "0M42.L",
-    "name": "ASML Holding N.V.",
     "sector": null,
     "region": "EU",
     "index": [
@@ -14429,8 +14420,8 @@
     ]
    },
    {
-    "symbol": "0R24.L",
-    "name": "Intel Corporation",
+    "symbol": "STJ.L",
+    "name": "St. James's Place plc",
     "sector": null,
     "region": "EU",
     "index": [
@@ -14438,8 +14429,8 @@
     ]
    },
    {
-    "symbol": "STJ.L",
-    "name": "St. James's Place plc",
+    "symbol": "0R24.L",
+    "name": "Intel Corporation",
     "sector": null,
     "region": "EU",
     "index": [
@@ -14645,6 +14636,15 @@
     ]
    },
    {
+    "symbol": "0R1Z.L",
+    "name": "Oracle Corporation",
+    "sector": null,
+    "region": "EU",
+    "index": [
+     "Yahoo-Screener GB"
+    ]
+   },
+   {
     "symbol": "BLND.L",
     "name": "British Land Company PLC",
     "sector": null,
@@ -14665,15 +14665,6 @@
    {
     "symbol": "ROR.L",
     "name": "Rotork plc",
-    "sector": null,
-    "region": "EU",
-    "index": [
-     "Yahoo-Screener GB"
-    ]
-   },
-   {
-    "symbol": "0R1Z.L",
-    "name": "Oracle Corporation",
     "sector": null,
     "region": "EU",
     "index": [
@@ -14726,15 +14717,6 @@
     ]
    },
    {
-    "symbol": "BRBY.L",
-    "name": "Burberry Group plc",
-    "sector": null,
-    "region": "EU",
-    "index": [
-     "Yahoo-Screener GB"
-    ]
-   },
-   {
     "symbol": "0QAH.L",
     "name": "Merck & Co., Inc.",
     "sector": null,
@@ -14744,8 +14726,8 @@
     ]
    },
    {
-    "symbol": "0R2Q.L",
-    "name": "Chevron Corporation",
+    "symbol": "BRBY.L",
+    "name": "Burberry Group plc",
     "sector": null,
     "region": "EU",
     "index": [
@@ -14755,6 +14737,15 @@
    {
     "symbol": "3IN.L",
     "name": "3i Infrastructure plc",
+    "sector": null,
+    "region": "EU",
+    "index": [
+     "Yahoo-Screener GB"
+    ]
+   },
+   {
+    "symbol": "0R2Q.L",
+    "name": "Chevron Corporation",
     "sector": null,
     "region": "EU",
     "index": [
@@ -14780,7 +14771,7 @@
     ]
    }
   ],
-  "as_of": "2026-10-03",
+  "as_of": "2026-10-05",
   "source": "Yahoo Screener"
  },
  "Screener SE": {
@@ -15326,7 +15317,7 @@
     ]
    }
   ],
-  "as_of": "2026-10-03",
+  "as_of": "2026-10-05",
   "source": "Yahoo Screener"
  },
  "Screener DK": {
@@ -15494,7 +15485,7 @@
     ]
    }
   ],
-  "as_of": "2026-10-03",
+  "as_of": "2026-10-05",
   "source": "Yahoo Screener"
  },
  "Screener NO": {
@@ -15599,7 +15590,7 @@
     ]
    }
   ],
-  "as_of": "2026-10-03",
+  "as_of": "2026-10-05",
   "source": "Yahoo Screener"
  }
 }

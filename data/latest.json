@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-03T11:53:44.733364+00:00",
- "today": "2026-10-03",
- "data_date": "2026-10-02",
+ "generated": "2026-10-05T05:49:31.149972+00:00",
+ "today": "2026-10-05",
+ "data_date": "2026-10-05",
  "synthetic": false,
  "universe_info": {
   "S&P 500": {
    "count": 503,
    "source": "Wikipedia",
-   "as_of": "2026-10-03"
+   "as_of": "2026-10-05"
   },
   "S&P 400": {
    "count": 400,
    "source": "Wikipedia",
-   "as_of": "2026-10-03"
+   "as_of": "2026-10-05"
   },
   "Nasdaq 100": {
    "count": 0,
@@ -22,91 +22,91 @@
   "DAX": {
    "count": 40,
    "source": "Wikipedia",
-   "as_of": "2026-10-03"
+   "as_of": "2026-10-05"
   },
   "Euro Stoxx 50": {
    "count": 49,
    "source": "Wikipedia",
-   "as_of": "2026-10-03"
+   "as_of": "2026-10-05"
   },
   "Screener DE": {
    "count": 160,
    "source": "Yahoo Screener",
-   "as_of": "2026-10-03"
+   "as_of": "2026-10-05"
   },
   "Screener FR": {
-   "count": 81,
+   "count": 80,
    "source": "Yahoo Screener",
-   "as_of": "2026-10-03"
+   "as_of": "2026-10-05"
   },
   "Screener NL": {
    "count": 40,
    "source": "Yahoo Screener",
-   "as_of": "2026-10-03"
+   "as_of": "2026-10-05"
   },
   "Screener IT": {
    "count": 60,
    "source": "Yahoo Screener",
-   "as_of": "2026-10-03"
+   "as_of": "2026-10-05"
   },
   "Screener ES": {
    "count": 37,
    "source": "Yahoo Screener",
-   "as_of": "2026-10-03"
+   "as_of": "2026-10-05"
   },
   "Screener BE": {
    "count": 18,
    "source": "Yahoo Screener",
-   "as_of": "2026-10-03"
+   "as_of": "2026-10-05"
   },
   "Screener FI": {
    "count": 20,
    "source": "Yahoo Screener",
-   "as_of": "2026-10-03"
+   "as_of": "2026-10-05"
   },
   "Screener AT": {
    "count": 12,
    "source": "Yahoo Screener",
-   "as_of": "2026-10-03"
+   "as_of": "2026-10-05"
   },
   "Screener PT": {
    "count": 7,
    "source": "Yahoo Screener",
-   "as_of": "2026-10-03"
+   "as_of": "2026-10-05"
   },
   "Screener IE": {
    "count": 5,
    "source": "Yahoo Screener",
-   "as_of": "2026-10-03"
+   "as_of": "2026-10-05"
   },
   "Screener CH": {
    "count": 60,
    "source": "Yahoo Screener",
-   "as_of": "2026-10-03"
+   "as_of": "2026-10-05"
   },
   "Screener GB": {
    "count": 140,
    "source": "Yahoo Screener",
-   "as_of": "2026-10-03"
+   "as_of": "2026-10-05"
   },
   "Screener SE": {
    "count": 60,
    "source": "Yahoo Screener",
-   "as_of": "2026-10-03"
+   "as_of": "2026-10-05"
   },
   "Screener DK": {
    "count": 18,
    "source": "Yahoo Screener",
-   "as_of": "2026-10-03"
+   "as_of": "2026-10-05"
   },
   "Screener NO": {
    "count": 11,
    "source": "Yahoo Screener",
-   "as_of": "2026-10-03"
+   "as_of": "2026-10-05"
   }
  },
- "universe_n": 1640,
- "n_with_data": 1594,
+ "universe_n": 1639,
+ "n_with_data": 1593,
  "n_stage1": 364,
  "n_stage2": 58,
  "top": [
@@ -148,7 +148,7 @@
     "fullTimeEmployees": 11100,
     "longBusinessSummary": "Sandisk Corporation develops, manufactures, and sells data storage devices and solutions using NAND flash technology in the Americas, Europe, the Middle East, Africa, Asia, and internationally. The company provides solid state drives for desktop and notebook PCs, gaming consoles, and set top boxes; and flash-based embedded storage products for mobile phones, tablets, notebook PCs and other portable and wearable devices, automotive applications, Internet of Things, industrial, and connected home applications, as well as removable cards, universal serial bus drives, and wafers and components. It sells its products to computer manufacturers and original equipment manufacturers, datacenters, private cloud customers, cloud service providers, resellers, distributors, and retailers through its sales personnel, dealers, distributors, retailers, and subsidiaries. Sandisk Corporation was incorporated in 2024 and is based in Milpitas, California.",
     "marketCap": 251839234048,
-    "trailingPE": 23.309256,
+    "trailingPE": 23.318735,
     "forwardPE": 6.5278344,
     "priceToBook": 16.286087,
     "enterpriseToEbitda": 19.599,
@@ -159,7 +159,7 @@
     "freeCashflow": 7720875008,
     "shortPercentOfFloat": 0.060300004,
     "beta": null,
-    "dividendYield": null,
+    "dividendYield": 0.0,
     "currentPrice": 1719.99,
     "targetMeanPrice": 2136.5417,
     "targetMedianPrice": 2150.0,
@@ -190,7 +190,7 @@
    "sma20": 1713.4527465820313,
    "sma50": 1539.6678955078125,
    "sma200": 1145.8527728271483,
-   "turnover_eur": 12979662631.768568,
+   "turnover_eur": 13054182988.396961,
    "details": {
     "rec_counts": {
      "strongBuy": 4,
@@ -265,48 +265,48 @@
     },
     "news_fh": [
      {
-      "title": "Stock-Split Watch: Is Sandisk Next?",
+      "title": "VFLO And CGDV: The Perfect Pairing For AI Growth",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=1f51c558984ec226824455a50b00a46c9e2ddcacb6b7235dfdfca49a3f6fdf0e",
+      "via": "Finnhub",
+      "date": "2026-10-04"
+     },
+     {
+      "title": "Micron or Sandisk: If I Could Only Own One for the Next 5 Years, It Would Be This One",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=7382dd078726ca1312286198661e7432042f2f1651d61155f63371c8cc168eda",
+      "url": "https://finnhub.io/api/news?id=9ffa793f246d5afc224e95d4773f444e165d05586bf43c748e2a111e80466efb",
+      "via": "Finnhub",
+      "date": "2026-10-04"
+     },
+     {
+      "title": "Western Digital vs. Sandisk: The Better Way to Play the Hard-Drive Side of the AI Storage Boom",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=4921fe1db31bac0edc55bd55825de8b3faf0cb51e843befd13dbeed5dee368af",
+      "via": "Finnhub",
+      "date": "2026-10-04"
+     },
+     {
+      "title": "Sandisk (SNDK) Profits Are Surging—Can the AI Storage Boom Sustain Them?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=2c381db65dbd7f2cea8d5a972ada9fdf5c7ea9ed15ac58166a88447a855fa45b",
       "via": "Finnhub",
       "date": "2026-10-03"
      },
      {
-      "title": "Stay informed with the top movers within the S&P500 index on Friday.",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=ca861ffeeb0452b9b3ceee92fd62a06df36568a2f615f744bf4b4c309f941890",
-      "via": "Finnhub",
-      "date": "2026-10-02"
-     },
-     {
-      "title": "Broadcom, Marvell, and SanDisk Are Quietly Building Toward a Massive Bull Run",
+      "title": "Prediction: This Will Be Sandisk’s Stock Price by the End of 2026",
       "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=a70076e460996ca1116fb22f700b406238c0f43866163af0410a2892857b8253",
+      "url": "https://finnhub.io/api/news?id=606c62e8c9e6381eac80397d5ac812e0ff733570203f9584a2cc68cb16d8f9ea",
       "via": "Finnhub",
-      "date": "2026-10-02"
-     },
-     {
-      "title": "What Would You Have Needed To Notice In SanDisk Stock?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=2d0c19948629c756923194175a839ac847ba5f96eb7d4a29327e079db7c9e427",
-      "via": "Finnhub",
-      "date": "2026-10-02"
-     },
-     {
-      "title": "Seagate Tumbles 10%, Western Digital Drops 7% as Toshiba Moves to Double Hard Disk Output",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=829decc9b1dd4c737fe42662de5eed7c8c5311e87f697838efeef434a31c0944",
-      "via": "Finnhub",
-      "date": "2026-10-02"
+      "date": "2026-10-03"
      }
     ],
     "insider_90d": {
      "buys": 0,
-     "sells": 66,
+     "sells": 67,
      "buy_value": 0,
-     "sell_value": 120118066.16770001
+     "sell_value": 121159030.16770001
     },
-    "av_sentiment": 0.11804529999999999,
+    "av_sentiment": 0.12282256,
     "av_articles": 50,
     "sec_form4_90d": 23,
     "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2023554&type=4"
@@ -633,7 +633,7 @@
     "fullTimeEmployees": 6200,
     "longBusinessSummary": "Sterling Infrastructure, Inc. engages in the provision of e-infrastructure, transportation, and building solutions in the United States. It operates through three segments: E-Infrastructure, Transportation, and Building Solutions. The E-Infrastructure Solutions segment provides site development services for the blue-chip end users in the e-commerce distribution center, data center, manufacturing, warehousing, and power generation sectors. Its Transportation Solutions segment is involved in the development of infrastructure and rehabilitation projects for highways, roads, bridges, airports, ports, rail, and storm drainage systems for the departments of transportation, regional transit, airport, port, water, and railroads authorities. The Building Solutions segment offers residential and commercial concrete foundations for single-family and multi-family homes, parking structures, elevated slabs, and other concrete work for developers and general contractors, as well as plumbing and surveys services for residential builds. It operates in the United States, primarily across the Southern, Northeastern, Mid-Atlantic and Rocky Mountain regions, and the Pacific Islands. The company was formerly known as Sterling Construction Company, Inc. and changed its name to Sterling Infrastructure, Inc. in June 2022. Sterling Infrastructure, Inc. was founded in 1955 and is headquartered in The Woodlands, Texas.",
     "marketCap": 16316526592,
-    "trailingPE": 36.36128,
+    "trailingPE": 38.430836,
     "forwardPE": 21.003887,
     "priceToBook": 12.061776,
     "enterpriseToEbitda": 22.72,
@@ -644,7 +644,7 @@
     "freeCashflow": 349384384,
     "shortPercentOfFloat": 0.0456,
     "beta": 1.847,
-    "dividendYield": null,
+    "dividendYield": 0.0,
     "currentPrice": 533.42,
     "targetMeanPrice": 845.4286,
     "targetMedianPrice": 804.0,
@@ -675,7 +675,7 @@
    "sma20": 500.97699584960935,
    "sma50": 521.3720007324218,
    "sma200": 539.1226997375488,
-   "turnover_eur": 212668307.585246,
+   "turnover_eur": 213889303.73702735,
    "details": {
     "rec_counts": {
      "strongBuy": 0,
@@ -742,6 +742,13 @@
     },
     "news_fh": [
      {
+      "title": "Regal Rexnord shares are trading higher after Oppenheimer raised its price target on the stock from $180 to $225.",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=59a830f1d7cc53c461d488c75a004ed55974dd0953dfe92d33e43c7e39c33c1b",
+      "via": "Finnhub",
+      "date": "2026-10-02"
+     },
+     {
       "title": "AI's Construction Boom Runs Through 2027",
       "source": "SeekingAlpha",
       "url": "https://finnhub.io/api/news?id=1e112bed742b94cd1403669aba1b8dc56ea7845010c7b515b6386a4d9e964ffb",
@@ -768,13 +775,6 @@
       "url": "https://finnhub.io/api/news?id=3b27db8caf9d2b3d7a595f9d2a46f448b7d472b3fe44f6772c0e85036b63d47e",
       "via": "Finnhub",
       "date": "2026-09-30"
-     },
-     {
-      "title": "Cantor Fitzgerald Reiterates Overweight on Sterling Infrastructure, Maintains $742 Price Target",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=9b06c06887fc63ee65aecbbce7c41ca623808379b4a8a889e4b85eed4b32eb94",
-      "via": "Finnhub",
-      "date": "2026-09-30"
      }
     ],
     "insider_90d": {
@@ -783,7 +783,7 @@
      "buy_value": 0,
      "sell_value": 0
     },
-    "av_sentiment": 0.31039036,
+    "av_sentiment": 0.31331272,
     "av_articles": 50,
     "sec_form4_90d": 3,
     "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=874238&type=4"
@@ -1109,7 +1109,7 @@
     "fullTimeEmployees": 21521,
     "longBusinessSummary": "Fabrinet provides optical packaging and precision optical, electro-mechanical, and electronic manufacturing services in North America, the Asia-Pacific, Europe, and internationally. The company offers a range of advanced optical and electro-mechanical capabilities in the manufacturing process, including process design and engineering, supply chain management, manufacturing, printed circuit board assembly, packaging, integration, final assembly, and testing. Its products include switching products, including reconfigurable optical add-drop multiplexers, optical amplifiers, modulators, and other optical components and modules that enable network managers to route voice, video, and data communications traffic through fiber optic cables at various wavelengths, speeds, and over various distances. The company's products also comprise transceivers, tunable lasers, and transponders; and active optical cables, which provide high-speed interconnect capabilities for data centers and computing clusters, as well as Infiniband, Ethernet, fiber channel, and optical backplane connectivity. In addition, it provides solid state, diode-pumped, gas, and fiber lasers used in semiconductor processing, biotechnology and medical device, metrology, and material processing industries; and differential pressure, micro-gyro, fuel, and other sensors used in automobiles, as well as non-contact temperature measurement sensors for the medical industry. Further, the company designs and fabricates application-specific crystals, lenses, prisms, mirrors, laser components, and substrates; and other custom and standard borosilicate, clear fused quartz, and synthetic fused silica glass products. It serves original equipment manufacturers of optical communication components, modules and sub-systems, industrial lasers, automotive components, medical devices, and sensors. The company was incorporated in 1999 and is based in George Town, the Cayman Islands.",
     "marketCap": 16616267776,
-    "trailingPE": 34.603733,
+    "trailingPE": 35.5318,
     "forwardPE": 21.282171,
     "priceToBook": 6.7703834,
     "enterpriseToEbitda": 29.667,
@@ -1120,7 +1120,7 @@
     "freeCashflow": -57873500,
     "shortPercentOfFloat": 0.056900002,
     "beta": 1.208,
-    "dividendYield": null,
+    "dividendYield": 0.0,
     "currentPrice": 463.69,
     "targetMeanPrice": 734.1111,
     "targetMedianPrice": 750.0,
@@ -1151,7 +1151,7 @@
    "sma20": 408.77849731445315,
    "sma50": 447.9721990966797,
    "sma200": 531.8386506652832,
-   "turnover_eur": 273622522.95772314,
+   "turnover_eur": 275193476.5773083,
    "details": {
     "rec_counts": {
      "strongBuy": 3,
@@ -1267,7 +1267,7 @@
      "buy_value": 0,
      "sell_value": 964765.06
     },
-    "av_sentiment": 0.18420573999999998,
+    "av_sentiment": 0.18480848000000002,
     "av_articles": 50,
     "sec_form4_90d": 17,
     "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1408710&type=4"
@@ -1593,7 +1593,7 @@
     "fullTimeEmployees": 51478,
     "longBusinessSummary": "Coherent Corp. develops, manufactures, and markets lasers, transceivers, other optical and optoelectronic devices, modules, and systems worldwide. Its products include critical components consisting of detectors, passive optics, thermal solutions, and PICS; silicon photonics and other advanced optical technologies; and coherent transmission components, transport products, optical amplifiers, passive optical components, optical line systems, and multi-rail platform. The company's Datacenter and Communications segment offers transceivers, co-packaged optics, and optical circuit switches, as well as other systems, such as subsystems, modules, and semiconductor devices for datacenter and communications applications; and VCSELS, EELS, pump lasers, and other components, optics, and ICs for datacenter and communication applications. Its Industrial segment offers excimer lasers, solid-state lasers, and CO2 lasers; laser systems for various industrial applications, including semiconductor capital equipment, display manufacturing, precision manufacturing, and scientific research; and laser systems and subsystems comprising high-power lasers for materials processing. This segment also provides engineered materials, laser optics, thermoelectric components, and advanced ceramic and metal-matrix composite materials and products. It markets its products and services through a direct sales force, representatives, and distributors. The company was formerly known as II-VI Incorporated and changed its name to Coherent Corp. in September 2022. Coherent Corp. was incorporated in 1971 and is headquartered in Saxonburg, Pennsylvania.",
     "marketCap": 66003300352,
-    "trailingPE": 82.00487,
+    "trailingPE": 81.80583,
     "forwardPE": 23.996212,
     "priceToBook": 6.0509877,
     "enterpriseToEbitda": 47.703,
@@ -1604,7 +1604,7 @@
     "freeCashflow": -649981632,
     "shortPercentOfFloat": 0.060900003,
     "beta": 2.104,
-    "dividendYield": null,
+    "dividendYield": 0.0,
     "currentPrice": 337.04,
     "targetMeanPrice": 412.52014,
     "targetMedianPrice": 420.0,
@@ -1635,7 +1635,7 @@
    "sma20": 298.2175003051758,
    "sma50": 297.02820190429685,
    "sma200": 289.02310066223146,
-   "turnover_eur": 1726532723.6696153,
+   "turnover_eur": 1736445295.2016013,
    "details": {
     "rec_counts": {
      "strongBuy": 4,
@@ -1710,6 +1710,13 @@
     },
     "news_fh": [
      {
+      "title": "Coherent (COHR) On PhotonLink Buzz And The Case For An Undervalued AI Optics Story",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=effc00af15cce50b921c99c0d001cad30e014e4584e7375ddd8df3a2d58710a7",
+      "via": "Finnhub",
+      "date": "2026-10-04"
+     },
+     {
       "title": "Top Stock Reports for TotalEnergies, Snowflake & Marathon",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=3449952b02cb598fd21b9f7f33d0e6e2a9449b427f4106c548fbfcbd6959ef2a",
@@ -1736,13 +1743,6 @@
       "url": "https://finnhub.io/api/news?id=08287b24bceb93652e450daee25e51024b450e6e5749b4d7bea33b95713b6eb7",
       "via": "Finnhub",
       "date": "2026-10-02"
-     },
-     {
-      "title": "Your Coherent Stock Thesis Has One Loose End",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=bead23f1c0164a704a5ed6a931d29e8ca651f63c7e66e4efafcdd2ab9d3fcca1",
-      "via": "Finnhub",
-      "date": "2026-10-02"
      }
     ],
     "insider_90d": {
@@ -1751,9 +1751,9 @@
      "buy_value": 0,
      "sell_value": 8491315.4487
     },
-    "av_sentiment": 0.28090482,
+    "av_sentiment": 0.27750786,
     "av_articles": 50,
-    "sec_form4_90d": 14,
+    "sec_form4_90d": 13,
     "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=820318&type=4"
    },
    "assessment": {
@@ -2077,7 +2077,7 @@
     "fullTimeEmployees": 149686,
     "longBusinessSummary": "Flex Ltd. provides technology innovation, supply chain, and manufacturing solutions to data center, communications, enterprise, consumer, automotive, healthcare, industrial, and power industries in the Americas, Asia, and Europe. The company operates through three segments: Integrated Technology Solutions (ITS), Regulated Manufacturing Solutions (RMS), and Cloud and Power Infrastructure (CPI). The ITS segment offers flexible supply and manufacturing solutions for communications, including high speed networking, enterprise, and satellite communications systems, as well as lifestyle solutions comprising products across commercial, home, and personal product categories. Its RMS segment includes industrial products, such as mission critical automation, energy, and industrial infrastructure; automotive products, including compute and power electronics platforms and integrated systems; and healthcare products comprising regulated manufacturing for medical devices, drug delivery, and equipment. The CPI segment provides cloud and cooling products, such as integrated compute systems supporting power dense digital infrastructure deployments and advanced liquid cooling solutions supporting higher density, power intensive rack architectures; and power products that include utility and facility level electrical infrastructure enabling power delivery and high density rack and board level power systems. The company was formerly known as Flextronics International Ltd. and changed its name to Flex Ltd. in September 2016. Flex Ltd. was founded in 1969 and is headquartered in Austin, Texas.",
     "marketCap": 43076079616,
-    "trailingPE": 43.511192,
+    "trailingPE": 45.023167,
     "forwardPE": 16.522896,
     "priceToBook": 7.8314304,
     "enterpriseToEbitda": 21.746,
@@ -2088,7 +2088,7 @@
     "freeCashflow": 625750016,
     "shortPercentOfFloat": 0.0273,
     "beta": 1.654,
-    "dividendYield": null,
+    "dividendYield": 0.0,
     "currentPrice": 116.61,
     "targetMeanPrice": 160.5,
     "targetMedianPrice": 160.0,
@@ -2119,7 +2119,7 @@
    "sma20": 111.68650016784667,
    "sma50": 114.09839996337891,
    "sma200": 99.61200006484985,
-   "turnover_eur": 292069753.7803635,
+   "turnover_eur": 293746618.7983192,
    "details": {
     "rec_counts": {
      "strongBuy": 3,
@@ -2193,6 +2193,13 @@
       "date": "2026-10-03"
      },
      {
+      "title": "Regal Rexnord shares are trading higher after Oppenheimer raised its price target on the stock from $180 to $225.",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=59a830f1d7cc53c461d488c75a004ed55974dd0953dfe92d33e43c7e39c33c1b",
+      "via": "Finnhub",
+      "date": "2026-10-02"
+     },
+     {
       "title": "1 of Wall Street’s Favorite Stocks to Keep an Eye On and 2 We Ignore",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=0cd7bf430ac7ba515e2491d35fbdc6b78629538ffb0f409977d51316f6c38b96",
@@ -2212,13 +2219,6 @@
       "url": "https://finnhub.io/api/news?id=a20edc16347dacfbf25a21193eab723b64e53d6f73c8ae53b37b7622dabaf6a8",
       "via": "Finnhub",
       "date": "2026-09-30"
-     },
-     {
-      "title": "Nextpower: One Of The Best (But Not 'The' Best) Plays In Solar",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=17a51960e4c95de8d0193ae6d1d989068dd2d38c3d95b8195ddb8ff27b12d1ef",
-      "via": "Finnhub",
-      "date": "2026-09-30"
      }
     ],
     "insider_90d": {
@@ -2227,7 +2227,7 @@
      "buy_value": 0,
      "sell_value": 332352.36260000005
     },
-    "av_sentiment": 0.25071446000000003,
+    "av_sentiment": 0.2471321,
     "av_articles": 50,
     "sec_form4_90d": 15,
     "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=866374&type=4"
@@ -2564,7 +2564,7 @@
     "freeCashflow": 202302368,
     "shortPercentOfFloat": 0.077800006,
     "beta": 1.872,
-    "dividendYield": null,
+    "dividendYield": 0.0,
     "currentPrice": 111.97,
     "targetMeanPrice": 147.85715,
     "targetMedianPrice": 160.0,
@@ -2595,7 +2595,7 @@
    "sma20": 94.86700096130372,
    "sma50": 93.52480041503907,
    "sma200": 107.88535011291503,
-   "turnover_eur": 162127383.36246026,
+   "turnover_eur": 163058208.05106413,
    "details": {
     "rec_counts": {
      "strongBuy": 0,
@@ -2629,6 +2629,13 @@
     },
     "news_fh": [
      {
+      "title": "3 Tech Hardware Stocks Built For Higher Rates And AI Infrastructure",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=3f2557ebdfde4fd9c74b85de93b319559798dedfd3bfbf73b844dc0d0d4cd45c",
+      "via": "Finnhub",
+      "date": "2026-10-03"
+     },
+     {
       "title": "AI Agents Could Drive a 14x Jump in CPU Spending. Rambus May Be the Biggest Hidden Winner.",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=c13dcb0a3f334402813005527065e91b287f09cde6c32bf189bc9569c3abcc68",
@@ -2655,13 +2662,6 @@
       "url": "https://finnhub.io/api/news?id=0d6a7c3bea7f88f71dc1ff75a5eda240089d2c71efdb6c9f439108494a8eb5f9",
       "via": "Finnhub",
       "date": "2026-09-28"
-     },
-     {
-      "title": "Do Options Traders Know Something About Rambus Stock We Don't?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=7d4fb762bd099a05f81dbfbdd52c6bf5ed2a8e1fb7b35cf146c677a1bc55cc93",
-      "via": "Finnhub",
-      "date": "2026-09-28"
      }
     ],
     "insider_90d": {
@@ -2670,7 +2670,7 @@
      "buy_value": 0,
      "sell_value": 1029600.0
     },
-    "av_sentiment": 0.23763966,
+    "av_sentiment": 0.23451465999999999,
     "av_articles": 50,
     "sec_form4_90d": 2,
     "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=917273&type=4"
@@ -3007,7 +3007,7 @@
     "freeCashflow": 324051264,
     "shortPercentOfFloat": 0.0796,
     "beta": 1.923,
-    "dividendYield": null,
+    "dividendYield": 0.0,
     "currentPrice": 84.3,
     "targetMeanPrice": 138.9643,
     "targetMedianPrice": 146.0,
@@ -3038,7 +3038,7 @@
    "sma20": 81.46399993896485,
    "sma50": 88.70500030517579,
    "sma200": 107.750025100708,
-   "turnover_eur": 132402396.87389776,
+   "turnover_eur": 133162560.99475461,
    "details": {
     "rec_counts": {
      "strongBuy": 7,
@@ -3154,7 +3154,7 @@
      "buy_value": 0,
      "sell_value": 10039534.732
     },
-    "av_sentiment": -0.004833059999999997,
+    "av_sentiment": -0.005494159999999999,
     "av_articles": 50,
     "sec_form4_90d": 14,
     "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1852131&type=4"
@@ -3491,7 +3491,7 @@
     "freeCashflow": 1261750016,
     "shortPercentOfFloat": 0.0633,
     "beta": 1.63,
-    "dividendYield": null,
+    "dividendYield": 0.0,
     "currentPrice": 320.77,
     "targetMeanPrice": 455.64706,
     "targetMedianPrice": 449.0,
@@ -3522,7 +3522,7 @@
    "sma20": 305.1384994506836,
    "sma50": 319.0370001220703,
    "sma200": 351.85239990234373,
-   "turnover_eur": 213831600.62143576,
+   "turnover_eur": 215059275.60720372,
    "details": {
     "rec_counts": {
      "strongBuy": 6,
@@ -3597,6 +3597,13 @@
     },
     "news_fh": [
      {
+      "title": "Talen Energy (TLN) Buyback Puts Its Undervalued Narrative To The Test",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=2d45ee6a2592c43fcb66df5e77cdf4fbd1117973f561af7e922cbb818f6c200b",
+      "via": "Finnhub",
+      "date": "2026-10-04"
+     },
+     {
       "title": "Talen Energy Expands Buyback Plan With $1.5B Accelerated Repurchase",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=e65265bf9a65f9c049b7a38bbab801a78d3f7c87ce44b1e7773384f7d5d92d37",
@@ -3623,13 +3630,6 @@
       "url": "https://finnhub.io/api/news?id=8c621a67aa2cb986d086ab42d75c812b39c372d16df5da39e28122653f4c48e7",
       "via": "Finnhub",
       "date": "2026-09-30"
-     },
-     {
-      "title": "Talen Energy Names New CEO; Announces $1.5 Billion Accelerated Share Repurchases, Raises Repurchase Capacity to $3 Billion",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=e7625a83c50c5ccac8e0c83d04df9c8c32a79000fe858b7422b56f2e811ba547",
-      "via": "Finnhub",
-      "date": "2026-09-29"
      }
     ],
     "insider_90d": {
@@ -3638,7 +3638,7 @@
      "buy_value": 0,
      "sell_value": 0
     },
-    "av_sentiment": 0.15010774999999998,
+    "av_sentiment": 0.150277725,
     "av_articles": 40,
     "sec_form4_90d": 1,
     "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1622536&type=4"
@@ -3964,8 +3964,8 @@
     "fullTimeEmployees": 34000,
     "longBusinessSummary": "Vertiv Holdings Co designs, manufactures, and services critical digital infrastructure technologies and life cycle services for data centers, communication networks, and commercial and industrial environments in the Americas, the Asia Pacific, Europe, the Middle East, and Africa. The company offers AC and DC power management products, low/medium voltage switchgear, busbar, thermal management products, air cooled and liquid cooled thermal management products, integrated modular solutions, racks, single phase UPS, rack power distribution, rack thermal systems, configurable integrated solutions, energy storage solutions, hardware, and software infrastructure that are integral to the technologies used for various services, including artificial intelligence, e-commerce, online banking, file sharing, video on-demand, energy storage, wireless communications, Internet of Things, and online gaming. It also provides lifecycle management services, predictive analytics, and professional services for deploying, maintaining, and optimizing its products and their related systems; and preventative maintenance, acceptance testing, engineering and consulting, fluid management, performance assessments, remote monitoring, training, spare parts, and critical digital infrastructure software services. The company offers its products primarily under the Vertiv, Liebert, NetSure, Geist, Energy Labs, ERS, Albér, and Avocent brands. It serves through a network of direct sales professionals, independent sales representatives, channel partners, and original equipment manufacturers. The company is headquartered in Westerville, Ohio.",
     "marketCap": 97086308352,
-    "trailingPE": 55.546253,
-    "forwardPE": 27.52618,
+    "trailingPE": 57.054295,
+    "forwardPE": 27.487595,
     "priceToBook": 20.404562,
     "enterpriseToEbitda": 36.327,
     "revenueGrowth": 0.241,
@@ -4006,7 +4006,7 @@
    "sma20": 251.2535842895508,
    "sma50": 260.72135284423825,
    "sma200": 264.50316131591796,
-   "turnover_eur": 997046148.9574275,
+   "turnover_eur": 1002770506.878212,
    "details": {
     "rec_counts": {
      "strongBuy": 3,
@@ -4081,6 +4081,20 @@
     },
     "news_fh": [
      {
+      "title": "Rise of the Machines: AI Agents Now Burn 5x More Tokens Than Humans — and the Gap Is Widening Fast",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=d203be2c57576dcb8271188cccd65bb4120decbfb6172e06ebacdd0e41b843dc",
+      "via": "Finnhub",
+      "date": "2026-10-03"
+     },
+     {
+      "title": "Regal Rexnord shares are trading higher after Oppenheimer raised its price target on the stock from $180 to $225.",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=59a830f1d7cc53c461d488c75a004ed55974dd0953dfe92d33e43c7e39c33c1b",
+      "via": "Finnhub",
+      "date": "2026-10-02"
+     },
+     {
       "title": "AI's Construction Boom Runs Through 2027",
       "source": "SeekingAlpha",
       "url": "https://finnhub.io/api/news?id=1e112bed742b94cd1403669aba1b8dc56ea7845010c7b515b6386a4d9e964ffb",
@@ -4100,20 +4114,6 @@
       "url": "https://finnhub.io/api/news?id=b09718fc9f9379f0bb2319271f57e4232ce9594164705fb4c079de34b237c58f",
       "via": "Finnhub",
       "date": "2026-10-02"
-     },
-     {
-      "title": "Wall Street Backs Coherent, Rocket Lab and Vertiv",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=c446ea8bf121259d1da41295ccca5053960528dc6f7b29aae514cb9fdd17daf0",
-      "via": "Finnhub",
-      "date": "2026-10-01"
-     },
-     {
-      "title": "What Are Vertiv Investors Betting On?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=5bfba3d3cdd9e838f8549c02366b6a51e31d31fccf4b117585b67424bf543530",
-      "via": "Finnhub",
-      "date": "2026-10-01"
      }
     ],
     "insider_90d": {
@@ -4122,7 +4122,7 @@
      "buy_value": 0,
      "sell_value": 3880208.5409
     },
-    "av_sentiment": 0.11755222,
+    "av_sentiment": 0.11854452,
     "av_articles": 50,
     "sec_form4_90d": 13,
     "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1674101&type=4"
@@ -4448,7 +4448,7 @@
     "fullTimeEmployees": 2000,
     "longBusinessSummary": "MACOM Technology Solutions Holdings, Inc., together with its subsidiaries, provides analog semiconductor solutions for use in wireless and wireline applications across the radio frequency (RF), microwave, millimeter wave, and lightwave spectrum. The company offers a portfolio of standard and custom devices, including integrated circuits, multi-chip modules, diodes, amplifiers, switches and switch limiters, passive and active components, and subsystems. Its semiconductor products are electronic components that are incorporated in electronic systems, such as wireless base stations, optical networks, radar and medical systems, satellite networks, and test and measurement applications. The company serves carrier infrastructure, which comprise long-haul/metro, 5G and 6G infrastructure, satellite communications, and fiber-to-the-X/passive optical network; industrial and defense, including military and commercial radar, RF jammers, electronic countermeasures, and communication data links, as well as multi-market applications, such as industrial, medical, test and measurement, and scientific applications; and data centers. It sells its products through direct sales force, applications engineering staff, independent sales representatives, resellers, and distributors. The company operates in the United States, China, Japan, Singapore, South Korea, Taiwan, and internationally. MACOM Technology Solutions Holdings, Inc. was formerly known as M/A-Com Technology Solutions Holdings, Inc. and changed its name to MACOM Technology Solutions Holdings, Inc. in 2016. MACOM Technology Solutions Holdings, Inc. was founded in 1950 and is based in Lowell, Massachusetts.",
     "marketCap": 24560891904,
-    "trailingPE": 102.09524,
+    "trailingPE": 102.42038,
     "forwardPE": 37.878967,
     "priceToBook": 15.939731,
     "enterpriseToEbitda": 88.07,
@@ -4459,7 +4459,7 @@
     "freeCashflow": 104351504,
     "shortPercentOfFloat": 0.0435,
     "beta": 1.708,
-    "dividendYield": null,
+    "dividendYield": 0.0,
     "currentPrice": 321.6,
     "targetMeanPrice": 395.33334,
     "targetMedianPrice": 380.0,
@@ -4490,7 +4490,7 @@
    "sma20": 276.1809989929199,
    "sma50": 275.4725988769531,
    "sma200": 273.2726491546631,
-   "turnover_eur": 311474990.43531185,
+   "turnover_eur": 313263267.0667286,
    "details": {
     "rec_counts": {
      "strongBuy": 3,
@@ -4579,6 +4579,13 @@
       "date": "2026-10-02"
      },
      {
+      "title": "Weak Jobs Report Lifts Nvidia, Nasdaq 100 to Record Highs: Stock Market Today",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=66f10db24c8b69fc95ec5d22056263115837637b4d5402efd3b84e0d25834953",
+      "via": "Finnhub",
+      "date": "2026-10-02"
+     },
+     {
       "title": "Why Are MACOM (MTSI) Shares Soaring Today",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=65b7d22d0ff692446e89a11ebde5cb0073fae848554d781f8de27b8c1609857b",
@@ -4591,13 +4598,6 @@
       "url": "https://finnhub.io/api/news?id=46383d2253351a2226d937c6ff601e245e302a9a1d122d2594b3943295ba922e",
       "via": "Finnhub",
       "date": "2026-10-01"
-     },
-     {
-      "title": "MACOM Technology Solutions (NASDAQ:MTSI) Combines Strong Growth With a High-Quality Technical Setup",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=38a734cef7aa1b37a936212ae36988902eb10444595af283d5e0da613cbf8e14",
-      "via": "Finnhub",
-      "date": "2026-10-01"
      }
     ],
     "insider_90d": {
@@ -4606,7 +4606,7 @@
      "buy_value": 0,
      "sell_value": 2478772.92
     },
-    "av_sentiment": 0.27085662,
+    "av_sentiment": 0.26672538,
     "av_articles": 50,
     "sec_form4_90d": 2,
     "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1493594&type=4"
@@ -4934,7 +4934,7 @@
     "fullTimeEmployees": 13000,
     "longBusinessSummary": "Advanced Energy Industries, Inc. provides precision power conversion, measurement, and control solutions in the United States, Asia, Europe, and internationally. The company's plasma power products offer solutions to enable innovation for semiconductor and thin film plasma processes, such as dry etch and deposition. It also provides high and low voltage power products used in a range of applications, such as semiconductor equipment, industrial production, medical and life science equipment, data centers computing, networking, and telecommunications. In addition, the company supplies sensing, controls, and instrumentation products for advanced measurement and calibration of power and temperature. Further, it provides calibration, conversions, upgrades, and refurbishments and used equipment to companies, as well as repair and maintenance services. The company offers its products through direct sales force, direct and indirect sales channels, and distributors, as well as provides warranty and non-warranty repair services. Advanced Energy Industries, Inc. was incorporated in 1981 and is headquartered in Denver, Colorado.",
     "marketCap": 12186548224,
-    "trailingPE": 56.14022,
+    "trailingPE": 56.34815,
     "forwardPE": 19.836073,
     "priceToBook": 8.358652,
     "enterpriseToEbitda": 34.467,
@@ -4976,7 +4976,7 @@
    "sma20": 275.2279968261719,
    "sma50": 289.1658786010742,
    "sma200": 305.0650459289551,
-   "turnover_eur": 113841510.12936583,
+   "turnover_eur": 114495110.31718515,
    "details": {
     "rec_counts": {
      "strongBuy": 2,
@@ -5058,6 +5058,13 @@
       "date": "2026-10-02"
      },
      {
+      "title": "Regal Rexnord shares are trading higher after Oppenheimer raised its price target on the stock from $180 to $225.",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=59a830f1d7cc53c461d488c75a004ed55974dd0953dfe92d33e43c7e39c33c1b",
+      "via": "Finnhub",
+      "date": "2026-10-02"
+     },
+     {
       "title": "Here's How Much $100 Invested In Advanced Energy Indus 15 Years Ago Would Be Worth Today",
       "source": "Benzinga",
       "url": "https://finnhub.io/api/news?id=57d8c68d3607da6ae1ee6c34d56aad1d7a663f0a31ebed25b11f7fa81e0e8ad6",
@@ -5077,13 +5084,6 @@
       "url": "https://finnhub.io/api/news?id=55e317fcf5216ee035e57793ef46548a1c98b0440bb87aa3a71b85880826a9dd",
       "via": "Finnhub",
       "date": "2026-09-25"
-     },
-     {
-      "title": "Advanced Energy Launches Ultra-Ruggedized 160 W AC-DC Power Supply for Extreme Environments",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=f4f867d6071556437f7fe2761bf9532d76db7dcec5c5a9633112172c4fa6c028",
-      "via": "Finnhub",
-      "date": "2026-09-24"
      }
     ],
     "insider_90d": {
@@ -5427,7 +5427,7 @@
     "freeCashflow": 678068736,
     "shortPercentOfFloat": 0.1369,
     "beta": 2.022,
-    "dividendYield": null,
+    "dividendYield": 0.0,
     "currentPrice": 147.86,
     "targetMeanPrice": 213.70909,
     "targetMedianPrice": 210.0,
@@ -5440,7 +5440,7 @@
     "fiftyTwoWeekLow": 119.27
    },
    "price_score": 0.5227153711539378,
-   "vol_prob": 0.5653605976293832,
+   "vol_prob": 0.5653605976293834,
    "base_all": 0.5781512605042017,
    "base_all_n": 595.0,
    "base_cond": 0.5296167247386759,
@@ -5448,7 +5448,7 @@
    "drawdown": 0.4289576148272085,
    "high52": 258.92999267578125,
    "low52": 121.83999633789062,
-   "vol60": 0.796008763928905,
+   "vol60": 0.7960087639289052,
    "rsi14": 45.61329131804755,
    "turn_score": 0.4,
    "ret5": -0.013214066844169925,
@@ -5458,7 +5458,7 @@
    "sma20": 152.19450149536132,
    "sma50": 156.32260009765625,
    "sma200": 168.55080009460448,
-   "turnover_eur": 618884538.9576917,
+   "turnover_eur": 622437751.2301005,
    "details": {
     "rec_counts": {
      "strongBuy": 6,
@@ -5533,6 +5533,27 @@
     },
     "news_fh": [
      {
+      "title": "Man With $2.2M Says ‘I’m Burned Out’ And Wants To Retire While His Wife Keeps Working — ‘I Still Feel Uncomfortable’",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=8225c1a3c64aadef168dad052fe1a09a2c632529ce27c6c4999f95563a3c67ac",
+      "via": "Finnhub",
+      "date": "2026-10-04"
+     },
+     {
+      "title": "Reddit And 2 Other High Quality Stocks",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=35daf41e27bbf0c31bd5524c071b1c3782f1a4c51d0353656da65b0c0ac54df4",
+      "via": "Finnhub",
+      "date": "2026-10-03"
+     },
+     {
+      "title": "29-Year-Old Bought A $411K Home A Year Before — Divorce Has Them Torn Between Keeping It And Selling: ‘What Would You Do?’",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=de073f97e00eda48261e5af94554040b99caf7c1100bd5dcc8ea95ba3067e765",
+      "via": "Finnhub",
+      "date": "2026-10-03"
+     },
+     {
       "title": "Mom Is 66 And Wants To Put 40% Of Her Retirement Into 10-Year Treasuries To Live Off The Interest With Yield Hitting 5.24%. Is It A Crazy Idea?",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=e89a4c215440941b11140031a88834c0788a4fe982820478a6a32642083d1414",
@@ -5545,27 +5566,6 @@
       "url": "https://finnhub.io/api/news?id=fbe7b252016b74b983fad1849b813e36a98da4cddbcbf71b6f7bec8c63ab129f",
       "via": "Finnhub",
       "date": "2026-10-03"
-     },
-     {
-      "title": "Reddit Inc. (RDDT) Stock Falls Amid Market Uptick: What Investors Need to Know",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=93d0e5a1aa9b407faee68486f6ceab20613c1aedd179aa2b7eb30cde763865c3",
-      "via": "Finnhub",
-      "date": "2026-10-02"
-     },
-     {
-      "title": "I Sold NVIDIA, Google and Microsoft Over a $2 Trillion AI Gap. Was I Wrong?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=da51e5484dedd477400c3e64887e03fb4b11a0e3918df93cf8a3625b45d4a595",
-      "via": "Finnhub",
-      "date": "2026-10-02"
-     },
-     {
-      "title": "58-Year-Old With $2M Was Laid Off And Realized They Could Retire. Then They Got A Lucrative Job Offer",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=c4c36dd7e8ebeec8dfb2a90255057a8be8d2642a306c3bf7564accf7fd84f653",
-      "via": "Finnhub",
-      "date": "2026-10-02"
      }
     ],
     "insider_90d": {
@@ -5574,7 +5574,7 @@
      "buy_value": 0,
      "sell_value": 49288172.81
     },
-    "sec_form4_90d": 22,
+    "sec_form4_90d": 21,
     "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1713445&type=4"
    },
    "assessment": {
@@ -5899,7 +5899,7 @@
     "fullTimeEmployees": 37000,
     "longBusinessSummary": "MasTec, Inc., an infrastructure engineering and construction company, provides engineering, building, installation, maintenance, and upgrade services for communications, energy, utility, and other infrastructure primarily in the United States and Canada. It operates through five segments: Communications, Clean Energy and Infrastructure, Power Delivery, Pipeline Infrastructure, and Other. The company builds infrastructure for wireless and wireline/fiber communications; clean energy infrastructure comprising renewable energy power generation; pipeline infrastructure, including natural gas, water, carbon capture sequestration, and other product transport; power delivery services, such as electrical and gas transmission, and distribution systems; industrial and heavy civil infrastructure, including roads, bridges, and rail; and water infrastructure. It also installs electrical and other gas distribution and transmission systems, power generation, civil and industrial facilities, pipelines, and fiber optic and other cables, as well as install-to-the-home services. In addition, the company offers maintenance and upgrade support services comprising maintenance of customers' distribution facilities, networks, and infrastructure, including communications, power generation, pipeline, electrical distribution and transmission, and civil and industrial infrastructure; emergency restoration services for natural disasters and accidents; and routine replacements and upgrades to overhauls. Its customers include wireless and wireline/fiber service providers, broadband operators, install-to-the-home service providers, public and private energy providers, including renewable and other energy providers, pipeline operators, civil, transportation, and water and wastewater pipeline installation services, industrial infrastructure providers, as well as government entities. MasTec, Inc. was founded in 1929 and is headquartered in Coral Gables, Florida.",
     "marketCap": 17340246016,
-    "trailingPE": 34.004723,
+    "trailingPE": 34.438595,
     "forwardPE": 17.222525,
     "priceToBook": 4.8478928,
     "enterpriseToEbitda": 15.409,
@@ -5910,7 +5910,7 @@
     "freeCashflow": -57898876,
     "shortPercentOfFloat": 0.0854,
     "beta": 1.818,
-    "dividendYield": null,
+    "dividendYield": 0.0,
     "currentPrice": 215.93,
     "targetMeanPrice": 413.4,
     "targetMedianPrice": 409.5,
@@ -5941,7 +5941,7 @@
    "sma20": 221.9624984741211,
    "sma50": 252.37579956054688,
    "sma200": 305.27294898986815,
-   "turnover_eur": 258941179.13752335,
+   "turnover_eur": 260427842.50948775,
    "details": {
     "rec_counts": {
      "strongBuy": 3,
@@ -6023,6 +6023,13 @@
       "date": "2026-10-03"
      },
      {
+      "title": "Regal Rexnord shares are trading higher after Oppenheimer raised its price target on the stock from $180 to $225.",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=59a830f1d7cc53c461d488c75a004ed55974dd0953dfe92d33e43c7e39c33c1b",
+      "via": "Finnhub",
+      "date": "2026-10-02"
+     },
+     {
       "title": "Is EMCOR's Diversified End-Market Exposure Its Competitive Moat?",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=2033676a61a81c1a4674a2ce816fe9859689157ed95b0c5793bc18e329605ae0",
@@ -6042,13 +6049,6 @@
       "url": "https://finnhub.io/api/news?id=a2617e5b52e05a8e205da1e60aeaf855a620543d94dffc1467667ba967cedad1",
       "via": "Finnhub",
       "date": "2026-09-30"
-     },
-     {
-      "title": "MYRG's T&D Segment 1H26 Revenues Up 10%: More Upside Ahead?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=516724cdc9eb4d2fd020147eda427c46c5426111046c5c9dedf1e71798d9074f",
-      "via": "Finnhub",
-      "date": "2026-09-30"
      }
     ],
     "insider_90d": {
@@ -6061,23 +6061,23 @@
     "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=15615&type=4"
    },
    "assessment": {
-    "combined": 0.3422982885085575,
+    "combined": 0.34220532319391633,
     "context": 0.3817615082278059,
     "inputs": 3,
     "calib": {
      "lo": 0.45,
      "hi": 0.5,
-     "n": 3681,
-     "hit_rate": 0.3422982885085575,
-     "avg_ret": 0.0565122074046091,
-     "worse_20": 0.21488725889703886
+     "n": 3682,
+     "hit_rate": 0.34220532319391633,
+     "avg_ret": 0.056409820934723034,
+     "worse_20": 0.21510048886474742
     },
     "verdict": "Möglich",
     "cls": "mid",
     "reasons": [
      "Konsens-Kursziel +91 % über Kurs stützt das Ziel",
      "Quartalszahlen am 2026-10-29 liegen im Zeitfenster: möglicher Auslöser, aber auch Risiko",
-     "Kehrseite: In 21 % der vergleichbaren Fälle lag der Kurs zwischenzeitlich mind. 20 % im Minus"
+     "Kehrseite: In 22 % der vergleichbaren Fälle lag der Kurs zwischenzeitlich mind. 20 % im Minus"
     ],
     "horizon": 40
    },
@@ -6380,7 +6380,7 @@
     "fullTimeEmployees": 8898,
     "longBusinessSummary": "Ciena Corporation, a network technology company, provides hardware, software, and services for various network operators in the Americas, Europe, the Middle East, Africa, the Asia Pacific, Japan, and India. It operates through Networking Platforms, Platform Software and Services, Blue Planet Automation Software and Services, and Global Services segments. The Networking Platforms segment consists optical networking, routing, and switching products and services. This segment products include the 6500 Packet-Optical Platform, Waveserver modular interconnect system, the 6500 Reconfigurable Line System, and coherent pluggable transceivers; and the 3000 family of service delivery platforms and the 5000 family of service aggregation, as well as the 8100 Coherent Routing platforms and virtualization software. The Platform Software and Services segment offers navigator network control suite; and software subscription services, consulting, network migration and integration, installation and upgrade support services, and technical support solutions. The Blue Planet Automation Software and Services segment inventory management, orchestration, route optimization and analysis, and unified assurance and analytics software; and sells subscription, installation, support, consulting, and design services related to the Blue Planet automation platform. The Global Services segment provides services for advisory and enablement, implementation, and maintenance, support, and learning activities. Ciena Corporation was incorporated in 1992 and is headquartered in Fulton, Maryland.",
     "marketCap": 55495348224,
-    "trailingPE": 81.190865,
+    "trailingPE": 87.5481,
     "forwardPE": 33.084976,
     "priceToBook": 18.166372,
     "enterpriseToEbitda": 54.753,
@@ -6391,7 +6391,7 @@
     "freeCashflow": 633368384,
     "shortPercentOfFloat": 0.0399,
     "beta": 1.309,
-    "dividendYield": null,
+    "dividendYield": 0.0,
     "currentPrice": 391.34,
     "targetMeanPrice": 512.9907,
     "targetMedianPrice": 536.5,
@@ -6422,7 +6422,7 @@
    "sma20": 349.9545013427734,
    "sma50": 373.96340087890627,
    "sma200": 391.32379989624025,
-   "turnover_eur": 808700417.1972528,
+   "turnover_eur": 813343422.5822748,
    "details": {
     "rec_counts": {
      "strongBuy": 5,
@@ -6537,7 +6537,7 @@
      "buy_value": 0,
      "sell_value": 15760000.9472
     },
-    "sec_form4_90d": 31,
+    "sec_form4_90d": 27,
     "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=936395&type=4"
    },
    "assessment": {
@@ -6862,7 +6862,7 @@
     "fullTimeEmployees": 56992,
     "longBusinessSummary": "Infineon Technologies AG develops, manufactures, and markets semiconductors and semiconductor-based solutions in Germany, Europe, the Middle East, Africa, Mainland China, Hong Kong, Taiwan, the Asia-Pacific, Japan, the United States, and the Americas. The Automotive segment offers automotive and industrial microcontrollers; analog and memory ICs; ethernet; power diodes and modules; power switches; sensors; transceivers; and voltage regulators for assistance and safety systems, comfort electronics, infotainment, powertrain, and security applications. Its Green Industrial Power segment provides discrete and bare die IGBTs; IGBT modules; and SiC discretes and modules for air conditioning technology, energy generation and storage, energy transmission, home appliances, industrial drives, industrial power supplies and vehicles, and traction applications. The Power & Sensor Systems segment offers 3D ToF sensors; chips for gas and pressure sensors, and MEMS microphones; control ICs; customized chips; discrete low-, mid-, and high-voltage power MOSFETs; ESD protection diodes; GaN power switches; GPS low-noise amplifiers; low- and high-voltage driver ICs; radar sensor ICs; RF antenna switches and power transistors; SiC diode and MOSFETs; and USB controllers for audio amplifiers, automotive electronics, BLDC motors, cellular communications infrastructure, charging stations for electric vehicles, human machine interaction, IoT, LED and conventional lighting systems, microinverters, mobile devices, power management, and harsh environment applications. Its Connected Secure Systems segment provides connectivity solutions, embedded security controllers, microcontrollers, and security controllers for authentication, automotive, consumer electronics, government identification document, IoT, mobile communication, payment system, ticketing, access control, and trusted computing applications. The company was founded in 1952 and is headquartered in Neubiberg, Germany.",
     "marketCap": 83999653888,
-    "trailingPE": 78.82927,
+    "trailingPE": 70.260864,
     "forwardPE": 22.675768,
     "priceToBook": 4.837599,
     "enterpriseToEbitda": 21.45,
@@ -6919,24 +6919,17 @@
     "earnings_src": "Yahoo",
     "news_g": [
      {
-      "title": "Infineon-Aktie: Unternehmen erholt sich - WELT",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNHo0ZzBwQ3FJVU1tcXVtVUh2Nm9IMWZxWVZqd1M0S1drNDFPRU9tWHNOMlEyN1lqVjMzNlQ2RUlKdlE4NmFNdVZWallWQWxSNjl5eVp3bGFRQ2hicEgydi0tMURubmg1SDIwNDFRdmJ2bHMtV1Flcld1U1VSS0d3TW42S0FTVTFRZHZjZm1JMEk0MXdsS2Q0OVJtMjYxX3g1bEJKUzVwcXgyNFQxdy1HTw?oc=5",
-      "date": "2026-10-02",
-      "source": "WELT",
+      "title": "Infineon-Aktie: Chip-Rally mit Rückenwind aus New York - was jetzt zählt - deraktionaer.de",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNbVFUakg0bExYTjRnbW1ZUGV5WVlNQU1ndjA1RF9OOUJlYlRuMk9YNHRuQUlGR0hqZ0VaeDBZeVpqMDBaVUxhSDVxVTJaUkRlN19FM3JZMGRoRk8weDdYMWwwSVQ2NEtIWDhMM3VQRlZvTkFFdlJHVWFZR3k2WmZyQW5pVC01d2lEZzFGM1otQ0NRcS04YmFNQlJWX2JPSjMtcUcxWmVoZENYSTJ4UGp0VlhyNVYzTVMxVkZSZVY1MUZFamNLQlVBaUNVMTlBM3JaYUpzLUhPX2JHSnZPamc?oc=5",
+      "date": "2026-10-05",
+      "source": "deraktionaer.de",
       "via": "Google News"
      },
      {
-      "title": "Infineon Technologies Aktie profitiert mit kräftigem Plus - 02.10.2026 - Wallstreet Online",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOY2ZrWXFqWFhnRVI0azVYeXVlcHNZUm5fUHAteEM5Z2tqdHVXRkJWeVJXZWwtNG1uV1M4NUJlcndyMEtwemtNVVdLQl9yR3Z0ZzZ3RV9IMC1NS3EycmMxVDhybEJORFN0OVQ5by1mWmQ2TFZfNXZRVTh4dmJwc0RNMTMxdEdkTFlFOVdwcXlEZ21CcXpvbEZjNVN6d192RzZKdERmZGhqZnk2eGpUWWFjVWhfcDNkU2FEeVdxTFJXRmdmdVl4?oc=5",
-      "date": "2026-10-02",
-      "source": "Wallstreet Online",
-      "via": "Google News"
-     },
-     {
-      "title": "Infineon: Erster Ausbruchsversuch gescheitert - FinanzNachrichten.de",
+      "title": "Infineon: Erster Ausbruchsversuch gescheitert - finanznachrichten.de",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUG85dENDYnJqb2FWdGJwb3dwLUtjOWRrN0dDak5YU2Y4NWRLT09nczJiRFVkS0VtZlBLS1VCbzJpTS1VZExXY2VPYWNucHBLbEZFengzX3l4Q2QzdC1LbDcyNFV3QnFNanV3QVBoYlFBdlpvQXVjTXk3ZWdZaTNJdmx6NlRVWXRMR2szbTc3SzE3Znlpczgya1c3bXB5RDJjX0RjUmp6cWU5Vy12dmhBX3lSNHc?oc=5",
       "date": "2026-10-02",
-      "source": "FinanzNachrichten.de",
+      "source": "finanznachrichten.de",
       "via": "Google News"
      },
      {
@@ -6947,17 +6940,24 @@
       "via": "Google News"
      },
      {
-      "title": "Infineon-Aktie an DAX-Spitze: Warum der Chip-Wert heute um über 6 % zulegt - Investing.com Deutsch",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNR193SERkbWx5dHlLclFkcFo0ZzFtUWdiYVIwZHNNTmIxd1M5MkR4WWE1d0o2NHQ5MXRzZkxxUzF2ZW80VmRXN2VYYWJuaEg1am5SRXVVWnVMTzFPTDJNUDhfc1Q1WTVUU1RfUzdKOWxCTEdKUXh4bzNTN252cXFnVElDd09nV3ZIbmJxMUF3M21XVDhRQUFrMm1lQmsyQi01dm9OMmZCYVZERU5qMGswSk5OcG5Lamhnc1NhRC1OZHZ5OEZFcFlUa2Zn?oc=5",
+      "title": "Infineon Technologies mit stabilem Monatsplus – ein Kauf im Oktober 2026? - Wallstreet Online",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOV1hOc3NsNFBYcHBTUERscFJBQTcyNkVOR2JOU0VEWGZoX3Fld3FUZWJHb0FNNkhLd092Vk9mS0xHUVBNVGVVYlJYV1FjSW90dllHb3FUcU0tZ0REWjQ2cUU1RUotV2FRYm1jZng2QWYzN0VieXFzQjZEZ1NUeVprYVB0LWF6OVhmSVBuMlRoU0FKZHQ4Sl85ZzJrZlFicTZzM3dnaG9YZnZJbHd1UDgwV1BPeTNjYVI3?oc=5",
       "date": "2026-10-02",
-      "source": "Investing.com Deutsch",
+      "source": "Wallstreet Online",
       "via": "Google News"
      },
      {
-      "title": "OTS: Infineon Technologies AG / Infineon eröffnet neuen ... - boerse.de",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNTkpvaWVUR3dpQ0ZFZy15dTdKckludkotMGk2d2w4ZkdiWExZM0hoUW11ZE9MOUFwaWo3dU1PYzFBekN4dTdoNW9GV3gxeHQwWHZ3NUJuQzA5VjdyZDY2RkRscW91dF9QTTB1ZzNTWUE5ZGtWYUIxYm80R2hIWTlmaFNNNTdWMXk3UXVhcXBNMXE0X0JTY19mRm1XdGc?oc=5",
-      "date": "2026-10-01",
-      "source": "boerse.de",
+      "title": "Infineon Technologies Aktie profitiert mit kräftigem Plus - 02.10.2026 - Wallstreet Online",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOY2ZrWXFqWFhnRVI0azVYeXVlcHNZUm5fUHAteEM5Z2tqdHVXRkJWeVJXZWwtNG1uV1M4NUJlcndyMEtwemtNVVdLQl9yR3Z0ZzZ3RV9IMC1NS3EycmMxVDhybEJORFN0OVQ5by1mWmQ2TFZfNXZRVTh4dmJwc0RNMTMxdEdkTFlFOVdwcXlEZ21CcXpvbEZjNVN6d192RzZKdERmZGhqZnk2eGpUWWFjVWhfcDNkU2FEeVdxTFJXRmdmdVl4?oc=5",
+      "date": "2026-10-02",
+      "source": "Wallstreet Online",
+      "via": "Google News"
+     },
+     {
+      "title": "Warum die Infineon-Technologies-Aktie nach der Eröffnung des Werks in Bangkok im Fokus steht - Simply Wall Street",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQUEIyZlRiX0hHQzNzR1BDbXdaSU5BcklmZFdPT0RlZ0dEdXV2YVNDdmZnWUg3X2lVaUR2b1FwbG1WR0hMSS1tRjl5bjdXeFM1MUdkckt1V054aGlPcGdsUVNIeXhTOEE2YTJPRTJrMHM4aEttWHVoZE9qVXk1WGRwYndKTzQ4VU9WODlDblBYX2kwcWN0dkY4Z0NtSUpqWUg3aGNCTEd0bVFoVl9aY3lTeE8xX1hfZU82OTFiTEJrWjhFMWxXUUJ5SmJwX25TTTVhLU5MTllSdGhRVUFRdDZlcGR1LWFqdEFnYjFlbdIB7AFBVV95cUxQUEIyZlRiX0hHQzNzR1BDbXdaSU5BcklmZFdPT0RlZ0dEdXV2YVNDdmZnWUg3X2lVaUR2b1FwbG1WR0hMSS1tRjl5bjdXeFM1MUdkckt1V054aGlPcGdsUVNIeXhTOEE2YTJPRTJrMHM4aEttWHVoZE9qVXk1WGRwYndKTzQ4VU9WODlDblBYX2kwcWN0dkY4Z0NtSUpqWUg3aGNCTEd0bVFoVl9aY3lTeE8xX1hfZU82OTFiTEJrWjhFMWxXUUJ5SmJwX25TTTVhLU5MTllSdGhRVUFRdDZlcGR1LWFqdEFnYjFlbQ?oc=5",
+      "date": "2026-10-02",
+      "source": "Simply Wall Street",
       "via": "Google News"
      }
     ]
@@ -7283,7 +7283,7 @@
     "fullTimeEmployees": 4250,
     "longBusinessSummary": "Allegro MicroSystems, Inc., together with its subsidiaries, designs, develops, manufactures, and markets sensor integrated circuits (ICs) and application-specific power ICs for sensing, motion control, and power management functions of complex electromechanical or power conversion systems. Its products include magnetic sensor ICs, such as position, speed, and electric current sensor ICs; and power ICs comprising motor driver ICs, such as regulator, power management ICs, and LED driver ICs, and isolated gate drivers. The company sells its products to original equipment manufacturers and distributors primarily in the automotive and industrial markets through its direct sales force, third party distributors, independent sales representatives, and consignment. The company serves automotive and industrial markets, including advanced industrial markets such as AI data centers, robotics, and energy infrastructure sectors. It operates in the United States, rest of the Americas, Europe, Japan, Greater China, South Korea, and other Asian markets. The company was founded in 1990 and is headquartered in Manchester, New Hampshire.",
     "marketCap": 7368472576,
-    "trailingPE": 494.125,
+    "trailingPE": 658.8333,
     "forwardPE": 26.727518,
     "priceToBook": 7.6386466,
     "enterpriseToEbitda": 55.696,
@@ -7294,7 +7294,7 @@
     "freeCashflow": 103498872,
     "shortPercentOfFloat": 0.10609999,
     "beta": 1.911,
-    "dividendYield": null,
+    "dividendYield": 0.0,
     "currentPrice": 39.53,
     "targetMeanPrice": 54.41667,
     "targetMedianPrice": 54.5,
@@ -7325,7 +7325,7 @@
    "sma20": 35.58249969482422,
    "sma50": 38.49869987487793,
    "sma200": 40.26927505493164,
-   "turnover_eur": 78541852.49531852,
+   "turnover_eur": 78992786.1616436,
    "details": {
     "rec_counts": {
      "strongBuy": 3,
@@ -7414,6 +7414,13 @@
       "date": "2026-10-02"
      },
      {
+      "title": "Weak Jobs Report Lifts Nvidia, Nasdaq 100 to Record Highs: Stock Market Today",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=66f10db24c8b69fc95ec5d22056263115837637b4d5402efd3b84e0d25834953",
+      "via": "Finnhub",
+      "date": "2026-10-02"
+     },
+     {
       "title": "RBC Capital Initiates Coverage On Allegro Microsystems with Outperform Rating, Announces Price Target of $50",
       "source": "Benzinga",
       "url": "https://finnhub.io/api/news?id=b4ec79a80d82bf7f020aaa441b4d67e335d56cd15dfbc2b15f230fc8f5bfa4b8",
@@ -7426,13 +7433,6 @@
       "url": "https://finnhub.io/api/news?id=3e0654d57a80eb4a16e0531597217a3c5297aaea3ffac679dc302aadea8c7852",
       "via": "Finnhub",
       "date": "2026-10-02"
-     },
-     {
-      "title": "3 AI Stocks With Earnings Growth Up To 76%",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=927194601788243dacc3dcc95d1d628e6bce66b9c2020412720cdb6585f61928",
-      "via": "Finnhub",
-      "date": "2026-10-01"
      }
     ],
     "insider_90d": {
@@ -7445,16 +7445,16 @@
     "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=866291&type=4"
    },
    "assessment": {
-    "combined": 0.3422982885085575,
+    "combined": 0.34220532319391633,
     "context": 0.3488618120609935,
     "inputs": 3,
     "calib": {
      "lo": 0.45,
      "hi": 0.5,
-     "n": 3681,
-     "hit_rate": 0.3422982885085575,
-     "avg_ret": 0.0565122074046091,
-     "worse_20": 0.21488725889703886
+     "n": 3682,
+     "hit_rate": 0.34220532319391633,
+     "avg_ret": 0.056409820934723034,
+     "worse_20": 0.21510048886474742
     },
     "verdict": "Möglich",
     "cls": "mid",
@@ -7462,7 +7462,7 @@
      "Konsens-Kursziel +38 % über Kurs stützt das Ziel",
      "Quartalszahlen am 2026-10-29 liegen im Zeitfenster: möglicher Auslöser, aber auch Risiko",
      "Mehrere Wende-Signale aktiv (Kurs dreht nach oben)",
-     "Kehrseite: In 21 % der vergleichbaren Fälle lag der Kurs zwischenzeitlich mind. 20 % im Minus"
+     "Kehrseite: In 22 % der vergleichbaren Fälle lag der Kurs zwischenzeitlich mind. 20 % im Minus"
     ],
     "horizon": 40
    },
@@ -7774,9 +7774,9 @@
     "profitMargins": 0.09441,
     "debtToEquity": 59.897,
     "freeCashflow": 343031744,
-    "shortPercentOfFloat": 0.0435,
+    "shortPercentOfFloat": 0.0434,
     "beta": 0.967,
-    "dividendYield": null,
+    "dividendYield": 0.0,
     "currentPrice": 152.15,
     "targetMeanPrice": 213.2857,
     "targetMedianPrice": 215.0,
@@ -7807,7 +7807,7 @@
    "sma20": 148.0150001525879,
    "sma50": 165.0127993774414,
    "sma200": 151.18669971466065,
-   "turnover_eur": 172736408.63343883,
+   "turnover_eur": 173728143.09829047,
    "details": {
     "rec_counts": {
      "strongBuy": 5,
@@ -7919,11 +7919,11 @@
     ],
     "insider_90d": {
      "buys": 0,
-     "sells": 28,
+     "sells": 27,
      "buy_value": 0,
-     "sell_value": 32137016.313100003
+     "sell_value": 31979060.313100003
     },
-    "sec_form4_90d": 29,
+    "sec_form4_90d": 28,
     "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1528396&type=4"
    },
    "assessment": {
@@ -8278,7 +8278,7 @@
    "drawdown": 0.327302846688723,
    "high52": 237.6552276611328,
    "low52": 127.68987274169922,
-   "vol60": 0.5373461870991728,
+   "vol60": 0.5373461870991729,
    "rsi14": 51.275261976957665,
    "turn_score": 0.8,
    "ret5": 0.025929964576508313,
@@ -8288,7 +8288,7 @@
    "sma20": 154.88103485107422,
    "sma50": 168.8450793457031,
    "sma200": 187.89579170227051,
-   "turnover_eur": 151000900.60238323,
+   "turnover_eur": 151867844.62730393,
    "details": {
     "rec_counts": {
      "strongBuy": 1,
@@ -8359,13 +8359,6 @@
       "url": "https://finnhub.io/api/news?id=8c67bcf6a926d18f9a13604702400dd4ac262d0361a04fc930f389d48cec3e10",
       "via": "Finnhub",
       "date": "2026-09-23"
-     },
-     {
-      "title": "Is Regal Rexnord (RRX) Trading At A Discount To Cash Flow?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=2758c6bfc133c6bb92c3bf2d5f967bc1f3eefc606bef73b3d2ddd195e3b0e563",
-      "via": "Finnhub",
-      "date": "2026-09-19"
      }
     ],
     "insider_90d": {
@@ -8375,19 +8368,63 @@
      "sell_value": 29960.46
     },
     "sec_form4_90d": 24,
-    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=82811&type=4"
+    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=82811&type=4",
+    "news_g": [
+     {
+      "title": "Regal Rexnord Corporation (RRX) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5WSjlVMDZmNEhkOVlrbTRJTngtTnA1aEp3MFZEdTVyRXVjV0tucV81TEdUazlSWW5mYU0zMlNzdTBUZkNaeldLcDZyX0k5cXhh?oc=5",
+      "date": "2026-10-04",
+      "source": "Yahoo! Finance Canada",
+      "via": "Google News"
+     },
+     {
+      "title": "Regal Rexnord (NYSE:RRX) Stock Forecast & Analyst Predictions - Simply Wall Street",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNYXFSc1lvZ0czTzBmaElZZ2RnYm5uYmlVWFctb2daMWF6VTd3cmViUmVOSDNwU29zSTdGMXF6MU9SZHFzSTVEM1N4SHBGM1dFZXB4amgxNlpjV09XZWxEZk5LaU5kaDRfc1RRbTRtR25RTlFHSmdzTmU4TmdHU0d0bg?oc=5",
+      "date": "2026-09-30",
+      "source": "Simply Wall Street",
+      "via": "Google News"
+     },
+     {
+      "title": "Regal Rexnord (NYSE:RRX) Downgraded by Wall Street Zen to Hold - MarketBeat",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQVkhlbmNPZjBrNEh2QmJxNkd1dDFXUjBrSGltS1JoYXd2eDJqemotVW1UZU9Xa3RVS3ZSNlRTU1pHaDVOb2hqZy1TYTZubVZGekVyM3ViZk00LVBIM2ZrMnhyS1BmVWRPcDJPc1dBczZVVlE1MXZ3WDJLOUlyMXE4M0d2UGVreDcxSkZFS3A4RDZQQkJka000X2otQlh1SG10dEYwNEhiR3A2aEt1aVcyVTBDRWo1emtDUVZkX0Jlbw?oc=5",
+      "date": "2026-10-03",
+      "source": "MarketBeat",
+      "via": "Google News"
+     },
+     {
+      "title": "Terex, Regal Rexnord, Resideo, Comfort Systems, and WESCO Stocks Trade Up, What You Need To Know - Barchart.com",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNaDBYYTRscFVhNjlPU2tSMk9HYVJ2ZUVSZVowd3VUZ1piQk80RlVBM3pKSTAydkJ2ekgxRENjeUZaa0tnRTQ1ODhVN1oyU2l5QVhJNmtONEpQV3NLNHhrT3pZUkJfUEVIVlppOGRER1pVdDVQcnZmRGx0VVBLZTJEZjdxNmVWSXRQUzRHdWtOS0t4Tm02SE9INHFEQ3pubmNZdzhweUNyRGcyMHpUMWd0RmYtMlZnbDVtSnpuZEFOT05OOHA3ajBtVnNyU09pRjdX?oc=5",
+      "date": "2026-10-02",
+      "source": "Barchart.com",
+      "via": "Google News"
+     },
+     {
+      "title": "ETFs Investing in Regal Rexnord Corporation Stocks - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5jVE9jV2c0TXpIdzlRZVNpbWpSNEtjeXhfaVFxeVBCcGhYRnlJd0V2T1BObHI3OW5jaU1tY09kZkxsVGVyVjBLTGw3LUlNSWdRTjVWME5zaVdYZUZrcVE?oc=5",
+      "date": "2026-09-29",
+      "source": "TradingView",
+      "via": "Google News"
+     },
+     {
+      "title": "Regal Rexnord Corporation (RRX) Stock forecasts - Yahoo Finance UK",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZVluYm4zaDI0LVFONlVwUWhEb3ZSMGhtTkZWUXNOc0o3ckZsTlJ2ZmRfNzJWcFNtcnVTOGo0NUhRdGc0NXFHQThHNV84VUplQUItMFZ2WDF2M2h6LUVJdS16elJvZmo2Y09HZTRyc2JfcDg4SEVIVkJkZW5xYmNyWWVSaVJWMlgzdHRtd1phNUNpWUE?oc=5",
+      "date": "2026-10-01",
+      "source": "Yahoo Finance UK",
+      "via": "Google News"
+     }
+    ]
    },
    "assessment": {
-    "combined": 0.3422982885085575,
+    "combined": 0.34220532319391633,
     "context": 0.33137727716850335,
     "inputs": 3,
     "calib": {
      "lo": 0.45,
      "hi": 0.5,
-     "n": 3681,
-     "hit_rate": 0.3422982885085575,
-     "avg_ret": 0.0565122074046091,
-     "worse_20": 0.21488725889703886
+     "n": 3682,
+     "hit_rate": 0.34220532319391633,
+     "avg_ret": 0.056409820934723034,
+     "worse_20": 0.21510048886474742
     },
     "verdict": "Möglich",
     "cls": "mid",
@@ -8395,7 +8432,7 @@
      "Konsens-Kursziel +51 % über Kurs stützt das Ziel",
      "Quartalszahlen am 2026-10-28 liegen im Zeitfenster: möglicher Auslöser, aber auch Risiko",
      "Mehrere Wende-Signale aktiv (Kurs dreht nach oben)",
-     "Kehrseite: In 21 % der vergleichbaren Fälle lag der Kurs zwischenzeitlich mind. 20 % im Minus"
+     "Kehrseite: In 22 % der vergleichbaren Fälle lag der Kurs zwischenzeitlich mind. 20 % im Minus"
     ],
     "horizon": 40
    },
@@ -8661,488 +8698,6 @@
    }
   },
   {
-   "symbol": "CAVA",
-   "name": "CAVA Group, Inc.",
-   "region": "US",
-   "index": [
-    "S&P 400"
-   ],
-   "currency": "USD",
-   "price": 54.40999984741211,
-   "price_date": "2026-10-02",
-   "target_mean": 82.75,
-   "target_median": 85.0,
-   "target_high": 110.0,
-   "target_low": 18.0,
-   "rec_mean": 1.89286,
-   "rec_key": "buy",
-   "n_analysts": 24.0,
-   "target_upside": 0.5208601402695248,
-   "checks": {
-    "rec": true,
-    "n": true,
-    "upside": true
-   },
-   "passes_stage2": true,
-   "fails": 0,
-   "analyst_strength": 0.7108351168912707,
-   "score": 0.4412224625033576,
-   "info": {
-    "longName": "CAVA Group, Inc.",
-    "shortName": "CAVA Group, Inc.",
-    "currency": "USD",
-    "country": "United States",
-    "sector": "Consumer Cyclical",
-    "industry": "Restaurants",
-    "website": "https://cava.com",
-    "fullTimeEmployees": 13480,
-    "longBusinessSummary": "CAVA Group, Inc. owns and operates a chain of restaurants under the CAVA brand in the United States. It also offers dips, spreads, and dressings through grocery stores. In addition, the company provides walk-the-line, online, and mobile ordering platforms. CAVA Group, Inc. was founded in 2006 and is headquartered in Washington, District Of Columbia.",
-    "marketCap": 6355425280,
-    "trailingPE": 97.16071,
-    "forwardPE": 73.04826,
-    "priceToBook": 7.554846,
-    "enterpriseToEbitda": 40.095,
-    "revenueGrowth": 0.313,
-    "earningsGrowth": 0.198,
-    "profitMargins": 0.04822,
-    "debtToEquity": 61.899,
-    "freeCashflow": -721500,
-    "shortPercentOfFloat": 0.13350001,
-    "beta": 1.741,
-    "dividendYield": null,
-    "currentPrice": 54.41,
-    "targetMeanPrice": 82.75,
-    "targetMedianPrice": 85.0,
-    "targetHighPrice": 110.0,
-    "targetLowPrice": 18.0,
-    "numberOfAnalystOpinions": 24,
-    "recommendationMean": 1.89286,
-    "recommendationKey": "buy",
-    "fiftyTwoWeekHigh": 98.79,
-    "fiftyTwoWeekLow": 43.41
-   },
-   "price_score": 0.4831340859502518,
-   "vol_prob": 0.42174408947975994,
-   "base_all": 0.4320203303684879,
-   "base_all_n": 787.0,
-   "base_cond": 0.3708609271523179,
-   "base_cond_n": 302.0,
-   "drawdown": 0.44131840857989224,
-   "high52": 97.38999938964844,
-   "low52": 43.59000015258789,
-   "vol60": 0.5696091396325094,
-   "rsi14": 43.112664654912884,
-   "turn_score": 0.8,
-   "ret5": 0.05486618681454902,
-   "ret20": -0.11772334258295902,
-   "ret60": -0.2021993800277656,
-   "ret_1y": -0.11772334258295902,
-   "sma20": 53.7629997253418,
-   "sma50": 61.41379974365234,
-   "sma200": 72.30369983673096,
-   "turnover_eur": 177949813.54528773,
-   "details": {
-    "rec_counts": {
-     "strongBuy": 3,
-     "buy": 15,
-     "hold": 9,
-     "sell": 1,
-     "strongSell": 0
-    },
-    "rec_counts_src": "Yahoo",
-    "rating_changes_90d": {
-     "up": 1,
-     "down": 0,
-     "total": 14
-    },
-    "rating_actions": [
-     {
-      "date": "2026-09-18",
-      "firm": "JP Morgan",
-      "to": "Overweight",
-      "from": "Overweight",
-      "action": "main",
-      "target": 80.0
-     },
-     {
-      "date": "2026-09-17",
-      "firm": "RBC Capital",
-      "to": "Outperform",
-      "from": "Outperform",
-      "action": "main",
-      "target": 85.0
-     },
-     {
-      "date": "2026-09-16",
-      "firm": "Seaport Global",
-      "to": "Buy",
-      "from": "",
-      "action": "init",
-      "target": 58.0
-     },
-     {
-      "date": "2026-08-13",
-      "firm": "DA Davidson",
-      "to": "Neutral",
-      "from": "Neutral",
-      "action": "main",
-      "target": 75.0
-     },
-     {
-      "date": "2026-08-13",
-      "firm": "Guggenheim",
-      "to": "Buy",
-      "from": "Buy",
-      "action": "main",
-      "target": 95.0
-     }
-    ],
-    "news": [],
-    "earnings_date": "2026-11-10",
-    "earnings_src": "Yahoo",
-    "finnhub_rec": {
-     "period": "2026-09-01",
-     "strongBuy": 10,
-     "buy": 13,
-     "hold": 12,
-     "sell": 0,
-     "strongSell": 0
-    },
-    "finnhub_rec_trend": {
-     "now_buy_share": 0.6571428571428571,
-     "3m_ago_buy_share": 0.6111111111111112,
-     "period_old": "2026-06-01"
-    },
-    "news_fh": [
-     {
-      "title": "Chipotle's Menu Innovation Ramps Up 4X: Can It Sustain Traffic Growth?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=935763c94a976fadfd92397503248dfe3abda0ab71ff0b226cfe423f9c6a52da",
-      "via": "Finnhub",
-      "date": "2026-10-02"
-     },
-     {
-      "title": "Cava Group (CAVA) Rises As Market Takes a Dip: Key Facts",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=d2418aad4cf125a5a9e7a1795a8f3cf69a0f0cae6a28a48e4861c0b465fa9273",
-      "via": "Finnhub",
-      "date": "2026-09-30"
-     },
-     {
-      "title": "CAVA Names John Ludeke Chief Marketing Officer",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=7b06a36f0275b76b031ac48badee90cd1b6b86c0b7844930c5bfd62aed5ff8bf",
-      "via": "Finnhub",
-      "date": "2026-09-30"
-     },
-     {
-      "title": "Cava recruits CMO from outside the restaurant world",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=3fbbe3559788551e6441b18878441a29e02594f3382cf938886a406df76c50cb",
-      "via": "Finnhub",
-      "date": "2026-09-30"
-     },
-     {
-      "title": "A Look Back at Modern Fast Food Stocks’ Q2 Earnings: CAVA (NYSE:CAVA) Vs The Rest Of The Pack",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=74670b95de46a96ad7ce004ff523bdb5445e26f619a75673fd376eb8bfdb9c63",
-      "via": "Finnhub",
-      "date": "2026-09-30"
-     }
-    ],
-    "insider_90d": {
-     "buys": 2,
-     "sells": 0,
-     "buy_value": 482340.0,
-     "sell_value": 0
-    },
-    "sec_form4_90d": 4,
-    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1639438&type=4"
-   },
-   "assessment": {
-    "combined": 0.3422982885085575,
-    "context": 0.40820844900018854,
-    "inputs": 3,
-    "calib": {
-     "lo": 0.45,
-     "hi": 0.5,
-     "n": 3681,
-     "hit_rate": 0.3422982885085575,
-     "avg_ret": 0.0565122074046091,
-     "worse_20": 0.21488725889703886
-    },
-    "verdict": "Möglich",
-    "cls": "mid",
-    "reasons": [
-     "Konsens-Kursziel +52 % über Kurs stützt das Ziel",
-     "Quartalszahlen am 2026-11-10 liegen im Zeitfenster: möglicher Auslöser, aber auch Risiko",
-     "Mehrere Wende-Signale aktiv (Kurs dreht nach oben)",
-     "Kehrseite: In 21 % der vergleichbaren Fälle lag der Kurs zwischenzeitlich mind. 20 % im Minus"
-    ],
-    "horizon": 40
-   },
-   "chart": {
-    "dates": [
-     "2025-10-02",
-     "2025-10-06",
-     "2025-10-08",
-     "2025-10-10",
-     "2025-10-14",
-     "2025-10-16",
-     "2025-10-20",
-     "2025-10-22",
-     "2025-10-24",
-     "2025-10-28",
-     "2025-10-30",
-     "2025-11-03",
-     "2025-11-05",
-     "2025-11-07",
-     "2025-11-11",
-     "2025-11-13",
-     "2025-11-17",
-     "2025-11-19",
-     "2025-11-21",
-     "2025-11-25",
-     "2025-11-28",
-     "2025-12-02",
-     "2025-12-04",
-     "2025-12-08",
-     "2025-12-10",
-     "2025-12-12",
-     "2025-12-16",
-     "2025-12-18",
-     "2025-12-22",
-     "2025-12-24",
-     "2025-12-29",
-     "2025-12-31",
-     "2026-01-05",
-     "2026-01-07",
-     "2026-01-09",
-     "2026-01-13",
-     "2026-01-15",
-     "2026-01-20",
-     "2026-01-22",
-     "2026-01-26",
-     "2026-01-28",
-     "2026-01-30",
-     "2026-02-03",
-     "2026-02-05",
-     "2026-02-09",
-     "2026-02-11",
-     "2026-02-13",
-     "2026-02-18",
-     "2026-02-20",
-     "2026-02-24",
-     "2026-02-26",
-     "2026-03-02",
-     "2026-03-04",
-     "2026-03-06",
-     "2026-03-10",
-     "2026-03-12",
-     "2026-03-16",
-     "2026-03-18",
-     "2026-03-20",
-     "2026-03-24",
-     "2026-03-26",
-     "2026-03-30",
-     "2026-04-01",
-     "2026-04-06",
-     "2026-04-08",
-     "2026-04-10",
-     "2026-04-14",
-     "2026-04-16",
-     "2026-04-20",
-     "2026-04-22",
-     "2026-04-24",
-     "2026-04-28",
-     "2026-04-30",
-     "2026-05-04",
-     "2026-05-06",
-     "2026-05-08",
-     "2026-05-12",
-     "2026-05-14",
-     "2026-05-18",
-     "2026-05-20",
-     "2026-05-22",
-     "2026-05-27",
-     "2026-05-29",
-     "2026-06-02",
-     "2026-06-04",
-     "2026-06-08",
-     "2026-06-10",
-     "2026-06-12",
-     "2026-06-16",
-     "2026-06-18",
-     "2026-06-23",
-     "2026-06-25",
-     "2026-06-29",
-     "2026-07-01",
-     "2026-07-06",
-     "2026-07-08",
-     "2026-07-10",
-     "2026-07-14",
-     "2026-07-16",
-     "2026-07-20",
-     "2026-07-22",
-     "2026-07-24",
-     "2026-07-28",
-     "2026-07-30",
-     "2026-08-03",
-     "2026-08-05",
-     "2026-08-07",
-     "2026-08-11",
-     "2026-08-13",
-     "2026-08-17",
-     "2026-08-19",
-     "2026-08-21",
-     "2026-08-25",
-     "2026-08-27",
-     "2026-08-31",
-     "2026-09-02",
-     "2026-09-04",
-     "2026-09-09",
-     "2026-09-11",
-     "2026-09-15",
-     "2026-09-17",
-     "2026-09-21",
-     "2026-09-23",
-     "2026-09-25",
-     "2026-09-29",
-     "2026-10-01",
-     "2026-10-02"
-    ],
-    "close": [
-     63.24,
-     63.8,
-     63.16,
-     62.15,
-     64.71,
-     63.36,
-     62.29,
-     64.35,
-     63.6,
-     62.14,
-     53.7,
-     52.61,
-     50.37,
-     48.64,
-     49.25,
-     48.2,
-     45.23,
-     45.47,
-     48.92,
-     48.55,
-     48.89,
-     52.73,
-     54.48,
-     53.85,
-     53.09,
-     53.15,
-     52.72,
-     56.04,
-     58.04,
-     61.72,
-     59.96,
-     58.69,
-     63.48,
-     67.9,
-     70.86,
-     68.52,
-     72.0,
-     69.05,
-     66.09,
-     62.55,
-     62.7,
-     60.62,
-     60.89,
-     64.55,
-     72.48,
-     67.37,
-     63.5,
-     67.73,
-     70.11,
-     67.8,
-     84.74,
-     78.49,
-     79.52,
-     78.59,
-     80.02,
-     80.35,
-     87.25,
-     88.93,
-     84.27,
-     84.43,
-     78.9,
-     76.94,
-     80.14,
-     82.13,
-     86.21,
-     84.94,
-     88.18,
-     91.24,
-     97.39,
-     96.75,
-     95.68,
-     91.04,
-     93.41,
-     89.19,
-     89.51,
-     79.4,
-     77.18,
-     76.09,
-     79.89,
-     80.53,
-     80.42,
-     82.2,
-     77.66,
-     72.44,
-     71.75,
-     73.62,
-     81.56,
-     90.99,
-     87.3,
-     89.18,
-     77.57,
-     83.3,
-     81.87,
-     79.78,
-     71.91,
-     67.59,
-     72.18,
-     69.97,
-     68.1,
-     63.51,
-     62.35,
-     62.01,
-     65.0,
-     66.44,
-     64.47,
-     66.17,
-     62.42,
-     60.81,
-     72.18,
-     71.02,
-     71.57,
-     73.63,
-     69.29,
-     66.95,
-     65.75,
-     61.79,
-     60.76,
-     56.51,
-     55.88,
-     49.99,
-     51.21,
-     52.0,
-     53.1,
-     51.58,
-     53.14,
-     54.4,
-     54.41
-    ]
-   }
-  },
-  {
    "symbol": "GNRC",
    "name": "Generac Holdings Inc.",
    "region": "US",
@@ -9180,7 +8735,7 @@
     "fullTimeEmployees": 9400,
     "longBusinessSummary": "Generac Holdings Inc. designs, manufactures, and distributes energy technology products and solutions worldwide. The company offers residential automatic standby generators, automatic transfer switch, air-cooled engine home standby generators, and liquid-cooled engine generators; Mobile Link, a remote monitoring system for home standby generators; propane tank monitoring solution; and smart home solutions, such as smart thermostats and a suite of home monitoring products. It also provides smart home energy management devices and sensors for heating and cooling system; smart doorbell cameras; and portable and inverter generators; multiple portable battery solutions; manual transfer switches; outdoor power equipment, including trimmers, field and brush mowers, log splitters, stump grinders, chipper shredders, lawn and leaf vacuums, and pressure washers and water pumps; and home energy storage systems. In addition, the company offers commercial and industrial products comprising cleaner-burning natural gas fueled generators; mega-watt diesel generators; light-commercial standby generators and related transfer switches; stationary generators; single-engine industrial generators; industrial standby generators; industrial transfer switches; light towers, mobile generators, commercial mobile pumps, heaters, and dust-suppression equipment; mobile energy storage systems; battery energy storage system and related inverter products; and aftermarket service parts and product accessories. Further, it provides microgrid; and software-as-a-service contracts. The company distributes its products through independent residential dealers and contractors, industrial distributors and dealers, national and regional retailers, e-commerce partners, electrical/HVAC/solar wholesalers, solar installers, catalogs, equipment rental companies, and other equipment distributors; and directly to end users. Generac Holdings Inc. was founded in 1959 and is based in Waukesha, Wisconsin.",
     "marketCap": 12805061632,
-    "trailingPE": 47.85872,
+    "trailingPE": 49.83908,
     "forwardPE": 17.113934,
     "priceToBook": 4.445447,
     "enterpriseToEbitda": 21.897,
@@ -9191,7 +8746,7 @@
     "freeCashflow": 289056512,
     "shortPercentOfFloat": 0.0424,
     "beta": 1.913,
-    "dividendYield": null,
+    "dividendYield": 0.0,
     "currentPrice": 216.8,
     "targetMeanPrice": 287.3125,
     "targetMedianPrice": 284.0,
@@ -9222,7 +8777,7 @@
    "sma20": 197.0160011291504,
    "sma50": 200.80240020751953,
    "sma200": 212.58600044250488,
-   "turnover_eur": 185786198.69562086,
+   "turnover_eur": 186852856.1409034,
    "details": {
     "rec_counts": {
      "strongBuy": 2,
@@ -9311,6 +8866,13 @@
       "date": "2026-10-02"
      },
      {
+      "title": "Regal Rexnord shares are trading higher after Oppenheimer raised its price target on the stock from $180 to $225.",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=59a830f1d7cc53c461d488c75a004ed55974dd0953dfe92d33e43c7e39c33c1b",
+      "via": "Finnhub",
+      "date": "2026-10-02"
+     },
+     {
       "title": "Uncover the latest developments among S&P500 stocks in today's session.",
       "source": "ChartMill",
       "url": "https://finnhub.io/api/news?id=a1d687bb68e5ab3a14c7763cfe0a634749ff03bce370bf705b046929109ce482",
@@ -9323,20 +8885,13 @@
       "url": "https://finnhub.io/api/news?id=d247f50e666241e8d2248f73defd9afbed455684ba03a9473d93c74fac8a9e1f",
       "via": "Finnhub",
       "date": "2026-09-30"
-     },
-     {
-      "title": "Stifel Maintains Buy on Generac Holdings, Raises Price Target to $290",
-      "source": "Benzinga",
-      "url": "https://finnhub.io/api/news?id=40c7386bc65a20ad8adbd46eb4661d49a1c2c5806e21fd64250066e5efb4f389",
-      "via": "Finnhub",
-      "date": "2026-09-30"
      }
     ],
     "insider_90d": {
      "buys": 0,
-     "sells": 18,
+     "sells": 15,
      "buy_value": 0,
-     "sell_value": 2519973.6
+     "sell_value": 3409173.6
     },
     "sec_form4_90d": 13,
     "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1474735&type=4"
@@ -9625,6 +9180,488 @@
    }
   },
   {
+   "symbol": "CAVA",
+   "name": "CAVA Group, Inc.",
+   "region": "US",
+   "index": [
+    "S&P 400"
+   ],
+   "currency": "USD",
+   "price": 54.40999984741211,
+   "price_date": "2026-10-02",
+   "target_mean": 82.0,
+   "target_median": 84.5,
+   "target_high": 110.0,
+   "target_low": 18.0,
+   "rec_mean": 1.89286,
+   "rec_key": "buy",
+   "n_analysts": 24.0,
+   "target_upside": 0.5070759093909489,
+   "checks": {
+    "rec": true,
+    "n": true,
+    "upside": true
+   },
+   "passes_stage2": true,
+   "fails": 0,
+   "analyst_strength": 0.6993482578257908,
+   "score": 0.4395575545568456,
+   "info": {
+    "longName": "CAVA Group, Inc.",
+    "shortName": "CAVA Group, Inc.",
+    "currency": "USD",
+    "country": "United States",
+    "sector": "Consumer Cyclical",
+    "industry": "Restaurants",
+    "website": "https://cava.com",
+    "fullTimeEmployees": 13480,
+    "longBusinessSummary": "CAVA Group, Inc. owns and operates a chain of restaurants under the CAVA brand in the United States. It also offers dips, spreads, and dressings through grocery stores. In addition, the company provides walk-the-line, online, and mobile ordering platforms. CAVA Group, Inc. was founded in 2006 and is headquartered in Washington, District Of Columbia.",
+    "marketCap": 6355425280,
+    "trailingPE": 98.92727,
+    "forwardPE": 73.04826,
+    "priceToBook": 7.554846,
+    "enterpriseToEbitda": 40.095,
+    "revenueGrowth": 0.313,
+    "earningsGrowth": 0.198,
+    "profitMargins": 0.04822,
+    "debtToEquity": 61.899,
+    "freeCashflow": -721500,
+    "shortPercentOfFloat": 0.13350001,
+    "beta": 1.741,
+    "dividendYield": 0.0,
+    "currentPrice": 54.41,
+    "targetMeanPrice": 82.0,
+    "targetMedianPrice": 84.5,
+    "targetHighPrice": 110.0,
+    "targetLowPrice": 18.0,
+    "numberOfAnalystOpinions": 24,
+    "recommendationMean": 1.89286,
+    "recommendationKey": "buy",
+    "fiftyTwoWeekHigh": 98.79,
+    "fiftyTwoWeekLow": 43.41
+   },
+   "price_score": 0.4831340859502518,
+   "vol_prob": 0.42174408947975994,
+   "base_all": 0.4320203303684879,
+   "base_all_n": 787.0,
+   "base_cond": 0.3708609271523179,
+   "base_cond_n": 302.0,
+   "drawdown": 0.44131840857989224,
+   "high52": 97.38999938964844,
+   "low52": 43.59000015258789,
+   "vol60": 0.5696091396325094,
+   "rsi14": 43.112664654912884,
+   "turn_score": 0.8,
+   "ret5": 0.05486618681454902,
+   "ret20": -0.11772334258295902,
+   "ret60": -0.2021993800277656,
+   "ret_1y": -0.11772334258295902,
+   "sma20": 53.7629997253418,
+   "sma50": 61.41379974365234,
+   "sma200": 72.30369983673096,
+   "turnover_eur": 178971479.81994838,
+   "details": {
+    "rec_counts": {
+     "strongBuy": 3,
+     "buy": 15,
+     "hold": 9,
+     "sell": 1,
+     "strongSell": 0
+    },
+    "rec_counts_src": "Yahoo",
+    "rating_changes_90d": {
+     "up": 1,
+     "down": 0,
+     "total": 14
+    },
+    "rating_actions": [
+     {
+      "date": "2026-09-18",
+      "firm": "JP Morgan",
+      "to": "Overweight",
+      "from": "Overweight",
+      "action": "main",
+      "target": 80.0
+     },
+     {
+      "date": "2026-09-17",
+      "firm": "RBC Capital",
+      "to": "Outperform",
+      "from": "Outperform",
+      "action": "main",
+      "target": 85.0
+     },
+     {
+      "date": "2026-09-16",
+      "firm": "Seaport Global",
+      "to": "Buy",
+      "from": "",
+      "action": "init",
+      "target": 58.0
+     },
+     {
+      "date": "2026-08-13",
+      "firm": "DA Davidson",
+      "to": "Neutral",
+      "from": "Neutral",
+      "action": "main",
+      "target": 75.0
+     },
+     {
+      "date": "2026-08-13",
+      "firm": "Guggenheim",
+      "to": "Buy",
+      "from": "Buy",
+      "action": "main",
+      "target": 95.0
+     }
+    ],
+    "news": [],
+    "earnings_date": "2026-11-10",
+    "earnings_src": "Yahoo",
+    "finnhub_rec": {
+     "period": "2026-09-01",
+     "strongBuy": 10,
+     "buy": 13,
+     "hold": 12,
+     "sell": 0,
+     "strongSell": 0
+    },
+    "finnhub_rec_trend": {
+     "now_buy_share": 0.6571428571428571,
+     "3m_ago_buy_share": 0.6111111111111112,
+     "period_old": "2026-06-01"
+    },
+    "news_fh": [
+     {
+      "title": "Can CAVA Group (CAVA) Justify Its Valuation As A New CMO Joins?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=d0488ecd593baab03c8e9fba96b6aa5c3fa3546a4b9684e2e5f6258b2caaa74c",
+      "via": "Finnhub",
+      "date": "2026-10-04"
+     },
+     {
+      "title": "Chipotle's Menu Innovation Ramps Up 4X: Can It Sustain Traffic Growth?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=935763c94a976fadfd92397503248dfe3abda0ab71ff0b226cfe423f9c6a52da",
+      "via": "Finnhub",
+      "date": "2026-10-02"
+     },
+     {
+      "title": "Cava Group (CAVA) Rises As Market Takes a Dip: Key Facts",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=d2418aad4cf125a5a9e7a1795a8f3cf69a0f0cae6a28a48e4861c0b465fa9273",
+      "via": "Finnhub",
+      "date": "2026-09-30"
+     },
+     {
+      "title": "CAVA Names John Ludeke Chief Marketing Officer",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=7b06a36f0275b76b031ac48badee90cd1b6b86c0b7844930c5bfd62aed5ff8bf",
+      "via": "Finnhub",
+      "date": "2026-09-30"
+     },
+     {
+      "title": "Cava recruits CMO from outside the restaurant world",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=3fbbe3559788551e6441b18878441a29e02594f3382cf938886a406df76c50cb",
+      "via": "Finnhub",
+      "date": "2026-09-30"
+     }
+    ],
+    "insider_90d": {
+     "buys": 2,
+     "sells": 0,
+     "buy_value": 482340.0,
+     "sell_value": 0
+    },
+    "sec_form4_90d": 4,
+    "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1639438&type=4"
+   },
+   "assessment": {
+    "combined": 0.34220532319391633,
+    "context": 0.40820844900018854,
+    "inputs": 3,
+    "calib": {
+     "lo": 0.45,
+     "hi": 0.5,
+     "n": 3682,
+     "hit_rate": 0.34220532319391633,
+     "avg_ret": 0.056409820934723034,
+     "worse_20": 0.21510048886474742
+    },
+    "verdict": "Möglich",
+    "cls": "mid",
+    "reasons": [
+     "Konsens-Kursziel +51 % über Kurs stützt das Ziel",
+     "Quartalszahlen am 2026-11-10 liegen im Zeitfenster: möglicher Auslöser, aber auch Risiko",
+     "Mehrere Wende-Signale aktiv (Kurs dreht nach oben)",
+     "Kehrseite: In 22 % der vergleichbaren Fälle lag der Kurs zwischenzeitlich mind. 20 % im Minus"
+    ],
+    "horizon": 40
+   },
+   "chart": {
+    "dates": [
+     "2025-10-02",
+     "2025-10-06",
+     "2025-10-08",
+     "2025-10-10",
+     "2025-10-14",
+     "2025-10-16",
+     "2025-10-20",
+     "2025-10-22",
+     "2025-10-24",
+     "2025-10-28",
+     "2025-10-30",
+     "2025-11-03",
+     "2025-11-05",
+     "2025-11-07",
+     "2025-11-11",
+     "2025-11-13",
+     "2025-11-17",
+     "2025-11-19",
+     "2025-11-21",
+     "2025-11-25",
+     "2025-11-28",
+     "2025-12-02",
+     "2025-12-04",
+     "2025-12-08",
+     "2025-12-10",
+     "2025-12-12",
+     "2025-12-16",
+     "2025-12-18",
+     "2025-12-22",
+     "2025-12-24",
+     "2025-12-29",
+     "2025-12-31",
+     "2026-01-05",
+     "2026-01-07",
+     "2026-01-09",
+     "2026-01-13",
+     "2026-01-15",
+     "2026-01-20",
+     "2026-01-22",
+     "2026-01-26",
+     "2026-01-28",
+     "2026-01-30",
+     "2026-02-03",
+     "2026-02-05",
+     "2026-02-09",
+     "2026-02-11",
+     "2026-02-13",
+     "2026-02-18",
+     "2026-02-20",
+     "2026-02-24",
+     "2026-02-26",
+     "2026-03-02",
+     "2026-03-04",
+     "2026-03-06",
+     "2026-03-10",
+     "2026-03-12",
+     "2026-03-16",
+     "2026-03-18",
+     "2026-03-20",
+     "2026-03-24",
+     "2026-03-26",
+     "2026-03-30",
+     "2026-04-01",
+     "2026-04-06",
+     "2026-04-08",
+     "2026-04-10",
+     "2026-04-14",
+     "2026-04-16",
+     "2026-04-20",
+     "2026-04-22",
+     "2026-04-24",
+     "2026-04-28",
+     "2026-04-30",
+     "2026-05-04",
+     "2026-05-06",
+     "2026-05-08",
+     "2026-05-12",
+     "2026-05-14",
+     "2026-05-18",
+     "2026-05-20",
+     "2026-05-22",
+     "2026-05-27",
+     "2026-05-29",
+     "2026-06-02",
+     "2026-06-04",
+     "2026-06-08",
+     "2026-06-10",
+     "2026-06-12",
+     "2026-06-16",
+     "2026-06-18",
+     "2026-06-23",
+     "2026-06-25",
+     "2026-06-29",
+     "2026-07-01",
+     "2026-07-06",
+     "2026-07-08",
+     "2026-07-10",
+     "2026-07-14",
+     "2026-07-16",
+     "2026-07-20",
+     "2026-07-22",
+     "2026-07-24",
+     "2026-07-28",
+     "2026-07-30",
+     "2026-08-03",
+     "2026-08-05",
+     "2026-08-07",
+     "2026-08-11",
+     "2026-08-13",
+     "2026-08-17",
+     "2026-08-19",
+     "2026-08-21",
+     "2026-08-25",
+     "2026-08-27",
+     "2026-08-31",
+     "2026-09-02",
+     "2026-09-04",
+     "2026-09-09",
+     "2026-09-11",
+     "2026-09-15",
+     "2026-09-17",
+     "2026-09-21",
+     "2026-09-23",
+     "2026-09-25",
+     "2026-09-29",
+     "2026-10-01",
+     "2026-10-02"
+    ],
+    "close": [
+     63.24,
+     63.8,
+     63.16,
+     62.15,
+     64.71,
+     63.36,
+     62.29,
+     64.35,
+     63.6,
+     62.14,
+     53.7,
+     52.61,
+     50.37,
+     48.64,
+     49.25,
+     48.2,
+     45.23,
+     45.47,
+     48.92,
+     48.55,
+     48.89,
+     52.73,
+     54.48,
+     53.85,
+     53.09,
+     53.15,
+     52.72,
+     56.04,
+     58.04,
+     61.72,
+     59.96,
+     58.69,
+     63.48,
+     67.9,
+     70.86,
+     68.52,
+     72.0,
+     69.05,
+     66.09,
+     62.55,
+     62.7,
+     60.62,
+     60.89,
+     64.55,
+     72.48,
+     67.37,
+     63.5,
+     67.73,
+     70.11,
+     67.8,
+     84.74,
+     78.49,
+     79.52,
+     78.59,
+     80.02,
+     80.35,
+     87.25,
+     88.93,
+     84.27,
+     84.43,
+     78.9,
+     76.94,
+     80.14,
+     82.13,
+     86.21,
+     84.94,
+     88.18,
+     91.24,
+     97.39,
+     96.75,
+     95.68,
+     91.04,
+     93.41,
+     89.19,
+     89.51,
+     79.4,
+     77.18,
+     76.09,
+     79.89,
+     80.53,
+     80.42,
+     82.2,
+     77.66,
+     72.44,
+     71.75,
+     73.62,
+     81.56,
+     90.99,
+     87.3,
+     89.18,
+     77.57,
+     83.3,
+     81.87,
+     79.78,
+     71.91,
+     67.59,
+     72.18,
+     69.97,
+     68.1,
+     63.51,
+     62.35,
+     62.01,
+     65.0,
+     66.44,
+     64.47,
+     66.17,
+     62.42,
+     60.81,
+     72.18,
+     71.02,
+     71.57,
+     73.63,
+     69.29,
+     66.95,
+     65.75,
+     61.79,
+     60.76,
+     56.51,
+     55.88,
+     49.99,
+     51.21,
+     52.0,
+     53.1,
+     51.58,
+     53.14,
+     54.4,
+     54.41
+    ]
+   }
+  },
+  {
    "symbol": "MCHP",
    "name": "Microchip Technology Incorporated",
    "region": "US",
@@ -9662,7 +9699,7 @@
     "fullTimeEmployees": 17900,
     "longBusinessSummary": "Microchip Technology Incorporated develops, manufactures, and sells smart, connected, and secure embedded control solutions in the Americas, Europe, and Asia. It operates in two segments, Semiconductor Products and Technology Licensing. The company offers general-purpose 8-bit, 16-bit, 32-bit, and 64-bit mixed-signal microcontrollers; 32-bit and 64-bit embedded mixed-signal microprocessors; and specialized mixed-signal microcontrollers for automotive, industrial, computing, communications, lighting, power supplies, motor control, human-machine interface, security, wired connectivity, and wireless connectivity applications. It also provides analog products, including power management, linear, mixed-signal, high voltage, thermal management, discrete diodes and MOSFETs, radio frequency (RF), gate drivers, safety, security, timing, application-specific standard products, USB, Ethernet, wireless, and other interface products; field-programmable gate array (FPGA) products; and application development tools that enable system designers to program mixed-signal microcontroller, FPGA, and microprocessor products. In addition, the company offers memory products consisting of serial electrically erasable programmable read-only memory, serial flash memories, parallel flash memories, serial static random-access memory, and electrically erasable random-access memory for footprint devices. Further, it licenses its SuperFlash embedded flash and non-volatile memory technologies to foundries, integrated device manufacturers, and design partners for use in the manufacture of microcontroller products, gate arrays, RF, analog, and neuromorphic compute products. Additionally, the company offers engineering services; wafer foundry, assembly, and test subcontracting manufacturing services; and timing systems, application-specific integrated circuits, and products for aerospace applications. The company was incorporated in 1989 and is headquartered in Chandler, Arizona.",
     "marketCap": 44157468672,
-    "trailingPE": 114.53522,
+    "trailingPE": 119.588234,
     "forwardPE": 17.741707,
     "priceToBook": 6.8451176,
     "enterpriseToEbitda": 32.723,
@@ -9704,7 +9741,7 @@
    "sma20": 74.84199943542481,
    "sma50": 75.59979476928712,
    "sma200": 78.18392127990722,
-   "turnover_eur": 538138312.892216,
+   "turnover_eur": 541227935.4910327,
    "details": {
     "rec_counts": {
      "strongBuy": 2,
@@ -9779,6 +9816,20 @@
     },
     "news_fh": [
      {
+      "title": "Benzinga's 'Stock Whisper' Index: Five Stocks Investors Secretly Monitor But Don't Talk About Yet",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=f5f14fc4362896cd45ed23d3b67eb68f3b0af94660b57aa14e38ce39ca6960d2",
+      "via": "Finnhub",
+      "date": "2026-10-04"
+     },
+     {
+      "title": "3 Tech Hardware Stocks Built For Higher Rates And AI Infrastructure",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=3f2557ebdfde4fd9c74b85de93b319559798dedfd3bfbf73b844dc0d0d4cd45c",
+      "via": "Finnhub",
+      "date": "2026-10-03"
+     },
+     {
       "title": "Impinj, Power Integrations, Kulicke and Soffa, Microchip Technology, and Monolithic Power Systems Shares Are Soaring, What You Need To Know",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=b35223d137eb52aa6080e970b6c14b341c01173e6514f1110c7df4fa727b83ed",
@@ -9798,20 +9849,6 @@
       "url": "https://finnhub.io/api/news?id=aab9006d36a58b02b2253317f1a39f0abf20a3409f003a8d9a70e4e807671336",
       "via": "Finnhub",
       "date": "2026-10-02"
-     },
-     {
-      "title": "AI-Fueled Earnings Keep Climbing: 3 Top Stocks With Bullish EPS Revisions",
-      "source": "SeekingAlpha",
-      "url": "https://finnhub.io/api/news?id=534cfdc4566346ed28132a4d7891e8f3c0abeba0cf5bd21d33720f8880c3a1d2",
-      "via": "Finnhub",
-      "date": "2026-10-02"
-     },
-     {
-      "title": "Top S&P500 movers in Friday's pre-market session",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=d674fc0a6667a4bad40905abffa35b1f158852775d0f2c63316a7d2a5f493f83",
-      "via": "Finnhub",
-      "date": "2026-10-02"
      }
     ],
     "insider_90d": {
@@ -9820,20 +9857,20 @@
      "buy_value": 0,
      "sell_value": 376893.45999999996
     },
-    "sec_form4_90d": 27,
+    "sec_form4_90d": 22,
     "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=827054&type=4"
    },
    "assessment": {
-    "combined": 0.3422982885085575,
+    "combined": 0.34220532319391633,
     "context": 0.3027145798702428,
     "inputs": 3,
     "calib": {
      "lo": 0.45,
      "hi": 0.5,
-     "n": 3681,
-     "hit_rate": 0.3422982885085575,
-     "avg_ret": 0.0565122074046091,
-     "worse_20": 0.21488725889703886
+     "n": 3682,
+     "hit_rate": 0.34220532319391633,
+     "avg_ret": 0.056409820934723034,
+     "worse_20": 0.21510048886474742
     },
     "verdict": "Möglich",
     "cls": "mid",
@@ -9841,7 +9878,7 @@
      "Konsens-Kursziel +33 % über Kurs stützt das Ziel",
      "Quartalszahlen am 2026-11-05 liegen im Zeitfenster: möglicher Auslöser, aber auch Risiko",
      "Mehrere Wende-Signale aktiv (Kurs dreht nach oben)",
-     "Kehrseite: In 21 % der vergleichbaren Fälle lag der Kurs zwischenzeitlich mind. 20 % im Minus"
+     "Kehrseite: In 22 % der vergleichbaren Fälle lag der Kurs zwischenzeitlich mind. 20 % im Minus"
     ],
     "horizon": 40
    },
@@ -10202,16 +10239,16 @@
     "news_g": []
    },
    "assessment": {
-    "combined": 0.3422982885085575,
+    "combined": 0.34220532319391633,
     "context": 0.3901650913242746,
     "inputs": 3,
     "calib": {
      "lo": 0.45,
      "hi": 0.5,
-     "n": 3681,
-     "hit_rate": 0.3422982885085575,
-     "avg_ret": 0.0565122074046091,
-     "worse_20": 0.21488725889703886
+     "n": 3682,
+     "hit_rate": 0.34220532319391633,
+     "avg_ret": 0.056409820934723034,
+     "worse_20": 0.21510048886474742
     },
     "verdict": "Möglich",
     "cls": "mid",
@@ -10219,7 +10256,7 @@
      "Konsens-Kursziel +42 % über Kurs stützt das Ziel",
      "Quartalszahlen am 2026-10-22 liegen im Zeitfenster: möglicher Auslöser, aber auch Risiko",
      "Mehrere Wende-Signale aktiv (Kurs dreht nach oben)",
-     "Kehrseite: In 21 % der vergleichbaren Fälle lag der Kurs zwischenzeitlich mind. 20 % im Minus"
+     "Kehrseite: In 22 % der vergleichbaren Fälle lag der Kurs zwischenzeitlich mind. 20 % im Minus"
     ],
     "horizon": 40
    },
@@ -10546,7 +10583,7 @@
     "fiftyTwoWeekLow": 11.675
    },
    "price_score": 0.5103860378993259,
-   "vol_prob": 0.4515654801857949,
+   "vol_prob": 0.4515654801857951,
    "base_all": 0.32222222222222224,
    "base_all_n": 1260.0,
    "base_cond": 0.3045045045045045,
@@ -10554,7 +10591,7 @@
    "drawdown": 0.343429338444851,
    "high52": 60.41999816894531,
    "low52": 12.73284912109375,
-   "vol60": 0.6078889426971938,
+   "vol60": 0.6078889426971941,
    "rsi14": 60.48193567258027,
    "turn_score": 1.0,
    "ret5": 0.13994250111070183,
@@ -10579,10 +10616,17 @@
     "earnings_src": "Yahoo",
     "news_g": [
      {
-      "title": "AIXTRON Aktie heute im Minus - 01.10.2026 - Wallstreet Online",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOanY3ZlFPN1J2THlleWQtMzVQMzBwSDhvN1RlM1BtUW80Wk1XUThpV204U0k3RDl1cWJKTHF3eWRvcWx3aUlUZVVtRG9OdG95N1IyNmJrM2k0NGo5WTJoRVg4RzM5RGgxZnBqRmRJWnZlQlh6am14TktXa09VR3FuVm1JaDVFNEhHbkkwLUEzSk81dlh2OXc?oc=5",
-      "date": "2026-10-01",
+      "title": "AIXTRON Aktie bestätigt den positiven Trend - +4,84 % - 02.10.2026 - Wallstreet Online",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMm04aS1zdUZqbzRaUkpNQ0lXcGlTenFORUg1WXgwaUluUWRoUi1NNkZwbmRoTU1Sd1VkT1h0eEV4MVJwbS1ucks1WEt6VEd4YTYyNzdGSkJUS0dLTERsRkFwOW84ek5idW9CYW91bEtwUmI0bWpzbzNQajFaajJIQVp4Y2RkYUNqLTI3SUx5cy0xVndLcW5sdlVMME9sYU0zRUtIV1FERnRUM2VPS3F5MGJKVWUyOFVU?oc=5",
+      "date": "2026-10-02",
       "source": "Wallstreet Online",
+      "via": "Google News"
+     },
+     {
+      "title": "Norwegischer Staat meldet weniger Stimmrechte bei der Aixtron-Aktie - AD HOC NEWS",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQUnR6bmpvSXF0c1kzc0dkd3B5OFFJa1JadG1aUURNbWlBeTZDWUE4b0tVVlRyT2c2ZTJYamxqWmxYdmdqZ0Q3akFfd2h1X0hSNlo0ZHFtbWZuSTNSNHEybW1MbFROUFVyQnhvRktUYTlmS3lGT1Y1NUxLZkNONDltM1I5akVwYkNxZDV2ZlY0VFVfNm1XTmYyVkJrb0dZR3NTTUZQZ0tzQ0x4c1RSMjdmTXdNWWFpRUN0bFZQcHllU0MwV2lidDVmTWpB?oc=5",
+      "date": "2026-10-04",
+      "source": "AD HOC NEWS",
       "via": "Google News"
      },
      {
@@ -10593,24 +10637,10 @@
       "via": "Google News"
      },
      {
-      "title": "JPMORGAN: Aixtron \"buy\" - boerse.de - boerse.de",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE15V0RCRm0wcnFjbVRZOXRqWXdrdi1UVmE2OVNDQ2pfR2xYQTNtODJ0eVBKMU5EMGZ5NXdZeDJNeHRtMlJ4M0Z2bHNpQ2tvRGhwQndXUXhxcm1pZUJDd2h2aDJKSTF4Mkp3YmRoajN4VUrSAXZBVV95cUxQZjBUcUVYTnpaTkthRi1rQU5KbVBLMnRFRDdYazl2UDZUNFY5NDF6bXAzTGN5RnNvNXJOcC1xa0JrLVJEVTYxQmR3MVk0dURSNms5dWp2NHd4LXBEaFlKV0F2cW45VDNGdHZSNG8yVlMtdnV3SDJR?oc=5",
-      "date": "2026-10-01",
-      "source": "boerse.de",
-      "via": "Google News"
-     },
-     {
-      "title": "Aixtron (AIXA) steigt um fast 5,9 % auf 39,03 Euro – das ist der Grund - Investing.com Deutsch",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPb2NST1VJTl9zZThqVnN6NFVmUjZGaDhxSnNyRWNrczE3clpIZmhyRkNZTzZDSEZmNFhfTFJxRWxFS2ZyWExrYXIxYkE5RkxNaUllVXc2eEJNRE9mXzM2UHA2ZnJXTF9iU1hic3AxS2lPTFM3MHFfd1dWdVhuR0psdEJtcGNHOUJMZ1lNcVpNT0RtZzUtUjBiU0w5cE9yRmZWeXQwdTdoOVJacVQzWThCV1JFczA3SGVSN0tuUQ?oc=5",
-      "date": "2026-10-02",
-      "source": "Investing.com Deutsch",
-      "via": "Google News"
-     },
-     {
-      "title": "Experten sehen bei AIXTRON SE-Aktie Potenzial - finanzen.net",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQRlJaaWlIclZkVEJXd28xb1lNWEVtZXJ2NkNrUGFFZ0RDeHNIek8taDhMWWlCQm5TajY3YnZDU1NaM2ZONHJDYnJKeVBJMFg1b1dXdjBDUG5tVUFZbDRDRWVxeWM5LVQ4dEdPQWZWb0ptSHc4ckw5YUxyVFlLWDhMWkM2S0o3b2Jkdm44b2ZmSFp0T2QyUGEyaU1welI?oc=5",
-      "date": "2026-09-30",
-      "source": "finanzen.net",
+      "title": "Aixtron Aktie: MWB Research stuft auf Buy hoch - Börse Express",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOd3NMQ2N2aXNoYWlvMmZ0ZUI3NUdjc0dHU0NYQzBpSmZmMEsxZXo3bVRJU0xRM1JZeG5RUy0xbHN6MTBFYVdfTzVwV0hFdnNmQ1JmVUE0VkhyejFHbm01MlktdFdybG9PMVdQaDFHWHhxZGRyZ05NbUZtTjdxT25CMmxoRnFlQV9OcU9CWG03TGpQVGsxS1pyX0dOcHBRUQ?oc=5",
+      "date": "2026-10-04",
+      "source": "Börse Express",
       "via": "Google News"
      },
      {
@@ -10619,12 +10649,19 @@
       "date": "2026-10-01",
       "source": "4investors.de",
       "via": "Google News"
+     },
+     {
+      "title": "Aixtron-Aktie: Lohnt sich der Einstieg jetzt? - boerse.de - boerse.de",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPdDRKMEVWeWlwTmtKWVhtZUJfMmpVRTFvNjNnbDVWdGhpbDZXX0gxSWg0WkU5RWY4QlV5Z19NMVZSbWtyY185Y1pyM1RfcFhTOTFVTGUwSlF0V2s1R2ZXUkdOT3dfX1dIQm1RMkhVN2JHc1JnRUZqTnNGdU5XQ19ORzRwSE8wVGRNSWhteWoxLWtNSWRN0gGUAUFVX3lxTE90NEowRVZ5aXBOa0pZWG1lQl8yalVFMW82M2dsNVZ0aGlsNldfSDFJaDRaRTlFZjhCVXlnX00xVlJta3JjXzljWnIzVF9wWFM5MVVMZTBKUXRXazVHZldSR05Pd19fV0hCbVEySFU3YkdzUmdFRmpOc0Z1TldDX05HNHBITzBUZE1JaG15ajEta01JZE0?oc=5",
+      "date": "2026-10-02",
+      "source": "boerse.de",
+      "via": "Google News"
      }
     ]
    },
    "assessment": {
     "combined": 0.39473684210526316,
-    "context": 0.3594307356375072,
+    "context": 0.35943073563750727,
     "inputs": 3,
     "calib": {
      "lo": 0.5,
@@ -10943,7 +10980,7 @@
     "fullTimeEmployees": 30000,
     "longBusinessSummary": "Seagate Technology Holdings plc engages in providing data storage solutions in Singapore, the United States, the Netherlands, and internationally. The company offers External and internal hard drives; external and internal solid-state drives (SSDs); enterprise hard drives and SSDs; data storage systems; network attached storage (NAS) hard drives; video and analytics hard drives; and hyperscale and cloud solution. It offers its products for Healthcare, Media & Entertainment, Surveillance & Security, and telecommunication industry. The company sells its products primarily to original equipment manufacturers, distributors, and retailers. The company was founded in 1978 and is based in Singapore.",
     "marketCap": 193054392320,
-    "trailingPE": 68.028046,
+    "trailingPE": 61.07842,
     "forwardPE": 15.332644,
     "priceToBook": 88.85295,
     "enterpriseToEbitda": 43.228,
@@ -10985,7 +11022,7 @@
    "sma20": 872.0654479980469,
    "sma50": 854.133515625,
    "sma200": 649.7307441711425,
-   "turnover_eur": 2770853735.795927,
+   "turnover_eur": 2786762085.2202983,
    "details": {
     "rec_counts": {
      "strongBuy": 4,
@@ -11060,68 +11097,68 @@
     },
     "news_fh": [
      {
+      "title": "Toshiba Is Doubling Hard Drive Output. Seagate (STX) and Western Digital (WDC) Fell 10% Each",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=9e2c6fb0c4fc419544e541ff7d6e76eca3929c2a175c71faa4c0102388c75fe7",
+      "via": "Finnhub",
+      "date": "2026-10-05"
+     },
+     {
+      "title": "Western Digital vs. Seagate: Which Is the Better AI Infrastructure Stock to Own for the Next 5 Years?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=5d88f829b47f589c546a4a90e987a1b44da924813b1ff82b4438e43208f0657d",
+      "via": "Finnhub",
+      "date": "2026-10-04"
+     },
+     {
+      "title": "Google’s Free AI Video Push Is a Boost for Storage. Have WDC and STX Already Priced It In?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=e5859683a129a04fb5ffa292a8874c4a6e9a70c92781201b70579cf80f59e9df",
+      "via": "Finnhub",
+      "date": "2026-10-04"
+     },
+     {
+      "title": "Seagate Technology Holdings (NASDAQ:STX): Dividend Quality and Coverage for Income Investors",
+      "source": "ChartMill",
+      "url": "https://finnhub.io/api/news?id=9509c67a85a048186be6461ce5867d3e610fbe33b0248e217c6a89499bd97805",
+      "via": "Finnhub",
+      "date": "2026-10-03"
+     },
+     {
       "title": "Stock Market Today: Nasdaq Powers Up On U.S. Jobs Shortfall; Tesla Jumps, NetApp Extends Gains (Live Coverage)",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=37ec08fa2e0cb385facc17b8dd1d4199e86ae880a80f5d065d072386e5d94e78",
-      "via": "Finnhub",
-      "date": "2026-10-02"
-     },
-     {
-      "title": "Why Toshiba's Expansion Plans Just Sent Western Digital Stock Lower",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=86f1f3786a73be2be6603959d05647f3c0c8695f2dc8183831e88599aa0553b8",
-      "via": "Finnhub",
-      "date": "2026-10-02"
-     },
-     {
-      "title": "Stay informed with the top movers within the S&P500 index on Friday.",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=ca861ffeeb0452b9b3ceee92fd62a06df36568a2f615f744bf4b4c309f941890",
-      "via": "Finnhub",
-      "date": "2026-10-02"
-     },
-     {
-      "title": "Seagate Sinks 12%, Western Digital Down 10% as Toshiba Plans to Double Hard Disk Output",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=6bd4557c47112a837329a795286da6ed9ef53925f76b76cfb03dc72b08ad15de",
-      "via": "Finnhub",
-      "date": "2026-10-02"
-     },
-     {
-      "title": "STX, WDC Stocks Sink On Toshiba’s Reported Plan To Double AI Hard-Disk Capacity: Analysts Call The Drop Overdone",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=a9d14f56b755bc9f3d62548d43c2b1acd40a5f3372f88e09653336448b35f0a4",
       "via": "Finnhub",
       "date": "2026-10-02"
      }
     ],
     "insider_90d": {
      "buys": 0,
-     "sells": 335,
+     "sells": 379,
      "buy_value": 0,
-     "sell_value": 351662170.6174
+     "sell_value": 379332622.7739
     },
     "sec_form4_90d": 38,
     "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1137789&type=4"
    },
    "assessment": {
-    "combined": 0.3422982885085575,
+    "combined": 0.34220532319391633,
     "context": 0.38614014457313356,
     "inputs": 3,
     "calib": {
      "lo": 0.45,
      "hi": 0.5,
-     "n": 3681,
-     "hit_rate": 0.3422982885085575,
-     "avg_ret": 0.0565122074046091,
-     "worse_20": 0.21488725889703886
+     "n": 3682,
+     "hit_rate": 0.34220532319391633,
+     "avg_ret": 0.056409820934723034,
+     "worse_20": 0.21510048886474742
     },
     "verdict": "Möglich",
     "cls": "mid",
     "reasons": [
      "Konsens-Kursziel +33 % über Kurs stützt das Ziel",
      "Quartalszahlen am 2026-10-27 liegen im Zeitfenster: möglicher Auslöser, aber auch Risiko",
-     "Kehrseite: In 21 % der vergleichbaren Fälle lag der Kurs zwischenzeitlich mind. 20 % im Minus"
+     "Kehrseite: In 22 % der vergleichbaren Fälle lag der Kurs zwischenzeitlich mind. 20 % im Minus"
     ],
     "horizon": 40
    },
@@ -11424,7 +11461,7 @@
     "fullTimeEmployees": 1497,
     "longBusinessSummary": "Celsius Holdings, Inc. develops, processes, manufactures, markets, sells, and distributes functional energy drinks in the United States, North America, Europe, the Asia Pacific, and internationally. The company offers CELSIUS ESSENTIALS, a functional energy drink formulated with aminos; and CELSIUS Hydration, a line of zero-sugar hydration powders featuring electrolytes in various fruit-forward flavors, as well as ready-to-drink energy beverages, on-the-go powder and hydration sticks, and nutrition and wellness products under CELSIUS, Alani Nu, and Rockstar brand names. It distributes its products through direct-to-store delivery, independent distributors, supermarkets, convenience stores, drug stores, nutritional stores, food service providers, and mass merchants, as well as natural food stores, fitness centers, mass market retailers, vitamin specialty stores, club stores, gyms, and e-commerce platforms. The company was formerly known as Vector Ventures, Inc. and changed its name to Celsius Holdings, Inc. in January 2007. Celsius Holdings, Inc. was founded in 2004 and is headquartered in Boca Raton, Florida.",
     "marketCap": 6768687104,
-    "trailingPE": 121.59091,
+    "trailingPE": 116.304344,
     "forwardPE": 15.452869,
     "priceToBook": 5.649419,
     "enterpriseToEbitda": 12.762,
@@ -11435,7 +11472,7 @@
     "freeCashflow": 349633984,
     "shortPercentOfFloat": 0.1233,
     "beta": 0.922,
-    "dividendYield": null,
+    "dividendYield": 0.0,
     "currentPrice": 26.75,
     "targetMeanPrice": 42.28571,
     "targetMedianPrice": 41.0,
@@ -11466,7 +11503,7 @@
    "sma20": 28.1314998626709,
    "sma50": 29.386600036621093,
    "sma200": 36.4278999710083,
-   "turnover_eur": 165948814.36783305,
+   "turnover_eur": 166901579.1029104,
    "details": {
     "rec_counts": {
      "strongBuy": 6,
@@ -11586,16 +11623,16 @@
     "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1341766&type=4"
    },
    "assessment": {
-    "combined": 0.2981773137497788,
+    "combined": 0.29830148619957536,
     "context": 0.46944565985945275,
     "inputs": 3,
     "calib": {
      "lo": 0.4,
      "hi": 0.45,
-     "n": 5651,
-     "hit_rate": 0.2981773137497788,
-     "avg_ret": 0.0392068820374198,
-     "worse_20": 0.1989028490532649
+     "n": 5652,
+     "hit_rate": 0.29830148619957536,
+     "avg_ret": 0.039262780287927346,
+     "worse_20": 0.19886765746638357
     },
     "verdict": "Möglich",
     "cls": "mid",
@@ -11879,14 +11916,14 @@
    "currency": "USD",
    "price": 106.88999938964844,
    "price_date": "2026-10-02",
-   "target_mean": 197.61539,
+   "target_mean": 196.07692,
    "target_median": 200.0,
    "target_high": 265.0,
    "target_low": 120.0,
    "rec_mean": 1.5,
    "rec_key": "strong_buy",
    "n_analysts": 26.0,
-   "target_upside": 0.8487734224754584,
+   "target_upside": 0.8343804015307039,
    "checks": {
     "rec": true,
     "n": true,
@@ -11907,7 +11944,7 @@
     "fullTimeEmployees": 345,
     "longBusinessSummary": "Wingstop Inc., together with its subsidiaries, franchises and operates restaurants under the Wingstop brand in United States, Australia, Bahrain, Kuwait, Puerto Rico, Saudi Arabia, and The Netherlands. Its restaurants provides classic wings, boneless wings, tenders, and hand-sauced-and-tossed in various flavors, as well as chicken sandwiches, fries, and hand-cut carrots and celery that are cooked-to-order. The company was founded in 1994 and is headquartered in Dallas, Texas.",
     "marketCap": 2911955712,
-    "trailingPE": 25.269503,
+    "trailingPE": 25.329386,
     "forwardPE": 19.985716,
     "priceToBook": -3.7667828,
     "enterpriseToEbitda": 17.335,
@@ -11920,7 +11957,7 @@
     "beta": 1.78,
     "dividendYield": 1.23,
     "currentPrice": 106.89,
-    "targetMeanPrice": 197.61539,
+    "targetMeanPrice": 196.07692,
     "targetMedianPrice": 200.0,
     "targetHighPrice": 265.0,
     "targetLowPrice": 120.0,
@@ -11949,7 +11986,7 @@
    "sma20": 105.64224967956542,
    "sma50": 113.94007385253906,
    "sma200": 175.79137630462645,
-   "turnover_eur": 130685318.07669972,
+   "turnover_eur": 131435623.90401256,
    "details": {
     "rec_counts": {
      "strongBuy": 4,
@@ -12028,21 +12065,21 @@
     "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1636222&type=4"
    },
    "assessment": {
-    "combined": 0.2981773137497788,
+    "combined": 0.29830148619957536,
     "context": 0.33540959085053296,
     "inputs": 3,
     "calib": {
      "lo": 0.4,
      "hi": 0.45,
-     "n": 5651,
-     "hit_rate": 0.2981773137497788,
-     "avg_ret": 0.0392068820374198,
-     "worse_20": 0.1989028490532649
+     "n": 5652,
+     "hit_rate": 0.29830148619957536,
+     "avg_ret": 0.039262780287927346,
+     "worse_20": 0.19886765746638357
     },
     "verdict": "Möglich",
     "cls": "mid",
     "reasons": [
-     "Konsens-Kursziel +85 % über Kurs stützt das Ziel",
+     "Konsens-Kursziel +83 % über Kurs stützt das Ziel",
      "Quartalszahlen am 2026-10-28 liegen im Zeitfenster: möglicher Auslöser, aber auch Risiko",
      "Kehrseite: In 20 % der vergleichbaren Fälle lag der Kurs zwischenzeitlich mind. 20 % im Minus"
     ],
@@ -12358,7 +12395,7 @@
     "freeCashflow": 3179956224,
     "shortPercentOfFloat": 0.0376,
     "beta": 2.488,
-    "dividendYield": null,
+    "dividendYield": 0.0,
     "currentPrice": 268.22,
     "targetMeanPrice": 497.04547,
     "targetMedianPrice": 475.0,
@@ -12389,7 +12426,7 @@
    "sma20": 312.4614990234375,
    "sma50": 330.71399963378906,
    "sma200": 456.2161505126953,
-   "turnover_eur": 1219255469.5196328,
+   "turnover_eur": 1226255601.5713964,
    "details": {
     "rec_counts": {
      "strongBuy": 7,
@@ -12464,61 +12501,61 @@
     },
     "news_fh": [
      {
+      "title": "Why Did NKE, NIO, APP Stocks Tumble To 52-Week Lows Last Week?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=f15b7178df328da57f01ae612f2cdb25cc5b510ffacf1b7bac220589f66c4893",
+      "via": "Finnhub",
+      "date": "2026-10-05"
+     },
+     {
+      "title": "Jim Cramer Remains Wary of AppLovin (APP) Despite Its 44% Decline",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=eebbb747b90f351fd6c6bcc5ba6bfd5a47a891f56dbe199627404a00992914b7",
+      "via": "Finnhub",
+      "date": "2026-10-04"
+     },
+     {
+      "title": "AppLovin: I Was Wrong, This Is A Sell (Rating Downgrade)",
+      "source": "SeekingAlpha",
+      "url": "https://finnhub.io/api/news?id=d89877dd21bbd148d6302d5171e3ceb9dd2f91466f13d0b57ed1422665de28f4",
+      "via": "Finnhub",
+      "date": "2026-10-03"
+     },
+     {
+      "title": "Benzinga Bulls and Bears: Alphabet, Micron, Nike",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=b301adb08f6739782553d10de0a5a721e5aa0f60e2845376e59ef852f1edaf54",
+      "via": "Finnhub",
+      "date": "2026-10-03"
+     },
+     {
       "title": "AppLovin Stock Is Down 49% in Three Months. Bargain or Falling Knife?",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=a72771924b977060436e0c5b938f50b7502a0ca2f4776441554531a26d136ffe",
       "via": "Finnhub",
       "date": "2026-10-03"
-     },
-     {
-      "title": "Stay informed with the top movers within the S&P500 index on Friday.",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=ca861ffeeb0452b9b3ceee92fd62a06df36568a2f615f744bf4b4c309f941890",
-      "via": "Finnhub",
-      "date": "2026-10-02"
-     },
-     {
-      "title": "Friday's session: top gainers and losers in the S&P500 index",
-      "source": "ChartMill",
-      "url": "https://finnhub.io/api/news?id=dae9e38216af9caeb3c9abed3121741bfec571aa37cb57af005378a6860ef556",
-      "via": "Finnhub",
-      "date": "2026-10-02"
-     },
-     {
-      "title": "AppLovin Took Unity to Court Over Ad Data. Here’s Where the Stock Could Go by 2030",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=ce4f9590deebaaa2271dfdc15f993232d566e8757b51f0eaa8ce1502ab886798",
-      "via": "Finnhub",
-      "date": "2026-10-02"
-     },
-     {
-      "title": "Should You Buy And Hold AppLovin Stock?",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=a61649fb769c0116656da026333e03801d93859d5faace276a4e655e7a875df5",
-      "via": "Finnhub",
-      "date": "2026-10-02"
      }
     ],
     "insider_90d": {
      "buys": 0,
-     "sells": 9,
+     "sells": 0,
      "buy_value": 0,
-     "sell_value": 1603489.1199999999
+     "sell_value": 0
     },
     "sec_form4_90d": 10,
     "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1751008&type=4"
    },
    "assessment": {
-    "combined": 0.2981773137497788,
+    "combined": 0.29830148619957536,
     "context": 0.5322514831222708,
     "inputs": 3,
     "calib": {
      "lo": 0.4,
      "hi": 0.45,
-     "n": 5651,
-     "hit_rate": 0.2981773137497788,
-     "avg_ret": 0.0392068820374198,
-     "worse_20": 0.1989028490532649
+     "n": 5652,
+     "hit_rate": 0.29830148619957536,
+     "avg_ret": 0.039262780287927346,
+     "worse_20": 0.19886765746638357
     },
     "verdict": "Möglich",
     "cls": "mid",
@@ -12818,7 +12855,7 @@
    "passes_stage2": true,
    "fails": 0,
    "analyst_strength": 0.7301194520744236,
-   "score": 0.4045600267737812,
+   "score": 0.40456002677378117,
    "info": {
     "longName": "Jabil Inc.",
     "shortName": "Jabil Inc.",
@@ -12830,7 +12867,7 @@
     "fullTimeEmployees": null,
     "longBusinessSummary": "Jabil Inc. provides engineering, manufacturing, and supply chain solutions worldwide. It operates in three segments: Regulated Industries, Intelligent Infrastructure, and Connected Living and Digital Commerce. The company offers electronic hardware, and embedded software design services for analog, digital, radio frequency, power, sensor, and optical component applications; creates, develops, and connects concepts and specifications that optimize the function, value, and appearance of products for both consumers and manufacturing partners; design of plastic and metal components, enclosures, sub-assemblies, and systems, with advanced modeling and analysis of electronic, electro-mechanical, and optical assemblies; detail design, environmental applications, thermal and tooling management; develop solutions for virtual and/or augmented reality, light detection and ranging, 3D sensing, projection, and imaging; delivering PCBA design with CAD tools; and electrical and mechanical assemblies. The company also offers cloud data center server platforms; medical and consumer health devices; automotive assemblies; a digital commerce ecosystem; and smart controls and security for digital building and utilities. In addition, the company offers systems assembly, test, direct-order fulfillment, and configure-to-order services. It serves 5G, wireless and cloud, digital print and retail, industrial and semi-cap, networking and storage, automotive and transportation, connected devices, healthcare and packaging, and mobility industries. Jabil Inc. was formerly known as Jabil Circuit, Inc. and changed its name to Jabil Inc. in June 2017. The company was founded in 1966 and is based in Saint Petersburg, Florida.",
     "marketCap": 31898236928,
-    "trailingPE": 30.779575,
+    "trailingPE": 31.221539,
     "forwardPE": 13.7319,
     "priceToBook": 19.778442,
     "enterpriseToEbitda": 13.583,
@@ -12853,8 +12890,8 @@
     "fiftyTwoWeekHigh": 428.93,
     "fiftyTwoWeekLow": 189.6
    },
-   "price_score": 0.44020049174669296,
-   "vol_prob": 0.3708159075852435,
+   "price_score": 0.44020049174669285,
+   "vol_prob": 0.3708159075852433,
    "base_all": 0.25317460317460316,
    "base_all_n": 1260.0,
    "base_cond": 0.345,
@@ -12862,7 +12899,7 @@
    "drawdown": 0.21044581613118163,
    "high52": 385.54669189453125,
    "low52": 192.3445281982422,
-   "vol60": 0.5113419470653705,
+   "vol60": 0.5113419470653704,
    "rsi14": 47.3981943165008,
    "turn_score": 0.8,
    "ret5": -0.03892778604666225,
@@ -12872,7 +12909,7 @@
    "sma20": 306.01649780273436,
    "sma50": 316.8352130126953,
    "sma200": 301.55570976257326,
-   "turnover_eur": 283634190.82263756,
+   "turnover_eur": 285262624.6002903,
    "details": {
     "rec_counts": {
      "strongBuy": 2,
@@ -12947,6 +12984,20 @@
     },
     "news_fh": [
      {
+      "title": "What Is the Market Really Paying for Jabil’s (JBL) Growth?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=579ba5aa648d3acb6b8db2721b6978fac3bd806cf85dcd928751a1e18b1dcea4",
+      "via": "Finnhub",
+      "date": "2026-10-04"
+     },
+     {
+      "title": "Plexus Is Booming—But Can the Growth Story Last?",
+      "source": "Yahoo",
+      "url": "https://finnhub.io/api/news?id=bc1444d49942cdf07c97c1874125eb666fa69005f6fc5f0b3d26c37d295030d7",
+      "via": "Finnhub",
+      "date": "2026-10-03"
+     },
+     {
       "title": "Buy Jabil (JBL) Stock as AI Infrastructure Demand Fuels Strong Q4 Results?",
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=a984c053dd8699f26a9eb41e93cf731066686d1f7af124d4da9148583d81a45c",
@@ -12966,42 +13017,28 @@
       "url": "https://finnhub.io/api/news?id=c8a0816b1e9e2b73090b5568d31942e0091f348056bf5b3525b9d3b1e9a98651",
       "via": "Finnhub",
       "date": "2026-10-01"
-     },
-     {
-      "title": "Jabil's Fiscal 2027 Outlook Leaves Room for Upside, UBS Says",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=37b840ffd5ac1b39f8c8ac2734247a5fddb420e86305ad96712d863a6efa8334",
-      "via": "Finnhub",
-      "date": "2026-10-01"
-     },
-     {
-      "title": "Jabil (JBL) is an Incredible Growth Stock: 3 Reasons Why",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=3fe565229275a1890e7598954052e1788e15a56a87c33a13b88aad0261fcee7f",
-      "via": "Finnhub",
-      "date": "2026-10-01"
      }
     ],
     "insider_90d": {
      "buys": 1,
-     "sells": 10,
+     "sells": 9,
      "buy_value": 149814.95,
-     "sell_value": 352286.73
+     "sell_value": 319856.73
     },
     "sec_form4_90d": 4,
     "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=898293&type=4"
    },
    "assessment": {
-    "combined": 0.2981773137497788,
-    "context": 0.3229968369199489,
+    "combined": 0.29830148619957536,
+    "context": 0.3229968369199488,
     "inputs": 3,
     "calib": {
      "lo": 0.4,
      "hi": 0.45,
-     "n": 5651,
-     "hit_rate": 0.2981773137497788,
-     "avg_ret": 0.0392068820374198,
-     "worse_20": 0.1989028490532649
+     "n": 5652,
+     "hit_rate": 0.29830148619957536,
+     "avg_ret": 0.039262780287927346,
+     "worse_20": 0.19886765746638357
     },
     "verdict": "Möglich",
     "cls": "mid",
@@ -13322,7 +13359,7 @@
     "freeCashflow": -432948864,
     "shortPercentOfFloat": 0.205,
     "beta": 1.951,
-    "dividendYield": null,
+    "dividendYield": 0.0,
     "currentPrice": 46.97,
     "targetMeanPrice": 73.41176,
     "targetMedianPrice": 73.0,
@@ -13353,7 +13390,7 @@
    "sma20": 49.589999961853025,
    "sma50": 51.01699996948242,
    "sma200": 56.71719999313355,
-   "turnover_eur": 218292372.4328416,
+   "turnover_eur": 219545658.12326768,
    "details": {
     "rec_counts": {
      "strongBuy": 5,
@@ -13428,6 +13465,13 @@
     },
     "news_fh": [
      {
+      "title": "The Joint U.S.-Ukrainian Reconstruction Investment Fund Has Sealed Its First Critical Minerals Deal Alongside Four Other New Projects",
+      "source": "Benzinga",
+      "url": "https://finnhub.io/api/news?id=7cc831cb74f12a28d34f137d5ad4183ce30051bd3d54d4edca202e761f458630",
+      "via": "Finnhub",
+      "date": "2026-10-02"
+     },
+     {
       "title": "Trump Floats Intel-Style Government Equity Stakes in OpenAI and Anthropic: 'I Have Many Deals Like That' (UPDATED)",
       "source": "Benzinga",
       "url": "https://finnhub.io/api/news?id=4010a2a42ea84afca48e347c8d3d94f42330ebcb13c9cbef01e66e456d5d5473",
@@ -13454,13 +13498,6 @@
       "url": "https://finnhub.io/api/news?id=25700e3d0e101b561684424744368bd5fa07712a17bb3ca9859b4741c2d65e7a",
       "via": "Finnhub",
       "date": "2026-10-01"
-     },
-     {
-      "title": "Critical Metals And 2 Top Rare Earth Stocks To Watch",
-      "source": "Yahoo",
-      "url": "https://finnhub.io/api/news?id=759b450326e56cae0a485f4a71649c7c578712af273f54b713b0c098ac2f501a",
-      "via": "Finnhub",
-      "date": "2026-10-01"
      }
     ],
     "insider_90d": {
@@ -13473,16 +13510,16 @@
     "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1801368&type=4"
    },
    "assessment": {
-    "combined": 0.2981773137497788,
+    "combined": 0.29830148619957536,
     "context": 0.4052543493061569,
     "inputs": 3,
     "calib": {
      "lo": 0.4,
      "hi": 0.45,
-     "n": 5651,
-     "hit_rate": 0.2981773137497788,
-     "avg_ret": 0.0392068820374198,
-     "worse_20": 0.1989028490532649
+     "n": 5652,
+     "hit_rate": 0.29830148619957536,
+     "avg_ret": 0.039262780287927346,
+     "worse_20": 0.19886765746638357
     },
     "verdict": "Möglich",
     "cls": "mid",
@@ -13793,7 +13830,7 @@
     "fullTimeEmployees": 5100,
     "longBusinessSummary": "Axon Enterprise, Inc. provides public safety technology solutions in the United States and internationally. The company operates in two segments, Software and Services, and Connected Devices. The Software and Services segment develops, manufactures, and sells cloud-based software-as-a-service solutions to capture, store, manage, share, and analyze video and other digital evidence. This segment also offers Axon Evidence, Draft One, Axon Records, Axon Standards, Axon Fusus, Axon Assistant, and others. The Connected Devices segment engages in the development, manufacture, and sale of integrated hardware solutions, such as conducted energy devices under the TASER brand, body cameras, fixed and in-car cameras, drone and counter-drone technologies, accessories, extended warranties, and related hardware products, as well as virtual reality training hardware. The company serves first responders across international, federal, state, and local governments, international governmental entities, commercial enterprises, and consumers through direct sales, distribution partners, and third-party resellers. The company was formerly known as TASER International, Inc. and changed its name to Axon Enterprise, Inc. in April 2017. Axon Enterprise, Inc. was incorporated in 1993 and is headquartered in Scottsdale, Arizona.",
     "marketCap": 33579487232,
-    "trailingPE": 172.22916,
+    "trailingPE": 171.51453,
     "forwardPE": 39.202873,
     "priceToBook": 9.13824,
     "enterpriseToEbitda": 210.395,
@@ -13804,7 +13841,7 @@
     "freeCashflow": 222160000,
     "shortPercentOfFloat": 0.053200003,
     "beta": 1.399,
-    "dividendYield": null,
+    "dividendYield": 0.0,
     "currentPrice": 413.35,
     "targetMeanPrice": 704.1053,
     "targetMedianPrice": 700.0,
@@ -13835,7 +13872,7 @@
    "sma20": 455.53699645996096,
    "sma50": 529.7900012207032,
    "sma200": 496.96180053710935,
-   "turnover_eur": 344040440.5788075,
+   "turnover_eur": 346015685.7800019,
    "details": {
     "rec_counts": {
      "strongBuy": 8,
@@ -13848,7 +13885,7 @@
     "rating_changes_90d": {
      "up": 0,
      "down": 0,
-     "total": 7
+     "total": 6
     },
     "rating_actions": [
      {
@@ -13955,16 +13992,16 @@
     "sec_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1069183&type=4"
    },
    "assessment": {
-    "combined": 0.2981773137497788,
+    "combined": 0.29830148619957536,
     "context": 0.4175780844774654,
     "inputs": 3,
     "calib": {
      "lo": 0.4,
      "hi": 0.45,
-     "n": 5651,
-     "hit_rate": 0.2981773137497788,
-     "avg_ret": 0.0392068820374198,
-     "worse_20": 0.1989028490532649
+     "n": 5652,
+     "hit_rate": 0.29830148619957536,
+     "avg_ret": 0.039262780287927346,
+     "worse_20": 0.19886765746638357
     },
     "verdict": "Möglich",
     "cls": "mid",
@@ -14239,7 +14276,14 @@
   }
  ],
  "changes": {
-  "first_run": true
+  "first_run": false,
+  "prev_date": "2026-10-03",
+  "top_new": [],
+  "top_out": [],
+  "watch_new": [],
+  "watch_out": [],
+  "promoted": [],
+  "demoted": []
  },
  "record": {
   "summary": {
@@ -15257,9 +15301,9 @@
     "n": 158
    },
    "EU": {
-    "above_sma200": 0.5791433891992551,
-    "dd_over_20": 0.26629422718808193,
-    "n": 537
+    "above_sma200": 0.5802238805970149,
+    "dd_over_20": 0.2667910447761194,
+    "n": 536
    }
   },
   "assessment": {
@@ -15273,7 +15317,7 @@
     "10-jährige US-Rendite 5.24 % (30 Tage: +0.45 Pp.).",
     "Marktbreite USA: 44 % der Aktien über dem 200-Tage-Schnitt, 39 % mind. 20 % unter dem Jahreshoch (n = 899).",
     "Marktbreite Deutschland: 58 % der Aktien über dem 200-Tage-Schnitt, 35 % mind. 20 % unter dem Jahreshoch (n = 158).",
-    "Marktbreite Europa: 58 % der Aktien über dem 200-Tage-Schnitt, 27 % mind. 20 % unter dem Jahreshoch (n = 537)."
+    "Marktbreite Europa: 58 % der Aktien über dem 200-Tage-Schnitt, 27 % mind. 20 % unter dem Jahreshoch (n = 536)."
    ]
   }
  },
@@ -15283,7 +15327,7 @@
    "2026-08-04"
   ],
   "rebalance_dates": 240,
-  "universe_size": 1594,
+  "universe_size": 1593,
   "horizon_days": 40,
   "strategies": {
    "Top 10 nach Kurs-Score (Radar-Regel)": {
@@ -15296,13 +15340,13 @@
     "share_worse_20": 0.3095833333333333
    },
    "Alle Aktien mit Kursfilter (Stufe 1)": {
-    "n": 66682,
-    "hit_rate": 0.22752766863621368,
-    "avg_ret": 0.03329853940656451,
-    "median_ret": 0.023427526291189715,
-    "loss_share": 0.4370594763204463,
-    "avg_worst": -0.09500643824397688,
-    "share_worse_20": 0.13346930206052607
+    "n": 66709,
+    "hit_rate": 0.2274805498508447,
+    "avg_ret": 0.03328760522103235,
+    "median_ret": 0.0234159510793972,
+    "loss_share": 0.43703248437242354,
+    "avg_worst": -0.09499966094466479,
+    "share_worse_20": 0.13343027177742134
    },
    "Top 10 mit größtem Abstand zum Hoch": {
     "n": 2400,
@@ -15323,13 +15367,13 @@
     "share_worse_20": 0.2941666666666667
    },
    "Alle Aktien im Universum (Basisrate)": {
-    "n": 357477,
-    "hit_rate": 0.11840482044998699,
-    "avg_ret": 0.02294897720279562,
-    "median_ret": 0.01524189121834807,
-    "loss_share": 0.439888440375185,
-    "avg_worst": -0.07359573933586819,
-    "share_worse_20": 0.07035977139788015
+    "n": 357388,
+    "hit_rate": 0.11842031629489519,
+    "avg_ret": 0.02295936523255807,
+    "median_ret": 0.015268367752782952,
+    "loss_share": 0.4399056487626893,
+    "avg_worst": -0.07360143805977724,
+    "share_worse_20": 0.0703577064702788
    }
   },
   "by_year": [
@@ -15338,42 +15382,42 @@
     "n": 30,
     "hit_rate": 0.26666666666666666,
     "avg_ret": -0.016116545962959684,
-    "base_hit_rate": 0.09437199725463281
+    "base_hit_rate": 0.09446925455170045
    },
    {
     "year": 2022,
     "n": 510,
     "hit_rate": 0.40980392156862744,
     "avg_ret": 0.003998502848007628,
-    "base_hit_rate": 0.12966854850894904
+    "base_hit_rate": 0.12969733622893587
    },
    {
     "year": 2023,
     "n": 520,
     "hit_rate": 0.3576923076923077,
     "avg_ret": 0.05024541820567126,
-    "base_hit_rate": 0.09834254143646409
+    "base_hit_rate": 0.09835242113723126
    },
    {
     "year": 2024,
     "n": 520,
     "hit_rate": 0.3326923076923077,
     "avg_ret": 0.03261857957909651,
-    "base_hit_rate": 0.10052801030264005
+    "base_hit_rate": 0.1005305996290954
    },
    {
     "year": 2025,
     "n": 510,
     "hit_rate": 0.4176470588235294,
     "avg_ret": 0.07993453798727801,
-    "base_hit_rate": 0.12451103977959428
+    "base_hit_rate": 0.12456464105629776
    },
    {
     "year": 2026,
     "n": 310,
     "hit_rate": 0.33225806451612905,
     "avg_ret": 0.023290643725682084,
-    "base_hit_rate": 0.1555667781916125
+    "base_hit_rate": 0.15555321612801348
    }
   ],
   "by_region": [
@@ -15402,34 +15446,34 @@
    {
     "lo": 0.0,
     "hi": 0.15,
-    "n": 6478,
-    "hit_rate": 0.15483173819079962,
-    "avg_ret": 0.03178044821951511,
-    "worse_20": 0.07440568076566842
+    "n": 6494,
+    "hit_rate": 0.15460425007699416,
+    "avg_ret": 0.031709099281409255,
+    "worse_20": 0.07422235910070835
    },
    {
     "lo": 0.15,
     "hi": 0.2,
-    "n": 7464,
-    "hit_rate": 0.18448553054662378,
-    "avg_ret": 0.03359781841136762,
-    "worse_20": 0.08078778135048231
+    "n": 7467,
+    "hit_rate": 0.18441141020490157,
+    "avg_ret": 0.03357780678255109,
+    "worse_20": 0.08075532342306146
    },
    {
     "lo": 0.2,
     "hi": 0.25,
-    "n": 9442,
-    "hit_rate": 0.18777801313281084,
-    "avg_ret": 0.03026028654566211,
-    "worse_20": 0.09891972039822071
+    "n": 9444,
+    "hit_rate": 0.1877382465057179,
+    "avg_ret": 0.03025176803533514,
+    "worse_20": 0.09889877170690385
    },
    {
     "lo": 0.25,
     "hi": 0.3,
-    "n": 11471,
-    "hit_rate": 0.19675703949089007,
-    "avg_ret": 0.025738657679165684,
-    "worse_20": 0.11420102868102171
+    "n": 11474,
+    "hit_rate": 0.1967055952588461,
+    "avg_ret": 0.02573829052166908,
+    "worse_20": 0.11417116960083667
    },
    {
     "lo": 0.3,
@@ -15442,26 +15486,26 @@
    {
     "lo": 0.35,
     "hi": 0.4,
-    "n": 8342,
-    "hit_rate": 0.2499400623351714,
-    "avg_ret": 0.030658791559186598,
-    "worse_20": 0.15439942459841766
+    "n": 8343,
+    "hit_rate": 0.25002996524032123,
+    "avg_ret": 0.030665352198137062,
+    "worse_20": 0.15438091813496344
    },
    {
     "lo": 0.4,
     "hi": 0.45,
-    "n": 5651,
-    "hit_rate": 0.2981773137497788,
-    "avg_ret": 0.0392068820374198,
-    "worse_20": 0.1989028490532649
+    "n": 5652,
+    "hit_rate": 0.29830148619957536,
+    "avg_ret": 0.039262780287927346,
+    "worse_20": 0.19886765746638357
    },
    {
     "lo": 0.45,
     "hi": 0.5,
-    "n": 3681,
-    "hit_rate": 0.3422982885085575,
-    "avg_ret": 0.0565122074046091,
-    "worse_20": 0.21488725889703886
+    "n": 3682,
+    "hit_rate": 0.34220532319391633,
+    "avg_ret": 0.056409820934723034,
+    "worse_20": 0.21510048886474742
    },
    {
     "lo": 0.5,
@@ -15502,7 +15546,7 @@
   "MIN_ANALYSTS": 5,
   "MIN_TARGET_UPSIDE": 0.2
  },
- "runtime_s": 283,
+ "runtime_s": 266,
  "sources": {
   "Wikipedia": {
    "ok": 5,
@@ -15525,7 +15569,7 @@
    "used_for": "Deutsche und europäische Werte nach Börsenwert"
   },
   "Yahoo Finance": {
-   "ok": 147,
+   "ok": 148,
    "fail": 0,
    "notes": [],
    "used_for": "Kurse, Indizes, Devisen, Analysten, Kennzahlen, News"
@@ -15563,7 +15607,7 @@
    "used_for": "Anzahl Insider-Meldungen (Form 4) der letzten 90 Tage, US"
   },
   "Google News (RSS)": {
-   "ok": 3,
+   "ok": 4,
    "fail": 0,
    "notes": [],
    "used_for": "Schlagzeilen, v. a. für deutsche/europäische Werte"

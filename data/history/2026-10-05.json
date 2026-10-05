@@ -1,0 +1,107 @@
+{
+ "date": "2026-10-05",
+ "top": [
+  {
+   "symbol": "SNDK",
+   "name": "Sandisk Corporation",
+   "price": 1719.989990234375,
+   "price_date": "2026-10-02",
+   "score": 0.6392007981256582,
+   "currency": "USD"
+  },
+  {
+   "symbol": "STRL",
+   "name": "Sterling Infrastructure, Inc.",
+   "price": 533.4199829101562,
+   "price_date": "2026-10-02",
+   "score": 0.6390012699131604,
+   "currency": "USD"
+  },
+  {
+   "symbol": "FN",
+   "name": "Fabrinet",
+   "price": 463.69000244140625,
+   "price_date": "2026-10-02",
+   "score": 0.6156677601952353,
+   "currency": "USD"
+  },
+  {
+   "symbol": "COHR",
+   "name": "Coherent Corp.",
+   "price": 337.0400085449219,
+   "price_date": "2026-10-02",
+   "score": 0.5590366082088505,
+   "currency": "USD"
+  },
+  {
+   "symbol": "FLEX",
+   "name": "Flex Ltd.",
+   "price": 116.61000061035156,
+   "price_date": "2026-10-02",
+   "score": 0.526295442963361,
+   "currency": "USD"
+  },
+  {
+   "symbol": "RMBS",
+   "name": "Rambus Inc.",
+   "price": 111.97000122070312,
+   "price_date": "2026-10-02",
+   "score": 0.5162822434983518,
+   "currency": "USD"
+  },
+  {
+   "symbol": "NXT",
+   "name": "Nextpower Inc.",
+   "price": 84.30000305175781,
+   "price_date": "2026-10-02",
+   "score": 0.5162770346960998,
+   "currency": "USD"
+  },
+  {
+   "symbol": "TLN",
+   "name": "Talen Energy Corporation",
+   "price": 320.7699890136719,
+   "price_date": "2026-10-02",
+   "score": 0.5036010313803715,
+   "currency": "USD"
+  },
+  {
+   "symbol": "VRT",
+   "name": "Vertiv Holdings Co",
+   "price": 252.17999267578125,
+   "price_date": "2026-10-02",
+   "score": 0.49212626981543667,
+   "currency": "USD"
+  },
+  {
+   "symbol": "MTSI",
+   "name": "MACOM Technology Solutions Holdings, Inc.",
+   "price": 321.6000061035156,
+   "price_date": "2026-10-02",
+   "score": 0.4873662312409148,
+   "currency": "USD"
+  }
+ ],
+ "watch": [
+  "AEIS",
+  "RDDT",
+  "MTZ",
+  "CIEN",
+  "IFX.DE",
+  "ALGM",
+  "GWRE",
+  "RRX",
+  "GNRC",
+  "CAVA",
+  "MCHP",
+  "BESI.AS",
+  "AIXA.DE",
+  "STX",
+  "CELH",
+  "WING",
+  "APP",
+  "JBL",
+  "MP",
+  "AXON"
+ ]
+}
