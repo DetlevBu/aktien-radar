@@ -2,9 +2,11 @@ name: Taeglicher Radar-Lauf
 
 on:
   schedule:
-    # Mo-Fr 04:17 UTC = 06:17 Uhr Sommerzeit / 05:17 Uhr Winterzeit (Berlin).
-    # GitHub startet geplante Läufe oft mit einigen Minuten Verzögerung.
-    - cron: "17 4 * * 1-5"
+    # GitHub startet geplante Läufe unzuverlässig (Stunden zu spät oder gar
+    # nicht). Deshalb zehn Startversuche Mo-Fr zwischen 03:17 und 07:47 UTC
+    # (05:17-09:47 Uhr Berlin Sommerzeit). Der erste erfolgreiche Lauf des
+    # Tages aktualisiert die Seite, alle weiteren beenden sich nach Sekunden.
+    - cron: "17,47 3-7 * * 1-5"
   workflow_dispatch: {}
   push:
     branches: [main]
@@ -24,15 +26,29 @@ jobs:
     steps:
       - uses: actions/checkout@v5
 
+      - name: Heute schon aktualisiert?
+        id: guard
+        run: |
+          today=$(date -u +%F)
+          if [ "${{ github.event_name }}" = "schedule" ] && [ -f "data/history/${today}.json" ]; then
+            echo "Radar fuer ${today} existiert bereits - nichts zu tun."
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - uses: actions/setup-python@v6
+        if: steps.guard.outputs.skip != 'true'
         with:
           python-version: "3.12"
           cache: pip
 
       - name: Abhaengigkeiten installieren
+        if: steps.guard.outputs.skip != 'true'
         run: pip install -r requirements.txt
 
       - name: Kurs-Cache laden
+        if: steps.guard.outputs.skip != 'true'
         uses: actions/cache/restore@v5
         with:
           path: .cache
@@ -40,6 +56,7 @@ jobs:
           restore-keys: prices-
 
       - name: Radar ausfuehren
+        if: steps.guard.outputs.skip != 'true'
         env:
           FINNHUB_KEY: ${{ secrets.FINNHUB_KEY }}
           FMP_KEY: ${{ secrets.FMP_KEY }}
@@ -52,14 +69,14 @@ jobs:
           python -m radar.run 2>&1 | tee data/run.log
 
       - name: Kurs-Cache sichern
-        if: always()
+        if: always() && steps.guard.outputs.skip != 'true'
         uses: actions/cache/save@v5
         with:
           path: .cache
           key: prices-${{ github.run_id }}
 
       - name: Ergebnis speichern und veroeffentlichen
-        if: always()
+        if: always() && steps.guard.outputs.skip != 'true'
         run: |
           git config user.name "aktien-radar-bot"
           git config user.email "actions@users.noreply.github.com"

@@ -129,9 +129,15 @@ def download(symbols, period="6y"):
     out = {k: merged.get(k, pd.DataFrame()) for k in ("close", "high", "low", "volume")}
     _stooq_fill(out, symbols)
     cut = pd.Timestamp.today() - pd.Timedelta(days=int(6.2 * 365))
+    # Nur abgeschlossene Handelstage: Vor 21:00 UTC (nach US-Börsenschluss)
+    # ist ein Kurs mit heutigem Datum ein unfertiger Intraday-Stand.
+    now = pd.Timestamp.now(tz="UTC")
+    last_ok = now.normalize().tz_localize(None)
+    if now.hour >= 21:
+        last_ok += pd.Timedelta(days=1)
     for k in out:
         out[k].index = pd.to_datetime(out[k].index).tz_localize(None)
-        out[k] = out[k][out[k].index >= cut].sort_index()
+        out[k] = out[k][(out[k].index >= cut) & (out[k].index < last_ok)].sort_index()
     try:
         CACHE_FILE.parent.mkdir(parents=True, exist_ok=True)
         pd.to_pickle(out, CACHE_FILE)
