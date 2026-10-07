@@ -1,0 +1,107 @@
+{
+ "date": "2026-10-07",
+ "top": [
+  {
+   "symbol": "STRL",
+   "name": "Sterling Infrastructure, Inc.",
+   "price": 563.6900024414062,
+   "price_date": "2026-10-06",
+   "score": 0.626785245928901,
+   "currency": "USD"
+  },
+  {
+   "symbol": "SNDK",
+   "name": "Sandisk Corporation",
+   "price": 1660.4599609375,
+   "price_date": "2026-10-06",
+   "score": 0.6137549998120134,
+   "currency": "USD"
+  },
+  {
+   "symbol": "FN",
+   "name": "Fabrinet",
+   "price": 489.1600036621094,
+   "price_date": "2026-10-06",
+   "score": 0.6037968078353827,
+   "currency": "USD"
+  },
+  {
+   "symbol": "TTMI",
+   "name": "TTM Technologies, Inc.",
+   "price": 132.7100067138672,
+   "price_date": "2026-10-06",
+   "score": 0.5778165160184188,
+   "currency": "USD"
+  },
+  {
+   "symbol": "COHR",
+   "name": "Coherent Corp.",
+   "price": 338.3599853515625,
+   "price_date": "2026-10-06",
+   "score": 0.5577136483279226,
+   "currency": "USD"
+  },
+  {
+   "symbol": "FLEX",
+   "name": "Flex Ltd.",
+   "price": 121.37999725341797,
+   "price_date": "2026-10-06",
+   "score": 0.5150313909308487,
+   "currency": "USD"
+  },
+  {
+   "symbol": "MTZ",
+   "name": "MasTec, Inc.",
+   "price": 228.3000030517578,
+   "price_date": "2026-10-06",
+   "score": 0.5036316565627328,
+   "currency": "USD"
+  },
+  {
+   "symbol": "NXT",
+   "name": "Nextpower Inc.",
+   "price": 88.08999633789062,
+   "price_date": "2026-10-06",
+   "score": 0.5019506610916026,
+   "currency": "USD"
+  },
+  {
+   "symbol": "RMBS",
+   "name": "Rambus Inc.",
+   "price": 114.08999633789062,
+   "price_date": "2026-10-06",
+   "score": 0.498731581453565,
+   "currency": "USD"
+  },
+  {
+   "symbol": "AEIS",
+   "name": "Advanced Energy Industries, Inc.",
+   "price": 302.7699890136719,
+   "price_date": "2026-10-06",
+   "score": 0.4809162498323321,
+   "currency": "USD"
+  }
+ ],
+ "watch": [
+  "BESI.AS",
+  "DY",
+  "RDDT",
+  "VRT",
+  "IFX.DE",
+  "ALGM",
+  "CELH",
+  "GWRE",
+  "RRX",
+  "GNRC",
+  "AMAT",
+  "STX",
+  "MCHP",
+  "WDC",
+  "WING",
+  "BDC",
+  "AXON",
+  "AVAV",
+  "MP",
+  "APP"
+ ]
+}
