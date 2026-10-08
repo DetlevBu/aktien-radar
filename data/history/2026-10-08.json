@@ -1,0 +1,107 @@
+{
+ "date": "2026-10-08",
+ "top": [
+  {
+   "symbol": "STRL",
+   "name": "Sterling Infrastructure, Inc.",
+   "price": 534.1300048828125,
+   "price_date": "2026-10-07",
+   "score": 0.6404176229431845,
+   "currency": "USD"
+  },
+  {
+   "symbol": "SNDK",
+   "name": "Sandisk Corporation",
+   "price": 1692.4200439453125,
+   "price_date": "2026-10-07",
+   "score": 0.6098585422925085,
+   "currency": "USD"
+  },
+  {
+   "symbol": "FN",
+   "name": "Fabrinet",
+   "price": 497.989990234375,
+   "price_date": "2026-10-07",
+   "score": 0.5988836751198119,
+   "currency": "USD"
+  },
+  {
+   "symbol": "TTMI",
+   "name": "TTM Technologies, Inc.",
+   "price": 128.1999969482422,
+   "price_date": "2026-10-07",
+   "score": 0.5801230417873459,
+   "currency": "USD"
+  },
+  {
+   "symbol": "COHR",
+   "name": "Coherent Corp.",
+   "price": 334.55999755859375,
+   "price_date": "2026-10-07",
+   "score": 0.5599743904884106,
+   "currency": "USD"
+  },
+  {
+   "symbol": "NXT",
+   "name": "Nextpower Inc.",
+   "price": 86.04000091552734,
+   "price_date": "2026-10-07",
+   "score": 0.5404940957457621,
+   "currency": "USD"
+  },
+  {
+   "symbol": "RDDT",
+   "name": "Reddit, Inc.",
+   "price": 152.7100067138672,
+   "price_date": "2026-10-07",
+   "score": 0.528183669936686,
+   "currency": "USD"
+  },
+  {
+   "symbol": "FLEX",
+   "name": "Flex Ltd.",
+   "price": 119.33999633789062,
+   "price_date": "2026-10-07",
+   "score": 0.51684497134198,
+   "currency": "USD"
+  },
+  {
+   "symbol": "MTZ",
+   "name": "MasTec, Inc.",
+   "price": 223.3699951171875,
+   "price_date": "2026-10-07",
+   "score": 0.503245520404345,
+   "currency": "USD"
+  },
+  {
+   "symbol": "RMBS",
+   "name": "Rambus Inc.",
+   "price": 111.4800033569336,
+   "price_date": "2026-10-07",
+   "score": 0.5027749211364873,
+   "currency": "USD"
+  }
+ ],
+ "watch": [
+  "AEIS",
+  "RRX",
+  "IFX.DE",
+  "DY",
+  "ALGM",
+  "CELH",
+  "GWRE",
+  "GNRC",
+  "AMAT",
+  "STX",
+  "MCHP",
+  "HOOD",
+  "VRT",
+  "WING",
+  "NEM.DE",
+  "AVGO",
+  "MP",
+  "AXON",
+  "UMG.AS",
+  "ON"
+ ]
+}
