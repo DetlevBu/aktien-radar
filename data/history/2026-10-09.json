@@ -1,0 +1,107 @@
+{
+ "date": "2026-10-09",
+ "top": [
+  {
+   "symbol": "STRL",
+   "name": "Sterling Infrastructure, Inc.",
+   "price": 518.4099731445312,
+   "price_date": "2026-10-08",
+   "score": 0.6429113826926316,
+   "currency": "USD"
+  },
+  {
+   "symbol": "SNDK",
+   "name": "Sandisk Corporation",
+   "price": 1609.4599609375,
+   "price_date": "2026-10-08",
+   "score": 0.5851317039037846,
+   "currency": "USD"
+  },
+  {
+   "symbol": "ONTO",
+   "name": "Onto Innovation Inc.",
+   "price": 292.6700134277344,
+   "price_date": "2026-10-08",
+   "score": 0.57389000936491,
+   "currency": "USD"
+  },
+  {
+   "symbol": "COHR",
+   "name": "Coherent Corp.",
+   "price": 302.3500061035156,
+   "price_date": "2026-10-08",
+   "score": 0.547702206749505,
+   "currency": "USD"
+  },
+  {
+   "symbol": "FLEX",
+   "name": "Flex Ltd.",
+   "price": 114.73999786376953,
+   "price_date": "2026-10-08",
+   "score": 0.5243110996118096,
+   "currency": "USD"
+  },
+  {
+   "symbol": "RDDT",
+   "name": "Reddit, Inc.",
+   "price": 156.47000122070312,
+   "price_date": "2026-10-08",
+   "score": 0.5227996724636349,
+   "currency": "USD"
+  },
+  {
+   "symbol": "RMBS",
+   "name": "Rambus Inc.",
+   "price": 108.47000122070312,
+   "price_date": "2026-10-08",
+   "score": 0.507705128369083,
+   "currency": "USD"
+  },
+  {
+   "symbol": "TTMI",
+   "name": "TTM Technologies, Inc.",
+   "price": 117.5,
+   "price_date": "2026-10-08",
+   "score": 0.504584424342734,
+   "currency": "USD"
+  },
+  {
+   "symbol": "NXT",
+   "name": "Nextpower Inc.",
+   "price": 85.26000213623047,
+   "price_date": "2026-10-08",
+   "score": 0.49853675723576213,
+   "currency": "USD"
+  },
+  {
+   "symbol": "AEIS",
+   "name": "Advanced Energy Industries, Inc.",
+   "price": 284.239990234375,
+   "price_date": "2026-10-08",
+   "score": 0.49392225904532283,
+   "currency": "USD"
+  }
+ ],
+ "watch": [
+  "WING",
+  "VIAV",
+  "MTSI",
+  "RRX",
+  "GWRE",
+  "MTZ",
+  "IFX.DE",
+  "ALGM",
+  "CIEN",
+  "COIN",
+  "CELH",
+  "CAVA",
+  "GNRC",
+  "AMAT",
+  "HOOD",
+  "VRT",
+  "AIXA.DE",
+  "AVGO",
+  "NEM.DE",
+  "VST"
+ ]
+}
