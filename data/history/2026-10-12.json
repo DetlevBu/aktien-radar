@@ -1,0 +1,107 @@
+{
+ "date": "2026-10-12",
+ "top": [
+  {
+   "symbol": "STRL",
+   "name": "Sterling Infrastructure, Inc.",
+   "price": 513.0,
+   "price_date": "2026-10-09",
+   "score": 0.6415403612210023,
+   "currency": "USD"
+  },
+  {
+   "symbol": "SNDK",
+   "name": "Sandisk Corporation",
+   "price": 1581.8199462890625,
+   "price_date": "2026-10-09",
+   "score": 0.5854137494350105,
+   "currency": "USD"
+  },
+  {
+   "symbol": "COHR",
+   "name": "Coherent Corp.",
+   "price": 312.6199951171875,
+   "price_date": "2026-10-09",
+   "score": 0.5751634427894462,
+   "currency": "USD"
+  },
+  {
+   "symbol": "ONTO",
+   "name": "Onto Innovation Inc.",
+   "price": 294.5299987792969,
+   "price_date": "2026-10-09",
+   "score": 0.5696152117077407,
+   "currency": "USD"
+  },
+  {
+   "symbol": "RDDT",
+   "name": "Reddit, Inc.",
+   "price": 159.91000366210938,
+   "price_date": "2026-10-09",
+   "score": 0.5506631933568525,
+   "currency": "USD"
+  },
+  {
+   "symbol": "CELH",
+   "name": "Celsius Holdings, Inc.",
+   "price": 28.579999923706055,
+   "price_date": "2026-10-09",
+   "score": 0.5142609038894017,
+   "currency": "USD"
+  },
+  {
+   "symbol": "FLEX",
+   "name": "Flex Ltd.",
+   "price": 119.83000183105469,
+   "price_date": "2026-10-09",
+   "score": 0.512963076392686,
+   "currency": "USD"
+  },
+  {
+   "symbol": "RMBS",
+   "name": "Rambus Inc.",
+   "price": 107.47000122070312,
+   "price_date": "2026-10-09",
+   "score": 0.5090376891774309,
+   "currency": "USD"
+  },
+  {
+   "symbol": "TTMI",
+   "name": "TTM Technologies, Inc.",
+   "price": 121.01000213623047,
+   "price_date": "2026-10-09",
+   "score": 0.49980854838213495,
+   "currency": "USD"
+  },
+  {
+   "symbol": "NXT",
+   "name": "Nextpower Inc.",
+   "price": 86.11000061035156,
+   "price_date": "2026-10-09",
+   "score": 0.4968840994737853,
+   "currency": "USD"
+  }
+ ],
+ "watch": [
+  "WING",
+  "AEIS",
+  "RRX",
+  "GWRE",
+  "IFX.DE",
+  "CAVA",
+  "AMAT",
+  "GNRC",
+  "PSN",
+  "MTZ",
+  "VRT",
+  "HOOD",
+  "AVGO",
+  "NEM.DE",
+  "VST",
+  "ON",
+  "CCL",
+  "AXON",
+  "MP",
+  "STX"
+ ]
+}
