@@ -1,10 +1,10 @@
-[10:58:13] Universum: 1635 Aktien
-Kurs-Cache: 1590 bekannt (Update 1 Monat), 57 neu (komplett)
-[11:01:15] Kurse: 1742 Reihen, letzter Tag 2026-10-09
-[11:01:35] Kennzahlen: 1583 Aktien mit aktuellen Daten
-[11:01:36] Backtest fertig
-[11:01:36] Stufe 1: 359 bestehen, 100 auf Shortlist
-[11:02:14] Stufe 2: 56 bestehen; Top 10, Beobachtung 20
+[10:42:25] Universum: 1632 Aktien
+Kurs-Cache: 1637 bekannt (Update 1 Monat), 7 neu (komplett)
+[10:45:29] Kurse: 1749 Reihen, letzter Tag 2026-10-12
+[10:45:43] Kennzahlen: 1580 Aktien mit aktuellen Daten
+[10:45:44] Backtest fertig
+[10:45:44] Stufe 1: 363 bestehen, 100 auf Shortlist
+[10:46:26] Stufe 2: 62 bestehen; Top 10, Beobachtung 20
 HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: IFX.DE"}}}
-[11:03:31] Details geladen
-[11:03:32] Fertig in 323 s
+[10:47:39] Details geladen
+[10:47:41] Fertig in 321 s

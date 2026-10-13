@@ -1,0 +1,107 @@
+{
+ "date": "2026-10-13",
+ "top": [
+  {
+   "symbol": "STRL",
+   "name": "Sterling Infrastructure, Inc.",
+   "price": 501.19000244140625,
+   "price_date": "2026-10-12",
+   "score": 0.601196337615152,
+   "currency": "USD"
+  },
+  {
+   "symbol": "SNDK",
+   "name": "Sandisk Corporation",
+   "price": 1487.3299560546875,
+   "price_date": "2026-10-12",
+   "score": 0.5638636933697722,
+   "currency": "USD"
+  },
+  {
+   "symbol": "COHR",
+   "name": "Coherent Corp.",
+   "price": 288.0199890136719,
+   "price_date": "2026-10-12",
+   "score": 0.5587071573642004,
+   "currency": "USD"
+  },
+  {
+   "symbol": "RDDT",
+   "name": "Reddit, Inc.",
+   "price": 159.92999267578125,
+   "price_date": "2026-10-12",
+   "score": 0.5499266031464697,
+   "currency": "USD"
+  },
+  {
+   "symbol": "CELH",
+   "name": "Celsius Holdings, Inc.",
+   "price": 28.389999389648438,
+   "price_date": "2026-10-12",
+   "score": 0.5151311616958247,
+   "currency": "USD"
+  },
+  {
+   "symbol": "ONTO",
+   "name": "Onto Innovation Inc.",
+   "price": 273.739990234375,
+   "price_date": "2026-10-12",
+   "score": 0.5130714238431442,
+   "currency": "USD"
+  },
+  {
+   "symbol": "VIAV",
+   "name": "Viavi Solutions Inc.",
+   "price": 41.75,
+   "price_date": "2026-10-12",
+   "score": 0.5000833027805229,
+   "currency": "USD"
+  },
+  {
+   "symbol": "MTSI",
+   "name": "MACOM Technology Solutions Holdings, Inc.",
+   "price": 306.3599853515625,
+   "price_date": "2026-10-12",
+   "score": 0.49720415896865094,
+   "currency": "USD"
+  },
+  {
+   "symbol": "NXT",
+   "name": "Nextpower Inc.",
+   "price": 84.86000061035156,
+   "price_date": "2026-10-12",
+   "score": 0.4960552217924328,
+   "currency": "USD"
+  },
+  {
+   "symbol": "AEIS",
+   "name": "Advanced Energy Industries, Inc.",
+   "price": 280.7699890136719,
+   "price_date": "2026-10-12",
+   "score": 0.4911432714026091,
+   "currency": "USD"
+  }
+ ],
+ "watch": [
+  "WING",
+  "DOCN",
+  "GWRE",
+  "RRX",
+  "IFX.DE",
+  "FIX",
+  "CIEN",
+  "RMBS",
+  "LSCC",
+  "GNRC",
+  "AMAT",
+  "PSN",
+  "KLAC",
+  "TTMI",
+  "DY",
+  "VRT",
+  "MTZ",
+  "MPWR",
+  "HOOD",
+  "NEM.DE"
+ ]
+}
