@@ -1,0 +1,107 @@
+{
+ "date": "2026-10-14",
+ "top": [
+  {
+   "symbol": "SNDK",
+   "name": "Sandisk Corporation",
+   "price": 1482.3299560546875,
+   "price_date": "2026-10-13",
+   "score": 0.5617369391288594,
+   "currency": "USD"
+  },
+  {
+   "symbol": "STRL",
+   "name": "Sterling Infrastructure, Inc.",
+   "price": 498.6099853515625,
+   "price_date": "2026-10-13",
+   "score": 0.5603496182070843,
+   "currency": "USD"
+  },
+  {
+   "symbol": "RDDT",
+   "name": "Reddit, Inc.",
+   "price": 155.2899932861328,
+   "price_date": "2026-10-13",
+   "score": 0.5561562505816224,
+   "currency": "USD"
+  },
+  {
+   "symbol": "COHR",
+   "name": "Coherent Corp.",
+   "price": 289.9800109863281,
+   "price_date": "2026-10-13",
+   "score": 0.5205706344306678,
+   "currency": "USD"
+  },
+  {
+   "symbol": "CELH",
+   "name": "Celsius Holdings, Inc.",
+   "price": 27.93000030517578,
+   "price_date": "2026-10-13",
+   "score": 0.5173759088542216,
+   "currency": "USD"
+  },
+  {
+   "symbol": "MTSI",
+   "name": "MACOM Technology Solutions Holdings, Inc.",
+   "price": 308.75,
+   "price_date": "2026-10-13",
+   "score": 0.495494943715003,
+   "currency": "USD"
+  },
+  {
+   "symbol": "NXT",
+   "name": "Nextpower Inc.",
+   "price": 88.7699966430664,
+   "price_date": "2026-10-13",
+   "score": 0.4926462459131465,
+   "currency": "USD"
+  },
+  {
+   "symbol": "WING",
+   "name": "Wingstop Inc.",
+   "price": 125.76000213623047,
+   "price_date": "2026-10-13",
+   "score": 0.4854662695013294,
+   "currency": "USD"
+  },
+  {
+   "symbol": "ONTO",
+   "name": "Onto Innovation Inc.",
+   "price": 263.54998779296875,
+   "price_date": "2026-10-13",
+   "score": 0.4832938849650308,
+   "currency": "USD"
+  },
+  {
+   "symbol": "DOCN",
+   "name": "DigitalOcean Holdings, Inc.",
+   "price": 128.2100067138672,
+   "price_date": "2026-10-13",
+   "score": 0.4816632187605154,
+   "currency": "USD"
+  }
+ ],
+ "watch": [
+  "GWRE",
+  "RRX",
+  "TTMI",
+  "VIAV",
+  "CIEN",
+  "FIX",
+  "RMBS",
+  "MU",
+  "GNRC",
+  "IFX.DE",
+  "PSN",
+  "VRT",
+  "DY",
+  "MPWR",
+  "AEIS",
+  "ORCL",
+  "HOOD",
+  "AVGO",
+  "LSCC",
+  "VST"
+ ]
+}
