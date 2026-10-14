@@ -2,6 +2,14 @@
  "date": "2026-10-14",
  "top": [
   {
+   "symbol": "NBIS",
+   "name": "Nebius Group N.V.",
+   "price": 206.86000061035156,
+   "price_date": "2026-10-13",
+   "score": 0.5928245390981508,
+   "currency": "USD"
+  },
+  {
    "symbol": "SNDK",
    "name": "Sandisk Corporation",
    "price": 1482.3299560546875,
@@ -22,7 +30,15 @@
    "name": "Reddit, Inc.",
    "price": 155.2899932861328,
    "price_date": "2026-10-13",
-   "score": 0.5561562505816224,
+   "score": 0.5561562505816227,
+   "currency": "USD"
+  },
+  {
+   "symbol": "MSTR",
+   "name": "Strategy Inc",
+   "price": 152.17999267578125,
+   "price_date": "2026-10-13",
+   "score": 0.5236231069517507,
    "currency": "USD"
   },
   {
@@ -42,6 +58,14 @@
    "currency": "USD"
   },
   {
+   "symbol": "ALAB",
+   "name": "Astera Labs, Inc.",
+   "price": 325.4100036621094,
+   "price_date": "2026-10-13",
+   "score": 0.5036169224946278,
+   "currency": "USD"
+  },
+  {
    "symbol": "MTSI",
    "name": "MACOM Technology Solutions Holdings, Inc.",
    "price": 308.75,
@@ -54,35 +78,15 @@
    "name": "Nextpower Inc.",
    "price": 88.7699966430664,
    "price_date": "2026-10-13",
-   "score": 0.4926462459131465,
-   "currency": "USD"
-  },
-  {
-   "symbol": "WING",
-   "name": "Wingstop Inc.",
-   "price": 125.76000213623047,
-   "price_date": "2026-10-13",
-   "score": 0.4854662695013294,
-   "currency": "USD"
-  },
-  {
-   "symbol": "ONTO",
-   "name": "Onto Innovation Inc.",
-   "price": 263.54998779296875,
-   "price_date": "2026-10-13",
-   "score": 0.4832938849650308,
-   "currency": "USD"
-  },
-  {
-   "symbol": "DOCN",
-   "name": "DigitalOcean Holdings, Inc.",
-   "price": 128.2100067138672,
-   "price_date": "2026-10-13",
-   "score": 0.4816632187605154,
+   "score": 0.48873849011816545,
    "currency": "USD"
   }
  ],
  "watch": [
+  "CRWV",
+  "WING",
+  "DOCN",
+  "ONTO",
   "GWRE",
   "RRX",
   "TTMI",
@@ -92,16 +96,12 @@
   "RMBS",
   "MU",
   "GNRC",
-  "IFX.DE",
+  "RKLB",
   "PSN",
   "VRT",
   "DY",
   "MPWR",
   "AEIS",
-  "ORCL",
-  "HOOD",
-  "AVGO",
-  "LSCC",
-  "VST"
+  "ORCL"
  ]
 }
