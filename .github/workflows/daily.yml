@@ -6,11 +6,13 @@ on:
     # nicht). Deshalb zehn Startversuche Mo-Fr zwischen 03:17 und 07:47 UTC
     # (05:17-09:47 Uhr Berlin Sommerzeit). Der erste erfolgreiche Lauf des
     # Tages aktualisiert die Seite, alle weiteren beenden sich nach Sekunden.
+    # Zusaetzlich stoesst ein externer Zeitplan den Lauf ueber eine Aenderung
+    # an trigger/last.txt an (Commit-Nachricht mit "[trigger]").
     - cron: "17,47 3-7 * * 1-5"
   workflow_dispatch: {}
   push:
     branches: [main]
-    paths: ["radar/**", "requirements.txt", ".github/workflows/daily.yml"]
+    paths: ["radar/**", "requirements.txt", ".github/workflows/daily.yml", "trigger/**"]
 
 permissions:
   contents: write
@@ -21,16 +23,22 @@ concurrency:
 
 jobs:
   run:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 90
     steps:
       - uses: actions/checkout@v5
 
       - name: Heute schon aktualisiert?
         id: guard
+        env:
+          EVENT: ${{ github.event_name }}
+          MSG: ${{ github.event.head_commit.message }}
         run: |
           today=$(date -u +%F)
-          if [ "${{ github.event_name }}" = "schedule" ] && [ -f "data/history/${today}.json" ]; then
+          auto=false
+          [ "$EVENT" = "schedule" ] && auto=true
+          case "$MSG" in *"[trigger]"*) auto=true;; esac
+          if [ "$auto" = true ] && [ -f "data/history/${today}.json" ]; then
             echo "Radar fuer ${today} existiert bereits - nichts zu tun."
             echo "skip=true" >> "$GITHUB_OUTPUT"
           else

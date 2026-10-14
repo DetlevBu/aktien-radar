@@ -383,10 +383,21 @@ def render(ctx):
         or "<p>Keine weiteren Kandidaten.</p>"
 
     # Quellen
-    src_rows = "".join(
-        f"<tr><td>{E(k)}</td><td class='small'>{E(v.get('used_for') or '')}</td><td>{v['ok']}</td>"
-        f"<td class='{'neg' if v['fail'] else ''}'>{v['fail']}</td><td class='small'>{E('; '.join(v['notes']))}</td></tr>"
-        for k, v in sorted(ctx["sources"].items()))
+    def _status(v):
+        if v.get("disabled"):
+            return "<span class='st miss'>nicht verfügbar</span>", v["disabled"]
+        if v["ok"] == 0 and v["fail"] == 0:
+            return "<span class='st open'>heute nicht benötigt</span>", ""
+        if v["fail"] == 0:
+            return "<span class='st hit'>OK</span>", ""
+        if v["ok"] == 0:
+            return "<span class='st miss'>ausgefallen</span>", "; ".join(v["notes"])
+        return "<span class='st open'>teilweise</span>", "; ".join(v["notes"])
+    src_rows = ""
+    for k, v in sorted(ctx["sources"].items()):
+        st, note = _status(v)
+        src_rows += (f"<tr><td>{E(k)}</td><td class='small'>{E(v.get('used_for') or '')}</td><td>{st}</td>"
+                     f"<td>{v['ok']} / {v['fail']}</td><td class='small'>{E(note)}</td></tr>")
     uni_rows = "".join(f"<tr><td>{E(k)}</td><td>{v['count']}</td><td class='small'>{E(v['source'])}</td>"
                        f"<td>{E(v.get('as_of') or '–')}</td></tr>" for k, v in ctx["universe_info"].items())
 
@@ -516,7 +527,7 @@ einstelligen Prozentbereich (siehe Backtest).</li></ol>
 
 <section id="sources"><h2>Datenquellen heute</h2>
 <p class="small">Erfolgreiche und fehlgeschlagene Abrufe. Fehlen Daten, steht auf der Seite „k. A.“ statt einer Schätzung.</p>
-<div class="scroll"><table class="tbl"><tr><th>Quelle</th><th>Wofür</th><th>OK</th><th>Fehler</th><th>Hinweise</th></tr>{src_rows}</table></div>
+<div class="scroll"><table class="tbl"><tr><th>Quelle</th><th>Wofür</th><th>Status</th><th>Abrufe OK / Fehler</th><th>Hinweis</th></tr>{src_rows}</table></div>
 <h4>Universum im Detail</h4>
 <div class="scroll"><table class="tbl"><tr><th>Liste</th><th>Aktien</th><th>Quelle</th><th>Stand</th></tr>{uni_rows}</table></div></section>
 

@@ -110,6 +110,25 @@ def _wiki_table(name, url, region, expected):
     return best
 
 
+def _nasdaq100_api():
+    """Offizielle Nasdaq-Liste (Wikipedia führt die Tabelle nicht mehr)."""
+    LOG.describe("Nasdaq.com", "Mitgliederliste Nasdaq 100")
+    js = http_get("https://api.nasdaq.com/api/quote/list-type/nasdaq100", "Nasdaq.com",
+                  headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                                         "(KHTML, like Gecko) Chrome/128.0 Safari/537.36",
+                           "Accept": "application/json, text/plain, */*",
+                           "Origin": "https://www.nasdaq.com", "Referer": "https://www.nasdaq.com/"})
+    try:
+        rows = js["data"]["data"]["rows"]
+    except Exception:
+        if js is not None:
+            LOG.fail("Nasdaq.com", "unerwartetes Format")
+        return []
+    return [{"symbol": r["symbol"].strip().upper().replace(".", "-").replace("/", "-"),
+             "name": r.get("companyName") or r["symbol"], "sector": None,
+             "region": "US", "index": ["Nasdaq 100"]} for r in rows if r.get("symbol")]
+
+
 def _sp500_github():
     txt = http_get(SP500_GITHUB, "GitHub datasets", as_json=False)
     if not txt:
@@ -156,7 +175,7 @@ def _yahoo_screen(region, exchanges, min_cap, label, suffix, ccys, max_n):
 
 def load_universe():
     """Gibt (Liste der Aktien, Info je Teilliste) zurück."""
-    LOG.describe("Wikipedia", "Indexlisten S&P 500/400, Nasdaq 100, DAX, Euro Stoxx 50")
+    LOG.describe("Wikipedia", "Indexlisten S&P 500/400, DAX, Euro Stoxx 50")
     LOG.describe("GitHub datasets", "Ersatzliste S&P 500")
     LOG.describe("Yahoo Screener", "Deutsche und europäische Werte nach Börsenwert")
     cache = read_json(CACHE, {}) or {}
@@ -176,6 +195,11 @@ def load_universe():
             info[name] = {"count": 0, "source": "nicht verfügbar", "as_of": None}
 
     for name, (url, region, expected) in WIKI.items():
+        if name == "Nasdaq 100":
+            rows = _nasdaq100_api()
+            if len(rows) >= 90:
+                take(name, rows, "Nasdaq.com")
+                continue
         rows = _wiki_table(name, url, region, expected)
         if name == "S&P 500" and len(rows) < 400:
             rows = _sp500_github()

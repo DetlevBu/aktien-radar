@@ -202,7 +202,7 @@ def fmp_details(symbol):
     Fehlschlägen ohne Erfolg wird FMP für den Rest des Laufs ausgelassen."""
     if not C.FMP_KEY or not is_us(symbol):
         return {}
-    if _FMP_FAILS["n"] >= 3 and _FMP_FAILS["ok"] == 0:
+    if LOG.is_disabled("Financial Modeling Prep"):
         return {}
     LOG.describe("Financial Modeling Prep", "Kursziel-Konsens, Analysten-Rating-Konsens")
     sym = symbol.replace("-", ".") if is_us(symbol) else symbol
@@ -221,6 +221,10 @@ def fmp_details(symbol):
                   retries=1)
     if not out.get("fmp_target"):
         _FMP_FAILS["n"] += 1
+        notes = LOG.entries.get("Financial Modeling Prep", {}).get("notes", [])
+        if _FMP_FAILS["ok"] == 0 and (any("402" in x for x in notes) or _FMP_FAILS["n"] >= 2):
+            LOG.disable("Financial Modeling Prep",
+                        "Im Gratis-Tarif gesperrt (HTTP 402). Für heute abgeschaltet; wird täglich neu geprüft.")
     if isinstance(gc, list) and gc:
         _FMP_FAILS["ok"] += 1
         g = gc[0]
@@ -231,7 +235,7 @@ def fmp_details(symbol):
 
 # ----------------------------------------------------------- Alpha Vantage -
 def alphavantage_sentiment(symbol):
-    if not C.ALPHAVANTAGE_KEY or not is_us(symbol):
+    if not C.ALPHAVANTAGE_KEY or not is_us(symbol) or LOG.is_disabled("Alpha Vantage"):
         return {}
     LOG.describe("Alpha Vantage", "News-Stimmung (Sentiment) der letzten Artikel, US-Werte")
     time.sleep(2.0)  # Gratis-Tarif: max. 1 Abruf pro Sekunde
@@ -240,7 +244,14 @@ def alphavantage_sentiment(symbol):
                            "limit": 50, "apikey": C.ALPHAVANTAGE_KEY}, retries=0)
     if not res or "feed" not in res:
         if res:
-            LOG.fail("Alpha Vantage", (res.get("Information") or res.get("Note") or "keine Daten")[:150])
+            msg = res.get("Information") or res.get("Note") or "keine Daten"
+            if "premium" in msg.lower():
+                LOG.disable("Alpha Vantage", "News-Stimmung ist nur noch im Bezahl-Tarif verfügbar. "
+                            "Für heute abgeschaltet; wird täglich neu geprüft.")
+            elif "rate limit" in msg.lower() or "25 requests" in msg.lower():
+                LOG.disable("Alpha Vantage", "Tageskontingent des Gratis-Tarifs aufgebraucht.")
+            else:
+                LOG.fail("Alpha Vantage", msg[:150])
         return {}
     scores = []
     for a in res["feed"]:

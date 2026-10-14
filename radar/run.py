@@ -179,7 +179,7 @@ def main():
     # 9) Seite ------------------------------------------------------------
     ctx = {
         "generated": now_utc().isoformat(), "today": today,
-        "data_date": close.index.max().date().isoformat(),
+        "data_date": last.loc[in_uni, "price_date"].mode().iloc[0] if in_uni.any() else None,
         "synthetic": C.SYNTHETIC, "universe_info": uinfo, "universe_n": len(universe),
         "n_with_data": int(in_uni.sum()), "n_stage1": len(s1), "n_stage2": len(passed),
         "top": top, "watch": watch, "changes": changes, "record": record,

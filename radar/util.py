@@ -35,6 +35,13 @@ class SourceLog:
         if note and len(e["notes"]) < 5 and note not in e["notes"]:
             e["notes"].append(str(note)[:200])
 
+    def disable(self, name, reason):
+        """Quelle für diesen Lauf abschalten (z. B. nur noch im Bezahl-Tarif)."""
+        self._e(name)["disabled"] = reason
+
+    def is_disabled(self, name):
+        return bool(self.entries.get(name, {}).get("disabled"))
+
     def describe(self, name, used_for):
         self._e(name)["used_for"] = used_for
 
