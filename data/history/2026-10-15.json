@@ -1,0 +1,107 @@
+{
+ "date": "2026-10-15",
+ "top": [
+  {
+   "symbol": "NBIS",
+   "name": "Nebius Group N.V.",
+   "price": 186.00999450683594,
+   "price_date": "2026-10-14",
+   "score": 0.5788549659575869,
+   "currency": "USD"
+  },
+  {
+   "symbol": "SNDK",
+   "name": "Sandisk Corporation",
+   "price": 1403.3399658203125,
+   "price_date": "2026-10-14",
+   "score": 0.5674017563229373,
+   "currency": "USD"
+  },
+  {
+   "symbol": "MSTR",
+   "name": "Strategy Inc",
+   "price": 143.24000549316406,
+   "price_date": "2026-10-14",
+   "score": 0.530649986005172,
+   "currency": "USD"
+  },
+  {
+   "symbol": "STRL",
+   "name": "Sterling Infrastructure, Inc.",
+   "price": 453.07000732421875,
+   "price_date": "2026-10-14",
+   "score": 0.5215056580767028,
+   "currency": "USD"
+  },
+  {
+   "symbol": "ALAB",
+   "name": "Astera Labs, Inc.",
+   "price": 300.2799987792969,
+   "price_date": "2026-10-14",
+   "score": 0.5209504400295603,
+   "currency": "USD"
+  },
+  {
+   "symbol": "COHR",
+   "name": "Coherent Corp.",
+   "price": 263.32000732421875,
+   "price_date": "2026-10-14",
+   "score": 0.5027474739318061,
+   "currency": "USD"
+  },
+  {
+   "symbol": "ONTO",
+   "name": "Onto Innovation Inc.",
+   "price": 241.41000366210938,
+   "price_date": "2026-10-14",
+   "score": 0.5007703751438914,
+   "currency": "USD"
+  },
+  {
+   "symbol": "NXT",
+   "name": "Nextpower Inc.",
+   "price": 82.55999755859375,
+   "price_date": "2026-10-14",
+   "score": 0.499807409448248,
+   "currency": "USD"
+  },
+  {
+   "symbol": "RDDT",
+   "name": "Reddit, Inc.",
+   "price": 148.60000610351562,
+   "price_date": "2026-10-14",
+   "score": 0.49492449782522285,
+   "currency": "USD"
+  },
+  {
+   "symbol": "CRWV",
+   "name": "CoreWeave, Inc.",
+   "price": 65.77999877929688,
+   "price_date": "2026-10-14",
+   "score": 0.49056237717736717,
+   "currency": "USD"
+  }
+ ],
+ "watch": [
+  "WING",
+  "CELH",
+  "DOCN",
+  "LITE",
+  "RRX",
+  "GWRE",
+  "MTSI",
+  "MRVL",
+  "CIEN",
+  "RKLB",
+  "COIN",
+  "ARM",
+  "VIAV",
+  "FIX",
+  "MPWR",
+  "RMBS",
+  "FORM",
+  "TTMI",
+  "TER",
+  "VST"
+ ]
+}

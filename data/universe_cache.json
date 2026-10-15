@@ -4529,7 +4529,7 @@
     ]
    }
   ],
-  "as_of": "2026-10-14",
+  "as_of": "2026-10-15",
   "source": "Wikipedia"
  },
  "S&P 400": {
@@ -8135,7 +8135,7 @@
     ]
    }
   ],
-  "as_of": "2026-10-14",
+  "as_of": "2026-10-15",
   "source": "Wikipedia"
  },
  "DAX": {
@@ -8501,7 +8501,7 @@
     ]
    }
   ],
-  "as_of": "2026-10-14",
+  "as_of": "2026-10-15",
   "source": "Wikipedia"
  },
  "Euro Stoxx 50": {
@@ -8948,7 +8948,7 @@
     ]
    }
   ],
-  "as_of": "2026-10-14",
+  "as_of": "2026-10-15",
   "source": "Wikipedia"
  },
  "Screener DE": {
@@ -10394,7 +10394,7 @@
     ]
    }
   ],
-  "as_of": "2026-10-14",
+  "as_of": "2026-10-15",
   "source": "Yahoo Screener"
  },
  "Screener FR": {
@@ -11129,7 +11129,7 @@
     ]
    }
   ],
-  "as_of": "2026-10-14",
+  "as_of": "2026-10-15",
   "source": "Yahoo Screener"
  },
  "Screener NL": {
@@ -11495,7 +11495,7 @@
     ]
    }
   ],
-  "as_of": "2026-10-14",
+  "as_of": "2026-10-15",
   "source": "Yahoo Screener"
  },
  "Screener IT": {
@@ -11969,7 +11969,7 @@
     ]
    }
   ],
-  "as_of": "2026-10-14",
+  "as_of": "2026-10-15",
   "source": "Yahoo Screener"
  },
  "Screener ES": {
@@ -12308,7 +12308,7 @@
     ]
    }
   ],
-  "as_of": "2026-10-14",
+  "as_of": "2026-10-15",
   "source": "Yahoo Screener"
  },
  "Screener BE": {
@@ -12485,7 +12485,7 @@
     ]
    }
   ],
-  "as_of": "2026-10-14",
+  "as_of": "2026-10-15",
   "source": "Yahoo Screener"
  },
  "Screener FI": {
@@ -12671,7 +12671,7 @@
     ]
    }
   ],
-  "as_of": "2026-10-14",
+  "as_of": "2026-10-15",
   "source": "Yahoo Screener"
  },
  "Screener AT": {
@@ -12785,7 +12785,7 @@
     ]
    }
   ],
-  "as_of": "2026-10-14",
+  "as_of": "2026-10-15",
   "source": "Yahoo Screener"
  },
  "Screener PT": {
@@ -12854,7 +12854,7 @@
     ]
    }
   ],
-  "as_of": "2026-10-14",
+  "as_of": "2026-10-15",
   "source": "Yahoo Screener"
  },
  "Screener IE": {
@@ -12905,7 +12905,7 @@
     ]
    }
   ],
-  "as_of": "2026-10-14",
+  "as_of": "2026-10-15",
   "source": "Yahoo Screener"
  },
  "Screener CH": {
@@ -13451,7 +13451,7 @@
     ]
    }
   ],
-  "as_of": "2026-10-14",
+  "as_of": "2026-10-15",
   "source": "Yahoo Screener"
  },
  "Screener GB": {
@@ -13709,8 +13709,8 @@
     ]
    },
    {
-    "symbol": "0QYP.L",
-    "name": "Microsoft Corporation",
+    "symbol": "SANB.L",
+    "name": "Santander UK plc",
     "sector": null,
     "region": "EU",
     "index": [
@@ -13718,8 +13718,8 @@
     ]
    },
    {
-    "symbol": "SANB.L",
-    "name": "Santander UK plc",
+    "symbol": "0QYP.L",
+    "name": "Microsoft Corporation",
     "sector": null,
     "region": "EU",
     "index": [
@@ -13800,16 +13800,7 @@
    },
    {
     "symbol": "III.L",
-    "name": "3i Group plc",
-    "sector": null,
-    "region": "EU",
-    "index": [
-     "Yahoo-Screener GB"
-    ]
-   },
-   {
-    "symbol": "SUNB.L",
-    "name": "Sunbelt Rentals Holdings, Inc.",
+    "name": "3i Group Ord",
     "sector": null,
     "region": "EU",
     "index": [
@@ -13819,6 +13810,15 @@
    {
     "symbol": "EXPN.L",
     "name": "Experian plc",
+    "sector": null,
+    "region": "EU",
+    "index": [
+     "Yahoo-Screener GB"
+    ]
+   },
+   {
+    "symbol": "SUNB.L",
+    "name": "Sunbelt Rentals Holdings, Inc.",
     "sector": null,
     "region": "EU",
     "index": [
@@ -13899,7 +13899,7 @@
    },
    {
     "symbol": "SMT.L",
-    "name": "Scottish Mortgage Investment Trust PLC",
+    "name": "Scottish Mortgage Ord",
     "sector": null,
     "region": "EU",
     "index": [
@@ -14060,8 +14060,8 @@
     ]
    },
    {
-    "symbol": "0Q1F.L",
-    "name": "JPMorgan Chase & Co.",
+    "symbol": "0R1W.L",
+    "name": "Walmart Inc.",
     "sector": null,
     "region": "EU",
     "index": [
@@ -14069,8 +14069,8 @@
     ]
    },
    {
-    "symbol": "0R1W.L",
-    "name": "Walmart Inc.",
+    "symbol": "0Q1F.L",
+    "name": "JPMorgan Chase & Co.",
     "sector": null,
     "region": "EU",
     "index": [
@@ -14187,7 +14187,7 @@
    },
    {
     "symbol": "PCT.L",
-    "name": "Polar Capital Technology Trust plc",
+    "name": "Polar Capital Technology Ord",
     "sector": null,
     "region": "EU",
     "index": [
@@ -14268,16 +14268,7 @@
    },
    {
     "symbol": "FCIT.L",
-    "name": "F&C Investment Trust PLC",
-    "sector": null,
-    "region": "EU",
-    "index": [
-     "Yahoo-Screener GB"
-    ]
-   },
-   {
-    "symbol": "INVR.L",
-    "name": "Investec Plc",
+    "name": "F&C Investment Trust Ord",
     "sector": null,
     "region": "EU",
     "index": [
@@ -14294,8 +14285,8 @@
     ]
    },
    {
-    "symbol": "HSX.L",
-    "name": "Hiscox Ltd",
+    "symbol": "INVR.L",
+    "name": "Investec Plc",
     "sector": null,
     "region": "EU",
     "index": [
@@ -14305,6 +14296,15 @@
    {
     "symbol": "MRO.L",
     "name": "Melrose Industries PLC",
+    "sector": null,
+    "region": "EU",
+    "index": [
+     "Yahoo-Screener GB"
+    ]
+   },
+   {
+    "symbol": "HSX.L",
+    "name": "Hiscox Ltd",
     "sector": null,
     "region": "EU",
     "index": [
@@ -14385,7 +14385,7 @@
    },
    {
     "symbol": "ALW.L",
-    "name": "Alliance Witan Plc",
+    "name": "Alliance Witan Ord",
     "sector": null,
     "region": "EU",
     "index": [
@@ -14510,26 +14510,17 @@
     ]
    },
    {
-    "symbol": "BBOX.L",
-    "name": "Tritax Big Box REIT plc",
-    "sector": null,
-    "region": "EU",
-    "index": [
-     "Yahoo-Screener GB"
-    ]
-   },
-   {
-    "symbol": "BLND.L",
-    "name": "British Land Company PLC",
-    "sector": null,
-    "region": "EU",
-    "index": [
-     "Yahoo-Screener GB"
-    ]
-   },
-   {
     "symbol": "HWDN.L",
     "name": "Howden Joinery Group Plc",
+    "sector": null,
+    "region": "EU",
+    "index": [
+     "Yahoo-Screener GB"
+    ]
+   },
+   {
+    "symbol": "BBOX.L",
+    "name": "Tritax Big Box Ord",
     "sector": null,
     "region": "EU",
     "index": [
@@ -14546,8 +14537,8 @@
     ]
    },
    {
-    "symbol": "JD.L",
-    "name": "JD Sports Fashion Plc",
+    "symbol": "BLND.L",
+    "name": "British Land Company PLC",
     "sector": null,
     "region": "EU",
     "index": [
@@ -14557,6 +14548,15 @@
    {
     "symbol": "BTRW.L",
     "name": "Barratt Redrow plc",
+    "sector": null,
+    "region": "EU",
+    "index": [
+     "Yahoo-Screener GB"
+    ]
+   },
+   {
+    "symbol": "JD.L",
+    "name": "JD Sports Fashion Plc",
     "sector": null,
     "region": "EU",
     "index": [
@@ -14618,8 +14618,8 @@
     ]
    },
    {
-    "symbol": "0R2Q.L",
-    "name": "Chevron Corporation",
+    "symbol": "BRBY.L",
+    "name": "Burberry Group plc",
     "sector": null,
     "region": "EU",
     "index": [
@@ -14627,8 +14627,8 @@
     ]
    },
    {
-    "symbol": "BRBY.L",
-    "name": "Burberry Group plc",
+    "symbol": "0R2Q.L",
+    "name": "Chevron Corporation",
     "sector": null,
     "region": "EU",
     "index": [
@@ -14672,8 +14672,8 @@
     ]
    },
    {
-    "symbol": "0QAH.L",
-    "name": "Merck & Co., Inc.",
+    "symbol": "SCT.L",
+    "name": "Softcat plc",
     "sector": null,
     "region": "EU",
     "index": [
@@ -14681,8 +14681,8 @@
     ]
    },
    {
-    "symbol": "SCT.L",
-    "name": "Softcat plc",
+    "symbol": "0QAH.L",
+    "name": "Merck & Co., Inc.",
     "sector": null,
     "region": "EU",
     "index": [
@@ -14699,15 +14699,6 @@
     ]
    },
    {
-    "symbol": "RS1.L",
-    "name": "RS Group plc",
-    "sector": null,
-    "region": "EU",
-    "index": [
-     "Yahoo-Screener GB"
-    ]
-   },
-   {
     "symbol": "0NOF.L",
     "name": "The Procter & Gamble Company",
     "sector": null,
@@ -14715,9 +14706,18 @@
     "index": [
      "Yahoo-Screener GB"
     ]
+   },
+   {
+    "symbol": "RS1.L",
+    "name": "RS Group plc",
+    "sector": null,
+    "region": "EU",
+    "index": [
+     "Yahoo-Screener GB"
+    ]
    }
   ],
-  "as_of": "2026-10-14",
+  "as_of": "2026-10-15",
   "source": "Yahoo Screener"
  },
  "Screener SE": {
@@ -15263,7 +15263,7 @@
     ]
    }
   ],
-  "as_of": "2026-10-14",
+  "as_of": "2026-10-15",
   "source": "Yahoo Screener"
  },
  "Screener DK": {
@@ -15431,7 +15431,7 @@
     ]
    }
   ],
-  "as_of": "2026-10-14",
+  "as_of": "2026-10-15",
   "source": "Yahoo Screener"
  },
  "Screener NO": {
@@ -15527,7 +15527,7 @@
     ]
    }
   ],
-  "as_of": "2026-10-14",
+  "as_of": "2026-10-15",
   "source": "Yahoo Screener"
  },
  "Nasdaq 100": {
@@ -16442,7 +16442,7 @@
     ]
    }
   ],
-  "as_of": "2026-10-14",
+  "as_of": "2026-10-15",
   "source": "Nasdaq.com"
  }
 }
