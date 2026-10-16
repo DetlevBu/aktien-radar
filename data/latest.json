@@ -632,6 +632,9 @@
     "calculated_at": "2026-10-16",
     "deep_link": "https://www.fairvalue-calculator.com/stock/NBIS.US?utm_source=mcp&utm_medium=claude",
     "fvc_symbol": "NBIS.US",
+    "ai_conclusion_de": "Das kapitalschonende Modell ermöglicht margenstarke Umsätze mit geringerem Kapitalbedarf, weil Rechenzentren und Hardware von Partnern kommen; der Auftragsbestand hängt jedoch stark an wenigen Großkunden.",
+    "in_focus_de": "Kapitalschonendes Geschäftsmodell und Konzentration des Auftragsbestands auf wenige Großkunden",
+    "main_risk_de": "Die anhaltende Abhängigkeit von einer kleinen Gruppe fest gebundener Kunden könnte die Umsatzstabilität untergraben und das Wachstum aus dem gemeldeten Auftragsbestand begrenzen.",
     "date": "2026-10-16",
     "fair_value_local": 13.41,
     "upside": -0.928825435277581
@@ -1160,6 +1163,9 @@
     "calculated_at": "2026-10-16",
     "deep_link": "https://www.fairvalue-calculator.com/stock/SNDK.US?utm_source=mcp&utm_medium=claude",
     "fvc_symbol": "SNDK.US",
+    "ai_conclusion_de": "Starke Margen und Renditen deuten auf dauerhafte Vorteile bei Preissetzung und Betrieb hin; öffentlich gibt es jedoch nur wenige Hinweise zu Mitarbeitern und Eigentümerstruktur.",
+    "in_focus_de": "Langfristige Lieferverträge, die die Hälfte der Speichermengen 2027 und zwei Drittel 2028 abdecken",
+    "main_risk_de": "Lässt der KI-getriebene Speicherbedarf nach oder wächst die Branchenkapazität schneller als erwartet, könnten sich die Zusagen als weniger belastbar erweisen und Mengen wie Margen zugleich treffen.",
     "date": "2026-10-16",
     "fair_value_local": 2239.28,
     "upside": 0.6054143304563528
@@ -1686,6 +1692,9 @@
     "calculated_at": "2026-10-16",
     "deep_link": "https://www.fairvalue-calculator.com/stock/CELH.US?utm_source=mcp&utm_medium=claude",
     "fvc_symbol": "CELH.US",
+    "ai_conclusion_de": "Hauptschwäche sind die geringen Belege für einen dauerhaften Wettbewerbsvorteil im umkämpften Getränkemarkt; Hauptstärke ist das Umsatzwachstum über Zweitmarken, bei bescheidener Profitabilität.",
+    "in_focus_de": "Gesamtwachstum über die Marken Alani Nu und Rockstar, während die Kernmarke Celsius nach Sortimentskürzungen schrumpft",
+    "main_risk_de": "Größtes Risiko ist ein weiteres Schrumpfen der Kernmarke Celsius nach den Sortimentskürzungen: Das schwächt die Nachfrage und belastet den Gesamtumsatz, bevor neue Produkte die Hauptmarke stabilisieren können.",
     "date": "2026-10-16",
     "fair_value_local": 29.61,
     "upside": 0.05149148297034323
@@ -2212,6 +2221,9 @@
     "calculated_at": "2026-10-16",
     "deep_link": "https://www.fairvalue-calculator.com/stock/NXT.US?utm_source=mcp&utm_medium=claude",
     "fvc_symbol": "NXT.US",
+    "ai_conclusion_de": "Starke ausgewiesene Margen und Eigenkapitalrendite deuten auf Preissetzungsmacht hin; die dünne öffentliche Datenlage und Umsetzungsrisiken aus Zukäufen bei Speichern und Leistungselektronik schwächen die Beweislage.",
+    "in_focus_de": "Ausweitung auf Energiespeicher und Leistungselektronik mit zusätzlichen Umsetzungsrisiken",
+    "main_risk_de": "Probleme bei der Integration der neuen, ungewohnten Speicher- und Leistungselektronik-Produkte könnten das etablierte Geschäft mit Solar-Nachführsystemen belasten.",
     "date": "2026-10-16",
     "fair_value_local": 94.72,
     "upside": 0.13505097020851609
@@ -3218,6 +3230,9 @@
     "calculated_at": "2026-10-16",
     "deep_link": "https://www.fairvalue-calculator.com/stock/ALAB.US?utm_source=mcp&utm_medium=claude",
     "fvc_symbol": "ALAB.US",
+    "ai_conclusion_de": "Hohe Margen und starke Cash-Generierung zeigen Preisstärke; in den meisten Bereichen fehlen jedoch dauerhafte öffentliche Belege, die Nachhaltigkeit ist unbewiesen.",
+    "in_focus_de": "Die Modelle sehen die Aktie derzeit als überbewertet",
+    "main_risk_de": "Die unbewiesene Nachhaltigkeit in den meisten Bereichen könnte die Ausweitung des Aries-Portfolios auf optische Verbindungen bremsen und wiederkehrende Umsätze treffen.",
     "date": "2026-10-16",
     "fair_value_local": 62.28,
     "upside": -0.7937611837400069
@@ -3740,6 +3755,9 @@
     "calculated_at": "2026-10-16",
     "deep_link": "https://www.fairvalue-calculator.com/stock/RDDT.US?utm_source=mcp&utm_medium=claude",
     "fvc_symbol": "RDDT.US",
+    "ai_conclusion_de": "Das Geschäft zeigt eine gewisse Margenstärke auf seiner Community-Plattform, wird aber durch wenige dauerhafte Belege und eine insgesamt dünne öffentliche Datenlage gebremst.",
+    "in_focus_de": "Verbesserte Werbeprodukte für höhere Erlöse je Nutzer, während KI-Suche weniger Besucher über Suchmaschinen bringt",
+    "main_risk_de": "Weniger Besucher über Suchmaschinen wegen KI-Suche könnte das Umsatzwachstum aus der Vermarktung der Plattform bremsen.",
     "date": "2026-10-16",
     "fair_value_local": 131.44,
     "upside": -0.17520080637184665
@@ -4266,6 +4284,9 @@
     "calculated_at": "2026-10-16",
     "deep_link": "https://www.fairvalue-calculator.com/stock/FN.US?utm_source=mcp&utm_medium=claude",
     "fvc_symbol": "FN.US",
+    "ai_conclusion_de": "Das Modell der Auftragsfertigung bietet mäßige Vorteile bei Spezialprozessen und Profitabilität, weil viele Kunden ohne Wettbewerb untereinander bedient werden; dünne öffentliche Informationen verhindern aber eine belastbare Qualitätsbewertung.",
+    "in_focus_de": "Die Modelle sehen die Aktie derzeit als überbewertet",
+    "main_risk_de": "Größtes Risiko ist die Abhängigkeit von Kundendesigns und Nachfragezyklen: Verschieben Kunden ihre Prioritäten, sinken Wachstum und Nachfrage beim Auftragsfertiger unmittelbar.",
     "date": "2026-10-16",
     "fair_value_local": 219.83,
     "upside": -0.42930946772179945
@@ -4792,6 +4813,9 @@
     "calculated_at": "2026-10-16",
     "deep_link": "https://www.fairvalue-calculator.com/stock/ONTO.US?utm_source=mcp&utm_medium=claude",
     "fvc_symbol": "ONTO.US",
+    "ai_conclusion_de": "In der Halbleiter-Messtechnik ist das Unternehmen durch Kundenzusagen bei Advanced Packaging und Prozesskontrolle ordentlich aufgestellt, zeigt aber wenig Belege für dauerhafte Vorteile und eher schwache Eigenkapitalrenditen.",
+    "in_focus_de": "Bessere kurzfristige Planbarkeit als in früheren Zyklen dank Bedarf aus der KI-Infrastruktur",
+    "main_risk_de": "Bleiben die Zuwächse auf das laufende Jahr beschränkt, statt sich über neue Produktaufträge fortzusetzen, wäre die Planbarkeit bei Advanced Packaging und Prozesskontrolle begrenzt.",
     "date": "2026-10-16",
     "fair_value_local": 115.14,
     "upside": -0.5035999072434022
@@ -5319,6 +5343,9 @@
     "calculated_at": "2026-10-16",
     "deep_link": "https://www.fairvalue-calculator.com/stock/CRWV.US?utm_source=mcp&utm_medium=claude",
     "fvc_symbol": "CRWV.US",
+    "ai_conclusion_de": "Hauptstärke von CoreWeave sind 4,2 Gigawatt vertraglich gesicherte Stromkapazität weltweit und die neue internationale Expansion; Hauptschwäche bleiben anhaltende Nettoverluste, negativer freier Cashflow und hohe Verschuldung.",
+    "in_focus_de": "Ausbau von Rechenzentren in Indien um 240 Megawatt über die Partnerschaft mit AdaniConneX",
+    "main_risk_de": "Die starke Abhängigkeit von wenigen großen KI-Laboren gefährdet die Umsatzstabilität, während das Unternehmen erhebliche Schulden im Zusammenhang mit seinen Stromverträgen trägt.",
     "date": "2026-10-16",
     "fair_value_local": 49.57,
     "upside": -0.28870715650100154
