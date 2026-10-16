@@ -593,13 +593,12 @@
     ]
    },
    "fairvalue": {
-    "fvc_symbol": "NBIS.US",
     "valuation_status": "overvalued",
-    "fair_value": 13.41,
-    "fair_value_currency": "USD",
     "upside_band": "below_-30",
     "quality_score": 62,
     "evidence_level": "low",
+    "fair_value": 13.41,
+    "fair_value_currency": "USD",
     "fair_value_range": {
      "cautious": 13.41,
      "optimistic": 13.41
@@ -632,6 +631,7 @@
     "ai_note_date": "2026-10-11",
     "calculated_at": "2026-10-16",
     "deep_link": "https://www.fairvalue-calculator.com/stock/NBIS.US?utm_source=mcp&utm_medium=claude",
+    "fvc_symbol": "NBIS.US",
     "date": "2026-10-16",
     "fair_value_local": 13.41,
     "upside": -0.928825435277581
@@ -1121,13 +1121,12 @@
     ]
    },
    "fairvalue": {
-    "fvc_symbol": "SNDK.US",
     "valuation_status": "undervalued",
-    "fair_value": 2239.28,
-    "fair_value_currency": "USD",
     "upside_band": "above_30",
     "quality_score": 82,
     "evidence_level": "medium",
+    "fair_value": 2239.28,
+    "fair_value_currency": "USD",
     "fair_value_range": {
      "cautious": 1311,
      "optimistic": 4834
@@ -1160,6 +1159,7 @@
     "ai_note_date": "2026-10-11",
     "calculated_at": "2026-10-16",
     "deep_link": "https://www.fairvalue-calculator.com/stock/SNDK.US?utm_source=mcp&utm_medium=claude",
+    "fvc_symbol": "SNDK.US",
     "date": "2026-10-16",
     "fair_value_local": 2239.28,
     "upside": 0.6054143304563528
@@ -1647,13 +1647,12 @@
     ]
    },
    "fairvalue": {
-    "fvc_symbol": "CELH.US",
     "valuation_status": "near_fair_value",
-    "fair_value": 29.61,
-    "fair_value_currency": "USD",
     "upside_band": "0_to_10",
     "quality_score": 43,
     "evidence_level": "high",
+    "fair_value": 29.61,
+    "fair_value_currency": "USD",
     "fair_value_range": {
      "cautious": 17.31,
      "optimistic": 38.49
@@ -1686,6 +1685,7 @@
     "ai_note_date": "2026-10-11",
     "calculated_at": "2026-10-16",
     "deep_link": "https://www.fairvalue-calculator.com/stock/CELH.US?utm_source=mcp&utm_medium=claude",
+    "fvc_symbol": "CELH.US",
     "date": "2026-10-16",
     "fair_value_local": 29.61,
     "upside": 0.05149148297034323
@@ -2173,13 +2173,12 @@
     ]
    },
    "fairvalue": {
-    "fvc_symbol": "NXT.US",
     "valuation_status": "undervalued",
-    "fair_value": 94.72,
-    "fair_value_currency": "USD",
     "upside_band": "10_to_20",
     "quality_score": 66,
     "evidence_level": "high",
+    "fair_value": 94.72,
+    "fair_value_currency": "USD",
     "fair_value_range": {
      "cautious": 64.48,
      "optimistic": 156
@@ -2212,6 +2211,7 @@
     "ai_note_date": "2026-10-11",
     "calculated_at": "2026-10-16",
     "deep_link": "https://www.fairvalue-calculator.com/stock/NXT.US?utm_source=mcp&utm_medium=claude",
+    "fvc_symbol": "NXT.US",
     "date": "2026-10-16",
     "fair_value_local": 94.72,
     "upside": 0.13505097020851609
@@ -3183,13 +3183,12 @@
     ]
    },
    "fairvalue": {
-    "fvc_symbol": "ALAB.US",
     "valuation_status": "overvalued",
-    "fair_value": 62.28,
-    "fair_value_currency": "USD",
     "upside_band": "below_-30",
     "quality_score": 74,
     "evidence_level": "medium",
+    "fair_value": 62.28,
+    "fair_value_currency": "USD",
     "fair_value_range": {
      "cautious": 38.1,
      "optimistic": 110
@@ -3218,6 +3217,7 @@
     "ai_note_date": "2026-10-11",
     "calculated_at": "2026-10-16",
     "deep_link": "https://www.fairvalue-calculator.com/stock/ALAB.US?utm_source=mcp&utm_medium=claude",
+    "fvc_symbol": "ALAB.US",
     "date": "2026-10-16",
     "fair_value_local": 62.28,
     "upside": -0.7937611837400069
@@ -3705,13 +3705,12 @@
     ]
    },
    "fairvalue": {
-    "fvc_symbol": "RDDT.US",
     "valuation_status": "overvalued",
-    "fair_value": 131.44,
-    "fair_value_currency": "USD",
     "upside_band": "-20_to_-10",
     "quality_score": 77,
     "evidence_level": "high",
+    "fair_value": 131.44,
+    "fair_value_currency": "USD",
     "fair_value_range": {
      "cautious": 75.98,
      "optimistic": 220
@@ -3740,6 +3739,7 @@
     "ai_note_date": "2026-10-11",
     "calculated_at": "2026-10-16",
     "deep_link": "https://www.fairvalue-calculator.com/stock/RDDT.US?utm_source=mcp&utm_medium=claude",
+    "fvc_symbol": "RDDT.US",
     "date": "2026-10-16",
     "fair_value_local": 131.44,
     "upside": -0.17520080637184665
@@ -4227,13 +4227,12 @@
     ]
    },
    "fairvalue": {
-    "fvc_symbol": "FN.US",
     "valuation_status": "overvalued",
-    "fair_value": 219.83,
-    "fair_value_currency": "USD",
     "upside_band": "below_-30",
     "quality_score": 55,
     "evidence_level": "medium",
+    "fair_value": 219.83,
+    "fair_value_currency": "USD",
     "fair_value_range": {
      "cautious": 120,
      "optimistic": 343
@@ -4266,6 +4265,7 @@
     "ai_note_date": "2026-10-11",
     "calculated_at": "2026-10-16",
     "deep_link": "https://www.fairvalue-calculator.com/stock/FN.US?utm_source=mcp&utm_medium=claude",
+    "fvc_symbol": "FN.US",
     "date": "2026-10-16",
     "fair_value_local": 219.83,
     "upside": -0.42930946772179945
@@ -4753,13 +4753,12 @@
     ]
    },
    "fairvalue": {
-    "fvc_symbol": "ONTO.US",
     "valuation_status": "overvalued",
-    "fair_value": 115.14,
-    "fair_value_currency": "USD",
     "upside_band": "below_-30",
     "quality_score": 65,
     "evidence_level": "high",
+    "fair_value": 115.14,
+    "fair_value_currency": "USD",
     "fair_value_range": {
      "cautious": 89.04,
      "optimistic": 142
@@ -4792,6 +4791,7 @@
     "ai_note_date": "2026-10-11",
     "calculated_at": "2026-10-16",
     "deep_link": "https://www.fairvalue-calculator.com/stock/ONTO.US?utm_source=mcp&utm_medium=claude",
+    "fvc_symbol": "ONTO.US",
     "date": "2026-10-16",
     "fair_value_local": 115.14,
     "upside": -0.5035999072434022
@@ -5280,13 +5280,12 @@
     ]
    },
    "fairvalue": {
-    "fvc_symbol": "CRWV.US",
     "valuation_status": "overvalued",
-    "fair_value": 49.57,
-    "fair_value_currency": "USD",
     "upside_band": "-30_to_-20",
     "quality_score": 14,
     "evidence_level": "low",
+    "fair_value": 49.57,
+    "fair_value_currency": "USD",
     "fair_value_range": {
      "cautious": 32.85,
      "optimistic": 66.28
@@ -5319,6 +5318,7 @@
     "ai_note_date": "2026-10-11",
     "calculated_at": "2026-10-16",
     "deep_link": "https://www.fairvalue-calculator.com/stock/CRWV.US?utm_source=mcp&utm_medium=claude",
+    "fvc_symbol": "CRWV.US",
     "date": "2026-10-16",
     "fair_value_local": 49.57,
     "upside": -0.28870715650100154
@@ -5808,13 +5808,13 @@
     ]
    },
    "fairvalue": {
-    "fvc_symbol": "SMTC.US",
     "valuation_status": "overvalued",
     "upside_band": "below_-30",
     "quality_score": 54,
     "evidence_level": "low",
     "calculated_at": "2026-10-16",
     "deep_link": "https://www.fairvalue-calculator.com/stock/SMTC.US?utm_source=mcp&utm_medium=claude",
+    "fvc_symbol": "SMTC.US",
     "date": "2026-10-16",
     "fair_value_local": null,
     "upside": null
@@ -6302,13 +6302,13 @@
     ]
    },
    "fairvalue": {
-    "fvc_symbol": "LITE.US",
     "valuation_status": "overvalued",
     "upside_band": "below_-30",
     "quality_score": 40,
     "evidence_level": "low",
     "calculated_at": "2026-10-16",
     "deep_link": "https://www.fairvalue-calculator.com/stock/LITE.US?utm_source=mcp&utm_medium=claude",
+    "fvc_symbol": "LITE.US",
     "date": "2026-10-16",
     "fair_value_local": null,
     "upside": null
@@ -6797,13 +6797,13 @@
     ]
    },
    "fairvalue": {
-    "fvc_symbol": "STRL.US",
     "valuation_status": "near_fair_value",
     "upside_band": "-10_to_0",
     "quality_score": 64,
     "evidence_level": "medium",
     "calculated_at": "2026-10-16",
     "deep_link": "https://www.fairvalue-calculator.com/stock/STRL.US?utm_source=mcp&utm_medium=claude",
+    "fvc_symbol": "STRL.US",
     "date": "2026-10-16",
     "fair_value_local": null,
     "upside": null
@@ -7291,13 +7291,13 @@
     ]
    },
    "fairvalue": {
-    "fvc_symbol": "WING.US",
     "valuation_status": "near_fair_value",
     "upside_band": "0_to_10",
     "quality_score": 77,
     "evidence_level": "medium",
     "calculated_at": "2026-10-16",
     "deep_link": "https://www.fairvalue-calculator.com/stock/WING.US?utm_source=mcp&utm_medium=claude",
+    "fvc_symbol": "WING.US",
     "date": "2026-10-16",
     "fair_value_local": null,
     "upside": null
@@ -7785,13 +7785,13 @@
     ]
    },
    "fairvalue": {
-    "fvc_symbol": "CAVA.US",
     "valuation_status": "overvalued",
     "upside_band": "below_-30",
     "quality_score": 43,
     "evidence_level": "low",
     "calculated_at": "2026-10-16",
     "deep_link": "https://www.fairvalue-calculator.com/stock/CAVA.US?utm_source=mcp&utm_medium=claude",
+    "fvc_symbol": "CAVA.US",
     "date": "2026-10-16",
     "fair_value_local": null,
     "upside": null
@@ -8280,13 +8280,13 @@
     ]
    },
    "fairvalue": {
-    "fvc_symbol": "COHR.US",
     "valuation_status": "overvalued",
     "upside_band": "below_-30",
     "quality_score": 35,
     "evidence_level": "medium",
     "calculated_at": "2026-10-16",
     "deep_link": "https://www.fairvalue-calculator.com/stock/COHR.US?utm_source=mcp&utm_medium=claude",
+    "fvc_symbol": "COHR.US",
     "date": "2026-10-16",
     "fair_value_local": null,
     "upside": null
@@ -8749,13 +8749,13 @@
     ]
    },
    "fairvalue": {
-    "fvc_symbol": "RMBS.US",
     "valuation_status": "undervalued",
     "upside_band": "10_to_20",
     "quality_score": 77,
     "evidence_level": "high",
     "calculated_at": "2026-10-16",
     "deep_link": "https://www.fairvalue-calculator.com/stock/RMBS.US?utm_source=mcp&utm_medium=claude",
+    "fvc_symbol": "RMBS.US",
     "date": "2026-10-16",
     "fair_value_local": null,
     "upside": null
@@ -9243,13 +9243,13 @@
     ]
    },
    "fairvalue": {
-    "fvc_symbol": "FICO.US",
     "valuation_status": "near_fair_value",
     "upside_band": "0_to_10",
     "quality_score": 89,
     "evidence_level": "medium",
     "calculated_at": "2026-10-16",
     "deep_link": "https://www.fairvalue-calculator.com/stock/FICO.US?utm_source=mcp&utm_medium=claude",
+    "fvc_symbol": "FICO.US",
     "date": "2026-10-16",
     "fair_value_local": null,
     "upside": null
@@ -9737,13 +9737,13 @@
     ]
    },
    "fairvalue": {
-    "fvc_symbol": "GWRE.US",
     "valuation_status": "overvalued",
     "upside_band": "below_-30",
     "quality_score": 79,
     "evidence_level": "medium",
     "calculated_at": "2026-10-16",
     "deep_link": "https://www.fairvalue-calculator.com/stock/GWRE.US?utm_source=mcp&utm_medium=claude",
+    "fvc_symbol": "GWRE.US",
     "date": "2026-10-16",
     "fair_value_local": null,
     "upside": null
@@ -10231,13 +10231,13 @@
     ]
    },
    "fairvalue": {
-    "fvc_symbol": "MRVL.US",
     "valuation_status": "overvalued",
     "upside_band": "below_-30",
     "quality_score": 78,
     "evidence_level": "high",
     "calculated_at": "2026-10-16",
     "deep_link": "https://www.fairvalue-calculator.com/stock/MRVL.US?utm_source=mcp&utm_medium=claude",
+    "fvc_symbol": "MRVL.US",
     "date": "2026-10-16",
     "fair_value_local": null,
     "upside": null
@@ -10724,13 +10724,13 @@
     ]
    },
    "fairvalue": {
-    "fvc_symbol": "MTSI.US",
     "valuation_status": "overvalued",
     "upside_band": "below_-30",
     "quality_score": 54,
     "evidence_level": "low",
     "calculated_at": "2026-10-16",
     "deep_link": "https://www.fairvalue-calculator.com/stock/MTSI.US?utm_source=mcp&utm_medium=claude",
+    "fvc_symbol": "MTSI.US",
     "date": "2026-10-16",
     "fair_value_local": null,
     "upside": null
@@ -11218,13 +11218,13 @@
     ]
    },
    "fairvalue": {
-    "fvc_symbol": "GEV.US",
     "valuation_status": "overvalued",
     "upside_band": "below_-30",
     "quality_score": 67,
     "evidence_level": "low",
     "calculated_at": "2026-10-16",
     "deep_link": "https://www.fairvalue-calculator.com/stock/GEV.US?utm_source=mcp&utm_medium=claude",
+    "fvc_symbol": "GEV.US",
     "date": "2026-10-16",
     "fair_value_local": null,
     "upside": null
@@ -12198,13 +12198,13 @@
     ]
    },
    "fairvalue": {
-    "fvc_symbol": "ALNY.US",
     "valuation_status": "near_fair_value",
     "upside_band": "-10_to_0",
     "quality_score": 68,
     "evidence_level": "medium",
     "calculated_at": "2026-10-16",
     "deep_link": "https://www.fairvalue-calculator.com/stock/ALNY.US?utm_source=mcp&utm_medium=claude",
+    "fvc_symbol": "ALNY.US",
     "date": "2026-10-16",
     "fair_value_local": null,
     "upside": null
@@ -12691,13 +12691,13 @@
     ]
    },
    "fairvalue": {
-    "fvc_symbol": "VIAV.US",
     "valuation_status": "overvalued",
     "upside_band": "below_-30",
     "quality_score": 46,
     "evidence_level": "medium",
     "calculated_at": "2026-10-16",
     "deep_link": "https://www.fairvalue-calculator.com/stock/VIAV.US?utm_source=mcp&utm_medium=claude",
+    "fvc_symbol": "VIAV.US",
     "date": "2026-10-16",
     "fair_value_local": null,
     "upside": null
@@ -13185,13 +13185,13 @@
     ]
    },
    "fairvalue": {
-    "fvc_symbol": "DOCN.US",
     "valuation_status": "overvalued",
     "upside_band": "below_-30",
     "quality_score": 62,
     "evidence_level": "medium",
     "calculated_at": "2026-10-16",
     "deep_link": "https://www.fairvalue-calculator.com/stock/DOCN.US?utm_source=mcp&utm_medium=claude",
+    "fvc_symbol": "DOCN.US",
     "date": "2026-10-16",
     "fair_value_local": null,
     "upside": null
@@ -13679,13 +13679,13 @@
     ]
    },
    "fairvalue": {
-    "fvc_symbol": "MPWR.US",
     "valuation_status": "overvalued",
     "upside_band": "below_-30",
     "quality_score": 72,
     "evidence_level": "high",
     "calculated_at": "2026-10-16",
     "deep_link": "https://www.fairvalue-calculator.com/stock/MPWR.US?utm_source=mcp&utm_medium=claude",
+    "fvc_symbol": "MPWR.US",
     "date": "2026-10-16",
     "fair_value_local": null,
     "upside": null
@@ -14175,13 +14175,13 @@
     ]
    },
    "fairvalue": {
-    "fvc_symbol": "APP.US",
     "valuation_status": "near_fair_value",
     "upside_band": "0_to_10",
     "quality_score": 91,
     "evidence_level": "medium",
     "calculated_at": "2026-10-16",
     "deep_link": "https://www.fairvalue-calculator.com/stock/APP.US?utm_source=mcp&utm_medium=claude",
+    "fvc_symbol": "APP.US",
     "date": "2026-10-16",
     "fair_value_local": null,
     "upside": null
@@ -14670,13 +14670,13 @@
     ]
    },
    "fairvalue": {
-    "fvc_symbol": "HOOD.US",
     "valuation_status": "overvalued",
     "upside_band": "below_-30",
     "quality_score": 67,
     "evidence_level": "medium",
     "calculated_at": "2026-10-16",
     "deep_link": "https://www.fairvalue-calculator.com/stock/HOOD.US?utm_source=mcp&utm_medium=claude",
+    "fvc_symbol": "HOOD.US",
     "date": "2026-10-16",
     "fair_value_local": null,
     "upside": null
@@ -15164,13 +15164,13 @@
     ]
    },
    "fairvalue": {
-    "fvc_symbol": "PSN.US",
     "valuation_status": "near_fair_value",
     "upside_band": "-10_to_0",
     "quality_score": 58,
     "evidence_level": "medium",
     "calculated_at": "2026-10-16",
     "deep_link": "https://www.fairvalue-calculator.com/stock/PSN.US?utm_source=mcp&utm_medium=claude",
+    "fvc_symbol": "PSN.US",
     "date": "2026-10-16",
     "fair_value_local": null,
     "upside": null
