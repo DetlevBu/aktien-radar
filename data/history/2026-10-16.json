@@ -1,0 +1,107 @@
+{
+ "date": "2026-10-16",
+ "top": [
+  {
+   "symbol": "NBIS",
+   "name": "Nebius Group N.V.",
+   "price": 188.41000366210938,
+   "price_date": "2026-10-15",
+   "score": 0.5756325174546398,
+   "currency": "USD"
+  },
+  {
+   "symbol": "SNDK",
+   "name": "Sandisk Corporation",
+   "price": 1394.8299560546875,
+   "price_date": "2026-10-15",
+   "score": 0.566115897904265,
+   "currency": "USD"
+  },
+  {
+   "symbol": "CELH",
+   "name": "Celsius Holdings, Inc.",
+   "price": 28.15999984741211,
+   "price_date": "2026-10-15",
+   "score": 0.5498923244701707,
+   "currency": "USD"
+  },
+  {
+   "symbol": "NXT",
+   "name": "Nextpower Inc.",
+   "price": 83.44999694824219,
+   "price_date": "2026-10-15",
+   "score": 0.5382661239155475,
+   "currency": "USD"
+  },
+  {
+   "symbol": "MSTR",
+   "name": "Strategy Inc",
+   "price": 151.2899932861328,
+   "price_date": "2026-10-15",
+   "score": 0.5279574646255301,
+   "currency": "USD"
+  },
+  {
+   "symbol": "ALAB",
+   "name": "Astera Labs, Inc.",
+   "price": 301.9800109863281,
+   "price_date": "2026-10-15",
+   "score": 0.5198330531094214,
+   "currency": "USD"
+  },
+  {
+   "symbol": "RDDT",
+   "name": "Reddit, Inc.",
+   "price": 159.36000061035156,
+   "price_date": "2026-10-15",
+   "score": 0.5145064638551136,
+   "currency": "USD"
+  },
+  {
+   "symbol": "FN",
+   "name": "Fabrinet",
+   "price": 385.20001220703125,
+   "price_date": "2026-10-15",
+   "score": 0.5059622096133666,
+   "currency": "USD"
+  },
+  {
+   "symbol": "ONTO",
+   "name": "Onto Innovation Inc.",
+   "price": 231.9499969482422,
+   "price_date": "2026-10-15",
+   "score": 0.5013719187375123,
+   "currency": "USD"
+  },
+  {
+   "symbol": "CRWV",
+   "name": "CoreWeave, Inc.",
+   "price": 69.69000244140625,
+   "price_date": "2026-10-15",
+   "score": 0.4901271257768052,
+   "currency": "USD"
+  }
+ ],
+ "watch": [
+  "SMTC",
+  "LITE",
+  "STRL",
+  "WING",
+  "CAVA",
+  "COHR",
+  "RMBS",
+  "FICO",
+  "GWRE",
+  "MRVL",
+  "MTSI",
+  "GEV",
+  "BE",
+  "ALNY",
+  "VIAV",
+  "DOCN",
+  "MPWR",
+  "APP",
+  "HOOD",
+  "PSN"
+ ]
+}
