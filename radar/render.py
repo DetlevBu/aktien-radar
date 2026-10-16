@@ -147,6 +147,25 @@ FV_STATUS = {"undervalued": ("unterbewertet", "pos"), "overvalued": ("überbewer
              "near_fair_value": ("nahe fairem Wert", "")}
 FV_EVID = {"high": "hoch", "medium": "mittel", "low": "niedrig"}
 FV_TONE = {"strength": "+", "weakness": "−", "watch": "○", "neutral": "·"}
+# Feste Stichworte von Fair Value Calculator -> Deutsch (unbekannte: point_de oder Original)
+REASON_DE = {
+    "Strong Growth": "Starkes Wachstum", "Healthy Growth": "Gesundes Wachstum",
+    "Weak Growth": "Schwaches Wachstum", "Negative Growth": "Rückläufiges Geschäft",
+    "Expensive Growth": "Wachstum teuer bewertet", "Cheap Growth": "Wachstum günstig bewertet",
+    "Highly profitable": "Hoch profitabel", "Solidly profitable": "Solide profitabel",
+    "Thin margins": "Dünne Margen", "Loss-making": "Verlustbringend", "Unprofitable": "Unprofitabel",
+    "Low debt": "Geringe Verschuldung", "Moderate debt": "Moderate Verschuldung",
+    "High debt": "Hohe Verschuldung", "Net cash": "Mehr Geld als Schulden",
+    "Generates free cash flow": "Erzeugt freien Cashflow",
+    "Negative free cash flow": "Negativer freier Cashflow",
+    "Wide moat": "Breiter Burggraben", "Moderate moat": "Mäßiger Burggraben",
+    "Narrow moat": "Schmaler Burggraben", "No moat": "Kein Burggraben",
+}
+
+
+def reason_de(r):
+    pt = r.get("point") or ""
+    return REASON_DE.get(pt) or r.get("point_de") or pt
 
 
 def band_de(b):
@@ -186,13 +205,19 @@ def fv_block(c):
     out = [head, "<dl class='kv'>", "".join(rows), "</dl>"]
     if fv.get("reasons"):
         out.append("<p class='small'>" + " · ".join(
-            f"{FV_TONE.get(r.get('tone'), '·')} {E(r.get('point') or '')}" for r in fv["reasons"]) + "</p>")
+            f"{FV_TONE.get(r.get('tone'), '·')} {E(reason_de(r))}" for r in fv["reasons"]) + "</p>")
+    translated = english = False
     for label, key in (("Im Fokus", "in_focus"), ("Hauptrisiko", "main_risk"), ("Einschätzung", "ai_conclusion")):
-        if fv.get(key):
-            out.append(f"<p class='small'><b>{label}:</b> {E(fv[key])}</p>")
+        txt = fv.get(key + "_de") or fv.get(key)
+        if txt:
+            translated |= bool(fv.get(key + "_de"))
+            english |= not fv.get(key + "_de")
+            out.append(f"<p class='small'><b>{label}:</b> {E(txt)}</p>")
     out.append(f"<p class='small'>Stand {E(fv.get('calculated_at') or fv.get('date') or '')}"
                + (f", Texte vom {E(fv['ai_note_date'])}" if fv.get("ai_note_date") else "")
-               + " (englisch) · " + (f"<a href='{E(fv['deep_link'])}' target='_blank' rel='noopener'>volle Analyse</a>"
+               + (" (aus dem Englischen übersetzt)" if translated and not english else
+                  " (englisch)" if english and not translated else
+                  " (teils übersetzt)" if translated else "") + " · " + (f"<a href='{E(fv['deep_link'])}' target='_blank' rel='noopener'>volle Analyse</a>"
                                      if fv.get("deep_link") else "") + "</p>")
     return "".join(out)
 
@@ -589,6 +614,8 @@ einstelligen Prozentbereich (siehe Backtest).</li></ol>
 <dt>Leerverkaufsquote</dt><dd style="text-align:left">Anteil der frei handelbaren Aktien, auf deren Fall gewettet wird. Hoch = Potenzial für einen „Short Squeeze“, aber auch Skepsis.</dd>
 <dt>Konsens 1–5</dt><dd style="text-align:left">Durchschnittliche Analystennote bei Yahoo: 1 Strong Buy, 2 Buy, 3 Hold, 4 Underperform, 5 Sell.</dd>
 <dt>Survivorship-Bias</dt><dd style="text-align:left">Verzerrung, weil gescheiterte Firmen in heutigen Listen fehlen.</dd>
+<dt>Burggraben (Moat)</dt><dd style="text-align:left">Dauerhafter Wettbewerbsvorteil, der Konkurrenten fernhält (z. B. Marke, Technologie, Kostenvorteil). Begriff von Fair Value Calculator.</dd>
+<dt>Fairer Wert</dt><dd style="text-align:left">Geschätzter innerer Wert je Aktie aus Bewertungsmodellen (z. B. abgezinste Cashflows, Multiplikatoren). Liegt er über dem Kurs, gilt die Aktie als unterbewertet.</dd>
 <dt>Form 4</dt><dd style="text-align:left">Pflichtmeldung bei der US-Börsenaufsicht SEC, wenn Insider Aktien kaufen oder verkaufen.</dd>
 <dt>Sentiment-Score</dt><dd style="text-align:left">Stimmung in Nachrichtenartikeln, −1 sehr negativ bis +1 sehr positiv (Alpha Vantage).</dd>
 </dl></details></section>
