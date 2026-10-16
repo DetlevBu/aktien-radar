@@ -190,6 +190,8 @@ def main():
             "MIN_ANALYSTS", "MIN_TARGET_UPSIDE")},
         "runtime_s": round(time.time() - t0),
     }
+    from .fairvalue import attach as fv_attach
+    fv_attach(ctx)
     write_json(C.DATA_DIR / "latest.json", {k: v for k, v in ctx.items() if k != "sources"} |
                {"sources": ctx["sources"]})
     render(ctx)

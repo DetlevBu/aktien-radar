@@ -60,7 +60,8 @@ def chart_svg(c, w=640, h=220):
     target20 = c["price"] * 1.2
     lines = [("52W-Hoch", c.get("high52"), "var(--muted)"),
              ("+20 %", target20, "var(--accent)"),
-             ("Analystenziel", c.get("target_mean"), "var(--good)")]
+             ("Analystenziel", c.get("target_mean"), "var(--good)"),
+             ("Fair Value", (c.get("fairvalue") or {}).get("fair_value_local"), "#7c3aed")]
     vals = ys + [v for _, v, _ in lines if v]
     lo, hi = min(vals) * 0.97, max(vals) * 1.03
     pl, pr, pt, pb = 8, 92, 10, 22
@@ -140,6 +141,60 @@ def news_list(d):
         f'<span class="small"> {E(i.get("date") or "")} · {E(i.get("source") or "")} (via {i["via"]})</span></li>'
         for i in items[:7])
     return f"<ul class='news'>{lis}</ul>"
+
+
+FV_STATUS = {"undervalued": ("unterbewertet", "pos"), "overvalued": ("überbewertet", "neg"),
+             "near_fair_value": ("nahe fairem Wert", "")}
+FV_EVID = {"high": "hoch", "medium": "mittel", "low": "niedrig"}
+FV_TONE = {"strength": "+", "weakness": "−", "watch": "○", "neutral": "·"}
+
+
+def band_de(b):
+    if not b:
+        return NA
+    if b.startswith("above_"):
+        return f"über +{b[6:]} %"
+    if b.startswith("below_"):
+        return f"unter {b[6:].replace('-', '−')} %"
+    lo, _, hi = b.partition("_to_")
+    f = lambda x: ("+" if not x.startswith("-") and x != "0" else "") + x.replace("-", "−")
+    return f"{f(lo)} bis {f(hi)} %"
+
+
+def fv_block(c):
+    fv = c.get("fairvalue")
+    head = "<h4>Fair Value Calculator <span class='small'>(dein Konto)</span></h4>"
+    if not fv:
+        return head + f"<p class='small'>{NA} Für diese Aktie heute keine Bewertung abgerufen.</p>"
+    if fv.get("error"):
+        return head + f"<p class='small'>{NA} {E(fv['error'])}</p>"
+    st, cls = FV_STATUS.get(fv.get("valuation_status"), (fv.get("valuation_status") or "k. A.", ""))
+    fvc = fv.get("fair_value_currency")
+    rows = [f"<dt>Einstufung</dt><dd class='{cls}'>{E(st)}</dd>"]
+    if fv.get("fair_value") is not None:
+        rows.append(f"<dt>Fairer Wert je Aktie</dt><dd>{de(fv['fair_value'], 2)} {E(ccy(fvc))}</dd>")
+        rows.append(f"<dt>Abstand Kurs → fairer Wert</dt><dd class='{sgn_cls(fv.get('upside'))}'>"
+                    f"{pct(fv.get('upside'), 1, True) if fv.get('upside') is not None else NA}</dd>")
+    rng = fv.get("fair_value_range") or {}
+    if rng.get("cautious") is not None:
+        dg = 0 if (rng.get("cautious") or 0) >= 100 else 2
+        rows.append(f"<dt>Spanne vorsichtig – optimistisch</dt><dd>{de(rng.get('cautious'), dg)} – "
+                    f"{de(rng.get('optimistic'), dg)} {E(ccy(fvc))}</dd>")
+    rows.append(f"<dt>Abstand (Band)</dt><dd>{band_de(fv.get('upside_band'))}</dd>")
+    rows.append(f"<dt>Qualitätsnote (0–100)</dt><dd>{n(fv.get('quality_score'), 0)}</dd>")
+    rows.append(f"<dt>Datenbasis</dt><dd>{E(FV_EVID.get(fv.get('evidence_level'), fv.get('evidence_level') or 'k. A.'))}</dd>")
+    out = [head, "<dl class='kv'>", "".join(rows), "</dl>"]
+    if fv.get("reasons"):
+        out.append("<p class='small'>" + " · ".join(
+            f"{FV_TONE.get(r.get('tone'), '·')} {E(r.get('point') or '')}" for r in fv["reasons"]) + "</p>")
+    for label, key in (("Im Fokus", "in_focus"), ("Hauptrisiko", "main_risk"), ("Einschätzung", "ai_conclusion")):
+        if fv.get(key):
+            out.append(f"<p class='small'><b>{label}:</b> {E(fv[key])}</p>")
+    out.append(f"<p class='small'>Stand {E(fv.get('calculated_at') or fv.get('date') or '')}"
+               + (f", Texte vom {E(fv['ai_note_date'])}" if fv.get("ai_note_date") else "")
+               + " (englisch) · " + (f"<a href='{E(fv['deep_link'])}' target='_blank' rel='noopener'>volle Analyse</a>"
+                                     if fv.get("deep_link") else "") + "</p>")
+    return "".join(out)
 
 
 def detail(c):
@@ -228,8 +283,17 @@ def detail(c):
             (f"<p class='summary'>{E(summ[:420])}{'…' if len(summ) > 420 else ''} "
              f"<span class='small'>(Yahoo, englisch)</span></p>" if summ else f"<p>{NA} Beschreibung</p>"))
     return (f"<div class='detail'>{chart_svg(c)}<div class='cols'>"
-            f"<div>{''.join(prob)}</div><div>{''.join(ana)}</div></div>"
+            f"<div>{''.join(prob)}</div><div>{''.join(ana)}{fv_block(c)}</div></div>"
             f"<div class='cols'><div>{kzh}</div><div>{firm}<h4>Aktuelle Nachrichten</h4>{news_list(d)}</div></div></div>")
+
+
+def fv_meta(c):
+    fv = c.get("fairvalue") or {}
+    if fv.get("upside") is not None:
+        return f" · Fair Value {pct(fv['upside'], 0, True)}"
+    if fv.get("valuation_status"):
+        return " · FV: " + FV_STATUS.get(fv["valuation_status"], (fv["valuation_status"], ""))[0]
+    return ""
 
 
 def card(c, rank, changes):
@@ -238,7 +302,7 @@ def card(c, rank, changes):
     return (f"<details class='card'><summary><span class='rank'>{rank}</span>"
             f"<span class='nm'><b>{E(c['name'])}</b> <span class='sym'>{E(c['symbol'])}</span>{tag}"
             f"<span class='meta'>{price(c['price'], c['currency'])} · {pct(-c['drawdown'], 0)} vom Hoch · "
-            f"Ziel {pct(c['target_upside'], 0, True)} · {n(c['n_analysts'], 0)} Analysten</span></span>"
+            f"Ziel {pct(c['target_upside'], 0, True)} · {n(c['n_analysts'], 0)} Analysten{fv_meta(c)}</span></span>"
             f"{verdict_badge(c['assessment'])}</summary>{detail(c)}</details>")
 
 
@@ -508,7 +572,11 @@ Lage + 20 % Wende-Signale (Kurs über 20-Tage-Schnitt, 20-Tage-Schnitt steigt, 1
 <li><b>Rangfolge:</b> Kurs-Score × (0,7 + 0,3 × Analystenstärke). Analystenstärke = je zur Hälfte Kursziel-Abstand (bis 60 %) und Konsensnote.</li>
 <li><b>+20 %-Einschätzung:</b> Hauptzahl ist die Trefferquote aller Backtest-Fälle mit ähnlichem Kurs-Score. Die eigene
 Kursgeschichte der Aktie wird als Kontext gezeigt, fließt aber nicht ein (nach starken Rallys überzeichnet). „Realistisch“ ab 35 % und
-Kursziel ≥ +20 %, „Möglich“ ab 20 %, darunter „Eher unwahrscheinlich“. Zum Vergleich: Für eine durchschnittliche Aktie liegt die Basisrate meist im
+Kursziel ≥ +20 %, „Möglich“ ab 20 %, darunter „Eher unwahrscheinlich“.</li>
+<li><b>Fair Value Calculator:</b> Für Top 10 und Beobachtungsliste wird zusätzlich die Bewertung aus deinem Konto bei fairvalue-calculator.com
+angezeigt (fairer Wert aus bis zu 26 Bewertungsmodellen, Qualitätsnote, Stärken und Risiken). Sie fließt bewusst nicht in Auswahl, Rangfolge
+oder +20 %-Einschätzung ein und ist nicht im Backtest enthalten, weil es keine historischen Werte dafür gibt. Ein fairer Wert beschreibt eine
+langfristige Bewertung, keinen Kursverlauf in 8 Wochen. Zum Vergleich: Für eine durchschnittliche Aktie liegt die Basisrate meist im
 einstelligen Prozentbereich (siehe Backtest).</li></ol>
 <details class="gl"><summary>Fachbegriffe</summary><dl class="kv" style="grid-template-columns:auto 1fr">
 <dt>Drawdown</dt><dd style="text-align:left">Abstand zum 52-Wochen-Hoch in Prozent.</dd>
