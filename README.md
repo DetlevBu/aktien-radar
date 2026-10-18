@@ -8,7 +8,7 @@ ihrem 52-Wochen-Hoch stehen und realistische Chancen auf **+20 % innerhalb von
 **Keine Anlageberatung.**
 
 ## Ablauf
-1. GitHub Actions startet `python -m radar.run` an jedem Werktag gegen 6:15 Uhr (Berlin).
+1. GitHub Actions startet `python -m radar.run` Dienstag bis Samstag gegen 6:15 Uhr (Berlin), jeweils mit den Schlusskursen des Vortags.
 2. Das Skript lädt Universum, Kurse, Analysten-, Unternehmens-, Nachrichten- und Makrodaten.
 3. Es filtert in zwei Stufen, bewertet die Kandidaten und rechnet einen Backtest.
 4. Es schreibt `docs/index.html` (Webseite) und `data/` (Historie, Bilanz) ins Repo.

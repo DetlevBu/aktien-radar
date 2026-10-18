@@ -3,12 +3,13 @@ name: Taeglicher Radar-Lauf
 on:
   schedule:
     # GitHub startet geplante Läufe unzuverlässig (Stunden zu spät oder gar
-    # nicht). Deshalb zehn Startversuche Mo-Fr zwischen 03:17 und 07:47 UTC
+    # nicht). Deshalb zehn Startversuche Di-Sa zwischen 03:17 und 07:47 UTC
     # (05:17-09:47 Uhr Berlin Sommerzeit). Der erste erfolgreiche Lauf des
     # Tages aktualisiert die Seite, alle weiteren beenden sich nach Sekunden.
     # Zusaetzlich stoesst ein externer Zeitplan den Lauf ueber eine Aenderung
     # an trigger/last.txt an (Commit-Nachricht mit "[trigger]").
-    - cron: "17,47 3-7 * * 1-5"
+    # Di-Sa: jeweils mit dem Schlusskurs des Vortags (Samstag = Freitagsschluss).
+    - cron: "17,47 3-7 * * 2-6"
   workflow_dispatch: {}
   push:
     branches: [main]
