@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-18T08:29:22.688486+00:00",
+ "generated": "2026-10-18T08:34:19.525032+00:00",
  "today": "2026-10-18",
  "data_date": "2026-10-16",
  "synthetic": false,
@@ -16454,7 +16454,7 @@
   "MIN_ANALYSTS": 5,
   "MIN_TARGET_UPSIDE": 0.2
  },
- "runtime_s": 290,
+ "runtime_s": 275,
  "sources": {
   "Wikipedia": {
    "ok": 4,
@@ -16481,7 +16481,7 @@
    "used_for": "Mitgliederliste Nasdaq 100"
   },
   "Yahoo Finance": {
-   "ok": 148,
+   "ok": 147,
    "fail": 0,
    "notes": [],
    "used_for": "Kurse, Indizes, Devisen, Analysten, Kennzahlen, News"
