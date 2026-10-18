@@ -1,0 +1,107 @@
+{
+ "date": "2026-10-18",
+ "top": [
+  {
+   "symbol": "NBIS",
+   "name": "Nebius Group N.V.",
+   "price": 165.47000122070312,
+   "price_date": "2026-10-16",
+   "score": 0.5937951354037789,
+   "currency": "USD"
+  },
+  {
+   "symbol": "SNDK",
+   "name": "Sandisk Corporation",
+   "price": 1299.300048828125,
+   "price_date": "2026-10-16",
+   "score": 0.5745581456826598,
+   "currency": "USD"
+  },
+  {
+   "symbol": "MSTR",
+   "name": "Strategy Inc",
+   "price": 136.8300018310547,
+   "price_date": "2026-10-16",
+   "score": 0.5351537362174578,
+   "currency": "USD"
+  },
+  {
+   "symbol": "RDDT",
+   "name": "Reddit, Inc.",
+   "price": 156.13999938964844,
+   "price_date": "2026-10-16",
+   "score": 0.518285701091811,
+   "currency": "USD"
+  },
+  {
+   "symbol": "CELH",
+   "name": "Celsius Holdings, Inc.",
+   "price": 28.190000534057617,
+   "price_date": "2026-10-16",
+   "score": 0.511300223437227,
+   "currency": "USD"
+  },
+  {
+   "symbol": "ALAB",
+   "name": "Astera Labs, Inc.",
+   "price": 285.82000732421875,
+   "price_date": "2026-10-16",
+   "score": 0.49718252769788507,
+   "currency": "USD"
+  },
+  {
+   "symbol": "CRWV",
+   "name": "CoreWeave, Inc.",
+   "price": 61.38999938964844,
+   "price_date": "2026-10-16",
+   "score": 0.49228986357813453,
+   "currency": "USD"
+  },
+  {
+   "symbol": "STRL",
+   "name": "Sterling Infrastructure, Inc.",
+   "price": 424.3599853515625,
+   "price_date": "2026-10-16",
+   "score": 0.48037838878316685,
+   "currency": "USD"
+  },
+  {
+   "symbol": "WING",
+   "name": "Wingstop Inc.",
+   "price": 131.72000122070312,
+   "price_date": "2026-10-16",
+   "score": 0.4748563361058648,
+   "currency": "USD"
+  },
+  {
+   "symbol": "COHR",
+   "name": "Coherent Corp.",
+   "price": 232.89999389648438,
+   "price_date": "2026-10-16",
+   "score": 0.4707256116109913,
+   "currency": "USD"
+  }
+ ],
+ "watch": [
+  "GWRE",
+  "CAVA",
+  "FN",
+  "SMTC",
+  "NXT",
+  "FICO",
+  "P",
+  "LITE",
+  "RMBS",
+  "GEV",
+  "ALNY",
+  "DOCN",
+  "TPR",
+  "MRVL",
+  "TTMI",
+  "PSN",
+  "FORM",
+  "AG1.DE",
+  "FOUR",
+  "BE"
+ ]
+}
