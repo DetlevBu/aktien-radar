@@ -1,10 +1,12 @@
-[08:29:50] Universum: 1646 Aktien
-Kurs-Cache: 1658 bekannt (Update 1 Monat), 0 neu (komplett)
-[08:32:13] Kurse: 1774 Reihen, letzter Tag 2026-10-17
-[08:32:28] Kennzahlen: 1593 Aktien mit aktuellen Daten
-[08:32:29] Backtest fertig
-[08:32:29] Stufe 1: 371 bestehen, 100 auf Shortlist
-[08:33:07] Stufe 2: 68 bestehen; Top 10, Beobachtung 20
-HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: AG1.DE"}}}
-[08:34:17] Details geladen
-[08:34:19] Fertig in 275 s
+[03:51:47] Universum: 1652 Aktien
+Kurs-Cache: 1656 bekannt (Update 1 Monat), 8 neu (komplett)
+
+1 Failed download:
+['NEF.DE']: OperationalError('database is locked')
+[03:54:03] Kurse: 1780 Reihen, letzter Tag 2026-10-19
+[03:54:32] Kennzahlen: 1592 Aktien mit aktuellen Daten
+[03:54:34] Backtest fertig
+[03:54:34] Stufe 1: 373 bestehen, 100 auf Shortlist
+[03:55:08] Stufe 2: 70 bestehen; Top 10, Beobachtung 20
+[03:56:20] Details geladen
+[03:56:21] Fertig in 280 s
