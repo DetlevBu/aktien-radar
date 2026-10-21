@@ -1,12 +1,9 @@
-[03:51:47] Universum: 1652 Aktien
-Kurs-Cache: 1656 bekannt (Update 1 Monat), 8 neu (komplett)
-
-1 Failed download:
-['NEF.DE']: OperationalError('database is locked')
-[03:54:03] Kurse: 1780 Reihen, letzter Tag 2026-10-19
-[03:54:32] Kennzahlen: 1592 Aktien mit aktuellen Daten
-[03:54:34] Backtest fertig
-[03:54:34] Stufe 1: 373 bestehen, 100 auf Shortlist
-[03:55:08] Stufe 2: 70 bestehen; Top 10, Beobachtung 20
-[03:56:20] Details geladen
-[03:56:21] Fertig in 280 s
+[03:51:18] Universum: 1646 Aktien
+Kurs-Cache: 1655 bekannt (Update 1 Monat), 3 neu (komplett)
+[03:53:37] Kurse: 1783 Reihen, letzter Tag 2026-10-20
+[03:54:06] Kennzahlen: 1592 Aktien mit aktuellen Daten
+[03:54:09] Backtest fertig
+[03:54:09] Stufe 1: 358 bestehen, 100 auf Shortlist
+[03:54:42] Stufe 2: 71 bestehen; Top 10, Beobachtung 20
+[03:55:51] Details geladen
+[03:55:52] Fertig in 281 s

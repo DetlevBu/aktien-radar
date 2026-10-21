@@ -1,0 +1,107 @@
+{
+ "date": "2026-10-21",
+ "top": [
+  {
+   "symbol": "NBIS",
+   "name": "Nebius Group N.V.",
+   "price": 171.4499969482422,
+   "price_date": "2026-10-20",
+   "score": 0.5863414293100423,
+   "currency": "USD"
+  },
+  {
+   "symbol": "SNDK",
+   "name": "Sandisk Corporation",
+   "price": 1365.3800048828125,
+   "price_date": "2026-10-20",
+   "score": 0.5611078419299916,
+   "currency": "USD"
+  },
+  {
+   "symbol": "CELH",
+   "name": "Celsius Holdings, Inc.",
+   "price": 29.959999084472656,
+   "price_date": "2026-10-20",
+   "score": 0.5337547943063241,
+   "currency": "USD"
+  },
+  {
+   "symbol": "RDDT",
+   "name": "Reddit, Inc.",
+   "price": 155.64999389648438,
+   "price_date": "2026-10-20",
+   "score": 0.5151523817587472,
+   "currency": "USD"
+  },
+  {
+   "symbol": "MSTR",
+   "name": "Strategy Inc",
+   "price": 142.72000122070312,
+   "price_date": "2026-10-20",
+   "score": 0.4947149649507319,
+   "currency": "USD"
+  },
+  {
+   "symbol": "CRWV",
+   "name": "CoreWeave, Inc.",
+   "price": 62.130001068115234,
+   "price_date": "2026-10-20",
+   "score": 0.48868992299044983,
+   "currency": "USD"
+  },
+  {
+   "symbol": "WING",
+   "name": "Wingstop Inc.",
+   "price": 130.30999755859375,
+   "price_date": "2026-10-20",
+   "score": 0.47703209275483033,
+   "currency": "USD"
+  },
+  {
+   "symbol": "STRL",
+   "name": "Sterling Infrastructure, Inc.",
+   "price": 412.25,
+   "price_date": "2026-10-20",
+   "score": 0.4757241185498955,
+   "currency": "USD"
+  },
+  {
+   "symbol": "RMBS",
+   "name": "Rambus Inc.",
+   "price": 92.41999816894531,
+   "price_date": "2026-10-20",
+   "score": 0.47266497579877603,
+   "currency": "USD"
+  },
+  {
+   "symbol": "TLN",
+   "name": "Talen Energy Corporation",
+   "price": 349.42999267578125,
+   "price_date": "2026-10-20",
+   "score": 0.4687749091876083,
+   "currency": "USD"
+  }
+ ],
+ "watch": [
+  "COHR",
+  "CAVA",
+  "SMTC",
+  "ALAB",
+  "MTSI",
+  "FICO",
+  "BROS",
+  "ALNY",
+  "DOCN",
+  "TPR",
+  "MPWR",
+  "FN",
+  "APP",
+  "PSN",
+  "TTMI",
+  "ARM",
+  "MRVL",
+  "NXT",
+  "LITE",
+  "FOUR"
+ ]
+}
