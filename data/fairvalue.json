@@ -1,17 +1,17 @@
 {
-  "date": "2026-10-21",
-  "fetched_at": "2026-10-21T04:04:40Z",
+  "date": "2026-10-22",
+  "fetched_at": "2026-10-22T04:04:37Z",
   "items": {
     "NBIS": {
       "valuation_status": "overvalued",
       "upside_band": "below_-30",
-      "quality_score": 62,
+      "quality_score": 51,
       "evidence_level": "low",
-      "fair_value": 13.41,
+      "fair_value": 12.33,
       "fair_value_currency": "USD",
       "fair_value_range": {
-        "cautious": 13.41,
-        "optimistic": 13.41
+        "cautious": 12.33,
+        "optimistic": 14.93
       },
       "reasons": [
         {
@@ -20,9 +20,9 @@
           "point_de": "Schwaches Wachstum"
         },
         {
-          "point": "Highly profitable",
-          "tone": "strength",
-          "point_de": "Hochprofitabel"
+          "point": "Thin margins",
+          "tone": "watch",
+          "point_de": "Dünne Margen"
         },
         {
           "point": "Moderate debt",
@@ -44,12 +44,61 @@
       "in_focus": "Asset-light model and backlog concentration on few large customers",
       "main_risk": "Continued reliance on a small group of committed customers could undermine revenue stability and limit growth from the reported backlog.",
       "ai_note_date": "2026-10-11",
-      "calculated_at": "2026-10-21",
+      "calculated_at": "2026-10-22",
       "deep_link": "https://www.fairvalue-calculator.com/stock/NBIS.US?utm_source=mcp&utm_medium=claude",
-      "ai_conclusion_de": "Das kapitalarme Geschäftsmodell ermöglicht margenstarke Umsätze bei geringerem Kapitalbedarf, da für Rechenzentren und Hardware auf Partner gesetzt wird; der Auftragsbestand hängt jedoch weiterhin stark von einer Handvoll Großkunden ab.",
-      "in_focus_de": "Kapitalarmes Geschäftsmodell und Konzentration des Auftragsbestands auf wenige Großkunden",
-      "main_risk_de": "Die anhaltende Abhängigkeit von einer kleinen Gruppe fest gebundener Kunden könnte die Umsatzstabilität untergraben und das Wachstum aus dem gemeldeten Auftragsbestand begrenzen.",
-      "fvc_symbol": "NBIS.US"
+      "fvc_symbol": "NBIS.US",
+      "ai_conclusion_de": "Das kapitalschonende Geschäftsmodell ermöglicht margenstarke Umsätze bei geringerem Kapitalbedarf, da für Rechenzentren und Hardware auf Partner gesetzt wird; der Auftragsbestand hängt jedoch weiterhin stark an einer Handvoll Großkunden.",
+      "in_focus_de": "Kapitalschonendes Geschäftsmodell und Konzentration des Auftragsbestands auf wenige Großkunden",
+      "main_risk_de": "Die anhaltende Abhängigkeit von einer kleinen Gruppe fest gebundener Kunden könnte die Stabilität der Umsätze beeinträchtigen und das Wachstum aus dem ausgewiesenen Auftragsbestand begrenzen."
+    },
+    "MSTR": {
+      "valuation_status": "no_valuation",
+      "deep_link": "https://www.fairvalue-calculator.com/stock/MSTR.US?utm_source=mcp&utm_medium=claude",
+      "fvc_symbol": "MSTR.US"
+    },
+    "RDDT": {
+      "valuation_status": "overvalued",
+      "upside_band": "-20_to_-10",
+      "quality_score": 77,
+      "evidence_level": "high",
+      "fair_value": 131.44,
+      "fair_value_currency": "USD",
+      "fair_value_range": {
+        "cautious": 75.98,
+        "optimistic": 220
+      },
+      "reasons": [
+        {
+          "point": "Healthy Growth",
+          "tone": "strength",
+          "point_de": "Gesundes Wachstum"
+        },
+        {
+          "point": "Highly profitable",
+          "tone": "strength",
+          "point_de": "Hochprofitabel"
+        },
+        {
+          "point": "Generates free cash flow",
+          "tone": "strength",
+          "point_de": "Erzielt freien Cashflow"
+        },
+        {
+          "point": "Wide moat",
+          "tone": "watch",
+          "point_de": "Breiter Burggraben"
+        }
+      ],
+      "ai_conclusion": "Reddit's community-driven platform delivers some margin strength, yet thin public data and limited durable signals across categories leave overall business quality weak.",
+      "in_focus": "new lead generation tools, CRM integrations and AI-powered ad campaigns for higher monetization",
+      "main_risk": "AI search reducing discovery traffic risks cutting user engagement and ad demand on the community platform.",
+      "ai_note_date": "2026-10-11",
+      "calculated_at": "2026-10-22",
+      "deep_link": "https://www.fairvalue-calculator.com/stock/RDDT.US?utm_source=mcp&utm_medium=claude",
+      "fvc_symbol": "RDDT.US",
+      "ai_conclusion_de": "Reddits von der Community getragene Plattform zeigt eine gewisse Margenstärke, doch dünne öffentliche Daten und wenige dauerhafte Signale über alle Kategorien hinweg lassen die Geschäftsqualität insgesamt schwach erscheinen.",
+      "in_focus_de": "Neue Tools zur Lead-Generierung, CRM-Integrationen und KI-gestützte Werbekampagnen für eine höhere Monetarisierung",
+      "main_risk_de": "Wenn KI-Suche den Entdeckungs-Traffic verringert, drohen auf der Community-Plattform sinkendes Nutzerengagement und eine geringere Werbenachfrage."
     },
     "SNDK": {
       "valuation_status": "undervalued",
@@ -81,7 +130,7 @@
         {
           "point": "Generates free cash flow",
           "tone": "strength",
-          "point_de": "Erzeugt freien Cashflow"
+          "point_de": "Erzielt freien Cashflow"
         },
         {
           "point": "Wide moat",
@@ -93,12 +142,12 @@
       "in_focus": "Long-term supply agreements covering half of 2027 and two-thirds of 2028 bit volumes",
       "main_risk": "If AI-driven storage needs moderate or industry capacity expands faster than expected the commitments may prove less durable and hit volumes together with margins.",
       "ai_note_date": "2026-10-11",
-      "calculated_at": "2026-10-21",
+      "calculated_at": "2026-10-22",
       "deep_link": "https://www.fairvalue-calculator.com/stock/SNDK.US?utm_source=mcp&utm_medium=claude",
-      "ai_conclusion_de": "Starke Margen und Renditen deuten auf dauerhafte Vorteile bei Preissetzung und Betrieb hin, allerdings gibt es nur wenige öffentliche Hinweise zu Personal und Eigentümerstruktur.",
+      "fvc_symbol": "SNDK.US",
+      "ai_conclusion_de": "Starke Margen und Renditen deuten auf dauerhafte Vorteile bei Preissetzung und Betriebsabläufen hin, allerdings gibt es nur wenige öffentliche Signale zu Mitarbeitern (Humankapital) und Eigentümerstruktur.",
       "in_focus_de": "Langfristige Liefervereinbarungen, die die Hälfte der Bit-Volumina 2027 und zwei Drittel der Bit-Volumina 2028 abdecken",
-      "main_risk_de": "Lässt der KI-getriebene Speicherbedarf nach oder wachsen die Branchenkapazitäten schneller als erwartet, könnten sich die Zusagen als weniger belastbar erweisen und sowohl Absatzmengen als auch Margen belasten.",
-      "fvc_symbol": "SNDK.US"
+      "main_risk_de": "Schwächt sich der KI-getriebene Speicherbedarf ab oder wächst die Branchenkapazität schneller als erwartet, könnten sich die Zusagen als weniger beständig erweisen und Volumen wie Margen belasten."
     },
     "CELH": {
       "valuation_status": "near_fair_value",
@@ -130,35 +179,35 @@
         {
           "point": "Generates free cash flow",
           "tone": "strength",
-          "point_de": "Erzeugt freien Cashflow"
+          "point_de": "Erzielt freien Cashflow"
         },
         {
           "point": "Moderate moat",
           "tone": "watch",
-          "point_de": "Mittlerer Burggraben"
+          "point_de": "Moderater Burggraben"
         }
       ],
       "ai_conclusion": "The business draws strength from revenue growth via Alani Nu and Rockstar brands, yet its main weakness remains contraction of the core Celsius line amid limited moat evidence and modest profitability.",
       "in_focus": "PepsiCo distribution and 2027 launches to revive core Celsius brand",
       "main_risk": "Continued contraction of the core Celsius line after SKU cuts represents the biggest risk and could undermine revenue growth across the portfolio despite sales expansion.",
       "ai_note_date": "2026-10-11",
-      "calculated_at": "2026-10-21",
+      "calculated_at": "2026-10-22",
       "deep_link": "https://www.fairvalue-calculator.com/stock/CELH.US?utm_source=mcp&utm_medium=claude",
-      "ai_conclusion_de": "Das Unternehmen profitiert vom Umsatzwachstum der Marken Alani Nu und Rockstar; die größte Schwäche bleibt jedoch das Schrumpfen der Kernmarke Celsius bei kaum nachweisbarem Burggraben und mäßiger Profitabilität.",
+      "fvc_symbol": "CELH.US",
+      "ai_conclusion_de": "Das Unternehmen profitiert vom Umsatzwachstum der Marken Alani Nu und Rockstar; die größte Schwäche bleibt jedoch das Schrumpfen der Kernmarke Celsius bei wenig belegtem Wettbewerbsvorteil und bescheidener Profitabilität.",
       "in_focus_de": "Vertrieb über PepsiCo und Produkteinführungen 2027 zur Wiederbelebung der Kernmarke Celsius",
-      "main_risk_de": "Ein weiteres Schrumpfen der Kernlinie Celsius nach der Sortimentsbereinigung ist das größte Risiko und könnte trotz steigender Verkäufe das Umsatzwachstum des gesamten Portfolios untergraben.",
-      "fvc_symbol": "CELH.US"
+      "main_risk_de": "Das größte Risiko ist ein weiteres Schrumpfen der Kernlinie Celsius nach der Straffung des Sortiments (SKU-Reduzierung); dies könnte trotz Absatzausweitung das Umsatzwachstum des gesamten Markenportfolios untergraben."
     },
-    "RDDT": {
-      "valuation_status": "overvalued",
-      "upside_band": "-20_to_-10",
+    "WING": {
+      "valuation_status": "undervalued",
+      "upside_band": "10_to_20",
       "quality_score": 77,
-      "evidence_level": "high",
-      "fair_value": 131.44,
+      "evidence_level": "medium",
+      "fair_value": 146.03,
       "fair_value_currency": "USD",
       "fair_value_range": {
-        "cautious": 75.98,
-        "optimistic": 220
+        "cautious": 50.92,
+        "optimistic": 205
       },
       "reasons": [
         {
@@ -167,14 +216,19 @@
           "point_de": "Gesundes Wachstum"
         },
         {
-          "point": "Highly profitable",
+          "point": "Solidly profitable",
           "tone": "strength",
-          "point_de": "Hochprofitabel"
+          "point_de": "Solide profitabel"
+        },
+        {
+          "point": "Negative equity (buybacks among others)",
+          "tone": "watch",
+          "point_de": "Negatives Eigenkapital (u. a. durch Aktienrückkäufe)"
         },
         {
           "point": "Generates free cash flow",
           "tone": "strength",
-          "point_de": "Erzeugt freien Cashflow"
+          "point_de": "Erzielt freien Cashflow"
         },
         {
           "point": "Wide moat",
@@ -182,21 +236,16 @@
           "point_de": "Breiter Burggraben"
         }
       ],
-      "ai_conclusion": "Reddit's community-driven platform delivers some margin strength, yet thin public data and limited durable signals across categories leave overall business quality weak.",
-      "in_focus": "new lead generation tools, CRM integrations and AI-powered ad campaigns for higher monetization",
-      "main_risk": "AI search reducing discovery traffic risks cutting user engagement and ad demand on the community platform.",
+      "ai_conclusion": "Moderate moat potential from pricing power and franchise processes forms the main strength, while negative equity with high leverage stands as the chief weakness.",
+      "in_focus": "Store expansion amid declining same-store sales from softer traffic and consumer caution",
+      "main_risk": "Continued softer traffic and consumer caution threaten to keep domestic same-store sales under pressure and hit revenue at existing locations.",
       "ai_note_date": "2026-10-11",
-      "calculated_at": "2026-10-21",
-      "deep_link": "https://www.fairvalue-calculator.com/stock/RDDT.US?utm_source=mcp&utm_medium=claude",
-      "ai_conclusion_de": "Reddits community-getriebene Plattform erzielt eine gewisse Margenstärke, doch dünne öffentliche Daten und wenige belastbare Signale in allen Kategorien lassen die Geschäftsqualität insgesamt schwach erscheinen.",
-      "in_focus_de": "Neue Tools zur Lead-Generierung, CRM-Integrationen und KI-gestützte Werbekampagnen für eine höhere Monetarisierung",
-      "main_risk_de": "Wenn KI-Suche den Besucherverkehr über Suchanfragen verringert, drohen Nutzerbindung und Werbenachfrage auf der Community-Plattform zu sinken.",
-      "fvc_symbol": "RDDT.US"
-    },
-    "MSTR": {
-      "valuation_status": "no_valuation",
-      "deep_link": "https://www.fairvalue-calculator.com/stock/MSTR.US?utm_source=mcp&utm_medium=claude",
-      "fvc_symbol": "MSTR.US"
+      "calculated_at": "2026-10-22",
+      "deep_link": "https://www.fairvalue-calculator.com/stock/WING.US?utm_source=mcp&utm_medium=claude",
+      "fvc_symbol": "WING.US",
+      "ai_conclusion_de": "Die größte Stärke ist ein moderates Potenzial für einen Burggraben aus Preissetzungsmacht und Franchise-Prozessen; die größte Schwäche ist das negative Eigenkapital bei hoher Verschuldung.",
+      "in_focus_de": "Filialausbau bei rückläufigen flächenbereinigten Umsätzen infolge schwächerer Kundenfrequenz und Kaufzurückhaltung",
+      "main_risk_de": "Anhaltend schwächere Kundenfrequenz und Kaufzurückhaltung drohen die flächenbereinigten Umsätze im Inland weiter unter Druck zu halten und die Erlöse bestehender Filialen zu belasten."
     },
     "CRWV": {
       "valuation_status": "overvalued",
@@ -240,187 +289,188 @@
       "in_focus": "India data center expansion adding 240 MW via AdaniConneX partnership",
       "main_risk": "Heavy reliance on a handful of large AI lab customers risks revenue stability while the company maintains substantial debt tied to its power contracts.",
       "ai_note_date": "2026-10-11",
-      "calculated_at": "2026-10-21",
+      "calculated_at": "2026-10-22",
       "deep_link": "https://www.fairvalue-calculator.com/stock/CRWV.US?utm_source=mcp&utm_medium=claude",
-      "ai_conclusion_de": "CoreWeaves größte Stärke sind die vertraglich gesicherten 4,2 GW an weltweiter Stromkapazität und die neue internationale Expansion; die größte Schwäche bleiben anhaltende Nettoverluste, negativer freier Cashflow und eine hohe Verschuldung.",
-      "in_focus_de": "Rechenzentrumsausbau in Indien um 240 MW über die Partnerschaft mit AdaniConneX",
-      "main_risk_de": "Die starke Abhängigkeit von einer Handvoll großer KI-Labor-Kunden gefährdet die Umsatzstabilität, während das Unternehmen erhebliche Schulden im Zusammenhang mit seinen Stromverträgen trägt.",
-      "fvc_symbol": "CRWV.US"
+      "fvc_symbol": "CRWV.US",
+      "ai_conclusion_de": "CoreWeaves größte Stärke sind 4,2 GW vertraglich gesicherte Stromkapazität weltweit sowie die neue internationale Expansion; die größte Schwäche bleiben anhaltende Nettoverluste, negativer freier Cashflow und eine erhöhte Verschuldung.",
+      "in_focus_de": "Ausbau von Rechenzentren in Indien um 240 MW über die Partnerschaft mit AdaniConneX",
+      "main_risk_de": "Die starke Abhängigkeit von einer Handvoll großer KI-Labore als Kunden gefährdet die Umsatzstabilität, während das Unternehmen erhebliche Schulden im Zusammenhang mit seinen Stromverträgen trägt."
     },
-    "WING": {
-      "valuation_status": "near_fair_value",
-      "upside_band": "10_to_20",
-      "quality_score": 77,
-      "evidence_level": "medium",
-      "fair_value": 146.03,
-      "fair_value_currency": "USD",
-      "fair_value_range": {
-        "cautious": 50.92,
-        "optimistic": 205
-      },
-      "reasons": [
-        {
-          "point": "Healthy Growth",
-          "tone": "strength",
-          "point_de": "Gesundes Wachstum"
-        },
-        {
-          "point": "Solidly profitable",
-          "tone": "strength",
-          "point_de": "Solide profitabel"
-        },
-        {
-          "point": "Negative equity (buybacks among others)",
-          "tone": "watch",
-          "point_de": "Negatives Eigenkapital (u. a. durch Aktienrückkäufe)"
-        },
-        {
-          "point": "Generates free cash flow",
-          "tone": "strength",
-          "point_de": "Erzeugt freien Cashflow"
-        },
-        {
-          "point": "Wide moat",
-          "tone": "watch",
-          "point_de": "Breiter Burggraben"
-        }
-      ],
-      "ai_conclusion": "Moderate moat potential from pricing power and franchise processes forms the main strength, while negative equity with high leverage stands as the chief weakness.",
-      "in_focus": "Store expansion amid declining same-store sales from softer traffic and consumer caution",
-      "main_risk": "Continued softer traffic and consumer caution threaten to keep domestic same-store sales under pressure and hit revenue at existing locations.",
-      "ai_note_date": "2026-10-11",
-      "calculated_at": "2026-10-21",
-      "deep_link": "https://www.fairvalue-calculator.com/stock/WING.US?utm_source=mcp&utm_medium=claude",
-      "ai_conclusion_de": "Die größte Stärke ist ein mittleres Burggraben-Potenzial durch Preissetzungsmacht und Franchise-Abläufe, die größte Schwäche das negative Eigenkapital bei hoher Verschuldung.",
-      "in_focus_de": "Filialexpansion trotz rückläufiger flächenbereinigter Umsätze wegen schwächerer Kundenfrequenz und Kaufzurückhaltung",
-      "main_risk_de": "Anhaltend schwächere Kundenfrequenz und Kaufzurückhaltung drohen die flächenbereinigten Umsätze im Inland weiter unter Druck zu halten und die Erlöse bestehender Filialen zu belasten.",
-      "fvc_symbol": "WING.US"
-    },
-    "STRL": {
-      "valuation_status": "near_fair_value",
-      "upside_band": "0_to_10",
-      "quality_score": 64,
-      "evidence_level": "medium",
-      "fair_value": 435.24,
-      "fair_value_currency": "USD",
-      "fair_value_range": {
-        "cautious": 285,
-        "optimistic": 566
-      },
-      "reasons": [
-        {
-          "point": "Healthy Growth",
-          "tone": "strength",
-          "point_de": "Gesundes Wachstum"
-        },
-        {
-          "point": "Solidly profitable",
-          "tone": "strength",
-          "point_de": "Solide profitabel"
-        },
-        {
-          "point": "Low debt",
-          "tone": "strength",
-          "point_de": "Geringe Verschuldung"
-        },
-        {
-          "point": "Generates free cash flow",
-          "tone": "strength",
-          "point_de": "Erzeugt freien Cashflow"
-        },
-        {
-          "point": "Wide moat",
-          "tone": "strength",
-          "point_de": "Breiter Burggraben"
-        }
-      ],
-      "ai_conclusion": "The business benefits from a rapid pivot into E-Infrastructure work for data centers that drives growth and backlog, yet faces its main weakness in heavy concentration on one end-market plus execution risks from scaling via acquisitions.",
-      "in_focus": "pivot to E-Infrastructure for data centers with concentrated exposure and acquisition scaling risks",
-      "main_risk": "Heavy concentration on data-center E-Infrastructure work risks volatility in margins and earnings once project cycles turn.",
-      "ai_note_date": "2026-10-11",
-      "calculated_at": "2026-10-21",
-      "deep_link": "https://www.fairvalue-calculator.com/stock/STRL.US?utm_source=mcp&utm_medium=claude",
-      "ai_conclusion_de": "Das Unternehmen profitiert von einer schnellen Neuausrichtung auf E-Infrastruktur-Projekte für Rechenzentren, die Wachstum und Auftragsbestand antreibt; die größte Schwäche ist jedoch die starke Konzentration auf einen Endmarkt sowie Umsetzungsrisiken durch Wachstum über Übernahmen.",
-      "in_focus_de": "Neuausrichtung auf E-Infrastruktur für Rechenzentren mit konzentriertem Engagement und Risiken beim Wachstum durch Übernahmen",
-      "main_risk_de": "Die starke Konzentration auf E-Infrastruktur-Aufträge für Rechenzentren birgt das Risiko schwankender Margen und Gewinne, sobald die Projektzyklen drehen.",
-      "fvc_symbol": "STRL.US"
-    },
-    "RMBS": {
-      "valuation_status": "near_fair_value",
-      "upside_band": "10_to_20",
-      "quality_score": 77,
-      "evidence_level": "high",
-      "fair_value": 101.93,
-      "fair_value_currency": "USD",
-      "fair_value_range": {
-        "cautious": 63.35,
-        "optimistic": 137
-      },
-      "reasons": [
-        {
-          "point": "Healthy Growth",
-          "tone": "strength",
-          "point_de": "Gesundes Wachstum"
-        },
-        {
-          "point": "Highly profitable",
-          "tone": "strength",
-          "point_de": "Hochprofitabel"
-        },
-        {
-          "point": "Low debt",
-          "tone": "strength",
-          "point_de": "Geringe Verschuldung"
-        },
-        {
-          "point": "Generates free cash flow",
-          "tone": "strength",
-          "point_de": "Erzeugt freien Cashflow"
-        },
-        {
-          "point": "Wide moat",
-          "tone": "watch",
-          "point_de": "Breiter Burggraben"
-        }
-      ],
-      "ai_conclusion": "High margins and cash conversion indicate possible IP-related strength, yet limited public signals on other moat factors leave durability of the business quality uncertain.",
-      "in_focus": "shift to memory pooling in AI data centers via MRDIMM technology with uncertainty on adoption and core interface pressures",
-      "main_risk": "Uncertainty around adoption speed of next-generation architectures combined with competitive pressures on the core interface business would hit growth and margins.",
-      "ai_note_date": "2026-10-11",
-      "calculated_at": "2026-10-21",
-      "deep_link": "https://www.fairvalue-calculator.com/stock/RMBS.US?utm_source=mcp&utm_medium=claude",
-      "ai_conclusion_de": "Hohe Margen und eine starke Umwandlung in Cashflow deuten auf eine mögliche Stärke durch geistiges Eigentum hin, doch wenige öffentliche Hinweise auf weitere Burggraben-Faktoren lassen die Beständigkeit der Geschäftsqualität offen.",
-      "in_focus_de": "Wandel hin zu Memory Pooling in KI-Rechenzentren mittels MRDIMM-Technologie, bei unsicherer Verbreitung und Druck auf das Kerngeschäft mit Schnittstellen",
-      "main_risk_de": "Unsicherheit über das Tempo, mit dem Architekturen der nächsten Generation eingeführt werden, zusammen mit Wettbewerbsdruck im Kerngeschäft mit Schnittstellen würde Wachstum und Margen belasten.",
-      "fvc_symbol": "RMBS.US"
-    },
-    "TLN": {
-      "error": "Keine veröffentlichte Bewertung bei Fair Value Calculator (not_found)"
-    },
-    "COHR": {
+    "SITM": {
       "valuation_status": "overvalued",
       "upside_band": "below_-30",
       "quality_score": 35,
-      "evidence_level": "medium",
-      "calculated_at": "2026-10-21",
-      "deep_link": "https://www.fairvalue-calculator.com/stock/COHR.US?utm_source=mcp&utm_medium=claude",
-      "fvc_symbol": "COHR.US"
+      "evidence_level": "low",
+      "fair_value": 26.93,
+      "fair_value_currency": "USD",
+      "fair_value_range": {
+        "cautious": 14.87,
+        "optimistic": 36.99
+      },
+      "reasons": [
+        {
+          "point": "Mixed Growth",
+          "tone": "watch",
+          "point_de": "Gemischtes Wachstum"
+        },
+        {
+          "point": "Thin margins",
+          "tone": "watch",
+          "point_de": "Dünne Margen"
+        },
+        {
+          "point": "Generates free cash flow",
+          "tone": "strength",
+          "point_de": "Erzielt freien Cashflow"
+        },
+        {
+          "point": "Narrow moat",
+          "tone": "weakness",
+          "point_de": "Schmaler Burggraben"
+        }
+      ],
+      "ai_conclusion": "The completed integration of Renesas timing products expands the portfolio with hundreds of new offerings and exposure to AI datacenter and automotive segments, yet supply chain constraints may slow revenue growth.",
+      "in_focus": "Integration of Renesas timing products with supply chain constraints and overvaluation",
+      "main_risk": "Supply chain constraints in the acquired Renesas business could slow the expected revenue ramp from the expanded product range.",
+      "ai_note_date": "2026-10-11",
+      "calculated_at": "2026-10-22",
+      "deep_link": "https://www.fairvalue-calculator.com/stock/SITM.US?utm_source=mcp&utm_medium=claude",
+      "fvc_symbol": "SITM.US",
+      "ai_conclusion_de": "Die abgeschlossene Integration der Timing-Produkte von Renesas erweitert das Portfolio um Hunderte neuer Produkte und verschafft Zugang zu den Segmenten KI-Rechenzentren und Automobil; Engpässe in der Lieferkette könnten das Umsatzwachstum jedoch bremsen.",
+      "in_focus_de": "Integration der Timing-Produkte von Renesas bei Lieferkettenengpässen und Überbewertung",
+      "main_risk_de": "Lieferkettenengpässe im übernommenen Renesas-Geschäft könnten den erwarteten Umsatzanstieg aus dem erweiterten Produktangebot verlangsamen."
     },
     "CAVA": {
       "valuation_status": "overvalued",
       "upside_band": "below_-30",
       "quality_score": 43,
       "evidence_level": "low",
-      "calculated_at": "2026-10-21",
+      "fair_value": 10.66,
+      "fair_value_currency": "USD",
+      "fair_value_range": {
+        "cautious": 5.6,
+        "optimistic": 13.71
+      },
+      "reasons": [
+        {
+          "point": "Mixed Growth",
+          "tone": "watch",
+          "point_de": "Gemischtes Wachstum"
+        },
+        {
+          "point": "Thin margins",
+          "tone": "watch",
+          "point_de": "Dünne Margen"
+        },
+        {
+          "point": "Low debt",
+          "tone": "strength",
+          "point_de": "Geringe Verschuldung"
+        },
+        {
+          "point": "Generates free cash flow",
+          "tone": "strength",
+          "point_de": "Erzielt freien Cashflow"
+        },
+        {
+          "point": "Narrow moat",
+          "tone": "weakness",
+          "point_de": "Schmaler Burggraben"
+        }
+      ],
+      "ai_conclusion": "CAVA demonstrates strength through rapid expansion to 500 restaurants with productive new units supporting long-term targets, yet low net margins and ROE signal weak competitive durability.",
+      "in_focus": "models see it as overvalued amid expansion and marketing focus",
+      "main_risk": "Limits of its operational and brand focus in the competitive restaurant sector could constrain sustained growth and pressure margins.",
+      "ai_note_date": "2026-10-11",
+      "calculated_at": "2026-10-22",
       "deep_link": "https://www.fairvalue-calculator.com/stock/CAVA.US?utm_source=mcp&utm_medium=claude",
-      "fvc_symbol": "CAVA.US"
+      "fvc_symbol": "CAVA.US",
+      "ai_conclusion_de": "CAVA zeigt Stärke durch die rasche Expansion auf 500 Restaurants, deren produktive Neueröffnungen die langfristigen Ziele stützen; niedrige Nettomargen und eine niedrige Eigenkapitalrendite (ROE) deuten jedoch auf eine geringe Beständigkeit im Wettbewerb hin.",
+      "in_focus_de": "Die Modelle sehen die Aktie angesichts des Fokus auf Expansion und Marketing als überbewertet",
+      "main_risk_de": "Grenzen der operativen und markenbezogenen Ausrichtung in der wettbewerbsintensiven Restaurantbranche könnten nachhaltiges Wachstum bremsen und die Margen unter Druck setzen."
+    },
+    "COHR": {
+      "valuation_status": "overvalued",
+      "upside_band": "below_-30",
+      "quality_score": 35,
+      "evidence_level": "medium",
+      "fair_value": 94.36,
+      "fair_value_currency": "USD",
+      "fair_value_range": {
+        "cautious": 70.76,
+        "optimistic": 118
+      },
+      "reasons": [
+        {
+          "point": "Expensive Growth",
+          "tone": "watch",
+          "point_de": "Teuer erkauftes Wachstum"
+        },
+        {
+          "point": "Solidly profitable",
+          "tone": "strength",
+          "point_de": "Solide profitabel"
+        },
+        {
+          "point": "Low debt",
+          "tone": "strength",
+          "point_de": "Geringe Verschuldung"
+        },
+        {
+          "point": "Negative free cash flow",
+          "tone": "weakness",
+          "point_de": "Negativer freier Cashflow"
+        },
+        {
+          "point": "Narrow moat",
+          "tone": "weakness",
+          "point_de": "Schmaler Burggraben"
+        }
+      ],
+      "ai_conclusion": "Strong AI demand commits optical capacity through 2029 in the datacenter segment yet negative free cash flow and high debt weigh on the concentrated business.",
+      "in_focus": "AI demand committing capacity through 2029 with datacenter dominance",
+      "main_risk": "Heavy concentration in the datacenter and communications segment risks abrupt revenue declines if AI spending weakens, directly hitting overall profitability.",
+      "ai_note_date": "2026-10-11",
+      "calculated_at": "2026-10-22",
+      "deep_link": "https://www.fairvalue-calculator.com/stock/COHR.US?utm_source=mcp&utm_medium=claude",
+      "fvc_symbol": "COHR.US",
+      "ai_conclusion_de": "Die starke KI-Nachfrage bindet im Rechenzentrumssegment optische Kapazitäten bis 2029; negativer freier Cashflow und hohe Verschuldung belasten jedoch das stark konzentrierte Geschäft.",
+      "in_focus_de": "KI-Nachfrage bindet Kapazitäten bis 2029, Rechenzentrumsgeschäft dominiert",
+      "main_risk_de": "Die starke Konzentration auf das Segment Rechenzentren und Kommunikation birgt das Risiko abrupter Umsatzrückgänge, falls die KI-Ausgaben nachlassen – mit direkten Folgen für die Gesamtprofitabilität."
+    },
+    "TTMI": {
+      "valuation_status": "overvalued",
+      "upside_band": "below_-30",
+      "quality_score": 56,
+      "evidence_level": "medium",
+      "calculated_at": "2026-10-22",
+      "deep_link": "https://www.fairvalue-calculator.com/stock/TTMI.US?utm_source=mcp&utm_medium=claude",
+      "fvc_symbol": "TTMI.US"
+    },
+    "STRL": {
+      "valuation_status": "near_fair_value",
+      "upside_band": "0_to_10",
+      "quality_score": 64,
+      "evidence_level": "medium",
+      "calculated_at": "2026-10-22",
+      "deep_link": "https://www.fairvalue-calculator.com/stock/STRL.US?utm_source=mcp&utm_medium=claude",
+      "fvc_symbol": "STRL.US"
+    },
+    "ONTO": {
+      "valuation_status": "overvalued",
+      "upside_band": "below_-30",
+      "quality_score": 65,
+      "evidence_level": "high",
+      "calculated_at": "2026-10-22",
+      "deep_link": "https://www.fairvalue-calculator.com/stock/ONTO.US?utm_source=mcp&utm_medium=claude",
+      "fvc_symbol": "ONTO.US"
     },
     "SMTC": {
       "valuation_status": "overvalued",
       "upside_band": "below_-30",
       "quality_score": 54,
       "evidence_level": "low",
-      "calculated_at": "2026-10-21",
+      "calculated_at": "2026-10-22",
       "deep_link": "https://www.fairvalue-calculator.com/stock/SMTC.US?utm_source=mcp&utm_medium=claude",
       "fvc_symbol": "SMTC.US"
     },
@@ -429,43 +479,52 @@
       "upside_band": "below_-30",
       "quality_score": 74,
       "evidence_level": "medium",
-      "calculated_at": "2026-10-21",
+      "calculated_at": "2026-10-22",
       "deep_link": "https://www.fairvalue-calculator.com/stock/ALAB.US?utm_source=mcp&utm_medium=claude",
       "fvc_symbol": "ALAB.US"
-    },
-    "MTSI": {
-      "valuation_status": "overvalued",
-      "upside_band": "below_-30",
-      "quality_score": 54,
-      "evidence_level": "low",
-      "calculated_at": "2026-10-21",
-      "deep_link": "https://www.fairvalue-calculator.com/stock/MTSI.US?utm_source=mcp&utm_medium=claude",
-      "fvc_symbol": "MTSI.US"
-    },
-    "FICO": {
-      "valuation_status": "near_fair_value",
-      "upside_band": "0_to_10",
-      "quality_score": 89,
-      "evidence_level": "medium",
-      "calculated_at": "2026-10-21",
-      "deep_link": "https://www.fairvalue-calculator.com/stock/FICO.US?utm_source=mcp&utm_medium=claude",
-      "fvc_symbol": "FICO.US"
     },
     "BROS": {
       "valuation_status": "overvalued",
       "upside_band": "below_-30",
       "quality_score": 34,
       "evidence_level": "medium",
-      "calculated_at": "2026-10-21",
+      "calculated_at": "2026-10-22",
       "deep_link": "https://www.fairvalue-calculator.com/stock/BROS.US?utm_source=mcp&utm_medium=claude",
       "fvc_symbol": "BROS.US"
+    },
+    "FICO": {
+      "valuation_status": "near_fair_value",
+      "upside_band": "0_to_10",
+      "quality_score": 89,
+      "evidence_level": "medium",
+      "calculated_at": "2026-10-22",
+      "deep_link": "https://www.fairvalue-calculator.com/stock/FICO.US?utm_source=mcp&utm_medium=claude",
+      "fvc_symbol": "FICO.US"
+    },
+    "FOUR": {
+      "valuation_status": "undervalued",
+      "upside_band": "above_30",
+      "quality_score": 43,
+      "evidence_level": "medium",
+      "calculated_at": "2026-10-22",
+      "deep_link": "https://www.fairvalue-calculator.com/stock/FOUR.US?utm_source=mcp&utm_medium=claude",
+      "fvc_symbol": "FOUR.US"
+    },
+    "LITE": {
+      "valuation_status": "overvalued",
+      "upside_band": "below_-30",
+      "quality_score": 40,
+      "evidence_level": "low",
+      "calculated_at": "2026-10-22",
+      "deep_link": "https://www.fairvalue-calculator.com/stock/LITE.US?utm_source=mcp&utm_medium=claude",
+      "fvc_symbol": "LITE.US"
     },
     "ALNY": {
       "valuation_status": "near_fair_value",
       "upside_band": "-10_to_0",
       "quality_score": 68,
       "evidence_level": "medium",
-      "calculated_at": "2026-10-21",
+      "calculated_at": "2026-10-22",
       "deep_link": "https://www.fairvalue-calculator.com/stock/ALNY.US?utm_source=mcp&utm_medium=claude",
       "fvc_symbol": "ALNY.US"
     },
@@ -474,70 +533,66 @@
       "upside_band": "below_-30",
       "quality_score": 62,
       "evidence_level": "medium",
-      "calculated_at": "2026-10-21",
+      "calculated_at": "2026-10-22",
       "deep_link": "https://www.fairvalue-calculator.com/stock/DOCN.US?utm_source=mcp&utm_medium=claude",
       "fvc_symbol": "DOCN.US"
     },
-    "TPR": {
-      "valuation_status": "near_fair_value",
-      "upside_band": "-10_to_0",
-      "quality_score": 88,
+    "RRX": {
+      "valuation_status": "undervalued",
+      "upside_band": "10_to_20",
+      "quality_score": 58,
       "evidence_level": "high",
-      "calculated_at": "2026-10-21",
-      "deep_link": "https://www.fairvalue-calculator.com/stock/TPR.US?utm_source=mcp&utm_medium=claude",
-      "fvc_symbol": "TPR.US"
+      "calculated_at": "2026-10-22",
+      "deep_link": "https://www.fairvalue-calculator.com/stock/RRX.US?utm_source=mcp&utm_medium=claude",
+      "fvc_symbol": "RRX.US"
     },
-    "MPWR": {
+    "BE": {
+      "valuation_status": "no_valuation",
+      "deep_link": "https://www.fairvalue-calculator.com/stock/BE.US?utm_source=mcp&utm_medium=claude",
+      "fvc_symbol": "BE.US"
+    },
+    "HOOD": {
       "valuation_status": "overvalued",
       "upside_band": "below_-30",
-      "quality_score": 72,
+      "quality_score": 67,
+      "evidence_level": "medium",
+      "calculated_at": "2026-10-22",
+      "deep_link": "https://www.fairvalue-calculator.com/stock/HOOD.US?utm_source=mcp&utm_medium=claude",
+      "fvc_symbol": "HOOD.US"
+    },
+    "RMBS": {
+      "valuation_status": "near_fair_value",
+      "upside_band": "10_to_20",
+      "quality_score": 77,
       "evidence_level": "high",
-      "calculated_at": "2026-10-21",
-      "deep_link": "https://www.fairvalue-calculator.com/stock/MPWR.US?utm_source=mcp&utm_medium=claude",
-      "fvc_symbol": "MPWR.US"
+      "calculated_at": "2026-10-22",
+      "deep_link": "https://www.fairvalue-calculator.com/stock/RMBS.US?utm_source=mcp&utm_medium=claude",
+      "fvc_symbol": "RMBS.US"
     },
     "FN": {
       "valuation_status": "overvalued",
       "upside_band": "below_-30",
       "quality_score": 55,
       "evidence_level": "medium",
-      "calculated_at": "2026-10-21",
+      "calculated_at": "2026-10-22",
       "deep_link": "https://www.fairvalue-calculator.com/stock/FN.US?utm_source=mcp&utm_medium=claude",
       "fvc_symbol": "FN.US"
-    },
-    "APP": {
-      "valuation_status": "near_fair_value",
-      "upside_band": "10_to_20",
-      "quality_score": 91,
-      "evidence_level": "medium",
-      "calculated_at": "2026-10-21",
-      "deep_link": "https://www.fairvalue-calculator.com/stock/APP.US?utm_source=mcp&utm_medium=claude",
-      "fvc_symbol": "APP.US"
     },
     "PSN": {
       "valuation_status": "near_fair_value",
       "upside_band": "-10_to_0",
       "quality_score": 58,
       "evidence_level": "medium",
-      "calculated_at": "2026-10-21",
+      "calculated_at": "2026-10-22",
       "deep_link": "https://www.fairvalue-calculator.com/stock/PSN.US?utm_source=mcp&utm_medium=claude",
       "fvc_symbol": "PSN.US"
-    },
-    "TTMI": {
-      "valuation_status": "overvalued",
-      "upside_band": "below_-30",
-      "quality_score": 56,
-      "evidence_level": "medium",
-      "calculated_at": "2026-10-21",
-      "deep_link": "https://www.fairvalue-calculator.com/stock/TTMI.US?utm_source=mcp&utm_medium=claude",
-      "fvc_symbol": "TTMI.US"
     },
     "ARM": {
       "valuation_status": "overvalued",
       "upside_band": "below_-30",
       "quality_score": 67,
-      "evidence_level": "low",
-      "calculated_at": "2026-10-21",
+      "evidence_level": "medium",
+      "calculated_at": "2026-10-22",
       "deep_link": "https://www.fairvalue-calculator.com/stock/ARM.US?utm_source=mcp&utm_medium=claude",
       "fvc_symbol": "ARM.US"
     },
@@ -546,7 +601,7 @@
       "upside_band": "below_-30",
       "quality_score": 78,
       "evidence_level": "high",
-      "calculated_at": "2026-10-21",
+      "calculated_at": "2026-10-22",
       "deep_link": "https://www.fairvalue-calculator.com/stock/MRVL.US?utm_source=mcp&utm_medium=claude",
       "fvc_symbol": "MRVL.US"
     },
@@ -555,27 +610,9 @@
       "upside_band": "10_to_20",
       "quality_score": 66,
       "evidence_level": "high",
-      "calculated_at": "2026-10-21",
+      "calculated_at": "2026-10-22",
       "deep_link": "https://www.fairvalue-calculator.com/stock/NXT.US?utm_source=mcp&utm_medium=claude",
       "fvc_symbol": "NXT.US"
-    },
-    "LITE": {
-      "valuation_status": "overvalued",
-      "upside_band": "below_-30",
-      "quality_score": 40,
-      "evidence_level": "low",
-      "calculated_at": "2026-10-21",
-      "deep_link": "https://www.fairvalue-calculator.com/stock/LITE.US?utm_source=mcp&utm_medium=claude",
-      "fvc_symbol": "LITE.US"
-    },
-    "FOUR": {
-      "valuation_status": "undervalued",
-      "upside_band": "above_30",
-      "quality_score": 43,
-      "evidence_level": "medium",
-      "calculated_at": "2026-10-21",
-      "deep_link": "https://www.fairvalue-calculator.com/stock/FOUR.US?utm_source=mcp&utm_medium=claude",
-      "fvc_symbol": "FOUR.US"
     }
   }
 }
