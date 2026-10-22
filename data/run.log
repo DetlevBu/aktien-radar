@@ -1,9 +1,12 @@
-[03:51:18] Universum: 1646 Aktien
-Kurs-Cache: 1655 bekannt (Update 1 Monat), 3 neu (komplett)
-[03:53:37] Kurse: 1783 Reihen, letzter Tag 2026-10-20
-[03:54:06] Kennzahlen: 1592 Aktien mit aktuellen Daten
-[03:54:09] Backtest fertig
-[03:54:09] Stufe 1: 358 bestehen, 100 auf Shortlist
-[03:54:42] Stufe 2: 71 bestehen; Top 10, Beobachtung 20
-[03:55:51] Details geladen
-[03:55:52] Fertig in 281 s
+[03:51:17] Universum: 1647 Aktien
+Kurs-Cache: 1652 bekannt (Update 1 Monat), 7 neu (komplett)
+
+1 Failed download:
+['ADI1.DE']: OperationalError('database is locked')
+[03:54:10] Kurse: 1787 Reihen, letzter Tag 2026-10-21
+[03:54:25] Kennzahlen: 1591 Aktien mit aktuellen Daten
+[03:54:26] Backtest fertig
+[03:54:26] Stufe 1: 342 bestehen, 100 auf Shortlist
+[03:55:06] Stufe 2: 73 bestehen; Top 10, Beobachtung 20
+[03:56:18] Details geladen
+[03:56:50] Fertig in 340 s

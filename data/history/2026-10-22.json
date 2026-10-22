@@ -1,0 +1,107 @@
+{
+ "date": "2026-10-22",
+ "top": [
+  {
+   "symbol": "NBIS",
+   "name": "Nebius Group N.V.",
+   "price": 171.57000732421875,
+   "price_date": "2026-10-21",
+   "score": 0.5828484532970096,
+   "currency": "USD"
+  },
+  {
+   "symbol": "MSTR",
+   "name": "Strategy Inc",
+   "price": 153.47999572753906,
+   "price_date": "2026-10-21",
+   "score": 0.5690730368951442,
+   "currency": "USD"
+  },
+  {
+   "symbol": "RDDT",
+   "name": "Reddit, Inc.",
+   "price": 153.27999877929688,
+   "price_date": "2026-10-21",
+   "score": 0.5529488147421986,
+   "currency": "USD"
+  },
+  {
+   "symbol": "SNDK",
+   "name": "Sandisk Corporation",
+   "price": 1378.219970703125,
+   "price_date": "2026-10-21",
+   "score": 0.5513562901765646,
+   "currency": "USD"
+  },
+  {
+   "symbol": "CELH",
+   "name": "Celsius Holdings, Inc.",
+   "price": 28.309999465942383,
+   "price_date": "2026-10-21",
+   "score": 0.5466140266809014,
+   "currency": "USD"
+  },
+  {
+   "symbol": "WING",
+   "name": "Wingstop Inc.",
+   "price": 119.94999694824219,
+   "price_date": "2026-10-21",
+   "score": 0.4978365468689088,
+   "currency": "USD"
+  },
+  {
+   "symbol": "CRWV",
+   "name": "CoreWeave, Inc.",
+   "price": 61.81999969482422,
+   "price_date": "2026-10-21",
+   "score": 0.4878195588684394,
+   "currency": "USD"
+  },
+  {
+   "symbol": "SITM",
+   "name": "SiTime Corporation",
+   "price": 509.20001220703125,
+   "price_date": "2026-10-21",
+   "score": 0.4762450218056575,
+   "currency": "USD"
+  },
+  {
+   "symbol": "CAVA",
+   "name": "CAVA Group, Inc.",
+   "price": 55.0,
+   "price_date": "2026-10-21",
+   "score": 0.47493200214810544,
+   "currency": "USD"
+  },
+  {
+   "symbol": "COHR",
+   "name": "Coherent Corp.",
+   "price": 237.52999877929688,
+   "price_date": "2026-10-21",
+   "score": 0.4649582574481218,
+   "currency": "USD"
+  }
+ ],
+ "watch": [
+  "TTMI",
+  "STRL",
+  "ONTO",
+  "SMTC",
+  "ALAB",
+  "BROS",
+  "FICO",
+  "FOUR",
+  "LITE",
+  "ALNY",
+  "DOCN",
+  "RRX",
+  "BE",
+  "HOOD",
+  "RMBS",
+  "FN",
+  "PSN",
+  "ARM",
+  "MRVL",
+  "NXT"
+ ]
+}
