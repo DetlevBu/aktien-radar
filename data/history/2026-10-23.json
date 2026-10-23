@@ -1,0 +1,107 @@
+{
+ "date": "2026-10-23",
+ "top": [
+  {
+   "symbol": "NBIS",
+   "name": "Nebius Group N.V.",
+   "price": 159.1699981689453,
+   "price_date": "2026-10-22",
+   "score": 0.5787739571762224,
+   "currency": "USD"
+  },
+  {
+   "symbol": "SNDK",
+   "name": "Sandisk Corporation",
+   "price": 1260.9300537109375,
+   "price_date": "2026-10-22",
+   "score": 0.5564412840184451,
+   "currency": "USD"
+  },
+  {
+   "symbol": "CELH",
+   "name": "Celsius Holdings, Inc.",
+   "price": 28.360000610351562,
+   "price_date": "2026-10-22",
+   "score": 0.5449828296131307,
+   "currency": "USD"
+  },
+  {
+   "symbol": "MSTR",
+   "name": "Strategy Inc",
+   "price": 145.8000030517578,
+   "price_date": "2026-10-22",
+   "score": 0.49810642237238906,
+   "currency": "USD"
+  },
+  {
+   "symbol": "WING",
+   "name": "Wingstop Inc.",
+   "price": 120.87000274658203,
+   "price_date": "2026-10-22",
+   "score": 0.4951233584557618,
+   "currency": "USD"
+  },
+  {
+   "symbol": "RDDT",
+   "name": "Reddit, Inc.",
+   "price": 150.25999450683594,
+   "price_date": "2026-10-22",
+   "score": 0.48632902488289365,
+   "currency": "USD"
+  },
+  {
+   "symbol": "ALAB",
+   "name": "Astera Labs, Inc.",
+   "price": 257.82000732421875,
+   "price_date": "2026-10-22",
+   "score": 0.4788206633869107,
+   "currency": "USD"
+  },
+  {
+   "symbol": "SITM",
+   "name": "SiTime Corporation",
+   "price": 462.7200012207031,
+   "price_date": "2026-10-22",
+   "score": 0.47796546503171067,
+   "currency": "USD"
+  },
+  {
+   "symbol": "CAVA",
+   "name": "CAVA Group, Inc.",
+   "price": 54.68000030517578,
+   "price_date": "2026-10-22",
+   "score": 0.4743726464843533,
+   "currency": "USD"
+  },
+  {
+   "symbol": "COHR",
+   "name": "Coherent Corp.",
+   "price": 207.82000732421875,
+   "price_date": "2026-10-22",
+   "score": 0.46563589133992,
+   "currency": "USD"
+  }
+ ],
+ "watch": [
+  "AXON",
+  "SMTC",
+  "P",
+  "STRL",
+  "ONTO",
+  "BROS",
+  "CRWV",
+  "TLN",
+  "FOUR",
+  "DOCN",
+  "ALNY",
+  "LITE",
+  "ARM",
+  "FN",
+  "BE",
+  "COIN",
+  "FIX",
+  "FORM",
+  "HOOD",
+  "ADYEN.AS"
+ ]
+}
