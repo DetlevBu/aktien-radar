@@ -1,0 +1,107 @@
+{
+ "date": "2026-10-24",
+ "top": [
+  {
+   "symbol": "NBIS",
+   "name": "Nebius Group N.V.",
+   "price": 158.74000549316406,
+   "price_date": "2026-10-23",
+   "score": 0.5635765275714613,
+   "currency": "USD"
+  },
+  {
+   "symbol": "SNDK",
+   "name": "Sandisk Corporation",
+   "price": 1238.030029296875,
+   "price_date": "2026-10-23",
+   "score": 0.5334059059040328,
+   "currency": "USD"
+  },
+  {
+   "symbol": "CELH",
+   "name": "Celsius Holdings, Inc.",
+   "price": 28.469999313354492,
+   "price_date": "2026-10-23",
+   "score": 0.5074750457275671,
+   "currency": "USD"
+  },
+  {
+   "symbol": "MSTR",
+   "name": "Strategy Inc",
+   "price": 146.00999450683594,
+   "price_date": "2026-10-23",
+   "score": 0.49762278952394057,
+   "currency": "USD"
+  },
+  {
+   "symbol": "SITM",
+   "name": "SiTime Corporation",
+   "price": 460.2200012207031,
+   "price_date": "2026-10-23",
+   "score": 0.4709132880196612,
+   "currency": "USD"
+  },
+  {
+   "symbol": "ALAB",
+   "name": "Astera Labs, Inc.",
+   "price": 257.1600036621094,
+   "price_date": "2026-10-23",
+   "score": 0.4660353318336645,
+   "currency": "USD"
+  },
+  {
+   "symbol": "AXON",
+   "name": "Axon Enterprise, Inc.",
+   "price": 420.3699951171875,
+   "price_date": "2026-10-23",
+   "score": 0.4655444973964212,
+   "currency": "USD"
+  },
+  {
+   "symbol": "COHR",
+   "name": "Coherent Corp.",
+   "price": 209.2899932861328,
+   "price_date": "2026-10-23",
+   "score": 0.46163519231567907,
+   "currency": "USD"
+  },
+  {
+   "symbol": "SMTC",
+   "name": "Semtech Corporation",
+   "price": 132.0,
+   "price_date": "2026-10-23",
+   "score": 0.4611525691612357,
+   "currency": "USD"
+  },
+  {
+   "symbol": "RDDT",
+   "name": "Reddit, Inc.",
+   "price": 144.25,
+   "price_date": "2026-10-23",
+   "score": 0.45880787580166776,
+   "currency": "USD"
+  }
+ ],
+ "watch": [
+  "P",
+  "WING",
+  "TTMI",
+  "TLN",
+  "BROS",
+  "ONTO",
+  "STRL",
+  "CRWV",
+  "DOCN",
+  "ARM",
+  "FN",
+  "BE",
+  "LITE",
+  "COIN",
+  "MRVL",
+  "FOUR",
+  "FIX",
+  "HOOD",
+  "ADYEN.AS",
+  "CAVA"
+ ]
+}
