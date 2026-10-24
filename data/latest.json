@@ -634,13 +634,13 @@
     "in_focus": "Asset-light model and backlog concentration on few large customers",
     "main_risk": "Continued reliance on a small group of committed customers could undermine revenue stability and limit growth from the reported backlog.",
     "ai_note_date": "2026-10-11",
-    "calculated_at": "2026-10-23",
+    "calculated_at": "2026-10-24",
     "deep_link": "https://www.fairvalue-calculator.com/stock/NBIS.US?utm_source=mcp&utm_medium=claude",
     "fvc_symbol": "NBIS.US",
-    "ai_conclusion_de": "Das kapitalschonende Geschäftsmodell (asset-light) ermöglicht margenstarke Umsätze bei geringerem Kapitalbedarf, da für Rechenzentren und Hardware auf Partner zurückgegriffen wird; der Auftragsbestand hängt jedoch weiterhin stark von einer Handvoll Großkunden ab.",
-    "in_focus_de": "Kapitalschonendes Geschäftsmodell und Konzentration des Auftragsbestands auf wenige Großkunden",
-    "main_risk_de": "Die anhaltende Abhängigkeit von einer kleinen Gruppe fest gebundener Kunden könnte die Stabilität der Umsätze untergraben und das Wachstum aus dem ausgewiesenen Auftragsbestand begrenzen.",
-    "date": "2026-10-23",
+    "ai_conclusion_de": "Das kapitalarme Geschäftsmodell ermöglicht margenstarke Umsätze bei geringerem Kapitalbedarf, da für Rechenzentren und Hardware auf Partner gesetzt wird; der Auftragsbestand hängt jedoch weiterhin stark von einer Handvoll Großkunden ab.",
+    "in_focus_de": "Kapitalarmes Geschäftsmodell und Konzentration des Auftragsbestands auf wenige Großkunden",
+    "main_risk_de": "Die anhaltende Abhängigkeit von einer kleinen Gruppe fest gebundener Kunden könnte die Umsatzstabilität untergraben und das Wachstum aus dem gemeldeten Auftragsbestand begrenzen.",
+    "date": "2026-10-24",
     "fair_value_local": 10.48,
     "upside": -0.9339800955188243
    }
@@ -1158,7 +1158,7 @@
      {
       "point": "Generates free cash flow",
       "tone": "strength",
-      "point_de": "Erzielt freien Cashflow"
+      "point_de": "Erzeugt freien Cashflow"
      },
      {
       "point": "Wide moat",
@@ -1170,13 +1170,13 @@
     "in_focus": "Long-term supply agreements covering half of 2027 and two-thirds of 2028 bit volumes",
     "main_risk": "If AI-driven storage needs moderate or industry capacity expands faster than expected the commitments may prove less durable and hit volumes together with margins.",
     "ai_note_date": "2026-10-11",
-    "calculated_at": "2026-10-23",
+    "calculated_at": "2026-10-24",
     "deep_link": "https://www.fairvalue-calculator.com/stock/SNDK.US?utm_source=mcp&utm_medium=claude",
     "fvc_symbol": "SNDK.US",
-    "ai_conclusion_de": "Hohe Margen und Renditen deuten auf dauerhafte Vorteile bei Preisgestaltung und Betrieb hin; allerdings gibt es nur wenige öffentliche Hinweise zu Personal und Eigentümerstruktur.",
+    "ai_conclusion_de": "Hohe Margen und Renditen deuten auf dauerhafte Vorteile bei Preissetzung und Betrieb hin, allerdings gibt es nur wenige öffentliche Signale zu Personal und Eigentümerstruktur.",
     "in_focus_de": "Langfristige Liefervereinbarungen, die die Hälfte der Bit-Volumina 2027 und zwei Drittel der Bit-Volumina 2028 abdecken",
-    "main_risk_de": "Falls der KI-getriebene Speicherbedarf nachlässt oder die Branchenkapazität schneller wächst als erwartet, könnten sich die Zusagen als weniger belastbar erweisen und sowohl Absatzmengen als auch Margen belasten.",
-    "date": "2026-10-23",
+    "main_risk_de": "Falls der KI-getriebene Speicherbedarf nachlässt oder die Branchenkapazität schneller wächst als erwartet, könnten sich die Zusagen als weniger belastbar erweisen und zugleich Volumen und Margen belasten.",
+    "date": "2026-10-24",
     "fair_value_local": 2239.28,
     "upside": 0.8087444948906237
    }
@@ -1664,8 +1664,8 @@
    },
    "fairvalue": {
     "valuation_status": "near_fair_value",
-    "upside_band": "10_to_20",
-    "quality_score": 43,
+    "upside_band": "0_to_10",
+    "quality_score": 41,
     "evidence_level": "high",
     "fair_value": 31.14,
     "fair_value_currency": "USD",
@@ -1692,7 +1692,7 @@
      {
       "point": "Generates free cash flow",
       "tone": "strength",
-      "point_de": "Erzielt freien Cashflow"
+      "point_de": "Erzeugt freien Cashflow"
      },
      {
       "point": "Moderate moat",
@@ -1704,13 +1704,13 @@
     "in_focus": "PepsiCo distribution and 2027 launches to revive core Celsius brand",
     "main_risk": "Continued contraction of the core Celsius line after SKU cuts represents the biggest risk and could undermine revenue growth across the portfolio despite sales expansion.",
     "ai_note_date": "2026-10-11",
-    "calculated_at": "2026-10-23",
+    "calculated_at": "2026-10-24",
     "deep_link": "https://www.fairvalue-calculator.com/stock/CELH.US?utm_source=mcp&utm_medium=claude",
     "fvc_symbol": "CELH.US",
-    "ai_conclusion_de": "Das Unternehmen bezieht Stärke aus dem Umsatzwachstum über die Marken Alani Nu und Rockstar; die größte Schwäche bleibt jedoch das Schrumpfen der Kernmarke Celsius bei wenig belegtem Wettbewerbsvorteil und mäßiger Profitabilität.",
+    "ai_conclusion_de": "Das Unternehmen bezieht seine Stärke aus dem Umsatzwachstum durch die Marken Alani Nu und Rockstar; die größte Schwäche bleibt jedoch das Schrumpfen der Kernmarke Celsius, bei nur begrenzten Belegen für einen Wettbewerbsvorteil und mäßiger Profitabilität.",
     "in_focus_de": "PepsiCo-Vertrieb und Produkteinführungen 2027 zur Wiederbelebung der Kernmarke Celsius",
-    "main_risk_de": "Ein weiteres Schrumpfen der Kernmarke Celsius nach Sortimentskürzungen ist das größte Risiko und könnte trotz steigender Verkäufe das Umsatzwachstum des gesamten Portfolios untergraben.",
-    "date": "2026-10-23",
+    "main_risk_de": "Das weitere Schrumpfen der Kernmarke Celsius nach Sortimentskürzungen ist das größte Risiko und könnte trotz steigender Verkäufe das Umsatzwachstum im gesamten Portfolio untergraben.",
+    "date": "2026-10-24",
     "fair_value_local": 31.14,
     "upside": 0.09378295577945739
    }
@@ -2200,7 +2200,7 @@
     "valuation_status": "no_valuation",
     "deep_link": "https://www.fairvalue-calculator.com/stock/MSTR.US?utm_source=mcp&utm_medium=claude",
     "fvc_symbol": "MSTR.US",
-    "date": "2026-10-23",
+    "date": "2026-10-24",
     "fair_value_local": null,
     "upside": null
    }
@@ -2712,7 +2712,7 @@
      {
       "point": "Generates free cash flow",
       "tone": "strength",
-      "point_de": "Erzielt freien Cashflow"
+      "point_de": "Erzeugt freien Cashflow"
      },
      {
       "point": "Narrow moat",
@@ -2724,13 +2724,13 @@
     "in_focus": "Integration of Renesas timing products with supply chain constraints and overvaluation",
     "main_risk": "Supply chain constraints in the acquired Renesas business could slow the expected revenue ramp from the expanded product range.",
     "ai_note_date": "2026-10-11",
-    "calculated_at": "2026-10-23",
+    "calculated_at": "2026-10-24",
     "deep_link": "https://www.fairvalue-calculator.com/stock/SITM.US?utm_source=mcp&utm_medium=claude",
     "fvc_symbol": "SITM.US",
-    "ai_conclusion_de": "Die abgeschlossene Integration der Timing-Produkte von Renesas erweitert das Portfolio um Hunderte neuer Produkte und verschafft Zugang zu den Bereichen KI-Rechenzentren und Automobil; Engpässe in der Lieferkette könnten das Umsatzwachstum jedoch bremsen.",
-    "in_focus_de": "Integration der Renesas-Timing-Produkte bei Lieferkettenengpässen und Überbewertung",
+    "ai_conclusion_de": "Die abgeschlossene Integration der Timing-Produkte von Renesas erweitert das Portfolio um Hunderte neuer Produkte und verschafft Zugang zu den Segmenten KI-Rechenzentren und Automobil; Engpässe in der Lieferkette könnten das Umsatzwachstum jedoch bremsen.",
+    "in_focus_de": "Integration der Timing-Produkte von Renesas bei Lieferkettenengpässen und Überbewertung",
     "main_risk_de": "Lieferkettenengpässe im übernommenen Renesas-Geschäft könnten den erwarteten Umsatzanstieg aus dem erweiterten Produktangebot verlangsamen.",
-    "date": "2026-10-23",
+    "date": "2026-10-24",
     "fair_value_local": 26.93,
     "upside": -0.9414845075647083
    }
@@ -3242,7 +3242,7 @@
      {
       "point": "Generates free cash flow",
       "tone": "strength",
-      "point_de": "Erzielt freien Cashflow"
+      "point_de": "Erzeugt freien Cashflow"
      },
      {
       "point": "Wide moat",
@@ -3254,13 +3254,13 @@
     "in_focus": "models currently see the stock as overvalued",
     "main_risk": "Unproven sustainability across most categories could constrain scaling of the expanded Aries portfolio into optical interconnects and hit recurring revenue.",
     "ai_note_date": "2026-10-11",
-    "calculated_at": "2026-10-23",
+    "calculated_at": "2026-10-24",
     "deep_link": "https://www.fairvalue-calculator.com/stock/ALAB.US?utm_source=mcp&utm_medium=claude",
     "fvc_symbol": "ALAB.US",
-    "ai_conclusion_de": "Hohe Margen und starke Cash-Generierung deuten auf Preissetzungsmacht hin, doch in den meisten Kategorien fehlen öffentliche Hinweise auf dauerhafte Stärke, und die Nachhaltigkeit ist noch nicht belegt.",
+    "ai_conclusion_de": "Hohe Margen und starke Cash-Generierung deuten auf Preissetzungsmacht hin, doch in den meisten Kategorien fehlen dauerhafte öffentliche Signale, und die Nachhaltigkeit ist unbewiesen.",
     "in_focus_de": "Die Modelle sehen die Aktie derzeit als überbewertet",
-    "main_risk_de": "Die in den meisten Kategorien unbelegte Nachhaltigkeit könnte die Ausweitung des erweiterten Aries-Portfolios auf optische Verbindungslösungen bremsen und wiederkehrende Umsätze belasten.",
-    "date": "2026-10-23",
+    "main_risk_de": "Die unbewiesene Nachhaltigkeit in den meisten Kategorien könnte die Ausweitung des erweiterten Aries-Portfolios auf optische Verbindungen bremsen und die wiederkehrenden Umsätze belasten.",
+    "date": "2026-10-24",
     "fair_value_local": 62.28,
     "upside": -0.7578161490391342
    }
@@ -3751,12 +3751,52 @@
     "upside_band": "below_-30",
     "quality_score": 44,
     "evidence_level": "low",
-    "calculated_at": "2026-10-23",
+    "fair_value": 32.29,
+    "fair_value_currency": "USD",
+    "fair_value_range": {
+     "cautious": 24.22,
+     "optimistic": 40.36
+    },
+    "reasons": [
+     {
+      "point": "Mixed Growth",
+      "tone": "watch",
+      "point_de": "Gemischtes Wachstum"
+     },
+     {
+      "point": "Thin margins",
+      "tone": "watch",
+      "point_de": "Geringe Margen"
+     },
+     {
+      "point": "Moderate debt",
+      "tone": "watch",
+      "point_de": "Moderate Verschuldung"
+     },
+     {
+      "point": "Generates free cash flow",
+      "tone": "strength",
+      "point_de": "Erzeugt freien Cashflow"
+     },
+     {
+      "point": "Narrow moat",
+      "tone": "weakness",
+      "point_de": "Schmaler Burggraben"
+     }
+    ],
+    "ai_conclusion": "Axon's main strength is the shift toward recurring revenue from agency adoption of software and AI tools, while its main weakness is the contraction in software gross margins from bundling hardware and drone offerings.",
+    "in_focus": "push into integrated platforms and its effect on software margins",
+    "main_risk": "The biggest risk is continued contraction of software segment margins as more hardware and drone offerings are bundled, which could erode the economics of the recurring revenue model.",
+    "ai_note_date": "2026-10-11",
+    "calculated_at": "2026-10-24",
     "deep_link": "https://www.fairvalue-calculator.com/stock/AXON.US?utm_source=mcp&utm_medium=claude",
     "fvc_symbol": "AXON.US",
-    "date": "2026-10-23",
-    "fair_value_local": null,
-    "upside": null
+    "ai_conclusion_de": "Axons größte Stärke ist der Wandel hin zu wiederkehrenden Umsätzen, weil Behörden Software und KI-Werkzeuge übernehmen; die größte Schwäche ist der Rückgang der Software-Bruttomargen durch die Bündelung mit Hardware- und Drohnenangeboten.",
+    "in_focus_de": "Vorstoß zu integrierten Plattformen und dessen Auswirkung auf die Softwaremargen",
+    "main_risk_de": "Das größte Risiko ist ein weiterer Rückgang der Margen im Softwaresegment, wenn mehr Hardware- und Drohnenangebote gebündelt werden – das könnte die Wirtschaftlichkeit des Modells wiederkehrender Umsätze aushöhlen.",
+    "date": "2026-10-24",
+    "fair_value_local": 32.29,
+    "upside": -0.9231867155718418
    }
   },
   {
@@ -4256,7 +4296,7 @@
      {
       "point": "Expensive Growth",
       "tone": "watch",
-      "point_de": "Teuer erkauftes Wachstum"
+      "point_de": "Teures Wachstum"
      },
      {
       "point": "Solidly profitable",
@@ -4283,13 +4323,13 @@
     "in_focus": "AI demand committing capacity through 2029 with datacenter dominance",
     "main_risk": "Heavy concentration in the datacenter and communications segment risks abrupt revenue declines if AI spending weakens, directly hitting overall profitability.",
     "ai_note_date": "2026-10-11",
-    "calculated_at": "2026-10-23",
+    "calculated_at": "2026-10-24",
     "deep_link": "https://www.fairvalue-calculator.com/stock/COHR.US?utm_source=mcp&utm_medium=claude",
     "fvc_symbol": "COHR.US",
-    "ai_conclusion_de": "Die starke KI-Nachfrage bindet die optischen Kapazitäten im Rechenzentrumssegment bis 2029, doch negativer freier Cashflow und hohe Verschuldung belasten das stark konzentrierte Geschäft.",
-    "in_focus_de": "KI-Nachfrage bindet Kapazitäten bis 2029 bei dominanter Stellung im Rechenzentrumsgeschäft",
-    "main_risk_de": "Die starke Konzentration auf das Segment Rechenzentren und Kommunikation birgt das Risiko abrupter Umsatzrückgänge, falls die KI-Ausgaben nachlassen, was die Gesamtprofitabilität direkt treffen würde.",
-    "date": "2026-10-23",
+    "ai_conclusion_de": "Die starke KI-Nachfrage bindet die optischen Kapazitäten im Rechenzentrumssegment bis 2029, doch negativer freier Cashflow und hohe Schulden belasten das stark konzentrierte Geschäft.",
+    "in_focus_de": "KI-Nachfrage bindet Kapazitäten bis 2029, Rechenzentrumsgeschäft dominiert",
+    "main_risk_de": "Die starke Konzentration auf das Segment Rechenzentren und Kommunikation birgt das Risiko abrupter Umsatzeinbrüche, falls die KI-Ausgaben nachlassen – mit direkter Wirkung auf die Gesamtprofitabilität.",
+    "date": "2026-10-24",
     "fair_value_local": 94.36,
     "upside": -0.549142323918971
    }
@@ -4779,13 +4819,53 @@
     "valuation_status": "overvalued",
     "upside_band": "below_-30",
     "quality_score": 54,
-    "evidence_level": "low",
-    "calculated_at": "2026-10-23",
+    "evidence_level": "medium",
+    "fair_value": 44.03,
+    "fair_value_currency": "USD",
+    "fair_value_range": {
+     "cautious": 27.98,
+     "optimistic": 65.28
+    },
+    "reasons": [
+     {
+      "point": "Mixed Growth",
+      "tone": "watch",
+      "point_de": "Gemischtes Wachstum"
+     },
+     {
+      "point": "Solidly profitable",
+      "tone": "strength",
+      "point_de": "Solide profitabel"
+     },
+     {
+      "point": "Moderate debt",
+      "tone": "watch",
+      "point_de": "Moderate Verschuldung"
+     },
+     {
+      "point": "Generates free cash flow",
+      "tone": "strength",
+      "point_de": "Erzeugt freien Cashflow"
+     },
+     {
+      "point": "Moderate moat",
+      "tone": "watch",
+      "point_de": "Moderater Burggraben"
+     }
+    ],
+    "ai_conclusion": "The business gains from its sharpened focus on higher-margin AI data center networking and LoRa IoT solutions, yet negative net income and ROE remain the central weakness amid thin evidence of durable advantages.",
+    "in_focus": "Focus on AI data center networking and LoRa IoT after cellular module divestiture",
+    "main_risk": "The data center ramp may fail to deliver enough growth to offset transitional effects, which would hit execution and results in the core segments during the shift to optical components.",
+    "ai_note_date": "2026-10-11",
+    "calculated_at": "2026-10-24",
     "deep_link": "https://www.fairvalue-calculator.com/stock/SMTC.US?utm_source=mcp&utm_medium=claude",
     "fvc_symbol": "SMTC.US",
-    "date": "2026-10-23",
-    "fair_value_local": null,
-    "upside": null
+    "ai_conclusion_de": "Das Unternehmen profitiert von seiner geschärften Ausrichtung auf margenstärkere Netzwerklösungen für KI-Rechenzentren und LoRa-IoT-Lösungen; zentrale Schwäche bleiben jedoch der negative Nettogewinn und die negative Eigenkapitalrendite bei nur schwachen Belegen für dauerhafte Vorteile.",
+    "in_focus_de": "Fokus auf Netzwerktechnik für KI-Rechenzentren und LoRa-IoT nach dem Verkauf des Mobilfunkmodul-Geschäfts",
+    "main_risk_de": "Der Hochlauf im Rechenzentrumsgeschäft könnte nicht genug Wachstum liefern, um Übergangseffekte auszugleichen; das würde Umsetzung und Ergebnisse in den Kernsegmenten während des Wechsels zu optischen Komponenten belasten.",
+    "date": "2026-10-24",
+    "fair_value_local": 44.03,
+    "upside": -0.666439393939394
    }
   },
   {
@@ -5294,7 +5374,7 @@
      {
       "point": "Generates free cash flow",
       "tone": "strength",
-      "point_de": "Erzielt freien Cashflow"
+      "point_de": "Erzeugt freien Cashflow"
      },
      {
       "point": "Wide moat",
@@ -5306,13 +5386,13 @@
     "in_focus": "new lead generation tools, CRM integrations and AI-powered ad campaigns for higher monetization",
     "main_risk": "AI search reducing discovery traffic risks cutting user engagement and ad demand on the community platform.",
     "ai_note_date": "2026-10-11",
-    "calculated_at": "2026-10-23",
+    "calculated_at": "2026-10-24",
     "deep_link": "https://www.fairvalue-calculator.com/stock/RDDT.US?utm_source=mcp&utm_medium=claude",
     "fvc_symbol": "RDDT.US",
-    "ai_conclusion_de": "Reddits community-getriebene Plattform zeigt eine gewisse Margenstärke, doch dünne öffentliche Daten und wenige Hinweise auf dauerhafte Stärken in den einzelnen Kategorien lassen die Geschäftsqualität insgesamt schwach erscheinen.",
-    "in_focus_de": "Neue Tools zur Lead-Generierung, CRM-Integrationen und KI-gestützte Werbekampagnen für eine höhere Monetarisierung",
-    "main_risk_de": "KI-Suche, die weniger Besucher über Suchmaschinen auf die Plattform bringt, könnte die Nutzeraktivität und die Werbenachfrage auf der Community-Plattform verringern.",
-    "date": "2026-10-23",
+    "ai_conclusion_de": "Reddits community-getriebene Plattform zeigt eine gewisse Margenstärke, doch dünne öffentliche Daten und wenige dauerhafte Signale in den Kategorien lassen die Geschäftsqualität insgesamt schwach erscheinen.",
+    "in_focus_de": "Neue Tools zur Lead-Generierung, CRM-Integrationen und KI-gestützte Werbekampagnen für höhere Monetarisierung",
+    "main_risk_de": "KI-Suche, die weniger Besucher über Suchmaschinen auf die Plattform bringt, könnte Nutzeraktivität und Werbenachfrage auf der Community-Plattform verringern.",
+    "date": "2026-10-24",
     "fair_value_local": 131.44,
     "upside": -0.08880415944540732
    }
@@ -5805,10 +5885,10 @@
     "upside_band": "below_-30",
     "quality_score": 65,
     "evidence_level": "medium",
-    "calculated_at": "2026-10-23",
+    "calculated_at": "2026-10-24",
     "deep_link": "https://www.fairvalue-calculator.com/stock/P.US?utm_source=mcp&utm_medium=claude",
     "fvc_symbol": "P.US",
-    "date": "2026-10-23",
+    "date": "2026-10-24",
     "fair_value_local": null,
     "upside": null
    }
@@ -6295,56 +6375,16 @@
     ]
    },
    "fairvalue": {
-    "valuation_status": "undervalued",
-    "upside_band": "20_to_30",
+    "valuation_status": "near_fair_value",
+    "upside_band": "0_to_10",
     "quality_score": 77,
     "evidence_level": "medium",
-    "fair_value": 146.03,
-    "fair_value_currency": "USD",
-    "fair_value_range": {
-     "cautious": 50.92,
-     "optimistic": 205
-    },
-    "reasons": [
-     {
-      "point": "Healthy Growth",
-      "tone": "strength",
-      "point_de": "Gesundes Wachstum"
-     },
-     {
-      "point": "Solidly profitable",
-      "tone": "strength",
-      "point_de": "Solide profitabel"
-     },
-     {
-      "point": "Negative equity (buybacks among others)",
-      "tone": "watch",
-      "point_de": "Negatives Eigenkapital (u. a. durch Aktienrückkäufe)"
-     },
-     {
-      "point": "Generates free cash flow",
-      "tone": "strength",
-      "point_de": "Erzielt freien Cashflow"
-     },
-     {
-      "point": "Wide moat",
-      "tone": "watch",
-      "point_de": "Breiter Burggraben"
-     }
-    ],
-    "ai_conclusion": "Moderate moat potential from pricing power and franchise processes forms the main strength, while negative equity with high leverage stands as the chief weakness.",
-    "in_focus": "Store expansion amid declining same-store sales from softer traffic and consumer caution",
-    "main_risk": "Continued softer traffic and consumer caution threaten to keep domestic same-store sales under pressure and hit revenue at existing locations.",
-    "ai_note_date": "2026-10-11",
-    "calculated_at": "2026-10-23",
+    "calculated_at": "2026-10-24",
     "deep_link": "https://www.fairvalue-calculator.com/stock/WING.US?utm_source=mcp&utm_medium=claude",
     "fvc_symbol": "WING.US",
-    "ai_conclusion_de": "Die Hauptstärke ist ein moderater potenzieller Wettbewerbsvorteil durch Preissetzungsmacht und Franchise-Prozesse, die größte Schwäche das negative Eigenkapital bei hoher Verschuldung.",
-    "in_focus_de": "Ausbau des Filialnetzes bei rückläufigen Umsätzen auf vergleichbarer Fläche infolge geringerer Kundenfrequenz und Kaufzurückhaltung",
-    "main_risk_de": "Anhaltend geringere Kundenfrequenz und Kaufzurückhaltung drohen die Umsätze auf vergleichbarer Fläche im Inland weiter unter Druck zu halten und die Erlöse bestehender Filialen zu belasten.",
-    "date": "2026-10-23",
-    "fair_value_local": 146.03,
-    "upside": 0.2215994552584264
+    "date": "2026-10-24",
+    "fair_value_local": null,
+    "upside": null
    }
   },
   {
@@ -6825,6 +6865,18 @@
      73.89,
      80.11
     ]
+   },
+   "fairvalue": {
+    "valuation_status": "overvalued",
+    "upside_band": "below_-30",
+    "quality_score": 56,
+    "evidence_level": "medium",
+    "calculated_at": "2026-10-24",
+    "deep_link": "https://www.fairvalue-calculator.com/stock/TTMI.US?utm_source=mcp&utm_medium=claude",
+    "fvc_symbol": "TTMI.US",
+    "date": "2026-10-24",
+    "fair_value_local": null,
+    "upside": null
    }
   },
   {
@@ -7309,7 +7361,7 @@
    },
    "fairvalue": {
     "error": "Keine veröffentlichte Bewertung bei Fair Value Calculator (not_found)",
-    "date": "2026-10-23"
+    "date": "2026-10-24"
    }
   },
   {
@@ -7798,10 +7850,10 @@
     "upside_band": "below_-30",
     "quality_score": 35,
     "evidence_level": "medium",
-    "calculated_at": "2026-10-23",
+    "calculated_at": "2026-10-24",
     "deep_link": "https://www.fairvalue-calculator.com/stock/BROS.US?utm_source=mcp&utm_medium=claude",
     "fvc_symbol": "BROS.US",
-    "date": "2026-10-23",
+    "date": "2026-10-24",
     "fair_value_local": null,
     "upside": null
    }
@@ -8289,13 +8341,13 @@
    },
    "fairvalue": {
     "valuation_status": "overvalued",
-    "upside_band": "below_-30",
+    "upside_band": "-30_to_-20",
     "quality_score": 65,
     "evidence_level": "high",
-    "calculated_at": "2026-10-23",
+    "calculated_at": "2026-10-24",
     "deep_link": "https://www.fairvalue-calculator.com/stock/ONTO.US?utm_source=mcp&utm_medium=claude",
     "fvc_symbol": "ONTO.US",
-    "date": "2026-10-23",
+    "date": "2026-10-24",
     "fair_value_local": null,
     "upside": null
    }
@@ -8783,14 +8835,14 @@
     ]
    },
    "fairvalue": {
-    "valuation_status": "near_fair_value",
-    "upside_band": "0_to_10",
+    "valuation_status": "undervalued",
+    "upside_band": "10_to_20",
     "quality_score": 64,
     "evidence_level": "medium",
-    "calculated_at": "2026-10-23",
+    "calculated_at": "2026-10-24",
     "deep_link": "https://www.fairvalue-calculator.com/stock/STRL.US?utm_source=mcp&utm_medium=claude",
     "fvc_symbol": "STRL.US",
-    "date": "2026-10-23",
+    "date": "2026-10-24",
     "fair_value_local": null,
     "upside": null
    }
@@ -9282,10 +9334,10 @@
     "upside_band": "-20_to_-10",
     "quality_score": 14,
     "evidence_level": "low",
-    "calculated_at": "2026-10-23",
+    "calculated_at": "2026-10-24",
     "deep_link": "https://www.fairvalue-calculator.com/stock/CRWV.US?utm_source=mcp&utm_medium=claude",
     "fvc_symbol": "CRWV.US",
-    "date": "2026-10-23",
+    "date": "2026-10-24",
     "fair_value_local": null,
     "upside": null
    }
@@ -9776,10 +9828,10 @@
     "upside_band": "below_-30",
     "quality_score": 62,
     "evidence_level": "medium",
-    "calculated_at": "2026-10-23",
+    "calculated_at": "2026-10-24",
     "deep_link": "https://www.fairvalue-calculator.com/stock/DOCN.US?utm_source=mcp&utm_medium=claude",
     "fvc_symbol": "DOCN.US",
-    "date": "2026-10-23",
+    "date": "2026-10-24",
     "fair_value_local": null,
     "upside": null
    }
@@ -10270,11 +10322,11 @@
     "valuation_status": "overvalued",
     "upside_band": "below_-30",
     "quality_score": 67,
-    "evidence_level": "low",
-    "calculated_at": "2026-10-23",
+    "evidence_level": "medium",
+    "calculated_at": "2026-10-24",
     "deep_link": "https://www.fairvalue-calculator.com/stock/ARM.US?utm_source=mcp&utm_medium=claude",
     "fvc_symbol": "ARM.US",
-    "date": "2026-10-23",
+    "date": "2026-10-24",
     "fair_value_local": null,
     "upside": null
    }
@@ -10766,10 +10818,10 @@
     "upside_band": "below_-30",
     "quality_score": 55,
     "evidence_level": "medium",
-    "calculated_at": "2026-10-23",
+    "calculated_at": "2026-10-24",
     "deep_link": "https://www.fairvalue-calculator.com/stock/FN.US?utm_source=mcp&utm_medium=claude",
     "fvc_symbol": "FN.US",
-    "date": "2026-10-23",
+    "date": "2026-10-24",
     "fair_value_local": null,
     "upside": null
    }
@@ -11258,7 +11310,7 @@
     "valuation_status": "no_valuation",
     "deep_link": "https://www.fairvalue-calculator.com/stock/BE.US?utm_source=mcp&utm_medium=claude",
     "fvc_symbol": "BE.US",
-    "date": "2026-10-23",
+    "date": "2026-10-24",
     "fair_value_local": null,
     "upside": null
    }
@@ -11751,10 +11803,10 @@
     "upside_band": "below_-30",
     "quality_score": 40,
     "evidence_level": "low",
-    "calculated_at": "2026-10-23",
+    "calculated_at": "2026-10-24",
     "deep_link": "https://www.fairvalue-calculator.com/stock/LITE.US?utm_source=mcp&utm_medium=claude",
     "fvc_symbol": "LITE.US",
-    "date": "2026-10-23",
+    "date": "2026-10-24",
     "fair_value_local": null,
     "upside": null
    }
@@ -12246,10 +12298,10 @@
     "upside_band": "0_to_10",
     "quality_score": 63,
     "evidence_level": "medium",
-    "calculated_at": "2026-10-23",
+    "calculated_at": "2026-10-24",
     "deep_link": "https://www.fairvalue-calculator.com/stock/COIN.US?utm_source=mcp&utm_medium=claude",
     "fvc_symbol": "COIN.US",
-    "date": "2026-10-23",
+    "date": "2026-10-24",
     "fair_value_local": null,
     "upside": null
    }
@@ -12735,6 +12787,18 @@
      223.47,
      228.51
     ]
+   },
+   "fairvalue": {
+    "valuation_status": "overvalued",
+    "upside_band": "below_-30",
+    "quality_score": 78,
+    "evidence_level": "high",
+    "calculated_at": "2026-10-24",
+    "deep_link": "https://www.fairvalue-calculator.com/stock/MRVL.US?utm_source=mcp&utm_medium=claude",
+    "fvc_symbol": "MRVL.US",
+    "date": "2026-10-24",
+    "fair_value_local": null,
+    "upside": null
    }
   },
   {
@@ -13223,10 +13287,10 @@
     "upside_band": "above_30",
     "quality_score": 43,
     "evidence_level": "medium",
-    "calculated_at": "2026-10-23",
+    "calculated_at": "2026-10-24",
     "deep_link": "https://www.fairvalue-calculator.com/stock/FOUR.US?utm_source=mcp&utm_medium=claude",
     "fvc_symbol": "FOUR.US",
-    "date": "2026-10-23",
+    "date": "2026-10-24",
     "fair_value_local": null,
     "upside": null
    }
@@ -13708,10 +13772,10 @@
     "upside_band": "-20_to_-10",
     "quality_score": 71,
     "evidence_level": "high",
-    "calculated_at": "2026-10-23",
+    "calculated_at": "2026-10-24",
     "deep_link": "https://www.fairvalue-calculator.com/stock/FIX.US?utm_source=mcp&utm_medium=claude",
     "fvc_symbol": "FIX.US",
-    "date": "2026-10-23",
+    "date": "2026-10-24",
     "fair_value_local": null,
     "upside": null
    }
@@ -14203,10 +14267,10 @@
     "upside_band": "below_-30",
     "quality_score": 67,
     "evidence_level": "medium",
-    "calculated_at": "2026-10-23",
+    "calculated_at": "2026-10-24",
     "deep_link": "https://www.fairvalue-calculator.com/stock/HOOD.US?utm_source=mcp&utm_medium=claude",
     "fvc_symbol": "HOOD.US",
-    "date": "2026-10-23",
+    "date": "2026-10-24",
     "fair_value_local": null,
     "upside": null
    }
@@ -14635,10 +14699,10 @@
     "upside_band": "0_to_10",
     "quality_score": 73,
     "evidence_level": "high",
-    "calculated_at": "2026-10-23",
+    "calculated_at": "2026-10-24",
     "deep_link": "https://www.fairvalue-calculator.com/stock/ADYEN.AS?utm_source=mcp&utm_medium=claude",
     "fvc_symbol": "ADYEN.AS",
-    "date": "2026-10-23",
+    "date": "2026-10-24",
     "fair_value_local": null,
     "upside": null
    }
@@ -15128,52 +15192,12 @@
     "upside_band": "below_-30",
     "quality_score": 43,
     "evidence_level": "high",
-    "fair_value": 12.01,
-    "fair_value_currency": "USD",
-    "fair_value_range": {
-     "cautious": 5.53,
-     "optimistic": 15.01
-    },
-    "reasons": [
-     {
-      "point": "Mixed Growth",
-      "tone": "watch",
-      "point_de": "Gemischtes Wachstum"
-     },
-     {
-      "point": "Thin margins",
-      "tone": "watch",
-      "point_de": "Geringe Margen"
-     },
-     {
-      "point": "Low debt",
-      "tone": "strength",
-      "point_de": "Geringe Verschuldung"
-     },
-     {
-      "point": "Generates free cash flow",
-      "tone": "strength",
-      "point_de": "Erzielt freien Cashflow"
-     },
-     {
-      "point": "Narrow moat",
-      "tone": "weakness",
-      "point_de": "Schmaler Burggraben"
-     }
-    ],
-    "ai_conclusion": "CAVA demonstrates strength through rapid expansion to 500 restaurants with productive new units supporting long-term targets, yet low net margins and ROE signal weak competitive durability.",
-    "in_focus": "models see it as overvalued amid expansion and marketing focus",
-    "main_risk": "Limits of its operational and brand focus in the competitive restaurant sector could constrain sustained growth and pressure margins.",
-    "ai_note_date": "2026-10-11",
-    "calculated_at": "2026-10-23",
+    "calculated_at": "2026-10-24",
     "deep_link": "https://www.fairvalue-calculator.com/stock/CAVA.US?utm_source=mcp&utm_medium=claude",
     "fvc_symbol": "CAVA.US",
-    "ai_conclusion_de": "CAVA zeigt Stärke durch die schnelle Expansion auf 500 Restaurants, wobei produktive neue Filialen die langfristigen Ziele stützen; niedrige Nettomargen und Eigenkapitalrendite (ROE) deuten jedoch auf eine geringe Beständigkeit im Wettbewerb hin.",
-    "in_focus_de": "Die Modelle sehen die Aktie angesichts des Fokus auf Expansion und Marketing als überbewertet",
-    "main_risk_de": "Grenzen des operativen und markenbezogenen Fokus im wettbewerbsintensiven Restaurantsektor könnten nachhaltiges Wachstum bremsen und die Margen unter Druck setzen.",
-    "date": "2026-10-23",
-    "fair_value_local": 12.01,
-    "upside": -0.7754300653926709
+    "date": "2026-10-24",
+    "fair_value_local": null,
+    "upside": null
    }
   }
  ],
@@ -16721,10 +16745,9 @@
    "used_for": "Zinsen, Zinskurve, Kredit-Risikoaufschläge"
   },
   "Fair Value Calculator": {
-   "ok": 27,
+   "ok": 29,
    "fail": 0,
    "notes": [
-    "Stand 2026-10-23 (heute noch nicht aktualisiert)",
     "Keine Bewertung vorhanden für: TLN"
    ],
    "used_for": "Fairer Wert, Bewertungsstatus, Qualitätsnote, Stärken/Risiken (Top 10 + Beobachtung; über dein Konto)"
