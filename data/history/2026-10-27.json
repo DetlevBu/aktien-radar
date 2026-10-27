@@ -1,0 +1,107 @@
+{
+ "date": "2026-10-27",
+ "top": [
+  {
+   "symbol": "NBIS",
+   "name": "Nebius Group N.V.",
+   "price": 153.27000427246094,
+   "price_date": "2026-10-26",
+   "score": 0.5622806373702535,
+   "currency": "USD"
+  },
+  {
+   "symbol": "SNDK",
+   "name": "Sandisk Corporation",
+   "price": 1255.5799560546875,
+   "price_date": "2026-10-26",
+   "score": 0.53281663775891,
+   "currency": "USD"
+  },
+  {
+   "symbol": "CELH",
+   "name": "Celsius Holdings, Inc.",
+   "price": 28.149999618530273,
+   "price_date": "2026-10-26",
+   "score": 0.5086786384887133,
+   "currency": "USD"
+  },
+  {
+   "symbol": "AXON",
+   "name": "Axon Enterprise, Inc.",
+   "price": 424.7699890136719,
+   "price_date": "2026-10-26",
+   "score": 0.5034002339315464,
+   "currency": "USD"
+  },
+  {
+   "symbol": "SMTC",
+   "name": "Semtech Corporation",
+   "price": 136.72999572753906,
+   "price_date": "2026-10-26",
+   "score": 0.49888375401498974,
+   "currency": "USD"
+  },
+  {
+   "symbol": "MSTR",
+   "name": "Strategy Inc",
+   "price": 139.82000732421875,
+   "price_date": "2026-10-26",
+   "score": 0.49795740336479705,
+   "currency": "USD"
+  },
+  {
+   "symbol": "BROS",
+   "name": "Dutch Bros Inc.",
+   "price": 42.02000045776367,
+   "price_date": "2026-10-26",
+   "score": 0.4837564127371454,
+   "currency": "USD"
+  },
+  {
+   "symbol": "SITM",
+   "name": "SiTime Corporation",
+   "price": 464.70001220703125,
+   "price_date": "2026-10-26",
+   "score": 0.47062378796880644,
+   "currency": "USD"
+  },
+  {
+   "symbol": "COHR",
+   "name": "Coherent Corp.",
+   "price": 221.5,
+   "price_date": "2026-10-26",
+   "score": 0.461730263100345,
+   "currency": "USD"
+  },
+  {
+   "symbol": "ALAB",
+   "name": "Astera Labs, Inc.",
+   "price": 259.510009765625,
+   "price_date": "2026-10-26",
+   "score": 0.46118495900659917,
+   "currency": "USD"
+  }
+ ],
+ "watch": [
+  "TTMI",
+  "WING",
+  "LITE",
+  "ONTO",
+  "TLN",
+  "DOCN",
+  "CRWV",
+  "STRL",
+  "RMBS",
+  "FN",
+  "ARM",
+  "BE",
+  "MRVL",
+  "HOOD",
+  "FIX",
+  "ADYEN.AS",
+  "MTSI",
+  "RKLB",
+  "FLEX",
+  "RDDT"
+ ]
+}
