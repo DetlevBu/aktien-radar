@@ -1,0 +1,107 @@
+{
+ "date": "2026-10-28",
+ "top": [
+  {
+   "symbol": "NBIS",
+   "name": "Nebius Group N.V.",
+   "price": 170.47000122070312,
+   "price_date": "2026-10-27",
+   "score": 0.5605458777292869,
+   "currency": "USD"
+  },
+  {
+   "symbol": "SNDK",
+   "name": "Sandisk Corporation",
+   "price": 1304.8399658203125,
+   "price_date": "2026-10-27",
+   "score": 0.5325318517632982,
+   "currency": "USD"
+  },
+  {
+   "symbol": "COHR",
+   "name": "Coherent Corp.",
+   "price": 235.7899932861328,
+   "price_date": "2026-10-27",
+   "score": 0.49980052768237004,
+   "currency": "USD"
+  },
+  {
+   "symbol": "MSTR",
+   "name": "Strategy Inc",
+   "price": 141.39999389648438,
+   "price_date": "2026-10-27",
+   "score": 0.49842410409238985,
+   "currency": "USD"
+  },
+  {
+   "symbol": "AXON",
+   "name": "Axon Enterprise, Inc.",
+   "price": 425.8699951171875,
+   "price_date": "2026-10-27",
+   "score": 0.495449473743338,
+   "currency": "USD"
+  },
+  {
+   "symbol": "SMTC",
+   "name": "Semtech Corporation",
+   "price": 144.35000610351562,
+   "price_date": "2026-10-27",
+   "score": 0.4891411378755205,
+   "currency": "USD"
+  },
+  {
+   "symbol": "BROS",
+   "name": "Dutch Bros Inc.",
+   "price": 41.63999938964844,
+   "price_date": "2026-10-27",
+   "score": 0.485370675962862,
+   "currency": "USD"
+  },
+  {
+   "symbol": "ALAB",
+   "name": "Astera Labs, Inc.",
+   "price": 286.69000244140625,
+   "price_date": "2026-10-27",
+   "score": 0.48237838059301424,
+   "currency": "USD"
+  },
+  {
+   "symbol": "DOCN",
+   "name": "DigitalOcean Holdings, Inc.",
+   "price": 106.38999938964844,
+   "price_date": "2026-10-27",
+   "score": 0.4759557029714786,
+   "currency": "USD"
+  },
+  {
+   "symbol": "CELH",
+   "name": "Celsius Holdings, Inc.",
+   "price": 28.0,
+   "price_date": "2026-10-27",
+   "score": 0.4723053201651742,
+   "currency": "USD"
+  }
+ ],
+ "watch": [
+  "SITM",
+  "GWRE",
+  "TTMI",
+  "WING",
+  "ONTO",
+  "TLN",
+  "BE",
+  "LITE",
+  "STRL",
+  "RMBS",
+  "RKLB",
+  "MTSI",
+  "FN",
+  "WDC",
+  "CRWV",
+  "GEV",
+  "ARM",
+  "COIN",
+  "MRVL",
+  "VIAV"
+ ]
+}
