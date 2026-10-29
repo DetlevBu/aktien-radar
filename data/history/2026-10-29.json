@@ -1,0 +1,107 @@
+{
+ "date": "2026-10-29",
+ "top": [
+  {
+   "symbol": "SNDK",
+   "name": "Sandisk Corporation",
+   "price": 1404.77001953125,
+   "price_date": "2026-10-28",
+   "score": 0.595478342971387,
+   "currency": "USD"
+  },
+  {
+   "symbol": "NBIS",
+   "name": "Nebius Group N.V.",
+   "price": 182.33999633789062,
+   "price_date": "2026-10-28",
+   "score": 0.589454991526097,
+   "currency": "USD"
+  },
+  {
+   "symbol": "MSTR",
+   "name": "Strategy Inc",
+   "price": 145.16000366210938,
+   "price_date": "2026-10-28",
+   "score": 0.5381241261550523,
+   "currency": "USD"
+  },
+  {
+   "symbol": "SITM",
+   "name": "SiTime Corporation",
+   "price": 501.17999267578125,
+   "price_date": "2026-10-28",
+   "score": 0.5093730765551161,
+   "currency": "USD"
+  },
+  {
+   "symbol": "CELH",
+   "name": "Celsius Holdings, Inc.",
+   "price": 27.979999542236328,
+   "price_date": "2026-10-28",
+   "score": 0.5070871420895661,
+   "currency": "USD"
+  },
+  {
+   "symbol": "COHR",
+   "name": "Coherent Corp.",
+   "price": 239.58999633789062,
+   "price_date": "2026-10-28",
+   "score": 0.4956051272572515,
+   "currency": "USD"
+  },
+  {
+   "symbol": "AXON",
+   "name": "Axon Enterprise, Inc.",
+   "price": 423.1700134277344,
+   "price_date": "2026-10-28",
+   "score": 0.49225664139301123,
+   "currency": "USD"
+  },
+  {
+   "symbol": "TTMI",
+   "name": "TTM Technologies, Inc.",
+   "price": 90.79000091552734,
+   "price_date": "2026-10-28",
+   "score": 0.49175964605868006,
+   "currency": "USD"
+  },
+  {
+   "symbol": "SMTC",
+   "name": "Semtech Corporation",
+   "price": 146.97000122070312,
+   "price_date": "2026-10-28",
+   "score": 0.4836707121789033,
+   "currency": "USD"
+  },
+  {
+   "symbol": "BROS",
+   "name": "Dutch Bros Inc.",
+   "price": 42.93000030517578,
+   "price_date": "2026-10-28",
+   "score": 0.4810755686671259,
+   "currency": "USD"
+  }
+ ],
+ "watch": [
+  "VRT",
+  "DOCN",
+  "CAVA",
+  "WING",
+  "ALAB",
+  "CRWV",
+  "WDC",
+  "FN",
+  "OHB.DE",
+  "ONTO",
+  "FLEX",
+  "TLN",
+  "BE",
+  "MRVL",
+  "GWRE",
+  "ARM",
+  "MTSI",
+  "RKLB",
+  "STRL",
+  "RMBS"
+ ]
+}
