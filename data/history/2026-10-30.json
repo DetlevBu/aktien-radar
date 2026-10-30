@@ -1,0 +1,107 @@
+{
+ "date": "2026-10-30",
+ "top": [
+  {
+   "symbol": "NBIS",
+   "name": "Nebius Group N.V.",
+   "price": 171.99000549316406,
+   "price_date": "2026-10-29",
+   "score": 0.5999596849305526,
+   "currency": "USD"
+  },
+  {
+   "symbol": "SNDK",
+   "name": "Sandisk Corporation",
+   "price": 1330.050048828125,
+   "price_date": "2026-10-29",
+   "score": 0.5694533417255574,
+   "currency": "USD"
+  },
+  {
+   "symbol": "AXON",
+   "name": "Axon Enterprise, Inc.",
+   "price": 438.04998779296875,
+   "price_date": "2026-10-29",
+   "score": 0.5249364882119991,
+   "currency": "USD"
+  },
+  {
+   "symbol": "CELH",
+   "name": "Celsius Holdings, Inc.",
+   "price": 28.15999984741211,
+   "price_date": "2026-10-29",
+   "score": 0.5054751091883817,
+   "currency": "USD"
+  },
+  {
+   "symbol": "MSTR",
+   "name": "Strategy Inc",
+   "price": 141.6199951171875,
+   "price_date": "2026-10-29",
+   "score": 0.49959603010212916,
+   "currency": "USD"
+  },
+  {
+   "symbol": "COHR",
+   "name": "Coherent Corp.",
+   "price": 237.22000122070312,
+   "price_date": "2026-10-29",
+   "score": 0.49596786263033305,
+   "currency": "USD"
+  },
+  {
+   "symbol": "SMTC",
+   "name": "Semtech Corporation",
+   "price": 140.85000610351562,
+   "price_date": "2026-10-29",
+   "score": 0.4909673026509915,
+   "currency": "USD"
+  },
+  {
+   "symbol": "VRT",
+   "name": "Vertiv Holdings Co",
+   "price": 245.9199981689453,
+   "price_date": "2026-10-29",
+   "score": 0.47644349565753974,
+   "currency": "USD"
+  },
+  {
+   "symbol": "BROS",
+   "name": "Dutch Bros Inc.",
+   "price": 43.97999954223633,
+   "price_date": "2026-10-29",
+   "score": 0.47636466459949756,
+   "currency": "USD"
+  },
+  {
+   "symbol": "SITM",
+   "name": "SiTime Corporation",
+   "price": 488.0799865722656,
+   "price_date": "2026-10-29",
+   "score": 0.4694413797595902,
+   "currency": "USD"
+  }
+ ],
+ "watch": [
+  "ALAB",
+  "RKLB",
+  "CAVA",
+  "WDC",
+  "FN",
+  "TTMI",
+  "ONTO",
+  "TLN",
+  "FLEX",
+  "DOCN",
+  "MTSI",
+  "BE",
+  "ARM",
+  "WING",
+  "STRL",
+  "CRWV",
+  "RMBS",
+  "ORCL",
+  "ARWR",
+  "COIN"
+ ]
+}
