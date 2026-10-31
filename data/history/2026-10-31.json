@@ -1,0 +1,107 @@
+{
+ "date": "2026-10-31",
+ "top": [
+  {
+   "symbol": "NBIS",
+   "name": "Nebius Group N.V.",
+   "price": 154.13999938964844,
+   "price_date": "2026-10-30",
+   "score": 0.5606771032965396,
+   "currency": "USD"
+  },
+  {
+   "symbol": "SNDK",
+   "name": "Sandisk Corporation",
+   "price": 1150.8900146484375,
+   "price_date": "2026-10-30",
+   "score": 0.5408505548551565,
+   "currency": "USD"
+  },
+  {
+   "symbol": "AXON",
+   "name": "Axon Enterprise, Inc.",
+   "price": 427.7699890136719,
+   "price_date": "2026-10-30",
+   "score": 0.5054823194125881,
+   "currency": "USD"
+  },
+  {
+   "symbol": "MSTR",
+   "name": "Strategy Inc",
+   "price": 130.50999450683594,
+   "price_date": "2026-10-30",
+   "score": 0.5026099598024198,
+   "currency": "USD"
+  },
+  {
+   "symbol": "CELH",
+   "name": "Celsius Holdings, Inc.",
+   "price": 29.1200008392334,
+   "price_date": "2026-10-30",
+   "score": 0.4944402050274276,
+   "currency": "USD"
+  },
+  {
+   "symbol": "VRT",
+   "name": "Vertiv Holdings Co",
+   "price": 232.5,
+   "price_date": "2026-10-30",
+   "score": 0.48978996063683056,
+   "currency": "USD"
+  },
+  {
+   "symbol": "LITE",
+   "name": "Lumentum Holdings Inc.",
+   "price": 840.7000122070312,
+   "price_date": "2026-10-30",
+   "score": 0.4800250000049778,
+   "currency": "USD"
+  },
+  {
+   "symbol": "CAVA",
+   "name": "CAVA Group, Inc.",
+   "price": 58.7400016784668,
+   "price_date": "2026-10-30",
+   "score": 0.4633789320421667,
+   "currency": "USD"
+  },
+  {
+   "symbol": "COHR",
+   "name": "Coherent Corp.",
+   "price": 210.32000732421875,
+   "price_date": "2026-10-30",
+   "score": 0.4624031024568385,
+   "currency": "USD"
+  },
+  {
+   "symbol": "ALAB",
+   "name": "Astera Labs, Inc.",
+   "price": 258.70001220703125,
+   "price_date": "2026-10-30",
+   "score": 0.4593147803530623,
+   "currency": "USD"
+  }
+ ],
+ "watch": [
+  "SMTC",
+  "TTMI",
+  "ONTO",
+  "DOCN",
+  "SITM",
+  "TLN",
+  "MPWR",
+  "CRWV",
+  "HOOD",
+  "ARM",
+  "RDDT",
+  "WING",
+  "BE",
+  "FN",
+  "GEV",
+  "ARWR",
+  "WDC",
+  "FIX",
+  "FOUR",
+  "NOW"
+ ]
+}
