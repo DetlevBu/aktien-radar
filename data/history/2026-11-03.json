@@ -1,0 +1,107 @@
+{
+ "date": "2026-11-03",
+ "top": [
+  {
+   "symbol": "NBIS",
+   "name": "Nebius Group N.V.",
+   "price": 141.38999938964844,
+   "price_date": "2026-11-02",
+   "score": 0.5610608891432008,
+   "currency": "USD"
+  },
+  {
+   "symbol": "SNDK",
+   "name": "Sandisk Corporation",
+   "price": 1075.0799560546875,
+   "price_date": "2026-11-02",
+   "score": 0.5432681090694007,
+   "currency": "USD"
+  },
+  {
+   "symbol": "MSTR",
+   "name": "Strategy Inc",
+   "price": 130.75999450683594,
+   "price_date": "2026-11-02",
+   "score": 0.5029072104223414,
+   "currency": "USD"
+  },
+  {
+   "symbol": "VRT",
+   "name": "Vertiv Holdings Co",
+   "price": 224.24000549316406,
+   "price_date": "2026-11-02",
+   "score": 0.4975955838493646,
+   "currency": "USD"
+  },
+  {
+   "symbol": "AXON",
+   "name": "Axon Enterprise, Inc.",
+   "price": 425.42999267578125,
+   "price_date": "2026-11-02",
+   "score": 0.4943730425751385,
+   "currency": "USD"
+  },
+  {
+   "symbol": "ALAB",
+   "name": "Astera Labs, Inc.",
+   "price": 229.6699981689453,
+   "price_date": "2026-11-02",
+   "score": 0.4812926074022204,
+   "currency": "USD"
+  },
+  {
+   "symbol": "NXT",
+   "name": "Nextpower Inc.",
+   "price": 91.12999725341797,
+   "price_date": "2026-11-02",
+   "score": 0.47169221867888017,
+   "currency": "USD"
+  },
+  {
+   "symbol": "SMTC",
+   "name": "Semtech Corporation",
+   "price": 122.37999725341797,
+   "price_date": "2026-11-02",
+   "score": 0.4593397586703209,
+   "currency": "USD"
+  },
+  {
+   "symbol": "COHR",
+   "name": "Coherent Corp.",
+   "price": 199.9499969482422,
+   "price_date": "2026-11-02",
+   "score": 0.4572815932846262,
+   "currency": "USD"
+  },
+  {
+   "symbol": "CAVA",
+   "name": "CAVA Group, Inc.",
+   "price": 62.04999923706055,
+   "price_date": "2026-11-02",
+   "score": 0.4554791428758017,
+   "currency": "USD"
+  }
+ ],
+ "watch": [
+  "CELH",
+  "TLN",
+  "LITE",
+  "DOCN",
+  "SITM",
+  "ONTO",
+  "ARM",
+  "CRWV",
+  "BE",
+  "HOOD",
+  "FN",
+  "FIX",
+  "GEV",
+  "MRVL",
+  "RDDT",
+  "P",
+  "FLEX",
+  "BROS",
+  "MTSI",
+  "TPR"
+ ]
+}
