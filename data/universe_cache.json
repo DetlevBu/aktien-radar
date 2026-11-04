@@ -4529,7 +4529,7 @@
     ]
    }
   ],
-  "as_of": "2026-11-03",
+  "as_of": "2026-11-04",
   "source": "Wikipedia"
  },
  "S&P 400": {
@@ -8135,7 +8135,7 @@
     ]
    }
   ],
-  "as_of": "2026-11-03",
+  "as_of": "2026-11-04",
   "source": "Wikipedia"
  },
  "DAX": {
@@ -8501,7 +8501,7 @@
     ]
    }
   ],
-  "as_of": "2026-11-03",
+  "as_of": "2026-11-04",
   "source": "Wikipedia"
  },
  "Euro Stoxx 50": {
@@ -8948,7 +8948,7 @@
     ]
    }
   ],
-  "as_of": "2026-11-03",
+  "as_of": "2026-11-04",
   "source": "Wikipedia"
  },
  "Screener DE": {
@@ -9233,6 +9233,15 @@
     ]
    },
    {
+    "symbol": "2FE.DE",
+    "name": "Ferrari N.V.",
+    "sector": null,
+    "region": "DE",
+    "index": [
+     "Yahoo-Screener DE"
+    ]
+   },
+   {
     "symbol": "DHL.DE",
     "name": "DHL AG",
     "sector": null,
@@ -9253,15 +9262,6 @@
    {
     "symbol": "ASG.DE",
     "name": "Assicurazioni Generali S.p.A.",
-    "sector": null,
-    "region": "DE",
-    "index": [
-     "Yahoo-Screener DE"
-    ]
-   },
-   {
-    "symbol": "2FE.DE",
-    "name": "Ferrari N.V.",
     "sector": null,
     "region": "DE",
     "index": [
@@ -9323,8 +9323,8 @@
     ]
    },
    {
-    "symbol": "EOAN.DE",
-    "name": "E.ON SE",
+    "symbol": "SHL.DE",
+    "name": "Siemens Healthineers AG",
     "sector": null,
     "region": "DE",
     "index": [
@@ -9332,8 +9332,8 @@
     ]
    },
    {
-    "symbol": "SHL.DE",
-    "name": "Siemens Healthineers AG",
+    "symbol": "EOAN.DE",
+    "name": "E.ON SE",
     "sector": null,
     "region": "DE",
     "index": [
@@ -9359,15 +9359,6 @@
     ]
    },
    {
-    "symbol": "HNK1.DE",
-    "name": "Heineken N.V.",
-    "sector": null,
-    "region": "DE",
-    "index": [
-     "Yahoo-Screener DE"
-    ]
-   },
-   {
     "symbol": "XCA.DE",
     "name": "Crédit Agricole S.A.",
     "sector": null,
@@ -9377,8 +9368,17 @@
     ]
    },
    {
-    "symbol": "SGE.DE",
-    "name": "Société Générale Société anonyme",
+    "symbol": "HNK1.DE",
+    "name": "Heineken N.V.",
+    "sector": null,
+    "region": "DE",
+    "index": [
+     "Yahoo-Screener DE"
+    ]
+   },
+   {
+    "symbol": "ENA.DE",
+    "name": "Endesa, S.A.",
     "sector": null,
     "region": "DE",
     "index": [
@@ -9395,8 +9395,8 @@
     ]
    },
    {
-    "symbol": "ENA.DE",
-    "name": "Endesa, S.A.",
+    "symbol": "SGE.DE",
+    "name": "Société Générale Société anonyme",
     "sector": null,
     "region": "DE",
     "index": [
@@ -9422,8 +9422,8 @@
     ]
    },
    {
-    "symbol": "EBO.DE",
-    "name": "Erste Group Bank AG",
+    "symbol": "P911.DE",
+    "name": "Dr. Ing. h.c. F. Porsche AG",
     "sector": null,
     "region": "DE",
     "index": [
@@ -9431,8 +9431,8 @@
     ]
    },
    {
-    "symbol": "P911.DE",
-    "name": "Dr. Ing. h.c. F. Porsche AG",
+    "symbol": "EBO.DE",
+    "name": "Erste Group Bank AG",
     "sector": null,
     "region": "DE",
     "index": [
@@ -9449,6 +9449,15 @@
     ]
    },
    {
+    "symbol": "FTE.DE",
+    "name": "Orange S.A.",
+    "sector": null,
+    "region": "DE",
+    "index": [
+     "Yahoo-Screener DE"
+    ]
+   },
+   {
     "symbol": "MBG.DE",
     "name": "Mercedes-Benz Group AG",
     "sector": null,
@@ -9458,8 +9467,17 @@
     ]
    },
    {
-    "symbol": "FTE.DE",
-    "name": "Orange S.A.",
+    "symbol": "AVS.DE",
+    "name": "ASM International NV",
+    "sector": null,
+    "region": "DE",
+    "index": [
+     "Yahoo-Screener DE"
+    ]
+   },
+   {
+    "symbol": "HNR1.DE",
+    "name": "Hannover Rück SE",
     "sector": null,
     "region": "DE",
     "index": [
@@ -9485,17 +9503,8 @@
     ]
    },
    {
-    "symbol": "HNR1.DE",
-    "name": "Hannover Rück SE",
-    "sector": null,
-    "region": "DE",
-    "index": [
-     "Yahoo-Screener DE"
-    ]
-   },
-   {
-    "symbol": "AVS.DE",
-    "name": "ASM International NV",
+    "symbol": "GOB.DE",
+    "name": "Compagnie de Saint-Gobain S.A.",
     "sector": null,
     "region": "DE",
     "index": [
@@ -9505,15 +9514,6 @@
    {
     "symbol": "VOW.DE",
     "name": "Volkswagen AG",
-    "sector": null,
-    "region": "DE",
-    "index": [
-     "Yahoo-Screener DE"
-    ]
-   },
-   {
-    "symbol": "GOB.DE",
-    "name": "Compagnie de Saint-Gobain S.A.",
     "sector": null,
     "region": "DE",
     "index": [
@@ -9575,8 +9575,8 @@
     ]
    },
    {
-    "symbol": "ADS.DE",
-    "name": "adidas AG",
+    "symbol": "HOT.DE",
+    "name": "HOCHTIEF Aktiengesellschaft",
     "sector": null,
     "region": "DE",
     "index": [
@@ -9593,8 +9593,8 @@
     ]
    },
    {
-    "symbol": "HOT.DE",
-    "name": "HOCHTIEF Aktiengesellschaft",
+    "symbol": "ADS.DE",
+    "name": "adidas AG",
     "sector": null,
     "region": "DE",
     "index": [
@@ -9629,6 +9629,15 @@
     ]
    },
    {
+    "symbol": "SMP0.DE",
+    "name": "Sampo Oyj",
+    "sector": null,
+    "region": "DE",
+    "index": [
+     "Yahoo-Screener DE"
+    ]
+   },
+   {
     "symbol": "ZX6.DE",
     "name": "DSM-Firmenich AG",
     "sector": null,
@@ -9647,8 +9656,8 @@
     ]
    },
    {
-    "symbol": "SMP0.DE",
-    "name": "Sampo Oyj",
+    "symbol": "PHI1.DE",
+    "name": "Koninklijke Philips N.V.",
     "sector": null,
     "region": "DE",
     "index": [
@@ -9683,15 +9692,6 @@
     ]
    },
    {
-    "symbol": "OMV.DE",
-    "name": "OMV Aktiengesellschaft",
-    "sector": null,
-    "region": "DE",
-    "index": [
-     "Yahoo-Screener DE"
-    ]
-   },
-   {
     "symbol": "OEWA.DE",
     "name": "VERBUND AG",
     "sector": null,
@@ -9701,8 +9701,8 @@
     ]
    },
    {
-    "symbol": "PHI1.DE",
-    "name": "Koninklijke Philips N.V.",
+    "symbol": "OMV.DE",
+    "name": "OMV Aktiengesellschaft",
     "sector": null,
     "region": "DE",
     "index": [
@@ -9728,8 +9728,8 @@
     ]
    },
    {
-    "symbol": "56S1.DE",
-    "name": "Sartorius Stedim Biotech S.A.",
+    "symbol": "INR.DE",
+    "name": "International Consolidated Airlines Group S.A.",
     "sector": null,
     "region": "DE",
     "index": [
@@ -9737,8 +9737,8 @@
     ]
    },
    {
-    "symbol": "INR.DE",
-    "name": "International Consolidated Airlines Group S.A.",
+    "symbol": "56S1.DE",
+    "name": "Sartorius Stedim Biotech S.A.",
     "sector": null,
     "region": "DE",
     "index": [
@@ -9791,6 +9791,15 @@
     ]
    },
    {
+    "symbol": "ANI.DE",
+    "name": "Amundi S.A.",
+    "sector": null,
+    "region": "DE",
+    "index": [
+     "Yahoo-Screener DE"
+    ]
+   },
+   {
     "symbol": "WOSB.DE",
     "name": "Wolters Kluwer N.V.",
     "sector": null,
@@ -9809,26 +9818,17 @@
     ]
    },
    {
-    "symbol": "ANI.DE",
-    "name": "Amundi S.A.",
-    "sector": null,
-    "region": "DE",
-    "index": [
-     "Yahoo-Screener DE"
-    ]
-   },
-   {
-    "symbol": "MTX.DE",
-    "name": "MTU Aero Engines AG",
-    "sector": null,
-    "region": "DE",
-    "index": [
-     "Yahoo-Screener DE"
-    ]
-   },
-   {
     "symbol": "RAW.DE",
     "name": "Raiffeisen Bank International AG",
+    "sector": null,
+    "region": "DE",
+    "index": [
+     "Yahoo-Screener DE"
+    ]
+   },
+   {
+    "symbol": "UN0.DE",
+    "name": "Uniper SE",
     "sector": null,
     "region": "DE",
     "index": [
@@ -9845,8 +9845,8 @@
     ]
    },
    {
-    "symbol": "UN0.DE",
-    "name": "Uniper SE",
+    "symbol": "MTX.DE",
+    "name": "MTU Aero Engines AG",
     "sector": null,
     "region": "DE",
     "index": [
@@ -9890,15 +9890,6 @@
     ]
    },
    {
-    "symbol": "SRT.DE",
-    "name": "Sartorius Aktiengesellschaft",
-    "sector": null,
-    "region": "DE",
-    "index": [
-     "Yahoo-Screener DE"
-    ]
-   },
-   {
     "symbol": "8TRA.DE",
     "name": "Traton SE",
     "sector": null,
@@ -9910,6 +9901,15 @@
    {
     "symbol": "FO4N.DE",
     "name": "ageas SA/NV",
+    "sector": null,
+    "region": "DE",
+    "index": [
+     "Yahoo-Screener DE"
+    ]
+   },
+   {
+    "symbol": "SRT.DE",
+    "name": "Sartorius Aktiengesellschaft",
     "sector": null,
     "region": "DE",
     "index": [
@@ -9998,24 +9998,6 @@
     ]
    },
    {
-    "symbol": "8TI.DE",
-    "name": "Stellantis N.V.",
-    "sector": null,
-    "region": "DE",
-    "index": [
-     "Yahoo-Screener DE"
-    ]
-   },
-   {
-    "symbol": "0B2.DE",
-    "name": "BAWAG Group AG",
-    "sector": null,
-    "region": "DE",
-    "index": [
-     "Yahoo-Screener DE"
-    ]
-   },
-   {
     "symbol": "BSI.DE",
     "name": "BE Semiconductor Industries N.V.",
     "sector": null,
@@ -10025,8 +10007,8 @@
     ]
    },
    {
-    "symbol": "XD4.DE",
-    "name": "Strabag SE",
+    "symbol": "0B2.DE",
+    "name": "BAWAG Group AG",
     "sector": null,
     "region": "DE",
     "index": [
@@ -10045,6 +10027,24 @@
    {
     "symbol": "RPL.DE",
     "name": "UPM-Kymmene Oyj",
+    "sector": null,
+    "region": "DE",
+    "index": [
+     "Yahoo-Screener DE"
+    ]
+   },
+   {
+    "symbol": "XD4.DE",
+    "name": "Strabag SE",
+    "sector": null,
+    "region": "DE",
+    "index": [
+     "Yahoo-Screener DE"
+    ]
+   },
+   {
+    "symbol": "8TI.DE",
+    "name": "Stellantis N.V.",
     "sector": null,
     "region": "DE",
     "index": [
@@ -10106,26 +10106,17 @@
     ]
    },
    {
-    "symbol": "CAR.DE",
-    "name": "Carrefour SA",
-    "sector": null,
-    "region": "DE",
-    "index": [
-     "Yahoo-Screener DE"
-    ]
-   },
-   {
-    "symbol": "BNR.DE",
-    "name": "Brenntag SE",
-    "sector": null,
-    "region": "DE",
-    "index": [
-     "Yahoo-Screener DE"
-    ]
-   },
-   {
     "symbol": "LHA.DE",
     "name": "Deutsche Lufthansa AG",
+    "sector": null,
+    "region": "DE",
+    "index": [
+     "Yahoo-Screener DE"
+    ]
+   },
+   {
+    "symbol": "CAR.DE",
+    "name": "Carrefour SA",
     "sector": null,
     "region": "DE",
     "index": [
@@ -10142,6 +10133,15 @@
     ]
    },
    {
+    "symbol": "BNR.DE",
+    "name": "Brenntag SE",
+    "sector": null,
+    "region": "DE",
+    "index": [
+     "Yahoo-Screener DE"
+    ]
+   },
+   {
     "symbol": "NEM.DE",
     "name": "Nemetschek SE",
     "sector": null,
@@ -10151,8 +10151,8 @@
     ]
    },
    {
-    "symbol": "RNL.DE",
-    "name": "Renault SA",
+    "symbol": "AZ2.DE",
+    "name": "Andritz AG",
     "sector": null,
     "region": "DE",
     "index": [
@@ -10160,8 +10160,8 @@
     ]
    },
    {
-    "symbol": "AZ2.DE",
-    "name": "Andritz AG",
+    "symbol": "RNL.DE",
+    "name": "Renault SA",
     "sector": null,
     "region": "DE",
     "index": [
@@ -10187,8 +10187,8 @@
     ]
    },
    {
-    "symbol": "VAS.DE",
-    "name": "Voestalpine AG",
+    "symbol": "RAA.DE",
+    "name": "RATIONAL Aktiengesellschaft",
     "sector": null,
     "region": "DE",
     "index": [
@@ -10196,8 +10196,8 @@
     ]
    },
    {
-    "symbol": "RAA.DE",
-    "name": "RATIONAL Aktiengesellschaft",
+    "symbol": "VAS.DE",
+    "name": "Voestalpine AG",
     "sector": null,
     "region": "DE",
     "index": [
@@ -10214,6 +10214,15 @@
     ]
    },
    {
+    "symbol": "I56.DE",
+    "name": "Lottomatica Group S.p.A.",
+    "sector": null,
+    "region": "DE",
+    "index": [
+     "Yahoo-Screener DE"
+    ]
+   },
+   {
     "symbol": "ZAL.DE",
     "name": "Zalando SE",
     "sector": null,
@@ -10223,26 +10232,8 @@
     ]
    },
    {
-    "symbol": "EVD.DE",
-    "name": "CTS Eventim AG & Co. KGaA",
-    "sector": null,
-    "region": "DE",
-    "index": [
-     "Yahoo-Screener DE"
-    ]
-   },
-   {
     "symbol": "FRA.DE",
     "name": "Fraport AG",
-    "sector": null,
-    "region": "DE",
-    "index": [
-     "Yahoo-Screener DE"
-    ]
-   },
-   {
-    "symbol": "I56.DE",
-    "name": "Lottomatica Group S.p.A.",
     "sector": null,
     "region": "DE",
     "index": [
@@ -10268,15 +10259,6 @@
     ]
    },
    {
-    "symbol": "NDA.DE",
-    "name": "Aurubis AG",
-    "sector": null,
-    "region": "DE",
-    "index": [
-     "Yahoo-Screener DE"
-    ]
-   },
-   {
     "symbol": "G24.DE",
     "name": "Scout24 SE",
     "sector": null,
@@ -10286,8 +10268,8 @@
     ]
    },
    {
-    "symbol": "FPE3.DE",
-    "name": "Fuchs SE",
+    "symbol": "NDA.DE",
+    "name": "Aurubis AG",
     "sector": null,
     "region": "DE",
     "index": [
@@ -10295,8 +10277,8 @@
     ]
    },
    {
-    "symbol": "SHA0.DE",
-    "name": "Schaeffler AG",
+    "symbol": "EVD.DE",
+    "name": "CTS Eventim AG & Co. KGaA",
     "sector": null,
     "region": "DE",
     "index": [
@@ -10306,6 +10288,15 @@
    {
     "symbol": "R902.DE",
     "name": "Rockwool A/S",
+    "sector": null,
+    "region": "DE",
+    "index": [
+     "Yahoo-Screener DE"
+    ]
+   },
+   {
+    "symbol": "FPE3.DE",
+    "name": "Fuchs SE",
     "sector": null,
     "region": "DE",
     "index": [
@@ -10331,8 +10322,8 @@
     ]
    },
    {
-    "symbol": "AOMD.DE",
-    "name": "Alstom SA",
+    "symbol": "2VO.DE",
+    "name": "Valmet Oyj",
     "sector": null,
     "region": "DE",
     "index": [
@@ -10340,8 +10331,8 @@
     ]
    },
    {
-    "symbol": "2VO.DE",
-    "name": "Valmet Oyj",
+    "symbol": "SHA0.DE",
+    "name": "Schaeffler AG",
     "sector": null,
     "region": "DE",
     "index": [
@@ -10358,8 +10349,8 @@
     ]
    },
    {
-    "symbol": "WPHB.DE",
-    "name": "Warehouses De Pauw SA",
+    "symbol": "AOMD.DE",
+    "name": "Alstom SA",
     "sector": null,
     "region": "DE",
     "index": [
@@ -10367,8 +10358,8 @@
     ]
    },
    {
-    "symbol": "FPE.DE",
-    "name": "Fuchs SE",
+    "symbol": "WPHB.DE",
+    "name": "Warehouses De Pauw SA",
     "sector": null,
     "region": "DE",
     "index": [
@@ -10385,6 +10376,15 @@
     ]
    },
    {
+    "symbol": "FPE.DE",
+    "name": "Fuchs SE",
+    "sector": null,
+    "region": "DE",
+    "index": [
+     "Yahoo-Screener DE"
+    ]
+   },
+   {
     "symbol": "RRTL.DE",
     "name": "RTL Group S.A.",
     "sector": null,
@@ -10394,7 +10394,7 @@
     ]
    }
   ],
-  "as_of": "2026-11-03",
+  "as_of": "2026-11-04",
   "source": "Yahoo Screener"
  },
  "Screener FR": {
@@ -10778,8 +10778,8 @@
     ]
    },
    {
-    "symbol": "AC.PA",
-    "name": "Accor SA",
+    "symbol": "BIM.PA",
+    "name": "bioMérieux S.A.",
     "sector": null,
     "region": "EU",
     "index": [
@@ -10787,8 +10787,8 @@
     ]
    },
    {
-    "symbol": "RXL.PA",
-    "name": "Rexel S.A.",
+    "symbol": "AC.PA",
+    "name": "Accor SA",
     "sector": null,
     "region": "EU",
     "index": [
@@ -10805,8 +10805,8 @@
     ]
    },
    {
-    "symbol": "BIM.PA",
-    "name": "bioMérieux S.A.",
+    "symbol": "RXL.PA",
+    "name": "Rexel S.A.",
     "sector": null,
     "region": "EU",
     "index": [
@@ -10886,15 +10886,6 @@
     ]
    },
    {
-    "symbol": "AYV.PA",
-    "name": "Ayvens",
-    "sector": null,
-    "region": "EU",
-    "index": [
-     "Yahoo-Screener FR"
-    ]
-   },
-   {
     "symbol": "GTT.PA",
     "name": "Gaztransport & Technigaz SA",
     "sector": null,
@@ -10906,6 +10897,15 @@
    {
     "symbol": "ABVX.PA",
     "name": "ABIVAX Société Anonyme",
+    "sector": null,
+    "region": "EU",
+    "index": [
+     "Yahoo-Screener FR"
+    ]
+   },
+   {
+    "symbol": "AYV.PA",
+    "name": "Ayvens",
     "sector": null,
     "region": "EU",
     "index": [
@@ -11111,6 +11111,15 @@
     ]
    },
    {
+    "symbol": "SK.PA",
+    "name": "SEB SA",
+    "sector": null,
+    "region": "EU",
+    "index": [
+     "Yahoo-Screener FR"
+    ]
+   },
+   {
     "symbol": "ITP.PA",
     "name": "Interparfums SA",
     "sector": null,
@@ -11120,8 +11129,8 @@
     ]
    },
    {
-    "symbol": "ATE.PA",
-    "name": "Alten S.A.",
+    "symbol": "FII.PA",
+    "name": "Lisi S.A.",
     "sector": null,
     "region": "EU",
     "index": [
@@ -11129,7 +11138,7 @@
     ]
    }
   ],
-  "as_of": "2026-11-03",
+  "as_of": "2026-11-04",
   "source": "Yahoo Screener"
  },
  "Screener NL": {
@@ -11315,8 +11324,8 @@
     ]
    },
    {
-    "symbol": "HAL.AS",
-    "name": "HAL Trust",
+    "symbol": "ASRNL.AS",
+    "name": "ASR Nederland N.V.",
     "sector": null,
     "region": "EU",
     "index": [
@@ -11324,8 +11333,8 @@
     ]
    },
    {
-    "symbol": "ASRNL.AS",
-    "name": "ASR Nederland N.V.",
+    "symbol": "HAL.AS",
+    "name": "HAL Trust",
     "sector": null,
     "region": "EU",
     "index": [
@@ -11360,8 +11369,8 @@
     ]
    },
    {
-    "symbol": "MICC.AS",
-    "name": "The Magnum Ice Cream Company N.V.",
+    "symbol": "AGN.AS",
+    "name": "Aegon Ltd.",
     "sector": null,
     "region": "EU",
     "index": [
@@ -11369,8 +11378,8 @@
     ]
    },
    {
-    "symbol": "AGN.AS",
-    "name": "Aegon Ltd.",
+    "symbol": "MICC.AS",
+    "name": "The Magnum Ice Cream Company N.V.",
     "sector": null,
     "region": "EU",
     "index": [
@@ -11432,8 +11441,8 @@
     ]
    },
    {
-    "symbol": "SBMO.AS",
-    "name": "SBM Offshore N.V.",
+    "symbol": "NRP.AS",
+    "name": "NEPI Rockcastle N.V.",
     "sector": null,
     "region": "EU",
     "index": [
@@ -11441,8 +11450,8 @@
     ]
    },
    {
-    "symbol": "NRP.AS",
-    "name": "NEPI Rockcastle N.V.",
+    "symbol": "SBMO.AS",
+    "name": "SBM Offshore N.V.",
     "sector": null,
     "region": "EU",
     "index": [
@@ -11495,7 +11504,7 @@
     ]
    }
   ],
-  "as_of": "2026-11-03",
+  "as_of": "2026-11-04",
   "source": "Yahoo Screener"
  },
  "Screener IT": {
@@ -11537,8 +11546,8 @@
     ]
    },
    {
-    "symbol": "G.MI",
-    "name": "Assicurazioni Generali S.p.A.",
+    "symbol": "RACE.MI",
+    "name": "Ferrari N.V.",
     "sector": null,
     "region": "EU",
     "index": [
@@ -11546,8 +11555,8 @@
     ]
    },
    {
-    "symbol": "RACE.MI",
-    "name": "Ferrari N.V.",
+    "symbol": "G.MI",
+    "name": "Assicurazioni Generali S.p.A.",
     "sector": null,
     "region": "EU",
     "index": [
@@ -11564,8 +11573,8 @@
     ]
    },
    {
-    "symbol": "BMPS.MI",
-    "name": "Banca Monte dei Paschi di Siena S.p.A.",
+    "symbol": "PRY.MI",
+    "name": "Prysmian S.p.A.",
     "sector": null,
     "region": "EU",
     "index": [
@@ -11573,8 +11582,8 @@
     ]
    },
    {
-    "symbol": "PRY.MI",
-    "name": "Prysmian S.p.A.",
+    "symbol": "BMPS.MI",
+    "name": "Banca Monte dei Paschi di Siena S.p.A.",
     "sector": null,
     "region": "EU",
     "index": [
@@ -11672,15 +11681,6 @@
     ]
    },
    {
-    "symbol": "STLAM.MI",
-    "name": "Stellantis N.V.",
-    "sector": null,
-    "region": "EU",
-    "index": [
-     "Yahoo-Screener IT"
-    ]
-   },
-   {
     "symbol": "MONC.MI",
     "name": "Moncler S.p.A.",
     "sector": null,
@@ -11692,6 +11692,15 @@
    {
     "symbol": "TIT.MI",
     "name": "Telecom Italia S.p.A.",
+    "sector": null,
+    "region": "EU",
+    "index": [
+     "Yahoo-Screener IT"
+    ]
+   },
+   {
+    "symbol": "STLAM.MI",
+    "name": "Stellantis N.V.",
     "sector": null,
     "region": "EU",
     "index": [
@@ -11744,8 +11753,8 @@
     ]
    },
    {
-    "symbol": "BZU.MI",
-    "name": "Buzzi S.p.A.",
+    "symbol": "A2A.MI",
+    "name": "A2A S.p.A.",
     "sector": null,
     "region": "EU",
     "index": [
@@ -11753,8 +11762,8 @@
     ]
    },
    {
-    "symbol": "A2A.MI",
-    "name": "A2A S.p.A.",
+    "symbol": "BZU.MI",
+    "name": "Buzzi S.p.A.",
     "sector": null,
     "region": "EU",
     "index": [
@@ -11852,8 +11861,8 @@
     ]
    },
    {
-    "symbol": "REY.MI",
-    "name": "Reply S.p.A.",
+    "symbol": "FCT.MI",
+    "name": "Fincantieri S.p.A.",
     "sector": null,
     "region": "EU",
     "index": [
@@ -11861,8 +11870,8 @@
     ]
    },
    {
-    "symbol": "FCT.MI",
-    "name": "Fincantieri S.p.A.",
+    "symbol": "REY.MI",
+    "name": "Reply S.p.A.",
     "sector": null,
     "region": "EU",
     "index": [
@@ -11942,8 +11951,8 @@
     ]
    },
    {
-    "symbol": "IRE.MI",
-    "name": "Iren SpA",
+    "symbol": "AMP.MI",
+    "name": "Amplifon S.p.A.",
     "sector": null,
     "region": "EU",
     "index": [
@@ -11960,8 +11969,8 @@
     ]
    },
    {
-    "symbol": "AMP.MI",
-    "name": "Amplifon S.p.A.",
+    "symbol": "IRE.MI",
+    "name": "Iren SpA",
     "sector": null,
     "region": "EU",
     "index": [
@@ -11969,7 +11978,7 @@
     ]
    }
   ],
-  "as_of": "2026-11-03",
+  "as_of": "2026-11-04",
   "source": "Yahoo Screener"
  },
  "Screener ES": {
@@ -12029,8 +12038,8 @@
     ]
    },
    {
-    "symbol": "CCEP.MC",
-    "name": "Coca-Cola Europacific Partners PLC",
+    "symbol": "ELE.MC",
+    "name": "Endesa, S.A.",
     "sector": null,
     "region": "EU",
     "index": [
@@ -12038,8 +12047,8 @@
     ]
    },
    {
-    "symbol": "ELE.MC",
-    "name": "Endesa, S.A.",
+    "symbol": "CCEP.MC",
+    "name": "Coca-Cola Europacific Partners PLC",
     "sector": null,
     "region": "EU",
     "index": [
@@ -12155,8 +12164,8 @@
     ]
    },
    {
-    "symbol": "IDR.MC",
-    "name": "Indra Sistemas, S.A.",
+    "symbol": "ANA.MC",
+    "name": "Acciona, S.A.",
     "sector": null,
     "region": "EU",
     "index": [
@@ -12164,8 +12173,8 @@
     ]
    },
    {
-    "symbol": "ANA.MC",
-    "name": "Acciona, S.A.",
+    "symbol": "IDR.MC",
+    "name": "Indra Sistemas, S.A.",
     "sector": null,
     "region": "EU",
     "index": [
@@ -12272,15 +12281,6 @@
     ]
    },
    {
-    "symbol": "COL.MC",
-    "name": "Colonial SFL, Socimi S. A.",
-    "sector": null,
-    "region": "EU",
-    "index": [
-     "Yahoo-Screener ES"
-    ]
-   },
-   {
     "symbol": "ROVI.MC",
     "name": "Laboratorios Farmaceuticos Rovi, S.A.",
     "sector": null,
@@ -12292,6 +12292,15 @@
    {
     "symbol": "CIRSA.MC",
     "name": "Cirsa Enterprises, S.A.",
+    "sector": null,
+    "region": "EU",
+    "index": [
+     "Yahoo-Screener ES"
+    ]
+   },
+   {
+    "symbol": "COL.MC",
+    "name": "Colonial SFL, Socimi S. A.",
     "sector": null,
     "region": "EU",
     "index": [
@@ -12317,7 +12326,7 @@
     ]
    }
   ],
-  "as_of": "2026-11-03",
+  "as_of": "2026-11-04",
   "source": "Yahoo Screener"
  },
  "Screener BE": {
@@ -12485,7 +12494,7 @@
     ]
    }
   ],
-  "as_of": "2026-11-03",
+  "as_of": "2026-11-04",
   "source": "Yahoo Screener"
  },
  "Screener FI": {
@@ -12608,7 +12617,7 @@
     ]
    },
    {
-    "symbol": "STEAV.HE",
+    "symbol": "STERV.HE",
     "name": "Stora Enso Oyj",
     "sector": null,
     "region": "EU",
@@ -12617,7 +12626,7 @@
     ]
    },
    {
-    "symbol": "STERV.HE",
+    "symbol": "STEAV.HE",
     "name": "Stora Enso Oyj",
     "sector": null,
     "region": "EU",
@@ -12635,8 +12644,8 @@
     ]
    },
    {
-    "symbol": "VALMT.HE",
-    "name": "Valmet Oyj",
+    "symbol": "ELISA.HE",
+    "name": "Elisa Oyj",
     "sector": null,
     "region": "EU",
     "index": [
@@ -12644,8 +12653,8 @@
     ]
    },
    {
-    "symbol": "ELISA.HE",
-    "name": "Elisa Oyj",
+    "symbol": "VALMT.HE",
+    "name": "Valmet Oyj",
     "sector": null,
     "region": "EU",
     "index": [
@@ -12662,13 +12671,13 @@
     ]
    }
   ],
-  "as_of": "2026-11-03",
+  "as_of": "2026-11-04",
   "source": "Yahoo Screener"
  },
  "Screener AT": {
   "rows": [
    {
-    "symbol": "ASML.VI",
+    "symbol": "ASMN.VI",
     "name": "ASML Holding N.V.",
     "sector": null,
     "region": "EU",
@@ -12677,7 +12686,7 @@
     ]
    },
    {
-    "symbol": "ASMN.VI",
+    "symbol": "ASML.VI",
     "name": "ASML Holding N.V.",
     "sector": null,
     "region": "EU",
@@ -12776,7 +12785,7 @@
     ]
    }
   ],
-  "as_of": "2026-11-03",
+  "as_of": "2026-11-04",
   "source": "Yahoo Screener"
  },
  "Screener PT": {
@@ -12845,7 +12854,7 @@
     ]
    }
   ],
-  "as_of": "2026-11-03",
+  "as_of": "2026-11-04",
   "source": "Yahoo Screener"
  },
  "Screener IE": {
@@ -12869,8 +12878,8 @@
     ]
    },
    {
-    "symbol": "BIRG.IR",
-    "name": "Bank of Ireland Group plc",
+    "symbol": "KRX.IR",
+    "name": "Kingspan Group plc",
     "sector": null,
     "region": "EU",
     "index": [
@@ -12878,8 +12887,8 @@
     ]
    },
    {
-    "symbol": "KRX.IR",
-    "name": "Kingspan Group plc",
+    "symbol": "BIRG.IR",
+    "name": "Bank of Ireland Group plc",
     "sector": null,
     "region": "EU",
     "index": [
@@ -12896,7 +12905,7 @@
     ]
    }
   ],
-  "as_of": "2026-11-03",
+  "as_of": "2026-11-04",
   "source": "Yahoo Screener"
  },
  "Screener CH": {
@@ -13003,6 +13012,15 @@
    {
     "symbol": "ASML.SW",
     "name": "ASML Holding N.V.",
+    "sector": null,
+    "region": "EU",
+    "index": [
+     "Yahoo-Screener CH"
+    ]
+   },
+   {
+    "symbol": "CVX.SW",
+    "name": "Chevron Corporation",
     "sector": null,
     "region": "EU",
     "index": [
@@ -13154,6 +13172,15 @@
     ]
    },
    {
+    "symbol": "RMS.SW",
+    "name": "HERMES INTERNATIONAL O.N.",
+    "sector": null,
+    "region": "EU",
+    "index": [
+     "Yahoo-Screener CH"
+    ]
+   },
+   {
     "symbol": "LMT.SW",
     "name": "Lockheed Martin Corporation",
     "sector": null,
@@ -13172,8 +13199,8 @@
     ]
    },
    {
-    "symbol": "ENR.SW",
-    "name": "Siemens Energy AG",
+    "symbol": "UCG.SW",
+    "name": "UniCredit S.p.A.",
     "sector": null,
     "region": "EU",
     "index": [
@@ -13181,8 +13208,8 @@
     ]
    },
    {
-    "symbol": "UCG.SW",
-    "name": "UniCredit S.p.A.",
+    "symbol": "ENR.SW",
+    "name": "Siemens Energy AG",
     "sector": null,
     "region": "EU",
     "index": [
@@ -13208,6 +13235,15 @@
     ]
    },
    {
+    "symbol": "LISPE.SW",
+    "name": "Chocoladefabriken Lindt & Sprüngli AG",
+    "sector": null,
+    "region": "EU",
+    "index": [
+     "Yahoo-Screener CH"
+    ]
+   },
+   {
     "symbol": "ZURN.SW",
     "name": "Zurich Insurance Group AG",
     "sector": null,
@@ -13218,15 +13254,6 @@
    },
    {
     "symbol": "LISNE.SW",
-    "name": "Chocoladefabriken Lindt & Sprüngli AG",
-    "sector": null,
-    "region": "EU",
-    "index": [
-     "Yahoo-Screener CH"
-    ]
-   },
-   {
-    "symbol": "LISPE.SW",
     "name": "Chocoladefabriken Lindt & Sprüngli AG",
     "sector": null,
     "region": "EU",
@@ -13280,8 +13307,8 @@
     ]
    },
    {
-    "symbol": "SREN.SW",
-    "name": "Swiss Re AG",
+    "symbol": "LONN.SW",
+    "name": "Lonza Group AG",
     "sector": null,
     "region": "EU",
     "index": [
@@ -13289,8 +13316,8 @@
     ]
    },
    {
-    "symbol": "LONN.SW",
-    "name": "Lonza Group AG",
+    "symbol": "SREN.SW",
+    "name": "Swiss Re AG",
     "sector": null,
     "region": "EU",
     "index": [
@@ -13336,15 +13363,6 @@
    {
     "symbol": "GIVN.SW",
     "name": "Givaudan SA",
-    "sector": null,
-    "region": "EU",
-    "index": [
-     "Yahoo-Screener CH"
-    ]
-   },
-   {
-    "symbol": "MBG.SW",
-    "name": "Mercedes-Benz Group AG",
     "sector": null,
     "region": "EU",
     "index": [
@@ -13431,18 +13449,9 @@
     "index": [
      "Yahoo-Screener CH"
     ]
-   },
-   {
-    "symbol": "KNIN.SW",
-    "name": "Kuehne + Nagel International AG",
-    "sector": null,
-    "region": "EU",
-    "index": [
-     "Yahoo-Screener CH"
-    ]
    }
   ],
-  "as_of": "2026-11-03",
+  "as_of": "2026-11-04",
   "source": "Yahoo Screener"
  },
  "Screener GB": {
@@ -13574,8 +13583,8 @@
     ]
    },
    {
-    "symbol": "GLEN.L",
-    "name": "Glencore plc",
+    "symbol": "BA.L",
+    "name": "BAE Systems plc",
     "sector": null,
     "region": "EU",
     "index": [
@@ -13583,8 +13592,8 @@
     ]
    },
    {
-    "symbol": "BA.L",
-    "name": "BAE Systems plc",
+    "symbol": "GLEN.L",
+    "name": "Glencore plc",
     "sector": null,
     "region": "EU",
     "index": [
@@ -13664,15 +13673,6 @@
     ]
    },
    {
-    "symbol": "AAL.L",
-    "name": "Anglo American plc",
-    "sector": null,
-    "region": "EU",
-    "index": [
-     "Yahoo-Screener GB"
-    ]
-   },
-   {
     "symbol": "WPM.L",
     "name": "Wheaton Precious Metals Corp.",
     "sector": null,
@@ -13682,8 +13682,8 @@
     ]
    },
    {
-    "symbol": "DGE.L",
-    "name": "Diageo plc",
+    "symbol": "AAL.L",
+    "name": "Anglo American plc",
     "sector": null,
     "region": "EU",
     "index": [
@@ -13693,6 +13693,15 @@
    {
     "symbol": "SANB.L",
     "name": "Santander UK plc",
+    "sector": null,
+    "region": "EU",
+    "index": [
+     "Yahoo-Screener GB"
+    ]
+   },
+   {
+    "symbol": "DGE.L",
+    "name": "Diageo plc",
     "sector": null,
     "region": "EU",
     "index": [
@@ -13754,8 +13763,8 @@
     ]
    },
    {
-    "symbol": "ANTO.L",
-    "name": "Antofagasta plc",
+    "symbol": "SSE.L",
+    "name": "SSE plc",
     "sector": null,
     "region": "EU",
     "index": [
@@ -13763,8 +13772,8 @@
     ]
    },
    {
-    "symbol": "SSE.L",
-    "name": "SSE plc",
+    "symbol": "ANTO.L",
+    "name": "Antofagasta plc",
     "sector": null,
     "region": "EU",
     "index": [
@@ -13799,8 +13808,8 @@
     ]
    },
    {
-    "symbol": "SUNB.L",
-    "name": "Sunbelt Rentals Holdings, Inc.",
+    "symbol": "III.L",
+    "name": "3i Group Ord",
     "sector": null,
     "region": "EU",
     "index": [
@@ -13808,8 +13817,8 @@
     ]
    },
    {
-    "symbol": "III.L",
-    "name": "3i Group plc",
+    "symbol": "SUNB.L",
+    "name": "Sunbelt Rentals Holdings, Inc.",
     "sector": null,
     "region": "EU",
     "index": [
@@ -13853,8 +13862,8 @@
     ]
    },
    {
-    "symbol": "AIBG.L",
-    "name": "AIB Group plc",
+    "symbol": "0SPC.L",
+    "name": "Space Exploration Technologies Corp.",
     "sector": null,
     "region": "EU",
     "index": [
@@ -13862,8 +13871,8 @@
     ]
    },
    {
-    "symbol": "0SPC.L",
-    "name": "Space Exploration Technologies Corp.",
+    "symbol": "AIBG.L",
+    "name": "AIB Group plc",
     "sector": null,
     "region": "EU",
     "index": [
@@ -13880,8 +13889,8 @@
     ]
    },
    {
-    "symbol": "NXT.L",
-    "name": "NEXT plc",
+    "symbol": "CCH.L",
+    "name": "Coca-Cola HBC AG",
     "sector": null,
     "region": "EU",
     "index": [
@@ -13889,8 +13898,8 @@
     ]
    },
    {
-    "symbol": "CCH.L",
-    "name": "Coca-Cola HBC AG",
+    "symbol": "NXT.L",
+    "name": "NEXT plc",
     "sector": null,
     "region": "EU",
     "index": [
@@ -13908,7 +13917,7 @@
    },
    {
     "symbol": "SMT.L",
-    "name": "Scottish Mortgage Investment Trust PLC",
+    "name": "Scottish Mortgage Ord",
     "sector": null,
     "region": "EU",
     "index": [
@@ -14015,8 +14024,8 @@
     ]
    },
    {
-    "symbol": "S32.L",
-    "name": "South32 Limited",
+    "symbol": "0R1W.L",
+    "name": "Walmart Inc.",
     "sector": null,
     "region": "EU",
     "index": [
@@ -14024,8 +14033,8 @@
     ]
    },
    {
-    "symbol": "0R1W.L",
-    "name": "Walmart Inc.",
+    "symbol": "S32.L",
+    "name": "South32 Limited",
     "sector": null,
     "region": "EU",
     "index": [
@@ -14069,15 +14078,6 @@
     ]
    },
    {
-    "symbol": "SDLF.L",
-    "name": "Standard Life plc",
-    "sector": null,
-    "region": "EU",
-    "index": [
-     "Yahoo-Screener GB"
-    ]
-   },
-   {
     "symbol": "SN.L",
     "name": "Smith & Nephew plc",
     "sector": null,
@@ -14087,8 +14087,8 @@
     ]
    },
    {
-    "symbol": "MICC.L",
-    "name": "The Magnum Ice Cream Company N.V.",
+    "symbol": "SDLF.L",
+    "name": "Standard Life plc",
     "sector": null,
     "region": "EU",
     "index": [
@@ -14114,8 +14114,8 @@
     ]
    },
    {
-    "symbol": "EDV.L",
-    "name": "Endeavour Mining plc",
+    "symbol": "MICC.L",
+    "name": "The Magnum Ice Cream Company N.V.",
     "sector": null,
     "region": "EU",
     "index": [
@@ -14125,6 +14125,15 @@
    {
     "symbol": "MKS.L",
     "name": "Marks and Spencer Group plc",
+    "sector": null,
+    "region": "EU",
+    "index": [
+     "Yahoo-Screener GB"
+    ]
+   },
+   {
+    "symbol": "EDV.L",
+    "name": "Endeavour Mining plc",
     "sector": null,
     "region": "EU",
     "index": [
@@ -14150,6 +14159,15 @@
     ]
    },
    {
+    "symbol": "MNG.L",
+    "name": "M&G plc",
+    "sector": null,
+    "region": "EU",
+    "index": [
+     "Yahoo-Screener GB"
+    ]
+   },
+   {
     "symbol": "PSON.L",
     "name": "Pearson plc",
     "sector": null,
@@ -14161,15 +14179,6 @@
    {
     "symbol": "0R1M.L",
     "name": "ExxonMobil Holdings Corporation",
-    "sector": null,
-    "region": "EU",
-    "index": [
-     "Yahoo-Screener GB"
-    ]
-   },
-   {
-    "symbol": "MNG.L",
-    "name": "M&G plc",
     "sector": null,
     "region": "EU",
     "index": [
@@ -14232,7 +14241,7 @@
    },
    {
     "symbol": "PCT.L",
-    "name": "Polar Capital Technology Trust plc",
+    "name": "Polar Capital Technology Ord",
     "sector": null,
     "region": "EU",
     "index": [
@@ -14250,7 +14259,7 @@
    },
    {
     "symbol": "FCIT.L",
-    "name": "F&C Investment Trust PLC",
+    "name": "F&C Investment Trust Ord",
     "sector": null,
     "region": "EU",
     "index": [
@@ -14276,17 +14285,8 @@
     ]
    },
    {
-    "symbol": "KGF.L",
-    "name": "Kingfisher plc",
-    "sector": null,
-    "region": "EU",
-    "index": [
-     "Yahoo-Screener GB"
-    ]
-   },
-   {
-    "symbol": "0R2Z.L",
-    "name": "Mastercard Incorporated",
+    "symbol": "HSX.L",
+    "name": "Hiscox Ltd",
     "sector": null,
     "region": "EU",
     "index": [
@@ -14303,8 +14303,17 @@
     ]
    },
    {
-    "symbol": "HSX.L",
-    "name": "Hiscox Ltd",
+    "symbol": "0R2Z.L",
+    "name": "Mastercard Incorporated",
+    "sector": null,
+    "region": "EU",
+    "index": [
+     "Yahoo-Screener GB"
+    ]
+   },
+   {
+    "symbol": "KGF.L",
+    "name": "Kingfisher plc",
     "sector": null,
     "region": "EU",
     "index": [
@@ -14321,8 +14330,8 @@
     ]
    },
    {
-    "symbol": "SPX.L",
-    "name": "Spirax Group plc",
+    "symbol": "ICG.L",
+    "name": "ICG plc",
     "sector": null,
     "region": "EU",
     "index": [
@@ -14330,8 +14339,8 @@
     ]
    },
    {
-    "symbol": "ICG.L",
-    "name": "ICG plc",
+    "symbol": "SPX.L",
+    "name": "Spirax Group plc",
     "sector": null,
     "region": "EU",
     "index": [
@@ -14348,26 +14357,17 @@
     ]
    },
    {
-    "symbol": "STJ.L",
-    "name": "St. James's Place plc",
-    "sector": null,
-    "region": "EU",
-    "index": [
-     "Yahoo-Screener GB"
-    ]
-   },
-   {
-    "symbol": "GAW.L",
-    "name": "Games Workshop Group PLC",
-    "sector": null,
-    "region": "EU",
-    "index": [
-     "Yahoo-Screener GB"
-    ]
-   },
-   {
     "symbol": "SEPL.L",
     "name": "Seplat Energy Plc",
+    "sector": null,
+    "region": "EU",
+    "index": [
+     "Yahoo-Screener GB"
+    ]
+   },
+   {
+    "symbol": "STJ.L",
+    "name": "St. James's Place plc",
     "sector": null,
     "region": "EU",
     "index": [
@@ -14384,8 +14384,8 @@
     ]
    },
    {
-    "symbol": "EZJ.L",
-    "name": "easyJet plc",
+    "symbol": "GAW.L",
+    "name": "Games Workshop Group PLC",
     "sector": null,
     "region": "EU",
     "index": [
@@ -14395,6 +14395,15 @@
    {
     "symbol": "BAB.L",
     "name": "Babcock International Group PLC",
+    "sector": null,
+    "region": "EU",
+    "index": [
+     "Yahoo-Screener GB"
+    ]
+   },
+   {
+    "symbol": "EZJ.L",
+    "name": "easyJet plc",
     "sector": null,
     "region": "EU",
     "index": [
@@ -14412,25 +14421,7 @@
    },
    {
     "symbol": "ALW.L",
-    "name": "Alliance Witan Plc",
-    "sector": null,
-    "region": "EU",
-    "index": [
-     "Yahoo-Screener GB"
-    ]
-   },
-   {
-    "symbol": "ITH.L",
-    "name": "Ithaca Energy plc",
-    "sector": null,
-    "region": "EU",
-    "index": [
-     "Yahoo-Screener GB"
-    ]
-   },
-   {
-    "symbol": "CTEC.L",
-    "name": "Convatec Group PLC",
+    "name": "Alliance Witan Ord",
     "sector": null,
     "region": "EU",
     "index": [
@@ -14447,8 +14438,8 @@
     ]
    },
    {
-    "symbol": "LMP.L",
-    "name": "LondonMetric Property Plc",
+    "symbol": "CTEC.L",
+    "name": "Convatec Group PLC",
     "sector": null,
     "region": "EU",
     "index": [
@@ -14456,8 +14447,17 @@
     ]
    },
    {
-    "symbol": "BTRW.L",
-    "name": "Barratt Redrow plc",
+    "symbol": "ITH.L",
+    "name": "Ithaca Energy plc",
+    "sector": null,
+    "region": "EU",
+    "index": [
+     "Yahoo-Screener GB"
+    ]
+   },
+   {
+    "symbol": "LMP.L",
+    "name": "LondonMetric Property Plc",
     "sector": null,
     "region": "EU",
     "index": [
@@ -14483,8 +14483,8 @@
     ]
    },
    {
-    "symbol": "JD.L",
-    "name": "JD Sports Fashion Plc",
+    "symbol": "WPP.L",
+    "name": "WPP plc",
     "sector": null,
     "region": "EU",
     "index": [
@@ -14501,8 +14501,26 @@
     ]
    },
    {
-    "symbol": "WPP.L",
-    "name": "WPP plc",
+    "symbol": "JD.L",
+    "name": "JD Sports Fashion Plc",
+    "sector": null,
+    "region": "EU",
+    "index": [
+     "Yahoo-Screener GB"
+    ]
+   },
+   {
+    "symbol": "BTRW.L",
+    "name": "Barratt Redrow plc",
+    "sector": null,
+    "region": "EU",
+    "index": [
+     "Yahoo-Screener GB"
+    ]
+   },
+   {
+    "symbol": "BBOX.L",
+    "name": "Tritax Big Box Ord",
     "sector": null,
     "region": "EU",
     "index": [
@@ -14519,8 +14537,8 @@
     ]
    },
    {
-    "symbol": "BBOX.L",
-    "name": "Tritax Big Box REIT plc",
+    "symbol": "AUTO.L",
+    "name": "Autotrader Group plc",
     "sector": null,
     "region": "EU",
     "index": [
@@ -14528,8 +14546,8 @@
     ]
    },
    {
-    "symbol": "AUTO.L",
-    "name": "Autotrader Group plc",
+    "symbol": "0R0K.L",
+    "name": "Cisco Systems, Inc.",
     "sector": null,
     "region": "EU",
     "index": [
@@ -14564,17 +14582,8 @@
     ]
    },
    {
-    "symbol": "0R0K.L",
-    "name": "Cisco Systems, Inc.",
-    "sector": null,
-    "region": "EU",
-    "index": [
-     "Yahoo-Screener GB"
-    ]
-   },
-   {
-    "symbol": "ABDN.L",
-    "name": "Aberdeen Group Plc",
+    "symbol": "ZEG.L",
+    "name": "Zegona Communications plc",
     "sector": null,
     "region": "EU",
     "index": [
@@ -14591,35 +14600,17 @@
     ]
    },
    {
+    "symbol": "ABDN.L",
+    "name": "Aberdeen Group Plc",
+    "sector": null,
+    "region": "EU",
+    "index": [
+     "Yahoo-Screener GB"
+    ]
+   },
+   {
     "symbol": "0R2Q.L",
     "name": "Chevron Corporation",
-    "sector": null,
-    "region": "EU",
-    "index": [
-     "Yahoo-Screener GB"
-    ]
-   },
-   {
-    "symbol": "ZEG.L",
-    "name": "Zegona Communications plc",
-    "sector": null,
-    "region": "EU",
-    "index": [
-     "Yahoo-Screener GB"
-    ]
-   },
-   {
-    "symbol": "FRAS.L",
-    "name": "Frasers Group Plc",
-    "sector": null,
-    "region": "EU",
-    "index": [
-     "Yahoo-Screener GB"
-    ]
-   },
-   {
-    "symbol": "0NOF.L",
-    "name": "The Procter & Gamble Company",
     "sector": null,
     "region": "EU",
     "index": [
@@ -14636,8 +14627,35 @@
     ]
    },
    {
+    "symbol": "RSW.L",
+    "name": "Renishaw plc",
+    "sector": null,
+    "region": "EU",
+    "index": [
+     "Yahoo-Screener GB"
+    ]
+   },
+   {
+    "symbol": "FRAS.L",
+    "name": "Frasers Group Plc",
+    "sector": null,
+    "region": "EU",
+    "index": [
+     "Yahoo-Screener GB"
+    ]
+   },
+   {
     "symbol": "BRBY.L",
     "name": "Burberry Group plc",
+    "sector": null,
+    "region": "EU",
+    "index": [
+     "Yahoo-Screener GB"
+    ]
+   },
+   {
+    "symbol": "0NOF.L",
+    "name": "The Procter & Gamble Company",
     "sector": null,
     "region": "EU",
     "index": [
@@ -14654,35 +14672,8 @@
     ]
    },
    {
-    "symbol": "BPT.L",
-    "name": "Bridgepoint Group plc",
-    "sector": null,
-    "region": "EU",
-    "index": [
-     "Yahoo-Screener GB"
-    ]
-   },
-   {
-    "symbol": "RSW.L",
-    "name": "Renishaw plc",
-    "sector": null,
-    "region": "EU",
-    "index": [
-     "Yahoo-Screener GB"
-    ]
-   },
-   {
     "symbol": "0Q16.L",
     "name": "Bank of America Corporation",
-    "sector": null,
-    "region": "EU",
-    "index": [
-     "Yahoo-Screener GB"
-    ]
-   },
-   {
-    "symbol": "0QAH.L",
-    "name": "Merck & Co., Inc.",
     "sector": null,
     "region": "EU",
     "index": [
@@ -14699,8 +14690,26 @@
     ]
    },
    {
-    "symbol": "0K9E.L",
-    "name": "Novartis AG",
+    "symbol": "0R0O.L",
+    "name": "UnitedHealth Group Incorporated",
+    "sector": null,
+    "region": "EU",
+    "index": [
+     "Yahoo-Screener GB"
+    ]
+   },
+   {
+    "symbol": "BPT.L",
+    "name": "Bridgepoint Group plc",
+    "sector": null,
+    "region": "EU",
+    "index": [
+     "Yahoo-Screener GB"
+    ]
+   },
+   {
+    "symbol": "3IN.L",
+    "name": "3i Infrastructure plc",
     "sector": null,
     "region": "EU",
     "index": [
@@ -14708,7 +14717,7 @@
     ]
    }
   ],
-  "as_of": "2026-11-03",
+  "as_of": "2026-11-04",
   "source": "Yahoo Screener"
  },
  "Screener SE": {
@@ -14804,8 +14813,8 @@
     ]
    },
    {
-    "symbol": "ERIC-A.ST",
-    "name": "Telefonaktiebolaget LM Ericsson (publ)",
+    "symbol": "SAAB-B.ST",
+    "name": "Saab AB (publ)",
     "sector": null,
     "region": "EU",
     "index": [
@@ -14813,8 +14822,8 @@
     ]
    },
    {
-    "symbol": "SAAB-B.ST",
-    "name": "Saab AB (publ)",
+    "symbol": "ERIC-A.ST",
+    "name": "Telefonaktiebolaget LM Ericsson (publ)",
     "sector": null,
     "region": "EU",
     "index": [
@@ -14930,8 +14939,8 @@
     ]
    },
    {
-    "symbol": "BOL.ST",
-    "name": "Boliden AB (publ)",
+    "symbol": "LATO-B.ST",
+    "name": "Investment AB Latour (publ)",
     "sector": null,
     "region": "EU",
     "index": [
@@ -14948,8 +14957,8 @@
     ]
    },
    {
-    "symbol": "LATO-B.ST",
-    "name": "Investment AB Latour (publ)",
+    "symbol": "BOL.ST",
+    "name": "Boliden AB (publ)",
     "sector": null,
     "region": "EU",
     "index": [
@@ -14957,8 +14966,8 @@
     ]
    },
    {
-    "symbol": "SKF-A.ST",
-    "name": "AB SKF (publ)",
+    "symbol": "LIFCO-B.ST",
+    "name": "Lifco AB (publ)",
     "sector": null,
     "region": "EU",
     "index": [
@@ -14975,8 +14984,8 @@
     ]
    },
    {
-    "symbol": "LIFCO-B.ST",
-    "name": "Lifco AB (publ)",
+    "symbol": "SKF-A.ST",
+    "name": "AB SKF (publ)",
     "sector": null,
     "region": "EU",
     "index": [
@@ -15083,7 +15092,7 @@
     ]
    },
    {
-    "symbol": "SAGA-B.ST",
+    "symbol": "SAGA-A.ST",
     "name": "AB Sagax (publ)",
     "sector": null,
     "region": "EU",
@@ -15092,7 +15101,7 @@
     ]
    },
    {
-    "symbol": "SAGA-A.ST",
+    "symbol": "SAGA-B.ST",
     "name": "AB Sagax (publ)",
     "sector": null,
     "region": "EU",
@@ -15227,8 +15236,8 @@
     ]
    },
    {
-    "symbol": "AAK.ST",
-    "name": "AAK AB (publ.)",
+    "symbol": "HOLM-B.ST",
+    "name": "Holmen AB (publ)",
     "sector": null,
     "region": "EU",
     "index": [
@@ -15236,8 +15245,8 @@
     ]
    },
    {
-    "symbol": "HOLM-B.ST",
-    "name": "Holmen AB (publ)",
+    "symbol": "AAK.ST",
+    "name": "AAK AB (publ.)",
     "sector": null,
     "region": "EU",
     "index": [
@@ -15254,7 +15263,7 @@
     ]
    }
   ],
-  "as_of": "2026-11-03",
+  "as_of": "2026-11-04",
   "source": "Yahoo Screener"
  },
  "Screener DK": {
@@ -15341,8 +15350,8 @@
     ]
    },
    {
-    "symbol": "ALSYDB.CO",
-    "name": "AL Sydbank A/S",
+    "symbol": "JYSK.CO",
+    "name": "Jyske Bank A/S",
     "sector": null,
     "region": "EU",
     "index": [
@@ -15350,8 +15359,8 @@
     ]
    },
    {
-    "symbol": "JYSK.CO",
-    "name": "Jyske Bank A/S",
+    "symbol": "ALSYDB.CO",
+    "name": "AL Sydbank A/S",
     "sector": null,
     "region": "EU",
     "index": [
@@ -15386,8 +15395,8 @@
     ]
    },
    {
-    "symbol": "KBHL.CO",
-    "name": "Københavns Lufthavne A/S",
+    "symbol": "ISS.CO",
+    "name": "ISS A/S",
     "sector": null,
     "region": "EU",
     "index": [
@@ -15395,8 +15404,8 @@
     ]
    },
    {
-    "symbol": "ISS.CO",
-    "name": "ISS A/S",
+    "symbol": "KBHL.CO",
+    "name": "Københavns Lufthavne A/S",
     "sector": null,
     "region": "EU",
     "index": [
@@ -15422,7 +15431,7 @@
     ]
    }
   ],
-  "as_of": "2026-11-03",
+  "as_of": "2026-11-04",
   "source": "Yahoo Screener"
  },
  "Screener NO": {
@@ -15527,7 +15536,7 @@
     ]
    }
   ],
-  "as_of": "2026-11-03",
+  "as_of": "2026-11-04",
   "source": "Yahoo Screener"
  },
  "Nasdaq 100": {
@@ -16442,7 +16451,7 @@
     ]
    }
   ],
-  "as_of": "2026-11-03",
+  "as_of": "2026-11-04",
   "source": "Nasdaq.com"
  }
 }
