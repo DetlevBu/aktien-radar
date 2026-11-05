@@ -1,0 +1,107 @@
+{
+ "date": "2026-11-05",
+ "top": [
+  {
+   "symbol": "SNDK",
+   "name": "Sandisk Corporation",
+   "price": 1037.4000244140625,
+   "price_date": "2026-11-04",
+   "score": 0.5421893060639511,
+   "currency": "USD"
+  },
+  {
+   "symbol": "MSTR",
+   "name": "Strategy Inc",
+   "price": 142.5399932861328,
+   "price_date": "2026-11-04",
+   "score": 0.5041133166089233,
+   "currency": "USD"
+  },
+  {
+   "symbol": "AXON",
+   "name": "Axon Enterprise, Inc.",
+   "price": 424.17999267578125,
+   "price_date": "2026-11-04",
+   "score": 0.48351241049265437,
+   "currency": "USD"
+  },
+  {
+   "symbol": "ALAB",
+   "name": "Astera Labs, Inc.",
+   "price": 223.27000427246094,
+   "price_date": "2026-11-04",
+   "score": 0.4806273143375091,
+   "currency": "USD"
+  },
+  {
+   "symbol": "FN",
+   "name": "Fabrinet",
+   "price": 341.6400146484375,
+   "price_date": "2026-11-04",
+   "score": 0.46888889102937514,
+   "currency": "USD"
+  },
+  {
+   "symbol": "APP",
+   "name": "AppLovin Corporation",
+   "price": 271.75,
+   "price_date": "2026-11-04",
+   "score": 0.46573580816371096,
+   "currency": "USD"
+  },
+  {
+   "symbol": "SMTC",
+   "name": "Semtech Corporation",
+   "price": 110.95999908447266,
+   "price_date": "2026-11-04",
+   "score": 0.4653591302744584,
+   "currency": "USD"
+  },
+  {
+   "symbol": "BE",
+   "name": "Bloom Energy Corporation",
+   "price": 200.39999389648438,
+   "price_date": "2026-11-04",
+   "score": 0.4635620709289501,
+   "currency": "USD"
+  },
+  {
+   "symbol": "CAVA",
+   "name": "CAVA Group, Inc.",
+   "price": 61.97999954223633,
+   "price_date": "2026-11-04",
+   "score": 0.45633761283754526,
+   "currency": "USD"
+  },
+  {
+   "symbol": "COHR",
+   "name": "Coherent Corp.",
+   "price": 195.08999633789062,
+   "price_date": "2026-11-04",
+   "score": 0.4543754228237991,
+   "currency": "USD"
+  }
+ ],
+ "watch": [
+  "SITM",
+  "VRT",
+  "CELH",
+  "DOCN",
+  "LITE",
+  "FIX",
+  "GEV",
+  "ARM",
+  "MPWR",
+  "CRWV",
+  "TLN",
+  "ATI",
+  "TPR",
+  "NXT",
+  "HOOD",
+  "MRVL",
+  "ARWR",
+  "FLEX",
+  "DDOG",
+  "FORM"
+ ]
+}
