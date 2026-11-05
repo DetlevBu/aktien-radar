@@ -2,8 +2,6 @@
 
 - Yahoo Finance: Analysten-Konsens, Kursziele, Kennzahlen, Profil, News, Termine
 - Finnhub: Empfehlungstrend der Analysten, News, Insidergeschäfte, Earnings-Termin
-- Financial Modeling Prep (FMP): Kursziel-Konsens, Analysten-Ratings
-- Alpha Vantage: News-Stimmung (Sentiment-Score)
 - SEC EDGAR: Anzahl gemeldeter Insider-Formulare (Form 4)
 """
 from __future__ import annotations
@@ -191,78 +189,6 @@ class Finnhub:
             if s and s not in cal:
                 cal[s] = e.get("date")
         return cal
-
-
-# ------------------------------------------------------------------- FMP ---
-_FMP_FAILS = {"n": 0, "ok": 0}
-
-
-def fmp_details(symbol):
-    """FMP: Im Gratis-Tarif sind viele Endpunkte gesperrt (HTTP 402). Nach drei
-    Fehlschlägen ohne Erfolg wird FMP für den Rest des Laufs ausgelassen."""
-    if not C.FMP_KEY or not is_us(symbol):
-        return {}
-    if LOG.is_disabled("Financial Modeling Prep"):
-        return {}
-    LOG.describe("Financial Modeling Prep", "Kursziel-Konsens, Analysten-Rating-Konsens")
-    sym = symbol.replace("-", ".") if is_us(symbol) else symbol
-    out = {}
-    pt = http_get("https://financialmodelingprep.com/stable/price-target-consensus",
-                  "Financial Modeling Prep", params={"symbol": sym, "apikey": C.FMP_KEY},
-                  retries=1)
-    if isinstance(pt, list) and pt:
-        p = pt[0]
-        _FMP_FAILS["ok"] += 1
-        out["fmp_target"] = {"consensus": num(p.get("targetConsensus")),
-                             "median": num(p.get("targetMedian")),
-                             "high": num(p.get("targetHigh")), "low": num(p.get("targetLow"))}
-    gc = http_get("https://financialmodelingprep.com/stable/grades-consensus",
-                  "Financial Modeling Prep", params={"symbol": sym, "apikey": C.FMP_KEY},
-                  retries=1)
-    if not out.get("fmp_target"):
-        _FMP_FAILS["n"] += 1
-        notes = LOG.entries.get("Financial Modeling Prep", {}).get("notes", [])
-        if _FMP_FAILS["ok"] == 0 and (any("402" in x for x in notes) or _FMP_FAILS["n"] >= 2):
-            LOG.disable("Financial Modeling Prep",
-                        "Im Gratis-Tarif gesperrt (HTTP 402). Für heute abgeschaltet; wird täglich neu geprüft.")
-    if isinstance(gc, list) and gc:
-        _FMP_FAILS["ok"] += 1
-        g = gc[0]
-        out["fmp_grades"] = {k: g.get(k) for k in
-                             ("strongBuy", "buy", "hold", "sell", "strongSell", "consensus")}
-    return out
-
-
-# ----------------------------------------------------------- Alpha Vantage -
-def alphavantage_sentiment(symbol):
-    if not C.ALPHAVANTAGE_KEY or not is_us(symbol) or LOG.is_disabled("Alpha Vantage"):
-        return {}
-    LOG.describe("Alpha Vantage", "News-Stimmung (Sentiment) der letzten Artikel, US-Werte")
-    time.sleep(2.0)  # Gratis-Tarif: max. 1 Abruf pro Sekunde
-    res = http_get("https://www.alphavantage.co/query", "Alpha Vantage",
-                   params={"function": "NEWS_SENTIMENT", "tickers": symbol,
-                           "limit": 50, "apikey": C.ALPHAVANTAGE_KEY}, retries=0)
-    if not res or "feed" not in res:
-        if res:
-            msg = res.get("Information") or res.get("Note") or "keine Daten"
-            if "premium" in msg.lower():
-                LOG.disable("Alpha Vantage", "News-Stimmung ist nur noch im Bezahl-Tarif verfügbar. "
-                            "Für heute abgeschaltet; wird täglich neu geprüft.")
-            elif "rate limit" in msg.lower() or "25 requests" in msg.lower():
-                LOG.disable("Alpha Vantage", "Tageskontingent des Gratis-Tarifs aufgebraucht.")
-            else:
-                LOG.fail("Alpha Vantage", msg[:150])
-        return {}
-    scores = []
-    for a in res["feed"]:
-        for ts in a.get("ticker_sentiment", []):
-            if ts.get("ticker") == symbol and num(ts.get("relevance_score")) and \
-                    num(ts["relevance_score"]) >= 0.3:
-                scores.append(num(ts.get("ticker_sentiment_score")))
-    scores = [s for s in scores if s is not None]
-    if not scores:
-        return {"av_sentiment": None, "av_articles": len(res["feed"])}
-    return {"av_sentiment": sum(scores) / len(scores), "av_articles": len(scores)}
 
 
 # -------------------------------------------------------------------- SEC --

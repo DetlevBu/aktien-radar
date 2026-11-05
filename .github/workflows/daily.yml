@@ -76,8 +76,6 @@ jobs:
         if: steps.guard.outputs.mode == 'full'
         env:
           FINNHUB_KEY: ${{ secrets.FINNHUB_KEY }}
-          FMP_KEY: ${{ secrets.FMP_KEY }}
-          ALPHAVANTAGE_KEY: ${{ secrets.ALPHAVANTAGE_KEY }}
           FRED_KEY: ${{ secrets.FRED_KEY }}
           SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
         run: |

@@ -144,10 +144,6 @@ def main():
         if not C.SYNTHETIC:
             d.update(F.yahoo_details(s))
             d.update(fh.details(s))
-            if i < C.FMP_MAX_SYMBOLS:
-                d.update(F.fmp_details(s))
-            if i < min(C.TOP_N, C.ALPHAVANTAGE_MAX_CALLS):
-                d.update(F.alphavantage_sentiment(s))
             d.update(F.sec_form4_count(s))
             if len(d.get("news") or []) + len(d.get("news_fh") or []) < 3:
                 d["news_g"] = F.google_news(c["name"], c["region"])

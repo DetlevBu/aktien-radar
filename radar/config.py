@@ -32,15 +32,11 @@ MIN_TARGET_UPSIDE = 0.20          # Konsens-Kursziel mind. 20 % über Kurs
 
 # --- API-Schlüssel (aus GitHub Secrets) ----------------------------------
 FINNHUB_KEY = os.getenv("FINNHUB_KEY", "")
-FMP_KEY = os.getenv("FMP_KEY", "")
-ALPHAVANTAGE_KEY = os.getenv("ALPHAVANTAGE_KEY", "")
 FRED_KEY = os.getenv("FRED_KEY", "")
 SEC_USER_AGENT = os.getenv("SEC_USER_AGENT", "")
 
 # Gratis-Kontingente schonen
 FINNHUB_MAX_CALLS = 55            # pro Minute erlaubt: 60
-FMP_MAX_SYMBOLS = 30              # Gratis: 250 Abrufe/Tag
-ALPHAVANTAGE_MAX_CALLS = 12       # Gratis: 25 Abrufe/Tag
 
 # Für Tests ohne Internet: RADAR_SYNTHETIC=1
 SYNTHETIC = os.getenv("RADAR_SYNTHETIC") == "1"

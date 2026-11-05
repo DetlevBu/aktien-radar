@@ -240,10 +240,6 @@ def detail(c):
     if tr:
         ana.append(f"<p class='small'>Kauf-Anteil laut Finnhub: {pct(tr['now_buy_share'], 0)} heute vs. "
                    f"{pct(tr['3m_ago_buy_share'], 0)} ({E(str(tr.get('period_old')))}).</p>")
-    fmp = d.get("fmp_target")
-    if fmp:
-        ana.append(f"<p class='small'>Zweitquelle FMP: Kursziel-Konsens {price(fmp.get('consensus'), cur)} "
-                   f"(Spanne {price(fmp.get('low'), cur)} – {price(fmp.get('high'), cur)}).</p>")
     rc = d.get("rating_changes_90d")
     if rc:
         ana.append(f"<p class='small'>Rating-Änderungen 90 Tage: {rc['up']} Hochstufungen, "
@@ -296,10 +292,6 @@ def detail(c):
     if d.get("sec_form4_90d") is not None:
         kz.append(("Insider-Meldungen SEC Form 4 (90 T.)",
                    f"<a href='{E(d['sec_url'])}' target='_blank' rel='noopener'>{d['sec_form4_90d']}</a>"))
-    if "av_sentiment" in d:
-        s = d.get("av_sentiment")
-        kz.append(("News-Stimmung Alpha Vantage (−1 … +1)",
-                   (n(s, 2) + f" <span class='small'>({d.get('av_articles')} Artikel)</span>") if s is not None else NA))
     kzh = "<h4>Kennzahlen</h4><dl class='kv'>" + "".join(f"<dt>{k}</dt><dd>{v}</dd>" for k, v in kz) + "</dl>"
 
     summ = inf.get("longBusinessSummary")
@@ -617,7 +609,6 @@ einstelligen Prozentbereich (siehe Backtest).</li></ol>
 <dt>Burggraben (Moat)</dt><dd style="text-align:left">Dauerhafter Wettbewerbsvorteil, der Konkurrenten fernhält (z. B. Marke, Technologie, Kostenvorteil). Begriff von Fair Value Calculator.</dd>
 <dt>Fairer Wert</dt><dd style="text-align:left">Geschätzter innerer Wert je Aktie aus Bewertungsmodellen (z. B. abgezinste Cashflows, Multiplikatoren). Liegt er über dem Kurs, gilt die Aktie als unterbewertet.</dd>
 <dt>Form 4</dt><dd style="text-align:left">Pflichtmeldung bei der US-Börsenaufsicht SEC, wenn Insider Aktien kaufen oder verkaufen.</dd>
-<dt>Sentiment-Score</dt><dd style="text-align:left">Stimmung in Nachrichtenartikeln, −1 sehr negativ bis +1 sehr positiv (Alpha Vantage).</dd>
 </dl></details></section>
 
 <section id="sources"><h2>Datenquellen heute</h2>
