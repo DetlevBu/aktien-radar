@@ -1,0 +1,107 @@
+{
+ "date": "2026-11-06",
+ "top": [
+  {
+   "symbol": "MSTR",
+   "name": "Strategy Inc",
+   "price": 129.3000030517578,
+   "price_date": "2026-11-05",
+   "score": 0.5091807743487097,
+   "currency": "USD"
+  },
+  {
+   "symbol": "ALAB",
+   "name": "Astera Labs, Inc.",
+   "price": 179.47000122070312,
+   "price_date": "2026-11-05",
+   "score": 0.4981890108216051,
+   "currency": "USD"
+  },
+  {
+   "symbol": "SMTC",
+   "name": "Semtech Corporation",
+   "price": 91.54000091552734,
+   "price_date": "2026-11-05",
+   "score": 0.4746113654986218,
+   "currency": "USD"
+  },
+  {
+   "symbol": "NXT",
+   "name": "Nextpower Inc.",
+   "price": 99.58000183105469,
+   "price_date": "2026-11-05",
+   "score": 0.47451137851308717,
+   "currency": "USD"
+  },
+  {
+   "symbol": "ARM",
+   "name": "Arm Holdings plc",
+   "price": 166.72000122070312,
+   "price_date": "2026-11-05",
+   "score": 0.459164390697086,
+   "currency": "USD"
+  },
+  {
+   "symbol": "COHR",
+   "name": "Coherent Corp.",
+   "price": 169.75999450683594,
+   "price_date": "2026-11-05",
+   "score": 0.4576783265945322,
+   "currency": "USD"
+  },
+  {
+   "symbol": "SITM",
+   "name": "SiTime Corporation",
+   "price": 355.0,
+   "price_date": "2026-11-05",
+   "score": 0.45709687778315883,
+   "currency": "USD"
+  },
+  {
+   "symbol": "BE",
+   "name": "Bloom Energy Corporation",
+   "price": 167.52000427246094,
+   "price_date": "2026-11-05",
+   "score": 0.4555027777984188,
+   "currency": "USD"
+  },
+  {
+   "symbol": "P",
+   "name": "Everpure, Inc.",
+   "price": 93.44000244140625,
+   "price_date": "2026-11-05",
+   "score": 0.4522676381891817,
+   "currency": "USD"
+  },
+  {
+   "symbol": "APP",
+   "name": "AppLovin Corporation",
+   "price": 356.1000061035156,
+   "price_date": "2026-11-05",
+   "score": 0.4514471164182283,
+   "currency": "USD"
+  }
+ ],
+ "watch": [
+  "CELH",
+  "FIX",
+  "DOCN",
+  "LSCC",
+  "LITE",
+  "ATI",
+  "CAVA",
+  "HOOD",
+  "FN",
+  "RRX",
+  "TLN",
+  "MRVL",
+  "FLEX",
+  "VRT",
+  "GEV",
+  "MTSI",
+  "DDOG",
+  "FORM",
+  "HL",
+  "RDDT"
+ ]
+}
