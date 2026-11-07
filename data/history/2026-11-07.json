@@ -1,0 +1,107 @@
+{
+ "date": "2026-11-07",
+ "top": [
+  {
+   "symbol": "SNDK",
+   "name": "Sandisk Corporation",
+   "price": 835.0599975585938,
+   "price_date": "2026-11-06",
+   "score": 0.5542366720827656,
+   "currency": "USD"
+  },
+  {
+   "symbol": "FN",
+   "name": "Fabrinet",
+   "price": 327.1300048828125,
+   "price_date": "2026-11-06",
+   "score": 0.5180050678931106,
+   "currency": "USD"
+  },
+  {
+   "symbol": "MSTR",
+   "name": "Strategy Inc",
+   "price": 128.92999267578125,
+   "price_date": "2026-11-06",
+   "score": 0.5095659936912464,
+   "currency": "USD"
+  },
+  {
+   "symbol": "ALAB",
+   "name": "Astera Labs, Inc.",
+   "price": 190.7100067138672,
+   "price_date": "2026-11-06",
+   "score": 0.503264652311986,
+   "currency": "USD"
+  },
+  {
+   "symbol": "RKLB",
+   "name": "Rocket Lab Corporation",
+   "price": 53.06999969482422,
+   "price_date": "2026-11-06",
+   "score": 0.5005173458609016,
+   "currency": "USD"
+  },
+  {
+   "symbol": "LSCC",
+   "name": "Lattice Semiconductor Corporation",
+   "price": 105.0199966430664,
+   "price_date": "2026-11-06",
+   "score": 0.47915031710792777,
+   "currency": "USD"
+  },
+  {
+   "symbol": "SMTC",
+   "name": "Semtech Corporation",
+   "price": 103.20999908447266,
+   "price_date": "2026-11-06",
+   "score": 0.47842433528156386,
+   "currency": "USD"
+  },
+  {
+   "symbol": "SITM",
+   "name": "SiTime Corporation",
+   "price": 416.9150085449219,
+   "price_date": "2026-11-06",
+   "score": 0.4700312946482602,
+   "currency": "USD"
+  },
+  {
+   "symbol": "NXT",
+   "name": "Nextpower Inc.",
+   "price": 104.90499877929688,
+   "price_date": "2026-11-06",
+   "score": 0.4686509989640115,
+   "currency": "USD"
+  },
+  {
+   "symbol": "TLN",
+   "name": "Talen Energy Corporation",
+   "price": 338.6400146484375,
+   "price_date": "2026-11-06",
+   "score": 0.46577291580039404,
+   "currency": "USD"
+  }
+ ],
+ "watch": [
+  "MPWR",
+  "COHR",
+  "ARM",
+  "BE",
+  "FIX",
+  "DOCN",
+  "LITE",
+  "P",
+  "HL",
+  "CELH",
+  "ATI",
+  "CAVA",
+  "HOOD",
+  "RRX",
+  "CDE",
+  "MRVL",
+  "ANET",
+  "FLEX",
+  "MTSI",
+  "FORM"
+ ]
+}
