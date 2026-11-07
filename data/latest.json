@@ -589,6 +589,58 @@
      806.43,
      835.06
     ]
+   },
+   "fairvalue": {
+    "valuation_status": "undervalued",
+    "upside_band": "above_30",
+    "quality_score": 82,
+    "evidence_level": "medium",
+    "fair_value": 2256.37,
+    "fair_value_currency": "USD",
+    "fair_value_range": {
+     "cautious": 1272.08,
+     "optimistic": 4377.59
+    },
+    "reasons": [
+     {
+      "point": "Healthy Growth",
+      "tone": "strength",
+      "point_de": "Gesundes Wachstum"
+     },
+     {
+      "point": "Highly profitable",
+      "tone": "strength",
+      "point_de": "Hochprofitabel"
+     },
+     {
+      "point": "Low debt",
+      "tone": "strength",
+      "point_de": "Geringe Verschuldung"
+     },
+     {
+      "point": "Generates free cash flow",
+      "tone": "strength",
+      "point_de": "Erzeugt freien Cashflow"
+     },
+     {
+      "point": "Wide moat",
+      "tone": "strength",
+      "point_de": "Breiter Burggraben"
+     }
+    ],
+    "ai_conclusion": "Strong margins reflect durable advantages in NAND flash pricing and operations, yet limited public signals on human capital and ownership constrain the quality assessment.",
+    "in_focus": "AI-driven data center demand surge versus faster pricing pressure via multi-year contracts",
+    "main_risk": "CXMT and YMTC could expand NAND production for AI workloads and increase global supply, which might pressure pricing and margins on SanDisk's enterprise SSDs and NAND bits.",
+    "ai_note_date": "2026-11-04",
+    "calculated_at": "2026-11-07",
+    "deep_link": "https://www.fairvalue-calculator.com/stock/SNDK.US?utm_source=mcp&utm_medium=claude",
+    "ai_conclusion_de": "Starke Margen spiegeln dauerhafte Wettbewerbsvorteile bei der Preisgestaltung und im Betrieb von NAND-Flash wider, doch begrenzte öffentliche Informationen zu Personal und Eigentümerstruktur schränken die Qualitätsbewertung ein.",
+    "in_focus_de": "KI-getriebener Nachfrageschub aus Rechenzentren gegenüber schnellerem Preisdruck durch mehrjährige Verträge",
+    "main_risk_de": "CXMT und YMTC könnten ihre NAND-Produktion für KI-Anwendungen ausweiten und das weltweite Angebot erhöhen, was Preise und Margen bei SanDisks Enterprise-SSDs und NAND-Bits unter Druck setzen könnte.",
+    "fvc_symbol": "SNDK.US",
+    "date": "2026-11-07",
+    "fair_value_local": 2256.37,
+    "upside": 1.7020453699096953
    }
   },
   {
@@ -1072,15 +1124,55 @@
    },
    "fairvalue": {
     "valuation_status": "overvalued",
-    "upside_band": "below_-30",
+    "upside_band": "-30_to_-20",
     "quality_score": 57,
     "evidence_level": "medium",
-    "calculated_at": "2026-11-06",
+    "fair_value": 212.9,
+    "fair_value_currency": "USD",
+    "fair_value_range": {
+     "cautious": 115.9,
+     "optimistic": 343.13
+    },
+    "reasons": [
+     {
+      "point": "Expensive Growth",
+      "tone": "watch",
+      "point_de": "Teuer erkauftes Wachstum"
+     },
+     {
+      "point": "Solidly profitable",
+      "tone": "strength",
+      "point_de": "Solide profitabel"
+     },
+     {
+      "point": "Low debt",
+      "tone": "strength",
+      "point_de": "Geringe Verschuldung"
+     },
+     {
+      "point": "Generates free cash flow",
+      "tone": "strength",
+      "point_de": "Erzeugt freien Cashflow"
+     },
+     {
+      "point": "Moderate moat",
+      "tone": "watch",
+      "point_de": "Moderater Burggraben"
+     }
+    ],
+    "ai_conclusion": "The contract manufacturing model enables serving multiple optical and data center customers without direct competition, yet growth stays tightly bound to those clients' designs and demand cycles.",
+    "in_focus": "Contract manufacturer with no own products or intellectual property",
+    "main_risk": "Any shift in customer priorities would directly reduce demand for its manufacturing services as growth depends entirely on client designs and cycles.",
+    "ai_note_date": "2026-10-11",
+    "calculated_at": "2026-11-07",
     "deep_link": "https://www.fairvalue-calculator.com/stock/FN.US?utm_source=mcp&utm_medium=claude",
+    "ai_conclusion_de": "Das Auftragsfertigungsmodell ermöglicht es, mehrere Kunden aus den Bereichen Optik und Rechenzentren zu beliefern, ohne mit ihnen direkt zu konkurrieren; das Wachstum bleibt jedoch eng an die Produktdesigns und Nachfragezyklen dieser Kunden gebunden.",
+    "in_focus_de": "Auftragsfertiger ohne eigene Produkte oder geistiges Eigentum",
+    "main_risk_de": "Jede Verschiebung der Kundenprioritäten würde die Nachfrage nach seinen Fertigungsdienstleistungen unmittelbar verringern, da das Wachstum vollständig von den Designs und Zyklen der Kunden abhängt.",
     "fvc_symbol": "FN.US",
-    "date": "2026-11-06",
-    "fair_value_local": null,
-    "upside": null
+    "date": "2026-11-07",
+    "fair_value_local": 212.9,
+    "upside": -0.34918840576465315
    }
   },
   {
@@ -1566,7 +1658,7 @@
     "valuation_status": "no_valuation",
     "deep_link": "https://www.fairvalue-calculator.com/stock/MSTR.US?utm_source=mcp&utm_medium=claude",
     "fvc_symbol": "MSTR.US",
-    "date": "2026-11-06",
+    "date": "2026-11-07",
     "fair_value_local": null,
     "upside": null
    }
@@ -2053,13 +2145,13 @@
    "fairvalue": {
     "valuation_status": "overvalued",
     "upside_band": "below_-30",
-    "quality_score": 74,
+    "quality_score": 75,
     "evidence_level": "medium",
-    "fair_value": 62.28,
+    "fair_value": 61.82,
     "fair_value_currency": "USD",
     "fair_value_range": {
-     "cautious": 38.1,
-     "optimistic": 110.16
+     "cautious": 37.82,
+     "optimistic": 109.34
     },
     "reasons": [
      {
@@ -2075,7 +2167,7 @@
      {
       "point": "Generates free cash flow",
       "tone": "strength",
-      "point_de": "Erwirtschaftet freien Cashflow"
+      "point_de": "Erzeugt freien Cashflow"
      },
      {
       "point": "Wide moat",
@@ -2087,15 +2179,15 @@
     "in_focus": "Orion architecture for mixed GPU and CPU setups in rack-scale AI fabrics",
     "main_risk": "One end customer accounted for over 70 percent of revenue in 2025 and the top three for 86 percent, so the loss or sharp reduction in purchases from even one major hyperscaler could materially cut revenues and margins.",
     "ai_note_date": "2026-10-31",
-    "calculated_at": "2026-11-06",
+    "calculated_at": "2026-11-07",
     "deep_link": "https://www.fairvalue-calculator.com/stock/ALAB.US?utm_source=mcp&utm_medium=claude",
-    "ai_conclusion_de": "Hohe Margen und eine starke Cash-Generierung deuten auf Preissetzungsmacht hin, doch wegen unzureichender Daten in mehreren Bereichen bleiben die Beständigkeit und die Wettbewerbsposition unbelegt.",
-    "in_focus_de": "Orion-Architektur für gemischte GPU- und CPU-Konfigurationen in KI-Netzwerken im Rack-Maßstab",
-    "main_risk_de": "Ein einzelner Endkunde stand 2025 für über 70 Prozent des Umsatzes und die drei größten Kunden für 86 Prozent; der Verlust oder ein starker Rückgang der Käufe schon eines großen Hyperscalers könnte Umsätze und Margen deutlich schmälern.",
+    "ai_conclusion_de": "Hohe Margen und starker Cashflow deuten auf Preissetzungsmacht hin, doch unzureichende Daten in mehreren Bereichen lassen die Beständigkeit und die Wettbewerbsposition unbelegt.",
+    "in_focus_de": "Orion-Architektur für gemischte GPU- und CPU-Systeme in KI-Netzwerken im Rack-Maßstab",
+    "main_risk_de": "Ein einzelner Endkunde stand 2025 für über 70 Prozent des Umsatzes und die drei größten für 86 Prozent; der Verlust oder ein starker Rückgang der Käufe auch nur eines großen Hyperscalers könnte Umsätze und Margen deutlich schmälern.",
     "fvc_symbol": "ALAB.US",
-    "date": "2026-11-06",
-    "fair_value_local": 62.28,
-    "upside": -0.6734308751116446
+    "date": "2026-11-07",
+    "fair_value_local": 61.82,
+    "upside": -0.6758429142485849
    }
   },
   {
@@ -2576,6 +2668,14 @@
      45.99,
      53.07
     ]
+   },
+   "fairvalue": {
+    "valuation_status": "no_valuation",
+    "deep_link": "https://www.fairvalue-calculator.com/stock/RKLB.US?utm_source=mcp&utm_medium=claude",
+    "fvc_symbol": "RKLB.US",
+    "date": "2026-11-07",
+    "fair_value_local": null,
+    "upside": null
    }
   },
   {
@@ -3053,12 +3153,52 @@
     "upside_band": "below_-30",
     "quality_score": 61,
     "evidence_level": "low",
-    "calculated_at": "2026-11-06",
+    "fair_value": 1.79,
+    "fair_value_currency": "USD",
+    "fair_value_range": {
+     "cautious": 1.37,
+     "optimistic": 2.21
+    },
+    "reasons": [
+     {
+      "point": "Weak Growth",
+      "tone": "weakness",
+      "point_de": "Schwaches Wachstum"
+     },
+     {
+      "point": "Thin margins",
+      "tone": "watch",
+      "point_de": "Geringe Margen"
+     },
+     {
+      "point": "Low debt",
+      "tone": "strength",
+      "point_de": "Geringe Verschuldung"
+     },
+     {
+      "point": "Generates free cash flow",
+      "tone": "strength",
+      "point_de": "Erzeugt freien Cashflow"
+     },
+     {
+      "point": "Narrow moat",
+      "tone": "weakness",
+      "point_de": "Schmaler Burggraben"
+     }
+    ],
+    "ai_conclusion": "Lattice's main strength is its Arm collaboration extending low-power FPGAs into AI data center infrastructure, while its main weakness is the tension with broader semiconductor competition that leaves the shares viewed as overvalued.",
+    "in_focus": "shares seen as overvalued amid tension with semiconductor competition",
+    "main_risk": "AMD's Spartan UltraScale+ FPGAs could capture industrial and edge customers from Lattice by offering fewer LUTs and higher clock performance plus supply guarantees, squeezing prices or share in its core low- and mid-power segments.",
+    "ai_note_date": "2026-10-11",
+    "calculated_at": "2026-11-07",
     "deep_link": "https://www.fairvalue-calculator.com/stock/LSCC.US?utm_source=mcp&utm_medium=claude",
+    "ai_conclusion_de": "Lattices größte Stärke ist die Zusammenarbeit mit Arm, die stromsparende FPGAs in die KI-Rechenzentrumsinfrastruktur bringt; die größte Schwäche ist das Spannungsfeld mit dem breiteren Halbleiterwettbewerb, das die Aktie als überbewertet erscheinen lässt.",
+    "in_focus_de": "Aktie gilt als überbewertet angesichts des Spannungsfelds mit dem Halbleiterwettbewerb",
+    "main_risk_de": "AMDs Spartan-UltraScale+-FPGAs könnten Lattice Industrie- und Edge-Kunden abnehmen, indem sie weniger LUTs, aber höhere Taktleistung sowie Liefergarantien bieten, und so Preise oder Marktanteile in Lattices Kernsegmenten mit niedrigem und mittlerem Stromverbrauch schmälern.",
     "fvc_symbol": "LSCC.US",
-    "date": "2026-11-06",
-    "fair_value_local": null,
-    "upside": null
+    "date": "2026-11-07",
+    "fair_value_local": 1.79,
+    "upside": -0.9829556269547055
    }
   },
   {
@@ -3572,7 +3712,7 @@
      {
       "point": "Generates free cash flow",
       "tone": "strength",
-      "point_de": "Erwirtschaftet freien Cashflow"
+      "point_de": "Erzeugt freien Cashflow"
      },
      {
       "point": "Moderate moat",
@@ -3584,13 +3724,13 @@
     "in_focus": "Focus on AI data center networking and LoRa IoT after cellular module divestiture",
     "main_risk": "Semtech could lose significant data center revenue if hyperscalers or Nvidia alter rack architectures or slow AI infrastructure spending, directly hitting its signal integrity product sales.",
     "ai_note_date": "2026-10-11",
-    "calculated_at": "2026-11-06",
+    "calculated_at": "2026-11-07",
     "deep_link": "https://www.fairvalue-calculator.com/stock/SMTC.US?utm_source=mcp&utm_medium=claude",
-    "ai_conclusion_de": "Das Unternehmen profitiert von seiner geschärften Ausrichtung auf margenstärkere Netzwerktechnik für KI-Rechenzentren und LoRa-IoT-Lösungen, doch negativer Nettogewinn und negative Eigenkapitalrendite bleiben die zentrale Schwäche, zumal es kaum Belege für dauerhafte Wettbewerbsvorteile gibt.",
-    "in_focus_de": "Fokus auf Netzwerktechnik für KI-Rechenzentren und LoRa-IoT nach dem Verkauf des Mobilfunkmodul-Geschäfts",
-    "main_risk_de": "Semtech könnte erhebliche Rechenzentrumsumsätze verlieren, wenn Hyperscaler oder Nvidia ihre Rack-Architekturen ändern oder ihre Ausgaben für KI-Infrastruktur drosseln – das würde den Absatz der Signalintegritäts-Produkte direkt treffen.",
+    "ai_conclusion_de": "Das Unternehmen profitiert von seiner geschärften Ausrichtung auf margenstärkere KI-Rechenzentrumsnetzwerke und LoRa-IoT-Lösungen, doch negativer Nettogewinn und negative Eigenkapitalrendite bleiben die zentrale Schwäche, zumal es kaum Belege für dauerhafte Wettbewerbsvorteile gibt.",
+    "in_focus_de": "Fokus auf KI-Rechenzentrumsnetzwerke und LoRa-IoT nach dem Verkauf des Mobilfunkmodul-Geschäfts",
+    "main_risk_de": "Semtech könnte erhebliche Umsätze im Rechenzentrumsgeschäft verlieren, wenn Hyperscaler oder Nvidia ihre Rack-Architekturen ändern oder die Ausgaben für KI-Infrastruktur drosseln, was den Absatz der Signalintegritätsprodukte direkt treffen würde.",
     "fvc_symbol": "SMTC.US",
-    "date": "2026-11-06",
+    "date": "2026-11-07",
     "fair_value_local": 44.03,
     "upside": -0.5733940471798332
    }
@@ -4080,11 +4220,11 @@
     "upside_band": "below_-30",
     "quality_score": 36,
     "evidence_level": "low",
-    "fair_value": 26.928,
+    "fair_value": 26.818,
     "fair_value_currency": "USD",
     "fair_value_range": {
-     "cautious": 14.867,
-     "optimistic": 36.992
+     "cautious": 14.807,
+     "optimistic": 36.856
     },
     "reasons": [
      {
@@ -4095,12 +4235,12 @@
      {
       "point": "Thin margins",
       "tone": "watch",
-      "point_de": "Dünne Margen"
+      "point_de": "Geringe Margen"
      },
      {
       "point": "Generates free cash flow",
       "tone": "strength",
-      "point_de": "Erwirtschaftet freien Cashflow"
+      "point_de": "Erzeugt freien Cashflow"
      },
      {
       "point": "Narrow moat",
@@ -4112,15 +4252,15 @@
     "in_focus": "Integration of Renesas timing products with supply chain constraints and overvaluation",
     "main_risk": "Supply chain constraints in the acquired Renesas business could slow the expected revenue ramp from the expanded product range.",
     "ai_note_date": "2026-10-11",
-    "calculated_at": "2026-11-06",
+    "calculated_at": "2026-11-07",
     "deep_link": "https://www.fairvalue-calculator.com/stock/SITM.US?utm_source=mcp&utm_medium=claude",
-    "ai_conclusion_de": "Die abgeschlossene Integration der Taktgeber-Produkte von Renesas erweitert das Portfolio um Hunderte neuer Angebote und den Zugang zu den Segmenten KI-Rechenzentren und Automobil, doch Engpässe in der Lieferkette könnten das Umsatzwachstum bremsen.",
-    "in_focus_de": "Integration der Renesas-Taktgeber-Produkte bei Lieferkettenengpässen und Überbewertung",
-    "main_risk_de": "Lieferkettenengpässe im übernommenen Renesas-Geschäft könnten den erwarteten Umsatzanstieg aus dem erweiterten Produktangebot verlangsamen.",
+    "ai_conclusion_de": "Die abgeschlossene Integration der Timing-Produkte von Renesas erweitert das Portfolio um Hunderte neuer Angebote und den Zugang zu den Segmenten KI-Rechenzentren und Automobil, doch Engpässe in der Lieferkette könnten das Umsatzwachstum bremsen.",
+    "in_focus_de": "Integration der Renesas-Timing-Produkte bei Lieferkettenengpässen und Überbewertung",
+    "main_risk_de": "Engpässe in der Lieferkette des übernommenen Renesas-Geschäfts könnten den erwarteten Umsatzanstieg aus dem erweiterten Produktangebot verlangsamen.",
     "fvc_symbol": "SITM.US",
-    "date": "2026-11-06",
-    "fair_value_local": 26.928,
-    "upside": -0.9354112961920426
+    "date": "2026-11-07",
+    "fair_value_local": 26.818,
+    "upside": -0.9356751389363561
    }
   },
   {
@@ -4607,11 +4747,11 @@
     "upside_band": "10_to_20",
     "quality_score": 67,
     "evidence_level": "medium",
-    "fair_value": 117.37,
+    "fair_value": 109.54,
     "fair_value_currency": "USD",
     "fair_value_range": {
-     "cautious": 80.027,
-     "optimistic": 193.05
+     "cautious": 74.687,
+     "optimistic": 180.17
     },
     "reasons": [
      {
@@ -4632,7 +4772,7 @@
      {
       "point": "Generates free cash flow",
       "tone": "strength",
-      "point_de": "Erwirtschaftet freien Cashflow"
+      "point_de": "Erzeugt freien Cashflow"
      },
      {
       "point": "Wide moat",
@@ -4644,15 +4784,15 @@
     "in_focus": "Diversification through acquisitions in storage and power conversion",
     "main_risk": "Rapid advances in solar components or alternative technologies by competitors could render Nextracker's tracker systems uncompetitive or incompatible with new panel designs, hitting sales and margins.",
     "ai_note_date": "2026-10-11",
-    "calculated_at": "2026-11-06",
+    "calculated_at": "2026-11-07",
     "deep_link": "https://www.fairvalue-calculator.com/stock/NXT.US?utm_source=mcp&utm_medium=claude",
-    "ai_conclusion_de": "Das Unternehmen schöpft Stärke aus hohen ausgewiesenen Margen und einer hohen Eigenkapitalrendite, die auf Preissetzungsmacht hindeuten; seine größte Schwachstelle ist jedoch die dünne Beleglage und insgesamt begrenzte öffentlich verfügbare Daten.",
-    "in_focus_de": "Diversifizierung durch Übernahmen in den Bereichen Energiespeicherung und Stromumwandlung",
-    "main_risk_de": "Schnelle Fortschritte von Wettbewerbern bei Solarkomponenten oder alternativen Technologien könnten die Nachführsysteme (Tracker) von Nextracker wettbewerbsunfähig oder mit neuen Moduldesigns unvereinbar machen und so Umsatz und Margen belasten.",
+    "ai_conclusion_de": "Das Unternehmen stützt sich auf starke ausgewiesene Margen und eine hohe Eigenkapitalrendite, die auf Preissetzungsmacht hindeuten; die größte Schwachstelle ist jedoch die dünne Beweislage und insgesamt begrenzte öffentliche Datenbasis.",
+    "in_focus_de": "Diversifizierung durch Übernahmen in den Bereichen Energiespeicher und Stromumwandlung",
+    "main_risk_de": "Schnelle Fortschritte von Wettbewerbern bei Solarkomponenten oder alternativen Technologien könnten Nextrackers Nachführsysteme wettbewerbsunfähig oder mit neuen Moduldesigns inkompatibel machen und Umsatz sowie Margen belasten.",
     "fvc_symbol": "NXT.US",
-    "date": "2026-11-06",
-    "fair_value_local": 117.37,
-    "upside": 0.1188218041632838
+    "date": "2026-11-07",
+    "fair_value_local": 109.54,
+    "upside": 0.04418284423656904
    }
   },
   {
@@ -5135,14 +5275,54 @@
    "fairvalue": {
     "valuation_status": "overvalued",
     "upside_band": "below_-30",
-    "quality_score": 44,
+    "quality_score": 45,
     "evidence_level": "low",
-    "calculated_at": "2026-11-06",
+    "fair_value": 12.73,
+    "fair_value_currency": "USD",
+    "fair_value_range": {
+     "cautious": 2.55,
+     "optimistic": 50.92
+    },
+    "reasons": [
+     {
+      "point": "Mixed Growth",
+      "tone": "watch",
+      "point_de": "Gemischtes Wachstum"
+     },
+     {
+      "point": "Loss-making",
+      "tone": "weakness",
+      "point_de": "Verlustbringend"
+     },
+     {
+      "point": "High debt",
+      "tone": "weakness",
+      "point_de": "Hohe Verschuldung"
+     },
+     {
+      "point": "Generates free cash flow",
+      "tone": "strength",
+      "point_de": "Erzeugt freien Cashflow"
+     },
+     {
+      "point": "Narrow moat",
+      "tone": "weakness",
+      "point_de": "Schmaler Burggraben"
+     }
+    ],
+    "ai_conclusion": "Limited evidence of a durable advantage stands against strong adjusted EBITDA and free cash flow supported by PJM fundamentals and acquired assets.",
+    "in_focus": "expanding repurchase program and durable cash generation",
+    "main_risk": "Providers such as Bloom Energy, Caterpillar or VoltaGrid could capture data center demand faster than Talen due to PJM interconnection delays, limiting long-term contracts and pressuring wholesale margins.",
+    "ai_note_date": "2026-11-04",
+    "calculated_at": "2026-11-07",
     "deep_link": "https://www.fairvalue-calculator.com/stock/TLN.US?utm_source=mcp&utm_medium=claude",
+    "ai_conclusion_de": "Geringen Belegen für einen dauerhaften Wettbewerbsvorteil stehen ein starkes bereinigtes EBITDA und ein hoher freier Cashflow gegenüber, gestützt durch die Fundamentaldaten im PJM-Strommarkt und zugekaufte Anlagen.",
+    "in_focus_de": "Ausweitung des Aktienrückkaufprogramms und nachhaltige Cash-Generierung",
+    "main_risk_de": "Anbieter wie Bloom Energy, Caterpillar oder VoltaGrid könnten die Nachfrage von Rechenzentren schneller bedienen als Talen, weil sich Netzanschlüsse im PJM-Gebiet verzögern; das würde langfristige Verträge begrenzen und die Großhandelsmargen unter Druck setzen.",
     "fvc_symbol": "TLN.US",
-    "date": "2026-11-06",
-    "fair_value_local": null,
-    "upside": null
+    "date": "2026-11-07",
+    "fair_value_local": 12.73,
+    "upside": -0.9624084589849319
    }
   }
  ],
@@ -5624,6 +5804,18 @@
      1131.4301,
      1190.4399
     ]
+   },
+   "fairvalue": {
+    "valuation_status": "overvalued",
+    "upside_band": "below_-30",
+    "quality_score": 73,
+    "evidence_level": "high",
+    "calculated_at": "2026-11-07",
+    "deep_link": "https://www.fairvalue-calculator.com/stock/MPWR.US?utm_source=mcp&utm_medium=claude",
+    "fvc_symbol": "MPWR.US",
+    "date": "2026-11-07",
+    "fair_value_local": null,
+    "upside": null
    }
   },
   {
@@ -6111,52 +6303,12 @@
     "upside_band": "below_-30",
     "quality_score": 35,
     "evidence_level": "medium",
-    "fair_value": 92.948,
-    "fair_value_currency": "USD",
-    "fair_value_range": {
-     "cautious": 69.709,
-     "optimistic": 116.19
-    },
-    "reasons": [
-     {
-      "point": "Expensive Growth",
-      "tone": "watch",
-      "point_de": "Teures Wachstum"
-     },
-     {
-      "point": "Solidly profitable",
-      "tone": "strength",
-      "point_de": "Solide profitabel"
-     },
-     {
-      "point": "Low debt",
-      "tone": "strength",
-      "point_de": "Geringe Verschuldung"
-     },
-     {
-      "point": "Negative free cash flow",
-      "tone": "weakness",
-      "point_de": "Negativer freier Cashflow"
-     },
-     {
-      "point": "Narrow moat",
-      "tone": "weakness",
-      "point_de": "Schmaler Burggraben"
-     }
-    ],
-    "ai_conclusion": "Coherent benefits from sold-out capacity in indium phosphide components thanks to AI data center demand, yet its main weakness remains negative free cash flow paired with high debt.",
-    "in_focus": "Sold-out indium phosphide capacity into 2029 from AI demand, yet overvalued amid hyperscaler spending doubts",
-    "main_risk": "A small number of large customers including hyperscalers and NVIDIA account for a significant share of revenue so any reduction delay or cancellation of orders could hit sales and margins in the datacenter segment.",
-    "ai_note_date": "2026-10-29",
-    "calculated_at": "2026-11-06",
+    "calculated_at": "2026-11-07",
     "deep_link": "https://www.fairvalue-calculator.com/stock/COHR.US?utm_source=mcp&utm_medium=claude",
-    "ai_conclusion_de": "Coherent profitiert dank der Nachfrage aus KI-Rechenzentren von ausverkauften Kapazitäten bei Indiumphosphid-Komponenten, doch die größte Schwäche bleibt der negative freie Cashflow in Verbindung mit hoher Verschuldung.",
-    "in_focus_de": "Indiumphosphid-Kapazität durch KI-Nachfrage bis 2029 ausverkauft, dennoch überbewertet angesichts von Zweifeln an den Ausgaben der Hyperscaler",
-    "main_risk_de": "Wenige Großkunden, darunter Hyperscaler und NVIDIA, stehen für einen erheblichen Teil des Umsatzes; jede Verringerung, Verzögerung oder Stornierung von Aufträgen könnte Umsatz und Margen im Rechenzentrumssegment treffen.",
     "fvc_symbol": "COHR.US",
-    "date": "2026-11-06",
-    "fair_value_local": 92.948,
-    "upside": -0.5179295618643754
+    "date": "2026-11-07",
+    "fair_value_local": null,
+    "upside": null
    }
   },
   {
@@ -6644,47 +6796,12 @@
     "upside_band": "below_-30",
     "quality_score": 68,
     "evidence_level": "medium",
-    "fair_value": 45.16,
-    "fair_value_currency": "USD",
-    "fair_value_range": {
-     "cautious": 30.78,
-     "optimistic": 70.96
-    },
-    "reasons": [
-     {
-      "point": "Healthy Growth",
-      "tone": "strength",
-      "point_de": "Gesundes Wachstum"
-     },
-     {
-      "point": "Highly profitable",
-      "tone": "strength",
-      "point_de": "Hochprofitabel"
-     },
-     {
-      "point": "Generates free cash flow",
-      "tone": "strength",
-      "point_de": "Erwirtschaftet freien Cashflow"
-     },
-     {
-      "point": "Wide moat",
-      "tone": "strength",
-      "point_de": "Breiter Burggraben"
-     }
-    ],
-    "ai_conclusion": "The business benefits from a durable IP licensing moat via high gross margins and ecosystem position, yet this is offset by moderate returns on equity.",
-    "in_focus": "court finding that Arm breached its agreement with Qualcomm",
-    "main_risk": "Ongoing FTC antitrust investigation and adverse rulings in Qualcomm litigation could lead regulators or courts to restrict Arm's licensing practices or allow major partners to suspend royalty payments.",
-    "ai_note_date": "2026-11-03",
-    "calculated_at": "2026-11-06",
+    "calculated_at": "2026-11-07",
     "deep_link": "https://www.fairvalue-calculator.com/stock/ARM.US?utm_source=mcp&utm_medium=claude",
-    "ai_conclusion_de": "Das Unternehmen profitiert dank hoher Bruttomargen und seiner Stellung im Ökosystem von einem dauerhaften Burggraben im IP-Lizenzgeschäft, dem allerdings nur moderate Eigenkapitalrenditen gegenüberstehen.",
-    "in_focus_de": "Gerichtliche Feststellung, dass Arm seine Vereinbarung mit Qualcomm verletzt hat",
-    "main_risk_de": "Die laufende kartellrechtliche Untersuchung der FTC und nachteilige Urteile im Rechtsstreit mit Qualcomm könnten dazu führen, dass Aufsichtsbehörden oder Gerichte Arms Lizenzpraktiken einschränken oder großen Partnern erlauben, Lizenzgebühren auszusetzen.",
     "fvc_symbol": "ARM.US",
-    "date": "2026-11-06",
-    "fair_value_local": 45.16,
-    "upside": -0.7413812778445383
+    "date": "2026-11-07",
+    "fair_value_local": null,
+    "upside": null
    }
   },
   {
@@ -7171,52 +7288,12 @@
     "upside_band": "below_-30",
     "quality_score": 28,
     "evidence_level": "low",
-    "fair_value": 5.185,
-    "fair_value_currency": "USD",
-    "fair_value_range": {
-     "cautious": 3.205,
-     "optimistic": 9.673
-    },
-    "reasons": [
-     {
-      "point": "Mixed Growth",
-      "tone": "watch",
-      "point_de": "Gemischtes Wachstum"
-     },
-     {
-      "point": "Solidly profitable",
-      "tone": "strength",
-      "point_de": "Solide profitabel"
-     },
-     {
-      "point": "High debt",
-      "tone": "weakness",
-      "point_de": "Hohe Verschuldung"
-     },
-     {
-      "point": "Generates free cash flow",
-      "tone": "strength",
-      "point_de": "Erwirtschaftet freien Cashflow"
-     },
-     {
-      "point": "Wide moat",
-      "tone": "strength",
-      "point_de": "Breiter Burggraben"
-     }
-    ],
-    "ai_conclusion": "Bloom Energy's strength is capturing rising demand from AI data centers and utilities via ramped-up fuel cell output, while its weakness is negative free cash flow driven by higher working capital needs.",
-    "in_focus": "Turning expanding backlog into sustained cash generation versus rapid growth consuming cash",
-    "main_risk": "Once GE Vernova and other turbine makers clear their backlogs and ramp capacity, data-center customers could switch to cheaper gas turbines or alternatives like Ceres Power metal-supported SOFCs, squeezing Bloom's prices and margins on onsite power.",
-    "ai_note_date": "2026-10-29",
-    "calculated_at": "2026-11-06",
+    "calculated_at": "2026-11-07",
     "deep_link": "https://www.fairvalue-calculator.com/stock/BE.US?utm_source=mcp&utm_medium=claude",
-    "ai_conclusion_de": "Die Stärke von Bloom Energy liegt darin, durch eine hochgefahrene Brennstoffzellenproduktion die steigende Nachfrage von KI-Rechenzentren und Versorgern zu bedienen; die Schwäche ist der negative freie Cashflow infolge eines höheren Bedarfs an Umlaufvermögen.",
-    "in_focus_de": "Den wachsenden Auftragsbestand in dauerhafte Cash-Generierung umwandeln – gegenüber schnellem Wachstum, das Liquidität verbraucht",
-    "main_risk_de": "Sobald GE Vernova und andere Turbinenhersteller ihre Auftragsrückstände abgearbeitet und ihre Kapazitäten ausgebaut haben, könnten Rechenzentrumskunden auf günstigere Gasturbinen oder Alternativen wie die metallgestützten Festoxid-Brennstoffzellen (SOFC) von Ceres Power umsteigen und so Blooms Preise und Margen bei der Stromversorgung vor Ort unter Druck setzen.",
     "fvc_symbol": "BE.US",
-    "date": "2026-11-06",
-    "fair_value_local": 5.185,
-    "upside": -0.9700704234842304
+    "date": "2026-11-07",
+    "fair_value_local": null,
+    "upside": null
    }
   },
   {
@@ -7703,10 +7780,10 @@
     "upside_band": "0_to_10",
     "quality_score": 72,
     "evidence_level": "high",
-    "calculated_at": "2026-11-06",
+    "calculated_at": "2026-11-07",
     "deep_link": "https://www.fairvalue-calculator.com/stock/FIX.US?utm_source=mcp&utm_medium=claude",
     "fvc_symbol": "FIX.US",
-    "date": "2026-11-06",
+    "date": "2026-11-07",
     "fair_value_local": null,
     "upside": null
    }
@@ -8192,13 +8269,13 @@
    },
    "fairvalue": {
     "valuation_status": "overvalued",
-    "upside_band": "-30_to_-20",
-    "quality_score": 63,
+    "upside_band": "-20_to_-10",
+    "quality_score": 61,
     "evidence_level": "low",
-    "calculated_at": "2026-11-06",
+    "calculated_at": "2026-11-07",
     "deep_link": "https://www.fairvalue-calculator.com/stock/DOCN.US?utm_source=mcp&utm_medium=claude",
     "fvc_symbol": "DOCN.US",
-    "date": "2026-11-06",
+    "date": "2026-11-07",
     "fair_value_local": null,
     "upside": null
    }
@@ -8688,10 +8765,10 @@
     "upside_band": "below_-30",
     "quality_score": 40,
     "evidence_level": "low",
-    "calculated_at": "2026-11-06",
+    "calculated_at": "2026-11-07",
     "deep_link": "https://www.fairvalue-calculator.com/stock/LITE.US?utm_source=mcp&utm_medium=claude",
     "fvc_symbol": "LITE.US",
-    "date": "2026-11-06",
+    "date": "2026-11-07",
     "fair_value_local": null,
     "upside": null
    }
@@ -9181,52 +9258,12 @@
     "upside_band": "below_-30",
     "quality_score": 65,
     "evidence_level": "medium",
-    "fair_value": 57.04,
-    "fair_value_currency": "USD",
-    "fair_value_range": {
-     "cautious": 38.2,
-     "optimistic": 74.14
-    },
-    "reasons": [
-     {
-      "point": "Mixed Growth",
-      "tone": "watch",
-      "point_de": "Gemischtes Wachstum"
-     },
-     {
-      "point": "Thin margins",
-      "tone": "watch",
-      "point_de": "Dünne Margen"
-     },
-     {
-      "point": "Low debt",
-      "tone": "strength",
-      "point_de": "Geringe Verschuldung"
-     },
-     {
-      "point": "Generates free cash flow",
-      "tone": "strength",
-      "point_de": "Erwirtschaftet freien Cashflow"
-     },
-     {
-      "point": "Moderate moat",
-      "tone": "watch",
-      "point_de": "Moderater Burggraben"
-     }
-    ],
-    "ai_conclusion": "Everpure draws strength from established enterprise storage but lacks clear signals of a durable moat as it pursues hyperscale AI ambitions amid thin evidence across categories.",
-    "in_focus": "expansion into software and new customer segments for durable recurring revenue from AI workloads",
-    "main_risk": "Established vendors such as Dell EMC, NetApp, HPE, IBM and specialists including VAST Data, WEKA and Databricks could capture share in enterprise AI storage and modern data management, pressuring prices and margins in Everpure's expansion segments.",
-    "ai_note_date": "2026-10-11",
-    "calculated_at": "2026-11-06",
+    "calculated_at": "2026-11-07",
     "deep_link": "https://www.fairvalue-calculator.com/stock/P.US?utm_source=mcp&utm_medium=claude",
-    "ai_conclusion_de": "Everpure schöpft Stärke aus seinem etablierten Speichergeschäft für Unternehmen, doch bei der Verfolgung seiner KI-Ambitionen im Hyperscale-Bereich fehlen klare Signale für einen dauerhaften Burggraben, zumal die Beleglage in allen Kategorien dünn ist.",
-    "in_focus_de": "Expansion in Software und neue Kundensegmente für dauerhafte wiederkehrende Umsätze aus KI-Anwendungen",
-    "main_risk_de": "Etablierte Anbieter wie Dell EMC, NetApp, HPE und IBM sowie Spezialisten wie VAST Data, WEKA und Databricks könnten Marktanteile bei KI-Speicher für Unternehmen und modernem Datenmanagement gewinnen und so Preise und Margen in Everpures Wachstumssegmenten unter Druck setzen.",
     "fvc_symbol": "P.US",
-    "date": "2026-11-06",
-    "fair_value_local": 57.04,
-    "upside": -0.41043927648578815
+    "date": "2026-11-07",
+    "fair_value_local": null,
+    "upside": null
    }
   },
   {
@@ -9693,13 +9730,13 @@
    },
    "fairvalue": {
     "valuation_status": "near_fair_value",
-    "upside_band": "0_to_10",
+    "upside_band": "10_to_20",
     "quality_score": 70,
     "evidence_level": "high",
-    "calculated_at": "2026-11-06",
+    "calculated_at": "2026-11-07",
     "deep_link": "https://www.fairvalue-calculator.com/stock/HL.US?utm_source=mcp&utm_medium=claude",
     "fvc_symbol": "HL.US",
-    "date": "2026-11-06",
+    "date": "2026-11-07",
     "fair_value_local": null,
     "upside": null
    }
@@ -10187,10 +10224,10 @@
     "upside_band": "0_to_10",
     "quality_score": 43,
     "evidence_level": "medium",
-    "calculated_at": "2026-11-06",
+    "calculated_at": "2026-11-07",
     "deep_link": "https://www.fairvalue-calculator.com/stock/CELH.US?utm_source=mcp&utm_medium=claude",
     "fvc_symbol": "CELH.US",
-    "date": "2026-11-06",
+    "date": "2026-11-07",
     "fair_value_local": null,
     "upside": null
    }
@@ -10677,10 +10714,10 @@
     "upside_band": "below_-30",
     "quality_score": 64,
     "evidence_level": "high",
-    "calculated_at": "2026-11-06",
+    "calculated_at": "2026-11-07",
     "deep_link": "https://www.fairvalue-calculator.com/stock/ATI.US?utm_source=mcp&utm_medium=claude",
     "fvc_symbol": "ATI.US",
-    "date": "2026-11-06",
+    "date": "2026-11-07",
     "fair_value_local": null,
     "upside": null
    }
@@ -11167,11 +11204,11 @@
     "valuation_status": "overvalued",
     "upside_band": "below_-30",
     "quality_score": 44,
-    "evidence_level": "low",
-    "calculated_at": "2026-11-06",
+    "evidence_level": "medium",
+    "calculated_at": "2026-11-07",
     "deep_link": "https://www.fairvalue-calculator.com/stock/CAVA.US?utm_source=mcp&utm_medium=claude",
     "fvc_symbol": "CAVA.US",
-    "date": "2026-11-06",
+    "date": "2026-11-07",
     "fair_value_local": null,
     "upside": null
    }
@@ -11660,10 +11697,10 @@
     "upside_band": "below_-30",
     "quality_score": 68,
     "evidence_level": "medium",
-    "calculated_at": "2026-11-06",
+    "calculated_at": "2026-11-07",
     "deep_link": "https://www.fairvalue-calculator.com/stock/HOOD.US?utm_source=mcp&utm_medium=claude",
     "fvc_symbol": "HOOD.US",
-    "date": "2026-11-06",
+    "date": "2026-11-07",
     "fair_value_local": null,
     "upside": null
    }
@@ -12142,12 +12179,12 @@
    "fairvalue": {
     "valuation_status": "near_fair_value",
     "upside_band": "0_to_10",
-    "quality_score": 58,
+    "quality_score": 57,
     "evidence_level": "high",
-    "calculated_at": "2026-11-06",
+    "calculated_at": "2026-11-07",
     "deep_link": "https://www.fairvalue-calculator.com/stock/RRX.US?utm_source=mcp&utm_medium=claude",
     "fvc_symbol": "RRX.US",
-    "date": "2026-11-06",
+    "date": "2026-11-07",
     "fair_value_local": null,
     "upside": null
    }
@@ -12587,6 +12624,18 @@
      14.63,
      15.47
     ]
+   },
+   "fairvalue": {
+    "valuation_status": "near_fair_value",
+    "upside_band": "-10_to_0",
+    "quality_score": 56,
+    "evidence_level": "medium",
+    "calculated_at": "2026-11-07",
+    "deep_link": "https://www.fairvalue-calculator.com/stock/CDE.US?utm_source=mcp&utm_medium=claude",
+    "fvc_symbol": "CDE.US",
+    "date": "2026-11-07",
+    "fair_value_local": null,
+    "upside": null
    }
   },
   {
@@ -13076,10 +13125,10 @@
     "upside_band": "below_-30",
     "quality_score": 79,
     "evidence_level": "high",
-    "calculated_at": "2026-11-06",
+    "calculated_at": "2026-11-07",
     "deep_link": "https://www.fairvalue-calculator.com/stock/MRVL.US?utm_source=mcp&utm_medium=claude",
     "fvc_symbol": "MRVL.US",
-    "date": "2026-11-06",
+    "date": "2026-11-07",
     "fair_value_local": null,
     "upside": null
    }
@@ -13561,6 +13610,18 @@
      159.16,
      170.8
     ]
+   },
+   "fairvalue": {
+    "valuation_status": "near_fair_value",
+    "upside_band": "0_to_10",
+    "quality_score": 75,
+    "evidence_level": "medium",
+    "calculated_at": "2026-11-07",
+    "deep_link": "https://www.fairvalue-calculator.com/stock/ANET.US?utm_source=mcp&utm_medium=claude",
+    "fvc_symbol": "ANET.US",
+    "date": "2026-11-07",
+    "fair_value_local": null,
+    "upside": null
    }
   },
   {
@@ -14036,13 +14097,13 @@
    },
    "fairvalue": {
     "valuation_status": "overvalued",
-    "upside_band": "below_-30",
+    "upside_band": "-30_to_-20",
     "quality_score": 63,
     "evidence_level": "medium",
-    "calculated_at": "2026-11-06",
+    "calculated_at": "2026-11-07",
     "deep_link": "https://www.fairvalue-calculator.com/stock/FLEX.US?utm_source=mcp&utm_medium=claude",
     "fvc_symbol": "FLEX.US",
-    "date": "2026-11-06",
+    "date": "2026-11-07",
     "fair_value_local": null,
     "upside": null
    }
@@ -14531,10 +14592,10 @@
     "upside_band": "below_-30",
     "quality_score": 54,
     "evidence_level": "low",
-    "calculated_at": "2026-11-06",
+    "calculated_at": "2026-11-07",
     "deep_link": "https://www.fairvalue-calculator.com/stock/MTSI.US?utm_source=mcp&utm_medium=claude",
     "fvc_symbol": "MTSI.US",
-    "date": "2026-11-06",
+    "date": "2026-11-07",
     "fair_value_local": null,
     "upside": null
    }
@@ -15022,10 +15083,10 @@
     "upside_band": "below_-30",
     "quality_score": 55,
     "evidence_level": "low",
-    "calculated_at": "2026-11-06",
+    "calculated_at": "2026-11-07",
     "deep_link": "https://www.fairvalue-calculator.com/stock/FORM.US?utm_source=mcp&utm_medium=claude",
     "fvc_symbol": "FORM.US",
-    "date": "2026-11-06",
+    "date": "2026-11-07",
     "fair_value_local": null,
     "upside": null
    }
@@ -16696,11 +16757,9 @@
    "used_for": "Zinsen, Zinskurve, Kredit-Risikoaufschläge"
   },
   "Fair Value Calculator": {
-   "ok": 25,
+   "ok": 30,
    "fail": 0,
-   "notes": [
-    "Stand 2026-11-06 (heute noch nicht aktualisiert)"
-   ],
+   "notes": [],
    "used_for": "Fairer Wert, Bewertungsstatus, Qualitätsnote, Stärken/Risiken (Top 10 + Beobachtung; über dein Konto)"
   }
  }
